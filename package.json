@@ -1,0 +1,25 @@
+{
+  "name": "luxore",
+  "title": "Luxore",
+  "version": "0.0.1",
+  "private": true,
+  "author": {
+    "name": "John Doe",
+    "company": "ACME, Inc."
+  },
+  "devDependencies": {
+    "coffee-script": "^1.6.3",
+    "jasmine-given": "^2.6.2",
+    "lineman": "^0.36.0",
+    "lineman-angular": "^0.3.0",
+    "lineman-less": "0.0.1",
+    "protractor": "^1.4.0"
+  },
+  "dependencies": {
+    "grunt-angular-gettext": "^2.1.11"
+  },
+  "scripts": {
+    "start": "lineman run",
+    "test": "lineman spec-ci"
+  }
+}

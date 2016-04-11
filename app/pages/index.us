@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html ng-app="app">
+  <head>
+    <base href="/">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Oction - {{'Play the Knowledge'|translate}}</title>
+
+    <meta name="keywords"       content="Oction, action, option, games, education, animation, art, learning, fun, training, knowledge, interactive, history, story, technology, virtual, interativo, conhecimento, treinamento, jogos, educação, aprendizado, diversão, play, animação, arte, diversão, história, estória, tecnologia, serious games, empresa, parceiros, cotas, octionist, octioner, crowdfunding, patrono, financiamento, patreon" />
+    <meta name="description"    content="Oction - Interactive Virtual Learning. Play the Knowledge" />
+    <meta name="author"         content="Bruno Ribeiro Scholz" />
+
+    <!-- Favicons -->
+    <link rel="shortcut icon" href="img/ico-16.ico">
+    <link rel="apple-touch-icon" href="img/ico-57.png" sizes="57x57">
+    <link rel="apple-touch-icon" href="img/ico-72.png" sizes="72x72">
+    <link rel="apple-touch-icon" href="img/ico-114.png" sizes="114x114">
+    <link rel="apple-touch-icon" href="img/ico-144.png" sizes="144x144">
+
+    <link rel="stylesheet" type="text/css" href="<%= css %>" media="all" />
+
+    <style>
+      #view-source {
+        position: fixed;
+        display: block;
+        right: 0;
+        bottom: 0;
+        margin-right: 40px;
+        margin-bottom: 40px;
+        z-index: 900;
+      }
+      [ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+        display: none !important;
+      }
+    </style>
+  </head>
+  <body ng-cloak ng-controller="AppController">
+
+    <div ng-include="'header.html'"></div>
+    <ng-include src="'flash.html'"></ng-include>
+    <div ng-view class="section page-transition hero-transition">
+      Error loading AngularJS view..
+    </div>
+    <div ng-include="'footer.html'"></div>
+
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script type="text/javascript" src="<%= js %>"></script>
+    <!-- 'https://maps.googleapis.com/maps/api/js?sensor=false' -->
+  </body>
+</html>

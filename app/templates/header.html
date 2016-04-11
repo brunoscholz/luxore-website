@@ -1,0 +1,108 @@
+<div class="navbar-fixed"  ng-controller="HeaderController">
+  <nav class="blue-grey darken-4" role="navigation">
+    <div class="nav-wrapper">
+      <a ng-click="home()" class="brand-logo center" style="margin-top: 8px;">
+        <img src="img/logo.png" alt="Oction" />
+      </a>
+
+      <login-toolbar class="right hide-on-med-and-down"></login-toolbar>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li>
+          <a href="#/home.html" class="waves-effect waves-block waves-light waves-teal">{{'Home'|translate}}</a>
+        </li>
+        <li>
+          <a href="#/process" class="waves-effect waves-block waves-light waves-orange">{{'Process'|translate}}</a>
+        </li>
+        <li>
+          <a href="#/portfolio" class="waves-effect waves-block waves-light waves-orange">{{'Portfolio'|translate}}</a>
+        </li>
+        <li>
+          <a href="#/team" class="waves-effect waves-block waves-light waves-orange">{{'Team'|translate}}</a>
+        </li>
+        <li>
+          <a href="#/partners" class="waves-effect waves-block waves-light waves-orange">{{'Partners'|translate}}</a>
+        </li>
+        <li>
+          <a href="#/contact" class="waves-effect waves-block waves-light waves-orange">{{'Contact'|translate}}</a>
+        </li>
+
+        <!-- <li><a class="tooltipped" data-tooltip="{{'Search'|translate}}"><i class="material-icons">search</i></a></li> -->
+        <!-- Dropdown Trigger -->
+        <li>
+            <select class="icons" ng-model="selectedLang" ng-change="changeLang(selectedLang)">
+              <option ng-repeat="option in languages" value="{{option.id}}" ng-selected="option.id==selectedLang" 
+                      class="left circle" data-icon="img/flags/{{option.country}}.png">
+                {{option.name}}
+              </option>
+            </select>
+
+        </li>
+      </ul>
+
+      <ul id="nav-mobile" class="side-nav">
+        <li class="bold"><a href="#/home.html" class="waves-effect waves-teal">{{'Home'|translate}}</a></li>
+        <li class="bold"><a href="#/process" class="waves-effect waves-orange">{{'Process'|translate}}</a></li>
+        <li class="bold"><a href="#/portfolio" class="waves-effect waves-orange">{{'Portfolio'|translate}}</a></li>
+        <li class="bold"><a href="#/team" class="waves-effect waves-orange">{{'Team'|translate}}</a></li>
+        <li class="bold"><a href="#/partners" class="waves-effect waves-orange">{{'Partners'|translate}}</a></li>
+        <li class="bold"><a href="#/contact" class="waves-effect waves-orange">{{'Contact'|translate}}</a></li>
+      </ul>
+      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+    </div>
+  </nav>
+</div>
+
+<div class="row">
+  <div class="slider" style="margin-top: -35px;">
+    <div class="mask"></div>
+    <ul class="slides">
+      <li>
+        <img src="img/OLogo.png">
+        <div class="caption center-align">
+          <h2>Bem Vindo à OCTION</h2>
+          <h4>Aprender jogando é seriamente divertido!</h4>
+          <p>Oction é uma empresa criativa que ajuda as pessoas a explorar abordagens novas e inovadoras de treinamento e aprendizagem com diversão.</p>
+        </div>
+      </li>
+      <li>
+        <img src="img/Slider01.png"> <!-- random image -->
+        <div class="caption left-align">
+          <h2>Mais Aprendizado</h2>
+          <h4>Maior retenção do conteúdo</h4>
+          <p>Pessoas tendem a perder o interesse ou distraem-se facilmente quando não estão imersas no que estão fazendo. Os jogos proporcionam imersão e incentivos para que o interesse e a construção do conhecimento sejam maximizados.</p>
+        </div>
+      </li>
+      <li>
+        <img src="img/Slider02.png"> <!-- random image -->
+        <div class="caption right-align">
+          <h2>Mais Retorno</h2>
+          <h4>Treinamento é igual resultado</h4>
+          <p>Além de melhores funcionários e melhora da gestão, a economia com logística é fator crucial na escolha pelo digital.</p>
+        </div>
+      </li>
+      <li>
+        <img src="img/Slider03.png"> <!-- random image -->
+        <div class="caption center-align">
+          <h2>Inovação</h2>
+          <h4>Tecnologia</h4>
+          <p>Facilidade de avaliação e adição de novos conteúdos em uma plataforma compartilhada entre jogos e internet, dispensando os arcaicos papel &amp; caneta!</p>
+        </div>
+      </li>
+      <li>
+        <img src="img/Slider04.png"> <!-- random image -->
+        <div class="caption center-align">
+          <h2>Treinamento por Completo</h2>
+          <h4>Conteúdo + Prática</h4>
+          <p>Jogos criam universos e mundos inteiramente novos. Novas técnicas e possibilidades na avaliação são possíveis. Qualquer coisa pode ser replicada nestes ambientes de forma direta, divertida e segura!</p>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>
+<!-- <div class="row">
+   <ul class="nav pull-right" ng-show="hasPendingRequests()">
+    <li ng-class="{active:isNavbarActive('projectsinfo')}"><a href="/projectsinfo">Current Projects</a></li>
+    <li class="divider-vertical"></li>
+    <li><a href="#"><img src="/static/img/spinner.gif"></a></li>
+  </ul>
+</div> -->
