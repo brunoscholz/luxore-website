@@ -6,7 +6,7 @@
         //('.tooltipped').tooltip({delay: 50, position: 'bottom'});
 
         $(document).ready(function(){
-          $('.slider').slider({full_width: true});
+          $('.slider').slider({full_width: true, height:650});
         });
 
         $('.dropdown-button').dropdown({
