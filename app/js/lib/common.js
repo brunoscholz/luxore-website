@@ -3,7 +3,7 @@
 
 		$('.button-collapse').sideNav();
 		$('input, textarea').characterCounter();
-        $('.tooltipped').tooltip({delay: 50, position: 'bottom'});
+        //('.tooltipped').tooltip({delay: 50, position: 'bottom'});
 
         $(document).ready(function(){
           $('.slider').slider({full_width: true});

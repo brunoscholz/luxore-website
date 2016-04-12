@@ -21,18 +21,10 @@ module.exports = function(lineman) {
 
     css: {
       vendor: [
-        "vendor/css/normalize.css",
-        'vendor/css/bootstrap.min.css',
-        'vendor/css/font-awesome.min.css',
-        'vendor/css/flexslider.css',
-        'vendor/css/style.css',
-        'vendor/css/style-responsive.css',
-        'vendor/css/isotope.css',
         "vendor/css/**/*.css"
       ],
       app: [
-        "app/css/main.js",
-        "app/css/orange.js"
+        "app/css/style.css",
       ]
     }
 

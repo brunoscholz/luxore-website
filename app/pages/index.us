@@ -2,9 +2,10 @@
 <html ng-app="app">
   <head>
     <base href="/">
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Oction - {{'Play the Knowledge'|translate}}</title>
+
+    <title>Luxore - {{'Discover your power'|translate}}</title>
 
     <meta name="keywords"       content="Oction, action, option, games, education, animation, art, learning, fun, training, knowledge, interactive, history, story, technology, virtual, interativo, conhecimento, treinamento, jogos, educação, aprendizado, diversão, play, animação, arte, diversão, história, estória, tecnologia, serious games, empresa, parceiros, cotas, octionist, octioner, crowdfunding, patrono, financiamento, patreon" />
     <meta name="description"    content="Oction - Interactive Virtual Learning. Play the Knowledge" />
@@ -16,6 +17,10 @@
     <link rel="apple-touch-icon" href="img/ico-72.png" sizes="72x72">
     <link rel="apple-touch-icon" href="img/ico-114.png" sizes="114x114">
     <link rel="apple-touch-icon" href="img/ico-144.png" sizes="144x144">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css">
 
     <link rel="stylesheet" type="text/css" href="<%= css %>" media="all" />
 
@@ -37,7 +42,27 @@
   <body ng-cloak ng-controller="AppController">
 
     <div ng-include="'header.html'"></div>
-    <ng-include src="'flash.html'"></ng-include>
+
+    <div ng-include="'features.html'"></div>
+    <div ng-include="'why.html'"></div>
+    <div ng-include="'main-features.html'"></div>
+
+    <section id="cta">
+      <div class="container">
+        <div class="row text-center">         
+            <h3 class="title-small wow bounce" data-wow-duration="1000ms" data-wow-delay="300ms">Join Us Today to be a beta tester! (newsletter maybe)</h3>
+             <a href="javascript:void(0)" class="btn btn-lg btn-border">Sign Up</a>
+          </div>
+      </div>
+    </section>
+    
+    <!-- <div ng-include="'screenshot.html'"></div> -->
+    <div ng-include="'other-features.html'"></div>
+    <div ng-include="'testimonials.html'"></div>
+    <div ng-include="'counter.html'"></div>
+    <div ng-include="'clients.html'"></div>
+    <div ng-include="'contact.html'"></div>
+
     <div ng-view class="section page-transition hero-transition">
       Error loading AngularJS view..
     </div>
@@ -45,7 +70,7 @@
 
     <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"></script>
     <script type="text/javascript" src="<%= js %>"></script>
-    <!-- 'https://maps.googleapis.com/maps/api/js?sensor=false' -->
   </body>
 </html>
