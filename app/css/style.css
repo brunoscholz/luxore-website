@@ -6,6 +6,11 @@
  * Made By MaterializeCSS.com
  */
 
+@font-face {
+font-family: Tulip;
+src: url("../Tulip.otf") format("opentype");
+}
+
 .icon-block {
   padding: 0 15px;
 }
@@ -165,6 +170,29 @@ body::before {
 }
 /* -- Angular Hero Animations -- */
 
+nav .brand-logo {
+  font-family: Tulip;
+  font-size: 2.8rem;
+  transform: perspective(1px) scale(2);
+  margin-top: 4px;
+}
+
+.navbar-fixed {
+  height: 75px;
+}
+
+nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
+  height: 75px;
+  line-height: 75px;
+}
+
+.purple-luxore {
+  background-color: #2f0a49 !important;
+}
+
+.waves-effect.waves-purple-luxore .waves-ripple {
+  background-color: rgba(51, 52, 87, 0.7);
+}
 
 /* flight card */
 #flight-card .flight-card-title {
