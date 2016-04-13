@@ -9,6 +9,13 @@
           $('.slider').slider({full_width: true, height:650});
         });
 
+
+/*$('.slider li.active').each(function(index){
+console.log("teste" + index);
+});*/
+       
+
+
         $('.dropdown-button').dropdown({
             inDuration: 300,
             outDuration: 225,

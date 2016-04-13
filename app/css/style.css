@@ -1109,7 +1109,23 @@ nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
   left: 50px;
 }
 
-.iphone-prototype{
-  width: 196px;
-  height: 397px;
+.prototype{
+    position:absolute;
+    min-width:294px;
+    min-height:595.5px;
+padding-top: 30px;
+}
+
+.iphone-base{
+  width: 38%;
+  height: 38%;
+}
+
+.iphone-images{
+  position: absolute; 
+  margin-top: 85px; 
+  margin-left: -268px; 
+  vertical-align: center; 
+  text-align: center; 
+  width: 32.2%;
 }
