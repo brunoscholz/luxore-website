@@ -1017,15 +1017,15 @@ Points of Interest
 }
 .slider .slides .da-img, .slider .slides li img {
     position: relative;
-    width: 40%;
-    top: 50px;
-    height: 256px;
-    line-height: 360px;
-    left: 50%;
+    width: 100%;
+    top: 20px;
+    height: 600px;
+    line-height: 600px;
+    left: 10%;
 }
 
 .slider .slides li img {
-  background-size: 30%;
+  background-size: 40%;
   background-repeat: no-repeat;
 }
 
@@ -1795,4 +1795,25 @@ footer .logo {
 .ball-triangle-path > div:nth-of-type(3) {
   top: 50px;
   left: 50px;
+}
+
+.prototype{
+    position:absolute;
+    min-width:294px;
+    min-height:595.5px;
+padding-top: 30px;
+}
+
+.iphone-base{
+  width: 38%;
+  height: 38%;
+}
+
+.iphone-images{
+  position: absolute; 
+  margin-top: 85px; 
+  margin-left: -268px; 
+  vertical-align: center; 
+  text-align: center; 
+  width: 32.2%;
 }
