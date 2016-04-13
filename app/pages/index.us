@@ -42,6 +42,30 @@
   <body ng-cloak ng-controller="AppController">
 
     <div ng-include="'header.html'"></div>
+    <div ng-include="'intro-video.html'"></div>
+
+    <div class="cd-modal">
+      <div class="modal-content">
+        <h1 class="lux-text">Introducing Luxore</h1>
+        <div class="row">
+          <div class="col s12 m4 l2">
+            <p>&nbsp;</p>
+          </div>
+          <div class="col s12 m4 l8">
+            <div class="video-container">
+              <iframe width="600" height="340" src="//www.youtube.com/embed/JGCsyshUU-A?rel=0" frameborder="0" allowfullscreen></iframe>
+            </div>
+          </div>
+          <div class="col s12 m4 l2"></div>
+        </div>
+      </div> <!-- .modal-content -->
+     
+      <a href="#0" class="modal-close">Close</a>
+    </div> <!-- .cd-modal -->
+     
+    <div class="cd-transition-layer"> 
+      <div class="bg-layer"></div>
+    </div> <!-- .cd-transition-layer -->
 
     <div ng-include="'features.html'"></div>
     <div ng-include="'why.html'"></div>
@@ -68,9 +92,18 @@
     </div>
     <div ng-include="'footer.html'"></div>
 
+    <!-- ScrollUp button start -->
+    <div class="scrollup" style="position:fixed; bottom: 50px; right: 19px;">
+      <a class="btn-floating btn-large waves-effect waves-light blue-grey">
+        <i class="icon-up-open"></i>
+      </a>
+    </div>
+    <!-- ScrollUp button end -->
+
     <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"></script>
     <script type="text/javascript" src="<%= js %>"></script>
+
   </body>
 </html>

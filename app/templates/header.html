@@ -1,5 +1,5 @@
 <div class="navbar-fixed"  ng-controller="HeaderController">
-  <nav class="purple-luxore" role="navigation">
+  <nav id="transparent-navbar" class="purple-luxore" role="navigation">
     <div class="nav-wrapper">
       <a ng-click="home()" class="brand-logo center">
         Luxore
@@ -26,26 +26,58 @@
   </nav>
 </div>
 
+<div class="fixed-action-btn click-to-toggle" style="top: 40px; right: 23px;">
+  <a class="btn-floating btn-large waves-effect waves-light blue-grey">
+    <i class="material-icons">mode_edit</i>
+  </a>
+  
+  <ul>
+    <li><a class="btn-floating red"><i class="material-icons">insert_chart</i></a></li>
+    <li><a class="btn-floating yellow darken-1"><i class="material-icons">format_quote</i></a></li>
+    <li><a class="btn-floating green"><i class="material-icons">publish</i></a></li>
+    <li><a class="btn-floating blue"><i class="material-icons">attach_file</i></a></li>
+  </ul>
+  
+  <span class="language-nav-bg"></span>
+</div>
+
 <header class="hero-area" id="home">
-  <div class="container">
-    <div class="container">
-      <div class="row">
-        <div class="col l6 s12">
+  <div class="intro-header">
+    <div class="introBoxes">
+    <div class="box left-end">
+      <div class="inner">
+        <div class="content" style="background: url(https://i.imgur.com/oN2wZ.jpg)"></div>
+        </div>
+    </div>  
 
-
-          <div class="navbar navbar-inverse sticky-navigation navbar-fixed-top" role="navigation" data-spy="affix" data-offset-top="200">
-            <div class="container">
-              <div class="navbar-header">
-                
-              </div>
-
-            </div>
-          </div>
-      </div>
+    <div class="box">
+      <div class="inner">
+        <div class="content" style="background: url(http://i.imgur.com/wzHBJhv.jpg) center 50%"></div>
+        </div>
     </div>
 
-    <div class="contents text-right">
-      <h1 class="wow fadeInRight" data-wow-duration="1000ms" data-wow-delay="300ms">Luxore - The next generation social network</h1>
-      <p class="wow fadeInRight" data-wow-duration="1000ms" data-wow-delay="400ms">Decentralized, incentivized - power in your hands!</p>
-    </div>   
+    <div class="box">
+      <div class="inner">
+        <div class="content" style="background: url(https://i.imgur.com/tQ1k5.jpg) 17% 40%"></div>
+        </div>
+    </div>
+
+    <div class="box">
+      <div class="inner">
+        <div class="content" style="background: url(http://i.imgur.com/n7XoSje.jpg) center 10%"></div>
+        </div>
+    </div>
+    
+    <div class="box right-end">
+      <div class="inner">
+        <div class="content" style="background: url(https://i.imgur.com/RCJUO.jpg) 0% -20%"></div>
+        </div>
+    </div>
+    </div>
+  </div>
+  
+  <!-- <div class="contents text-right">
+    <h1 class="wow fadeInRight" data-wow-duration="1000ms" data-wow-delay="300ms">Luxore - The next generation social network</h1>
+    <p class="wow fadeInRight" data-wow-duration="1000ms" data-wow-delay="400ms">Decentralized, incentivized - power in your hands!</p>
+  </div> -->
 </header>

@@ -32,3 +32,10 @@
 
 	}); // end of document ready
 })(jQuery); // end of jQuery name space
+
+function changeNavColor() {
+  $("#transparent-navbar").addClass('affix');
+}
+
+var options = [{ selector:"#transparent-navbar", offset: 500, callback: "changeNavColor()"}];
+Materialize.scrollFire(options);
