@@ -37,6 +37,10 @@ console.log("teste" + index);
           $('ul.tabs').tabs();
         });
 
+        $(document).ready(function(){
+          $('.parallax').parallax();
+        });
+
 	}); // end of document ready
 })(jQuery); // end of jQuery name space
 
