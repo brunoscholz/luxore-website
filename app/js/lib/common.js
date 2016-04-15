@@ -7,12 +7,13 @@
 
         $(document).ready(function(){
           $('.slider').slider({full_width: true, height:650});
-        });
+      });
 
 
-/*$('.slider li.active').each(function(index){
-console.log("teste" + index);
-});*/
+$('.slider > slides').on('click', function(){
+    //var activeSlide = $('.active');
+console.log("teste ");
+}).click();
        
 
 
