@@ -1,14 +1,15 @@
 var app = angular.module('app', [
   'ngRoute',
   'gettext',
+  'faq',
 ]);
 
 app.config(function ($routeProvider, $locationProvider) {
-  $locationProvider.html5Mode({enabled:true});
+  //$locationProvider.html5Mode({enabled:true});
   //$routeProvider.otherwise({ redirectTo: '/vitrine' });
   $routeProvider
     .when('/', {
-      templateUrl:'home.html',
+      templateUrl:'main/home.html',
       controller: 'AppController'
     })
     .otherwise({ redirectTo: '/' });
@@ -49,6 +50,8 @@ app.controller('HeaderController',
     $scope.home = function () {
         $location.path('/');
     };
+
+
 
     $scope.isNavbarActive = function (navBarPath) {
       //return navBarPath === breadcrumbs.getFirst().name;

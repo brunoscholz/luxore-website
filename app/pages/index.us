@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html ng-app="app">
   <head>
-    <base href="/">
+    <!-- <base href="/"> -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
@@ -42,7 +42,11 @@
   <body ng-cloak ng-controller="AppController">
 
     <div ng-include="'header.html'"></div>
-    <div ng-include="'intro-video.html'"></div>
+
+    <div ng-view class="page-transition hero-transition">
+      Error loading AngularJS view..
+    </div>
+    <div ng-include="'footer.html'"></div>
 
     <div class="cd-modal">
       <div class="modal-content">
@@ -60,43 +64,19 @@
         </div>
       </div> <!-- .modal-content -->
      
-      <a href="#0" class="modal-close">Close</a>
+      <a href="#0" class="modal-close">
+        <i class="large material-icons" style="color:white; font-size: 2.6rem;">close</i>
+      </a>
     </div> <!-- .cd-modal -->
      
     <div class="cd-transition-layer"> 
       <div class="bg-layer"></div>
     </div> <!-- .cd-transition-layer -->
 
-    <div ng-include="'features.html'"></div>
-    <div ng-include="'why.html'"></div>
-    <div ng-include="'main-features.html'"></div>
-
-    <!-- <section id="cta">
-      <div class="container">
-        <div class="row text-center">         
-            <h3 class="title-small wow bounce" data-wow-duration="1000ms" data-wow-delay="300ms">Join Us Today to be a beta tester! (newsletter maybe)</h3>
-             <a href="javascript:void(0)" class="btn btn-lg btn-border">Sign Up</a>
-          </div>
-      </div>
-    </section> -->
-    
-    <!-- <div ng-include="'screenshot.html'"></div> -->
-    <div ng-include="'other-features.html'"></div>
-    <div ng-include="'clients.html'"></div>
-
-    <!-- <div ng-include="'testimonials.html'"></div>
-    <div ng-include="'counter.html'"></div>
-    <div ng-include="'contact.html'"></div> -->
-
-    <div ng-view class="section page-transition hero-transition">
-      Error loading AngularJS view..
-    </div>
-    <div ng-include="'footer.html'"></div>
-
     <!-- ScrollUp button start -->
     <div class="scrollup" style="position:fixed; bottom: 50px; right: 19px;">
       <a class="btn-floating btn-large waves-effect waves-light blue-grey">
-        <i class="icon-up-open"></i>
+        <i class="large material-icons" style="font-size: 2.6rem;">expand_less</i>
       </a>
     </div>
     <!-- ScrollUp button end -->
