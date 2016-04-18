@@ -1,54 +1,60 @@
-<div class="navbar-fixed"  ng-controller="HeaderController">
-  <nav id="transparent-navbar" class="purple-luxore" role="navigation">
-    <div class="nav-wrapper">
-      <a ng-click="home()" class="brand-logo center">
-        Luxore
+<div class="navbar-fixed" ng-controller="HeaderController">
+  <nav id="mainHeader">
+    <div class="navbar-header relative z-index-5">
+      <a class="brand-logo" ng-click="home()">
+        <img class="img-responsive center" src="img/ico-57.png" alt="Luxore">Luxore
       </a>
-      <ul class="right hide-on-med-and-down">
-        <li><a class="" href="#home">Home</a></li>
-        <li><a class="" href="#features">Features</a></li>
-        <li><a class="" href="#why">why</a></li>
-        <li><a class="" href="#screenshot">Screenshots</a></li>
-        <li><a class="" href="#testimonial">Testimonial</a></li>
-        <li><a class="" href="#clients">Contact</a></li>
-        <!-- Dropdown Trigger -->
-        <li>
-            <select class="icons" ng-model="selectedLang" ng-change="changeLang(selectedLang)">
-              <option ng-repeat="option in languages" value="{{option.id}}" ng-selected="option.id==selectedLang" 
-                      class="left circle" data-icon="img/flags/{{option.country}}.png">
-                {{option.name}}
-              </option>
-            </select>
-
-        </li>
-
-        <li>
-          <a href="javascript:void(0);" class="waves-effect waves-block waves-light translation-button" data-activates="translation-dropdown"><img src="img/flags/us.png" alt="USA"></a>
-            <ul style="white-space: nowrap; position: absolute; top: 64px; left: 1664.2px; opacity: 1; display: none;" id="translation-dropdown" class="dropdown-content">
-              <li>
-                <a href="#!"><img src="img/flags/us.png" alt="English">  <span class="language-select">English</span></a>
-              </li>
-              <li>
-                <a href="#!"><img src="img/flags/br.png" alt="Portuguese">  <span class="language-select">Portuguese</span></a>
-              </li>
-              <li>
-                <a href="#!"><img src="img/flags/fr.png" alt="French">  <span class="language-select">French</span></a>
-              </li>
-              <li>
-                <a href="#!"><img src="img/flags/ch.png" alt="Chinese">  <span class="language-select">Chinese</span></a>
-              </li>
-              <li>
-                <a href="#!"><img src="img/flags/de.png" alt="German">  <span class="language-select">German</span></a>
-              </li>
-              
-            </ul>
-        </li>
-      </ul>
+      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
     </div>
+
+    <ul class="right hide-on-med-and-down">
+      <li><a class="" href="#features">{{'What is it?'|translate}}</a></li>
+      <li><a class="" href="#why">{{'Why?'|translate}}</a></li>
+      <li><a class="" target="blank" href="https://www.kickstarter.com/">Kickstarter</a></li>
+      <li><a class="" target="blank" href="https://drive.google.com/open?id=1Ia0-WW6fKUbWMCKISSn7WOKPxL3ggD9Um0YqIBGVTLc">Whitepaper</a></li>
+      <li><a ng-click="openMenu()"><i class="material-icons">menu</i></a></li>
+      <!-- Dropdown Trigger -->
+      <!-- <li>
+          <select class="icons" ng-model="selectedLang" ng-change="changeLang(selectedLang)">
+            <option ng-repeat="option in languages" value="{{option.id}}" ng-selected="option.id==selectedLang" 
+                    class="left circle" data-icon="img/flags/{{option.country}}.png">
+              {{option.name}}
+            </option>
+          </select>
+      </li> -->
+    </ul>
+    <ul class="side-nav" id="mobile-demo">
+      <li><a class="" href="#features">{{'What is it?'|translate}}</a></li>
+      <li><a class="" href="#why">{{'Why?'|translate}}</a></li>
+      <li><a class="" target="blank" href="https://www.kickstarter.com/">Kickstarter</a></li>
+      <li><a class="" target="blank" href="https://drive.google.com/open?id=1Ia0-WW6fKUbWMCKISSn7WOKPxL3ggD9Um0YqIBGVTLc">Whitepaper</a></li>
+    </ul>
+
   </nav>
 </div>
+<!-- <li>
+  <a href="javascript:void(0);" class="waves-effect waves-block waves-light translation-button" data-activates="translation-dropdown"><img src="img/flags/us.png" alt="USA"></a>
+    <ul style="white-space: nowrap; position: absolute; top: 64px; left: 1664.2px; opacity: 1; display: none;" id="translation-dropdown" class="dropdown-content">
+      <li>
+        <a href="#!"><img src="img/flags/us.png" alt="English">  <span class="language-select">English</span></a>
+      </li>
+      <li>
+        <a href="#!"><img src="img/flags/br.png" alt="Portuguese">  <span class="language-select">Portuguese</span></a>
+      </li>
+      <li>
+        <a href="#!"><img src="img/flags/fr.png" alt="French">  <span class="language-select">French</span></a>
+      </li>
+      <li>
+        <a href="#!"><img src="img/flags/cn.png" alt="Chinese">  <span class="language-select">Chinese</span></a>
+      </li>
+      <li>
+        <a href="#!"><img src="img/flags/de.png" alt="German">  <span class="language-select">German</span></a>
+      </li>
+      
+    </ul>
+</li> -->
 
-<header class="hero-area" id="home">
+<!-- <header class="hero-area" id="home">
   <div class="intro-header">
     <div class="introBoxes">
     <div class="box left-end">
@@ -82,9 +88,21 @@
     </div>
     </div>
   </div>
+</header> -->
+
+<section id="home" class="section-white">
+  <div class="center" style="margin-top: -32px;">
+    <div class="section-header" style="padding: 70px 0;">
+      <h1 class="section-title">Luxore</h1>
+
+      <h5>Luxore is a decentralized, incentivized, social network for fashion! Builded to give the decision power to people. Learn more about it in the video bellow.</h5>
+    </div>
+  </div>
   
-  <!-- <div class="contents text-right">
-    <h1 class="wow fadeInRight" data-wow-duration="1000ms" data-wow-delay="300ms">Luxore - The next generation social network</h1>
-    <p class="wow fadeInRight" data-wow-duration="1000ms" data-wow-delay="400ms">Decentralized, incentivized - power in your hands!</p>
-  </div> -->
-</header>
+  <div class="center">
+    <a class="btn btn-large waves-effect waves-light cd-modal-trigger btn-video z-depth-2">
+      <span>{{'Watch'|translate}}</span> <i class="large material-icons">play_circle_outline</i>  <span>{{'Video'|translate}}</span>
+    </a>
+  </div>
+
+</section>

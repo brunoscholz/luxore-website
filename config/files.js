@@ -25,6 +25,7 @@ module.exports = function(lineman) {
       ],
       app: [
         "app/css/style.css",
+        "app/css/**/*.css"
       ]
     }
 
