@@ -1255,16 +1255,25 @@ footer .logo {
 padding-top: 30px;
 }
 
-.iphone-base{
-  width: 38%;
-  height: 38%;
+.textMokup{
+  position: absolute;
+   float: right;
+   top: 50px;
+  left: 50px;
+  transform: translate(70%,2%);
 }
 
-.iphone-images{
+ .iphone-base{
+  position: relative;
+  width: 290px
+}
+
+ .iphone-images{
   position: absolute; 
-  margin-top: 85px; 
-  margin-left: -268px; 
-  vertical-align: center; 
-  text-align: center; 
-  width: 32.2%;
+   left: 50%;
+    top: 80%;
+    transform: translate(-31.3%,2%);
+  /*margin-top: 11px; 
+  margin-left: -214px; */
+  width: 623px !important;
 }
