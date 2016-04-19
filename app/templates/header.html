@@ -1,37 +1,61 @@
-<div class="navbar-fixed" ng-controller="HeaderController">
-  <nav id="mainHeader">
-    <div class="navbar-header relative z-index-5">
-      <a class="brand-logo" ng-click="home()">
-        <img class="img-responsive center" src="img/ico-57.png" alt="Luxore">Luxore
-      </a>
-      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+<div id="mainHeader" >
+  <nav class="container-wide" ng-controller="HeaderController">
+    <div class="row">
+      <div class="col s12 m3 relative z-index-5">
+        <a class="brand-logo" ng-click="home()">
+          <img class="img-responsive center" src="img/ico-57.png" alt="Luxore">Luxore
+        </a>
+        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+      </div>
+
+      <div class="col s12 m12 hide-on-small-and-down">
+        <div class="right">
+          <ul>
+            <li><a href="#features">{{'What is it?'|translate}}</a></li>
+            <li><a href="#why">{{'Why?'|translate}}</a></li>
+            <li><a target="blank" href="https://www.kickstarter.com/">Kickstarter</a></li>
+            <li><a target="blank" href="https://drive.google.com/open?id=1Ia0-WW6fKUbWMCKISSn7WOKPxL3ggD9Um0YqIBGVTLc">Whitepaper</a></li>
+            <li><a ng-click="openMenu()"><i class="material-icons">menu</i></a></li>
+
+            <!-- <li><a href="https://app.closeheat.com/users/sign_in" class="modal-trigger btn nav-sign-up">Sign Up free</a></li> -->
+          </ul>
+          <ul class="side-nav" id="mobile-demo">
+            <li><a class="" href="#features">{{'What is it?'|translate}}</a></li>
+            <li><a class="" href="#why">{{'Why?'|translate}}</a></li>
+            <li><a class="" target="blank" href="https://www.kickstarter.com/">Kickstarter</a></li>
+            <li><a class="" target="blank" href="https://drive.google.com/open?id=1Ia0-WW6fKUbWMCKISSn7WOKPxL3ggD9Um0YqIBGVTLc">Whitepaper</a></li>
+          </ul>
+        </div>
+      </div>
     </div>
-
-    <ul class="right hide-on-med-and-down">
-      <li><a class="" href="#features">{{'What is it?'|translate}}</a></li>
-      <li><a class="" href="#why">{{'Why?'|translate}}</a></li>
-      <li><a class="" target="blank" href="https://www.kickstarter.com/">Kickstarter</a></li>
-      <li><a class="" target="blank" href="https://drive.google.com/open?id=1Ia0-WW6fKUbWMCKISSn7WOKPxL3ggD9Um0YqIBGVTLc">Whitepaper</a></li>
-      <li><a ng-click="openMenu()"><i class="material-icons">menu</i></a></li>
-      <!-- Dropdown Trigger -->
-      <!-- <li>
-          <select class="icons" ng-model="selectedLang" ng-change="changeLang(selectedLang)">
-            <option ng-repeat="option in languages" value="{{option.id}}" ng-selected="option.id==selectedLang" 
-                    class="left circle" data-icon="img/flags/{{option.country}}.png">
-              {{option.name}}
-            </option>
-          </select>
-      </li> -->
-    </ul>
-    <ul class="side-nav" id="mobile-demo">
-      <li><a class="" href="#features">{{'What is it?'|translate}}</a></li>
-      <li><a class="" href="#why">{{'Why?'|translate}}</a></li>
-      <li><a class="" target="blank" href="https://www.kickstarter.com/">Kickstarter</a></li>
-      <li><a class="" target="blank" href="https://drive.google.com/open?id=1Ia0-WW6fKUbWMCKISSn7WOKPxL3ggD9Um0YqIBGVTLc">Whitepaper</a></li>
-    </ul>
-
   </nav>
 </div>
+
+<div class="signup-modal modal">
+  <div class="signup-modal-content modal-content"></div>
+  <div class="signup-modal-close"><i class="material-icons">shuffle</i></div>
+  <div class="signup-modal-title">Get Started</div>
+  <div class="signup-modal-description">We store <b>your website code</b>
+    <br>in <b>your Github account</b>.
+  </div>
+  <a href="http://app.closeheat.com/auth/github" class="signup-modal-button btn btn-large waves-effect waves-light sign-up-btn">Sign Up With GitHub</a>
+  <div class="signup-modal-quick-terms">
+    <div class="signup-modal-quick-terms-title">You reserve all the rights to your code.</div>
+    <div class="signup-modal-quick-term">We care about your security and privacy.</div>
+    <a href="#" class="signup-modal-terms">Terms of Service</a>
+  </div>
+</div>
+
+<!-- Dropdown Trigger -->
+<!-- <li>
+    <select class="icons" ng-model="selectedLang" ng-change="changeLang(selectedLang)">
+      <option ng-repeat="option in languages" value="{{option.id}}" ng-selected="option.id==selectedLang" 
+              class="left circle" data-icon="img/flags/{{option.country}}.png">
+        {{option.name}}
+      </option>
+    </select>
+</li> -->
+
 <!-- <li>
   <a href="javascript:void(0);" class="waves-effect waves-block waves-light translation-button" data-activates="translation-dropdown"><img src="img/flags/us.png" alt="USA"></a>
     <ul style="white-space: nowrap; position: absolute; top: 64px; left: 1664.2px; opacity: 1; display: none;" id="translation-dropdown" class="dropdown-content">
@@ -89,20 +113,3 @@
     </div>
   </div>
 </header> -->
-
-<section id="home" class="section-white">
-  <div class="center" style="margin-top: -32px;">
-    <div class="section-header" style="padding: 70px 0;">
-      <h1 class="section-title">Luxore</h1>
-
-      <h5>Luxore is a decentralized, incentivized, social network for fashion! Builded to give the decision power to people. Learn more about it in the video bellow.</h5>
-    </div>
-  </div>
-  
-  <div class="center">
-    <a class="btn btn-large waves-effect waves-light cd-modal-trigger btn-video z-depth-2">
-      <span>{{'Watch'|translate}}</span> <i class="large material-icons">play_circle_outline</i>  <span>{{'Video'|translate}}</span>
-    </a>
-  </div>
-
-</section>

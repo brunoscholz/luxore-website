@@ -43,7 +43,7 @@
 
     <div ng-include="'header.html'"></div>
 
-    <div ng-view class="page-transition hero-transition">
+    <div ng-view class="page-transition hero-transition" style="margin-top: -64px;">
       Error loading AngularJS view..
     </div>
     <div ng-include="'footer.html'"></div>
@@ -75,7 +75,7 @@
 
     <!-- ScrollUp button start -->
     <div class="scrollup" style="position:fixed; bottom: 50px; right: 19px;">
-      <a class="btn-floating btn-large waves-effect waves-light blue-grey">
+      <a class="btn-floating btn-large waves-effect waves-light purple-luxore">
         <i class="large material-icons" style="font-size: 2.6rem;">expand_less</i>
       </a>
     </div>
