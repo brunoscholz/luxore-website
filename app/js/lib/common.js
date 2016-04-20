@@ -58,8 +58,10 @@
               for (var j = 0, sl = sources.length; j < sl; j++) {
                   var source = sources[j];
                   var type = source.type;
-                  var isMp4 = type.indexOf("mp4") != -1;
-                  if (isMp4) return source.src;
+                  var isMp4 = type.indexOf("mp4") !== -1;
+                  if (isMp4) {
+                    return source.src;
+                  }
               }
               return null;
           })();

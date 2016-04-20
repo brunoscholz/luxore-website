@@ -1,6 +1,3 @@
-angular.module('modal', []).
-    factory('Modal', ['$animate', '$compile', '$rootScope', '$controller', '$q', '$http', '$templateCache', modalFactoryFactory]);
-
 function modalFactoryFactory($animate, $compile, $rootScope, $controller, $q, $http, $templateCache) {
   return function modalFactory (config) {
     if (!(!config.template ^ !config.templateUrl)) {
@@ -38,7 +35,7 @@ function modalFactoryFactory($animate, $compile, $rootScope, $controller, $q, $h
     function attach (html, locals) {
       element = angular.element(html);
       if (element.length === 0) {
-        throw new Error('The template contains no elements; you need to wrap text nodes')
+        throw new Error('The template contains no elements; you need to wrap text nodes');
       }
       scope = $rootScope.$new();
       if (controller) {
@@ -54,8 +51,8 @@ function modalFactoryFactory($animate, $compile, $rootScope, $controller, $q, $h
           scope[controllerAs] = ctrl;
         }
       } else if (locals) {
-        for (var prop in locals) {
-          scope[prop] = locals[prop];
+        for (var prop2 in locals) {
+          scope[prop2] = locals[prop2];
         }
       }
       $compile(element)(scope);
@@ -85,3 +82,5 @@ function modalFactoryFactory($animate, $compile, $rootScope, $controller, $q, $h
     };
   };
 }
+
+angular.module('modal', []).factory('Modal', ['$animate', '$compile', '$rootScope', '$controller', '$q', '$http', '$templateCache', modalFactoryFactory]);

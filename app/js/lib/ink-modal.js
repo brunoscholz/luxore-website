@@ -9,12 +9,37 @@ jQuery(document).ready(function($){
 		frames = 25, //number of png frames
 		resize = false;
 
+	function setLayerDimensions() {
+		var windowWidth = $(window).width(),
+			windowHeight = $(window).height(),
+			layerHeight, layerWidth;
+
+		if( windowWidth/windowHeight > frameProportion ) {
+			layerWidth = windowWidth;
+			layerHeight = layerWidth/frameProportion;
+		} else {
+			layerHeight = windowHeight*1.2;
+			layerWidth = layerHeight*frameProportion;
+		}
+
+		transitionBackground.css({
+			'width': layerWidth*frames+'px',
+			'height': layerHeight+'px',
+		});
+
+		resize = false;
+	}
+
 	//set transitionBackground dimentions
 	setLayerDimensions();
 	$(window).on('resize', function(){
 		if( !resize ) {
 			resize = true;
-			(!window.requestAnimationFrame) ? setTimeout(setLayerDimensions, 300) : window.requestAnimationFrame(setLayerDimensions);
+			if (!window.requestAnimationFrame) {
+				setTimeout(setLayerDimensions, 300);
+			} else { 
+				window.requestAnimationFrame(setLayerDimensions);
+			}
 		}
 	});
 
@@ -38,25 +63,4 @@ jQuery(document).ready(function($){
 			transitionBackground.off('webkitAnimationEnd oanimationend msAnimationEnd animationend');
 		});
 	});
-
-	function setLayerDimensions() {
-		var windowWidth = $(window).width(),
-			windowHeight = $(window).height(),
-			layerHeight, layerWidth;
-
-		if( windowWidth/windowHeight > frameProportion ) {
-			layerWidth = windowWidth;
-			layerHeight = layerWidth/frameProportion;
-		} else {
-			layerHeight = windowHeight*1.2;
-			layerWidth = layerHeight*frameProportion;
-		}
-
-		transitionBackground.css({
-			'width': layerWidth*frames+'px',
-			'height': layerHeight+'px',
-		});
-
-		resize = false;
-	}
 });

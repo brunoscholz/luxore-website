@@ -43,7 +43,7 @@
 
     <div ng-include="'header.html'"></div>
 
-    <div ng-view class="page-transition hero-transition" style="margin-top: -64px;">
+    <div ng-view class="page-transition hero-transition">
       Error loading AngularJS view..
     </div>
     <div ng-include="'footer.html'"></div>
