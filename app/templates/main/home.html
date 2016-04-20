@@ -1,17 +1,27 @@
 <div class="hero hero-landing">
 	<!-- <div class="fullscreen-bg">
-        
-    </div> -->
+				
+		</div> -->
 	<div class="row valign-wrapper no-valign-wrapper-on-mobile">
 		<div class="col l5 valign hero-text">
-			<div class="container-wide">
+			<div class="container-wide" style="color: black;">
 				<h1>Tematic social network for fashion.</h1>
 				<h2>Connect with your own tribe, people who work with the various areas of fashion, read your favorite blogs, <b>and share your style!</b>.</h2>
 				<a href="#" class="modal-trigger btn btn-large waves-effect waves-light sign-up-btn">Pledge on Kickstarter</a>
 			</div>
 		</div>
-		<div class="col l7 no-right-padding valign hero-img-col">
-			<img src="/img/editor.png" alt="Sign Up Now" class="hero-img responsive-img">
+		<div class="col l7 no-right-padding valign hero-img-col hide-on-small-and-down" style="background: transparent url('img/editor.png') 0% 80%;">
+			<div class="row" style="height: 700px;">
+				<div class="col s2"> </div>
+				<div class="col s8 push-s2" style="margin-top: 150px;">
+					<div class="video-container">
+						<iframe width="600" height="480" src="//www.youtube.com/embed/MUCVB0TuQr4?rel=0" frameborder="0" allowfullscreen></iframe>
+					</div>
+				</div>
+				<div class="col s2"> </div>
+			</div>
+			<!-- <img src="img/editor.png" alt="Sign Up Now" class="hero-img responsive-img"> -->
+			
 		</div>
 	</div>
 </div>
@@ -22,22 +32,46 @@
 	</div>
 </div>
 
-<div id="video" class="video">
+<div id="video" class="video hide-on-med-and-up">
 	<div class="container-wide">
 		<!-- <video loop muted autoplay poster="img/hero-area.jpg" class="responsive-video">
-            <source src="http://www.youtube.com/watch?v=MUCVB0TuQr4" type="video/mp4" />
-        </video> -->
-        <div class="row">
-        	<div class="col s12 m4 l2"><p> </p></div>
+						<source src="http://www.youtube.com/watch?v=MUCVB0TuQr4" type="video/mp4" />
+				</video> -->
+				<div class="row">
+					<div class="col s12 m4 l2"><p> </p></div>
 			<div class="col s12 m4 l8">
-				<div class="video-container">
+				<div class="video-container z-depth-5">
 					<iframe width="853" height="480" src="//www.youtube.com/embed/MUCVB0TuQr4?rel=0" frameborder="0" allowfullscreen></iframe>
 				</div>
 			</div>
 			<div class="col s12 m4 l2"><p> </p></div>
-        </div>
+				</div>
 	</div>
 </div>
 
 <div ng-include="'main-features.html'"></div>
+
+<div class="join container-wide">
+	<form id="drop-a-line" role="form">
+		<div class="row">
+			<div class="col s1 m3 l3">&nbsp;</div>
+			<div class="col s10 m6 l6">
+				<div class="card purple-luxore" style="margin-bottom: 0px;">
+					<div class="card-content white-text" style="height: 300px;">
+						<span class="card-title">Subscribe</span>
+						<p>Keep informed of the steps taken into making this great.</p>
+						<div class="input-field col m12 s12" style="margin-top: 70px;">
+							<input id="your-email" type="email"><label for="your-email">Your email address</label>
+						</div>
+					</div>
+					<div class="card-action">
+						<a href="#">Send</a>
+					</div>
+				</div>
+			</div>
+			<div class="col s1 m3 l3">&nbsp;</div>
+		</div>
+	</form>
+</div>
+
 <div ng-include="'other-features.html'"></div>

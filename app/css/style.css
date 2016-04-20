@@ -274,11 +274,14 @@ video {
   .fullscreen-bg__video {
     display: none;
   }
-}*/
+}
+
+OLD: #30094a
+*/
 
 .lux-text { font-family: "Tulip"; }
-.lux-purple { color: #30094a !important; }
-.lux-purple-bkg { background-color: #30094a !important; }
+.lux-purple { color: #43285f !important; }
+.lux-purple-bkg { background-color: #43285f !important; }
 .lux-indigo { color: #171c80 !important; }
 .lux-pale-purple { color: #333457 !important; }
 .lux-cyan { color: #2cb0cf !important; }
@@ -286,7 +289,7 @@ video {
 .bold { font-weight: bold; }
 
 .purple-luxore {
-  background-color: #2f0a49 !important;
+  background-color: #723d8c !important;
 }
 
 #transparent-navbar {
@@ -771,7 +774,7 @@ nav {
 .hero {
   color: #fafafa;
   padding-top: 190px;
-  background: linear-gradient(50deg, HSLA(205, 62%, 44%, 1), #2f0a49);
+  background: linear-gradient(50deg, HSLA(255, 100%, 100%, 1), #2f0a49);
   /*
   background: linear-gradient(50deg, HSLA(205, 62%, 44%, 1), #F62D51);
   #30094a
@@ -789,8 +792,8 @@ nav {
     margin-bottom: -6px; }
 
 footer {
-  padding: 100px 0;
-  background-color: #333457;
+  padding: 100px 0 0 0;
+  background-color: #43285f;
   color: white; }
   footer .footer-location {
     font-size: 12px;
@@ -855,12 +858,13 @@ footer {
 
 .brag {
   margin-top: -20px;
-  background-color: #2a7ab4;
-  color: #30094a;
+  background-color: #43285f;
+  color: #43285f;
   font-weight: 400;
 }
 .brag h5 {
-  padding: 70px 0;
+  color: white;
+  padding: 100px 0;
   font-size: 3rem;
   font-weight: 600;
 }
@@ -875,6 +879,23 @@ footer {
   letter-spacing: 1px;
 }
 
+.join {
+  margin-top: -20px;
+  background: #b79c42 url(../img/why-bg.jpg) repeat-x scroll 50% 0%;
+  color: #43285f;
+  font-weight: 400;
+}
+.join form {
+  padding: 100px 0 0 0;
+  /*font-size: 3rem;
+  font-weight: 600;*/
+}
+
+.footer-copyright {
+  height: 4rem;
+  position: relative;
+  bottom: -40px;
+}
 
 .testimonials {
   margin-top: -20px;
@@ -976,7 +997,7 @@ footer {
   padding: 100px 0 120px; }
   .features .features-divider {
     text-align: center;
-    color: #F62D51;
+    color: #723d8c;
     margin-bottom: 60px; }
     .features .features-divider i {
       font-size: 27px; }
@@ -987,12 +1008,12 @@ footer {
   .features .feature-icon {
     height: 100px;
     width: 100px;
-    border: 3px solid #F62D51;
+    border: 3px solid #723d8c;
     border-radius: 1000px;
     text-align: center;
     margin: 70px auto 0; }
     .features .feature-icon i {
-      color: #F62D51;
+      color: #723d8c;
       font-size: 50px;
       line-height: 96px; }
   .features .feature-title {
