@@ -445,7 +445,7 @@ OLD: #30094a
   padding-bottom: 180px;
   padding-top: 180px;
   text-align: center;
-  background-image: url("https://d12q54lcoz7sz0.cloudfront.net/assets/css/images/backgrounds/brochure/open-the-door/hero-large-1x.jpg");
+  background-image: url("http://i.huffpost.com/gen/1991921/images/o-FASHION-facebook.jpg");
 }
 
 .home__content {
@@ -640,7 +640,7 @@ h1.title {
 }
 
 #benefits {
-  background-image: url("https://d12q54lcoz7sz0.cloudfront.net/assets/css/images/backgrounds/brochure/expand-your-repertoire/culinary-x-large-1x.jpg");
+  background-image: url("http://www.amusemagazine.co.uk/wp-content/uploads/2015/09/london-fashion.jpg");
   background-color: #FFF3EA;
   background-position: center center;
   background-size: cover;
@@ -695,7 +695,7 @@ h1.title {
 }
 
 #join {
-  background-image: url("https://d12q54lcoz7sz0.cloudfront.net/assets/css/images/backgrounds/brochure/see-available-plans/hero-x-large-1x.jpg");
+  background-image: url("https://d2ypq1gviimup.cloudfront.net/img/events/2015_fashion_show_bg6.jpg");
   background-color: #FFF3EA;
   background-position: center center;
   background-size: cover;
@@ -703,6 +703,12 @@ h1.title {
   padding-bottom: 90px;
   padding-top: 130px;
   text-align: center;
+}
+
+#join form p {
+  text-align: center;
+  font-size: 1.3rem;
+  margin-top: -3rem;
 }
 
 footer {
@@ -728,9 +734,17 @@ footer ul {
   list-style: none;
 }
 
+.footer-copyright ul {
+  margin: 0;
+}
+
+.footer-copyright ul li.logo {
+  margin: 0;
+  padding-right: 15px;
+}
+
 footer ul li {
   display: inline-block;
-  font-size: 13px;
   line-height: 18px;
   letter-spacing: 1px;
   font-weight: bold;
@@ -745,8 +759,46 @@ footer ul li a {
 
 footer .brand-logo img {
   width: 50px;
-  margin: 7px 15px 0 30px;
   float: left;
+  margin: 0 0 -15px 0;
+  padding: 3px;
+  vertical-align: middle;
+}
+
+
+.input-field .prefix ~ label {
+  margin-left: 3rem;
+  margin-top: -.7rem;
+}
+
+.input-field input[type=email] {
+  margin-top: -.4rem;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+/* label color */
+.input-field label {
+  color: #000;
+}
+/* label focus color */
+.input-field input[type=email]:focus + label {
+  color: #71495b;
+}
+/* label underline focus color */
+.input-field input[type=email]:focus {
+ border-bottom: 1px solid #71495b;
+ box-shadow: 0 1px 0 0 #000;
+}
+/* valid color */
+.input-field input[type=email].valid {
+ border-bottom: 1px solid #71495b;
+ box-shadow: 0 1px 0 0 #000;
+}
+
+/* icon prefix focus color */
+.input-field .prefix.active {
+ color: #71495b;
 }
 
 /* -------------------------------- 
@@ -962,7 +1014,6 @@ Main Components
     visibility: visible;
     width: 100%;
     height: 80px;
-    line-height: 80px;
     /* padding left = logo size + logo left position*/
     padding: 0 5% 0 calc(5% + 124px);
     background: transparent;
@@ -991,7 +1042,7 @@ Main Components
     -moz-transition: opacity 0.2s;
     transition: opacity 0.2s;
   }
-  .main-nav li a:not(.subnav-trigger):hover {
+  .main-nav li a::hover {
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     opacity: .6;
@@ -1001,19 +1052,19 @@ Main Components
   }
   .main-nav .subnav-trigger {
     z-index: 1;
-    border: 1px solid rgba(255, 255, 255, 0.2);
-    border-radius: 5em;
+    /*border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 5em;*/
     -webkit-transition: border 0.3s;
     -moz-transition: border 0.3s;
     transition: border 0.3s;
   }
   .main-nav .subnav-trigger:hover {
-    border-color: rgba(255, 255, 255, 0.4);
+    /*border-color: rgba(255, 255, 255, 0.4);*/
   }
   .main-nav .subnav-trigger::before, .main-nav .subnav-trigger::after {
-    top: 22px;
+    top: 25px;
     right: 17px;
-    background-color: #ffffff;
+    background-color: #000;
     /* change transform-origin to rotate the arrow */
     -webkit-transform-origin: 50% 50%;
     -moz-transform-origin: 50% 50%;

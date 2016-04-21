@@ -57,15 +57,15 @@
           </div>
           <div class="col s12 m4 l8">
             <div class="video-container z-depth-5">
-              <iframe width="600" height="340" src="//www.youtube.com/embed/JGCsyshUU-A?rel=0" frameborder="0" allowfullscreen></iframe>
+              <iframe id="inst-video" width="600" height="340" src="//www.youtube.com/embed/JGCsyshUU-A?rel=0" frameborder="0" allowfullscreen></iframe>
             </div>
           </div>
           <div class="col s12 m4 l2"></div>
         </div>
       </div> <!-- .modal-content -->
-     
-      <a href="#0" class="modal-close">
-        <i class="large material-icons" style="color:white; font-size: 2.6rem;">close</i>
+
+      <a class="btn-floating btn-large waves-effect waves-light modal-close">
+        <i class="material-icons">close</i>
       </a>
     </div> <!-- .cd-modal -->
      
@@ -75,7 +75,7 @@
 
     <!-- ScrollUp button start -->
     <div class="scrollup" style="position:fixed; bottom: 50px; right: 19px;">
-      <a class="btn-floating btn-large waves-effect waves-light purple-luxore z-depth-3">
+      <a class="btn-floating btn-large waves-effect waves-light purple-luxore z-depth-3" href="#mainHeader">
         <i class="large material-icons" style="font-size: 2.6rem;">expand_less</i>
       </a>
     </div>

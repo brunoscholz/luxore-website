@@ -11,8 +11,9 @@ Modal window
   height: 100%;
   width: 100%;
   overflow: hidden;
-  background: #210f2b url(../img/modal-bg.jpg) no-repeat center center;
-  background-size: cover;
+  /*background: #210f2b url(../img/modal-bg.jpg) no-repeat center center;
+  background-size: cover;*/
+  background-color: #71495b;
   opacity: 0;
   visibility: hidden;
   -webkit-transition: opacity 0.3s 0s, visibility 0s 0.3s;
@@ -48,16 +49,10 @@ Modal window
   /* 'X' icon */
   position: absolute;
   z-index: 1;
-  top: 20px;
-  right: 5%;
-  height: 45px;
-  width: 45px;
-  border-radius: 50%;
+  top: 50px;
+  right: 15px;
+
   background: rgba(0, 0, 0, 0.3);
-  /* image replacement */
-  overflow: hidden;
-  text-indent: 100%;
-  white-space: nowrap;
   visibility: hidden;
   opacity: 0;
   -webkit-transform: scale(0);
@@ -100,10 +95,7 @@ Modal window
   .cd-modal .modal-content {
     padding: 6em 5%;
   }
-  .cd-modal .modal-close {
-    height: 60px;
-    width: 60px;
-  }
+
   .cd-modal p {
     font-size: 2rem;
   }
@@ -118,7 +110,7 @@ Transition Layer
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 2;
+  z-index: 100;
   height: 100%;
   width: 100%;
   opacity: 0;

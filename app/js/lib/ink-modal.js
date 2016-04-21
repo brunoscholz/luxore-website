@@ -56,6 +56,11 @@ jQuery(document).ready(function($){
 	//close modal window
 	modalWindow.on('click', '.modal-close', function(event){
 		event.preventDefault();
+
+		var url = $('#inst-video').attr('src');
+		$('#inst-video').attr('src', '');
+		$('#inst-video').attr('src', url);
+		
 		transitionLayer.addClass('closing');
 		modalWindow.removeClass('visible');
 		transitionBackground.one('webkitAnimationEnd oanimationend msAnimationEnd animationend', function(){
