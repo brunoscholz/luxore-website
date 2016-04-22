@@ -13,7 +13,7 @@ Modal window
   overflow: hidden;
   /*background: #210f2b url(../img/modal-bg.jpg) no-repeat center center;
   background-size: cover;*/
-  background-color: #71495b;
+  background-color: #4b0a70;
   opacity: 0;
   visibility: hidden;
   -webkit-transition: opacity 0.3s 0s, visibility 0s 0.3s;

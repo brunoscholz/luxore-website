@@ -30,7 +30,7 @@ html * {
 
 body {
   font-size: 100%;
-  color: #71495b;
+  color: #4b0a70;
   background-color: #fff; /*#3e253c*/
   overflow-x: hidden;
 }
@@ -380,7 +380,7 @@ OLD: #30094a
 .bold { font-weight: bold; }
 
 .purple-luxore {
-  background-color: #71495b !important;
+  background-color: #4b0a70 !important;
 }
 
 #transparent-navbar {
@@ -511,7 +511,7 @@ OLD: #30094a
 
 .home__cta {
   border-radius: 60px;
-  border: 3px solid #71495b;
+  border: 3px solid #4b0a70;
   cursor: pointer;
   display: block;
   position: relative;
@@ -529,7 +529,7 @@ OLD: #30094a
   transition: background-color 400ms,border-color 400ms,color 400ms;
 
 
-  color: #71495b;
+  color: #4b0a70;
   font-weight: 700;
   font-style: normal;
   font-family: "Circular 7r", "Circular A", "Circular B",Circular Pro,Helvetica,Arial,sans-serif;
@@ -540,20 +540,20 @@ OLD: #30094a
 }
 
 .home__cta:hover {
-  background-color: #71495b;
+  background-color: #4b0a70;
   color: black;
 }
 
 .btn-video {
   padding: 0 55px;
   border-radius: 60px;
-  border: 3px solid #71495b;
+  border: 3px solid #4b0a70;
   font: 500 27px/72px "Roboto";
   margin-bottom: 77px;
   height: 75px;
   line-height: 75px;
   display: inline-block;
-  color: #71495b;
+  color: #4b0a70;
 }
 
 .btn-video i {
@@ -617,13 +617,13 @@ h1.title {
 .feature-icon {
   height: 100px;
   width: 100px;
-  border: 3px solid #71495b;
+  border: 3px solid #4b0a70;
   border-radius: 1000px;
   text-align: center;
   margin: 70px auto 0;
 }
 .feature-icon i {
-  color: #71495b;
+  color: #4b0a70;
   font-size: 50px;
   line-height: 96px;
 }
@@ -690,7 +690,7 @@ h1.title {
 
 #brag {
   padding: 116px 0;
-  background-color: #71495b;
+  background-color: #4b0a70;
   color: #fff;
 }
 
@@ -783,22 +783,22 @@ footer .brand-logo img {
 }
 /* label focus color */
 .input-field input[type=email]:focus + label {
-  color: #71495b;
+  color: #4b0a70;
 }
 /* label underline focus color */
 .input-field input[type=email]:focus {
- border-bottom: 1px solid #71495b;
+ border-bottom: 1px solid #4b0a70;
  box-shadow: 0 1px 0 0 #000;
 }
 /* valid color */
 .input-field input[type=email].valid {
- border-bottom: 1px solid #71495b;
+ border-bottom: 1px solid #4b0a70;
  box-shadow: 0 1px 0 0 #000;
 }
 
 /* icon prefix focus color */
 .input-field .prefix.active {
- color: #71495b;
+ color: #4b0a70;
 }
 
 /* -------------------------------- 
@@ -1084,7 +1084,7 @@ Main Components
   }
   .main-nav li ul {
     height: 80px;
-    background-color: #71495b;
+    background-color: #4b0a70;
     /* padding left = logo size + logo left position*/
     /*padding: 0 5% 0 calc(5% + 124px);*/
     -webkit-transform: translateY(-80px);
