@@ -31,15 +31,15 @@ Modal window
 .cd-modal h1 {
   text-align: center;
 }
-.cd-modal h1::after {
-  /* ink/brush separation */
+/*.cd-modal h1::after {
   content: '';
   display: block;
   width: 130px;
   height: 18px;
   background: url(../img/ink-separation.svg) no-repeat center center;
   margin: .2em auto 0;
-}
+}*/
+
 .cd-modal p {
   line-height: 1.6;
   margin: 2em auto;

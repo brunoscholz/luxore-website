@@ -615,22 +615,41 @@ h1.title {
   letter-spacing: 1px;
 }
 .feature-icon {
-  height: 100px;
-  width: 100px;
-  border: 3px solid #4b0a70;
-  border-radius: 1000px;
+  height: 300px;
+  width: 300px;
   text-align: center;
   margin: 70px auto 0;
+  background-size: 100%;
+  filter: gray;
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  filter: grayscale(100%);
+  -webkit-transition: all .5s ease-in-out;
+  -moz-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
 }
+
+.feature:hover .feature-icon {
+  filter: none;
+  -webkit-filter: grayscale(0);
+  -webkit-transform: scale(1.1);
+}
+
+.feature {
+  cursor: pointer;
+}
+
 .feature-icon i {
   color: #4b0a70;
   font-size: 50px;
   line-height: 96px;
 }
+
 .feature-title {
   padding-top: 20px;
   text-align: center;
-  font-weight: 500;
+  font-weight: 700;
+  font-size: 1.5rem;
   text-transform: uppercase;
 }
 .feature-description {
@@ -895,7 +914,7 @@ Main Components
   right: 0;
   width: 260px;
   height: 100vh;
-  overflow: auto;
+  overflow: hidden;
   -webkit-overflow-scrolling: touch;
   visibility: hidden;
   background: #ddd;
@@ -1018,6 +1037,7 @@ Main Components
     padding: 0 5% 0 calc(5% + 124px);
     background: transparent;
     text-align: right;
+    overflow: hidden;
   }
   .main-nav li {
     display: inline-block;
