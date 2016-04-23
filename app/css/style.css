@@ -82,125 +82,6 @@ body::after {
   background-color: #171c80;
 }*/
 
-@media screen and (min-width: 40.5em) {
-  
-}
-
-@media (max-width: 512px)  and (min-resolution: 1.5dppx),
-       (max-width: 1024px) and (max-resolution: 1.5dppx) {
-
-}
-@media (min-width: 513px)  and (max-width: 1024px) and (min-resolution: 1.5dppx),
-       (min-width: 1025px) and (max-width: 2048px) and (max-resolution: 1.5dppx)  {
-
-}
-@media (min-width: 1025px) and (min-resolution: 1.5dppx),
-       (min-width: 2049px) and (max-resolution: 1.5dppx) {
-
-}
-
-/* Mobile first queries */
-
-/* Larger than mobile */
-@media (min-width: 400px) {}
-
-/* Larger than phablet */
-@media (min-width: 550px) {}
-
-/* Larger than tablet */
-@media (min-width: 750px) {}
-
-/* Larger than desktop */
-@media (min-width: 1000px) {}
-
-/* Larger than Desktop HD */
-@media (min-width: 1200px) {}
-
-/*********************
-  Media Query Classes
-**********************/
-@media only screen and (max-width: 600px) {
-  .hide-on-small-only, .hide-on-small-and-down {
-    display: none !important;
-  }
-}
-
-@media only screen and (max-width: 992px) {
-  .hide-on-med-and-down {
-    display: none !important;
-  }
-}
-
-@media only screen and (min-width: 601px) {
-  .hide-on-med-and-up {
-    display: none !important;
-  }
-}
-
-@media only screen and (min-width: 600px) and (max-width: 992px) {
-  .hide-on-med-only {
-    display: none !important;
-  }
-}
-
-@media only screen and (min-width: 993px) {
-  .hide-on-large-only {
-    display: none !important;
-  }
-}
-
-@media only screen and (min-width: 993px) {
-  .show-on-large {
-    display: block !important;
-  }
-}
-
-@media only screen and (min-width: 600px) and (max-width: 992px) {
-  .show-on-medium {
-    display: block !important;
-  }
-}
-
-@media only screen and (max-width: 600px) {
-  .show-on-small {
-    display: block !important;
-  }
-}
-
-@media only screen and (min-width: 601px) {
-  .show-on-medium-and-up {
-    display: block !important;
-  }
-}
-
-@media only screen and (max-width: 992px) {
-  .show-on-medium-and-down {
-    display: block !important;
-  }
-}
-
-@media only screen and (max-width: 600px) {
-  .center-on-small-only {
-    text-align: center;
-  }
-}
-
-@media (min-height: 28.875em) {
-  
-}
-
-@media (min-height: 35.875em) {
-  
-}
-
-@media (min-height: 40.125em) {
-  
-}
-
-@media (min-height: 46.75em) {
-  
-}
-
 /* ++ Angular Hero Animations ++ */
 .hero-transition.hero-leave {
     visibility: hidden;
@@ -243,9 +124,8 @@ nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
 }*/
 
 #mainHeader nav {
-  z-index: 3;
-  padding-top: 10px;
   box-shadow: none;
+  line-height: 80px;
   height: 80px;
   background-color: #fff;
   -webkit-font-smoothing: antialiased;
@@ -269,27 +149,6 @@ nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
   -o-transform: translateX(-260px);
   transform: translateX(-260px);
 }
-#mainHeader nav::before {
-  /* never visible - this is used in jQuery to check the current MQ */
-  display: none;
-  content: 'mobile';
-}
-
-@media only screen and (min-width: 1024px) {
-  #mainHeader nav {
-    height: 80px;
-  }
-  #mainHeader nav.nav-is-visible {
-    -webkit-transform: translateX(0);
-    -moz-transform: translateX(0);
-    -ms-transform: translateX(0);
-    -o-transform: translateX(0);
-    transform: translateX(0);
-  }
-  #mainHeader nav::before {
-    content: 'desktop';
-  }
-}
 
 .hero-landing, .features {
   background-color: white;
@@ -311,8 +170,12 @@ nav .brand-logo {
 
 nav .brand-logo img {
   width: 50px;
-  margin: 7px 15px 0 30px;
+  margin: 15px 15px 0 30px;
   float: left;
+}
+
+nav .button-collapse i {
+  line-height: 80px;
 }
 
 /* angled box styles */
@@ -620,19 +483,23 @@ h1.title {
   text-align: center;
   margin: 70px auto 0;
   background-size: 100%;
-  filter: gray;
-  -webkit-filter: grayscale(100%);
-  -moz-filter: grayscale(100%);
-  filter: grayscale(100%);
+
+  filter: none;
+  -webkit-filter: grayscale(0);
+  -moz-filter: grayscale(0);
+  filter: grayscale(0);
+
   -webkit-transition: all .5s ease-in-out;
   -moz-transition: all .5s ease-in-out;
   transition: all .5s ease-in-out;
 }
 
 .feature:hover .feature-icon {
-  filter: none;
-  -webkit-filter: grayscale(0);
-  -webkit-transform: scale(1.1);
+  filter: gray;
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  filter: grayscale(100%);
+  /*-webkit-transform: scale(1.1);*/
 }
 
 .feature {
@@ -908,16 +775,8 @@ Main Components
 }
 
 .main-nav {
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  right: 0;
-  width: 260px;
-  height: 100vh;
   overflow: hidden;
   -webkit-overflow-scrolling: touch;
-  visibility: hidden;
-  background: #ddd;
   -webkit-transition: visibility 0s 0.3s;
   -moz-transition: visibility 0s 0.3s;
   transition: visibility 0s 0.3s;
@@ -1027,207 +886,162 @@ Main Components
   display: none;
 }
 
-@media only screen and (min-width: 1024px) {
-  .main-nav {
-    position: static;
-    visibility: visible;
-    width: 100%;
-    height: 80px;
-    /* padding left = logo size + logo left position*/
-    padding: 0 5% 0 calc(5% + 124px);
-    background: transparent;
-    text-align: right;
-    overflow: hidden;
-  }
-  .main-nav li {
-    display: inline-block;
-    height: 100%;
-    padding: 0 .4em;
-  }
-  .main-nav li a {
-    display: inline-block;
-    padding: .8em;
-    line-height: 1;
-    font-size: 1.3rem;
-    border-bottom: none;
-    /* Prevent .subnav-trigger flicker is Safari */
-    -webkit-transform: translateZ(0);
-    -moz-transform: translateZ(0);
-    -ms-transform: translateZ(0);
-    -o-transform: translateZ(0);
-    transform: translateZ(0);
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-    -webkit-transition: opacity 0.2s;
-    -moz-transition: opacity 0.2s;
-    transition: opacity 0.2s;
-  }
-  .main-nav li a::hover {
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-    opacity: .6;
-  }
-  .main-nav .go-back {
-    display: none;
-  }
-  .main-nav .subnav-trigger {
-    z-index: 1;
-    /*border: 1px solid rgba(255, 255, 255, 0.2);
-    border-radius: 5em;*/
-    -webkit-transition: border 0.3s;
-    -moz-transition: border 0.3s;
-    transition: border 0.3s;
-  }
-  .main-nav .subnav-trigger:hover {
-    /*border-color: rgba(255, 255, 255, 0.4);*/
-  }
-  .main-nav .subnav-trigger::before, .main-nav .subnav-trigger::after {
-    top: 25px;
-    right: 17px;
-    background-color: #000;
-    /* change transform-origin to rotate the arrow */
-    -webkit-transform-origin: 50% 50%;
-    -moz-transform-origin: 50% 50%;
-    -ms-transform-origin: 50% 50%;
-    -o-transform-origin: 50% 50%;
-    transform-origin: 50% 50%;
-    -webkit-transition: -webkit-transform 0.3s, width 0.3s, right 0.3s;
-    -moz-transition: -moz-transform 0.3s, width 0.3s, right 0.3s;
-    transition: transform 0.3s, width 0.3s, right 0.3s;
-  }
-  .main-nav .subnav-trigger::before {
-    right: 23px;
-  }
-  .main-nav .subnav-trigger, .main-nav .placeholder {
-    padding-right: 2.4em;
-    padding-left: 1.1em;
-  }
-  .main-nav li ul {
-    height: 80px;
-    background-color: #4b0a70;
-    /* padding left = logo size + logo left position*/
-    /*padding: 0 5% 0 calc(5% + 124px);*/
-    -webkit-transform: translateY(-80px);
-    -moz-transform: translateY(-80px);
-    -ms-transform: translateY(-80px);
-    -o-transform: translateY(-80px);
-    transform: translateY(-80px);
-    -webkit-transition: -webkit-transform 0.3s 0.2s;
-    -moz-transition: -moz-transform 0.3s 0.2s;
-    transition: transform 0.3s 0.2s;
-  }
-  .main-nav li ul li {
-    float: right;
-    opacity: 0;
-    -webkit-transform: translateY(-20px);
-    -moz-transform: translateY(-20px);
-    -ms-transform: translateY(-20px);
-    -o-transform: translateY(-20px);
-    transform: translateY(-20px);
-    -webkit-transition: -webkit-transform 0.3s 0s, opacity 0.3s 0s;
-    -moz-transition: -moz-transform 0.3s 0s, opacity 0.3s 0s;
-    transition: transform 0.3s 0s, opacity 0.3s 0s;
-  }
-
-  .main-nav li ul li a {
-    margin-top: 15px;
-  }
-
-  .main-nav .placeholder {
-    /* never visible or clickable- it is used to take up the same space as the .subnav-trigger */
-    display: block;
-    visibility: hidden;
-    opacity: 0;
-    pointer-event: none;
-  }
-  .main-nav.moves-out > li > a {
-    -webkit-transform: translateX(0);
-    -moz-transform: translateX(0);
-    -ms-transform: translateX(0);
-    -o-transform: translateX(0);
-    transform: translateX(0);
-    opacity: 1;
-  }
-  .main-nav.moves-out > li > ul {
-    -webkit-transition: -webkit-transform 0.3s;
-    -moz-transition: -moz-transform 0.3s;
-    transition: transform 0.3s;
-    -webkit-transform: translateY(0);
-    -moz-transform: translateY(0);
-    -ms-transform: translateY(0);
-    -o-transform: translateY(0);
-    transform: translateY(0);
-  }
-  .main-nav.moves-out > li ul li {
-    opacity: 1;
-    -webkit-transform: translateY(0);
-    -moz-transform: translateY(0);
-    -ms-transform: translateY(0);
-    -o-transform: translateY(0);
-    transform: translateY(0);
-    -webkit-transition: -webkit-transform 0.3s 0.2s, opacity 0.3s 0.2s;
-    -moz-transition: -moz-transform 0.3s 0.2s, opacity 0.3s 0.2s;
-    transition: transform 0.3s 0.2s, opacity 0.3s 0.2s;
-  }
-  .main-nav.moves-out .subnav-trigger::before, .main-nav.moves-out .subnav-trigger::after {
-    width: 14px;
-    right: 17px;
-  }
-  .main-nav.moves-out .subnav-trigger::before {
-    -webkit-transform: rotate(225deg);
-    -moz-transform: rotate(225deg);
-    -ms-transform: rotate(225deg);
-    -o-transform: rotate(225deg);
-    transform: rotate(225deg);
-  }
-  .main-nav.moves-out .subnav-trigger::after {
-    -webkit-transform: rotate(135deg);
-    -moz-transform: rotate(135deg);
-    -ms-transform: rotate(135deg);
-    -o-transform: rotate(135deg);
-    transform: rotate(135deg);
-  }
+.main-nav {
+  visibility: visible;
+  height: 80px;
+  /* padding left = logo size + logo left position*/
+  padding: 0 5% 0 calc(5% + 124px);
+  background: transparent;
+  text-align: right;
+  overflow: hidden;
 }
-
-.main-content::before {
-  /* never visible - this is used in jQuery to check the current MQ */
+.main-nav li {
+  display: inline-block;
+  height: 100%;
+  padding: 0 .4em;
+}
+.main-nav li a {
+  display: inline-block;
+  padding: .8em;
+  line-height: 1;
+  font-size: 1.3rem;
+  border-bottom: none;
+  /* Prevent .subnav-trigger flicker is Safari */
+  -webkit-transform: translateZ(0);
+  -moz-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  -o-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-transition: opacity 0.2s;
+  -moz-transition: opacity 0.2s;
+  transition: opacity 0.2s;
+}
+.main-nav li a::hover {
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  opacity: .6;
+}
+.main-nav .go-back {
   display: none;
-  content: 'mobile';
 }
-@media only screen and (min-width: 1024px) {
-  .main-content::before {
-    content: 'desktop';
-  }
+.main-nav .subnav-trigger {
+  z-index: 1;
+  /*border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 5em;*/
+  -webkit-transition: border 0.3s;
+  -moz-transition: border 0.3s;
+  transition: border 0.3s;
+}
+.main-nav .subnav-trigger:hover {
+  /*border-color: rgba(255, 255, 255, 0.4);*/
+}
+.main-nav .subnav-trigger::before, .main-nav .subnav-trigger::after {
+  top: 25px;
+  right: 17px;
+  background-color: #000;
+  /* change transform-origin to rotate the arrow */
+  -webkit-transform-origin: 50% 50%;
+  -moz-transform-origin: 50% 50%;
+  -ms-transform-origin: 50% 50%;
+  -o-transform-origin: 50% 50%;
+  transform-origin: 50% 50%;
+  -webkit-transition: -webkit-transform 0.3s, width 0.3s, right 0.3s;
+  -moz-transition: -moz-transform 0.3s, width 0.3s, right 0.3s;
+  transition: transform 0.3s, width 0.3s, right 0.3s;
+}
+.main-nav .subnav-trigger::before {
+  right: 23px;
+}
+.main-nav .subnav-trigger, .main-nav .placeholder {
+  padding-right: 2.4em;
+  padding-left: 1.1em;
+}
+.main-nav li ul {
+  height: 80px;
+  background-color: #4b0a70;
+  /* padding left = logo size + logo left position*/
+  /*padding: 0 5% 0 calc(5% + 124px);*/
+  -webkit-transform: translateY(-80px);
+  -moz-transform: translateY(-80px);
+  -ms-transform: translateY(-80px);
+  -o-transform: translateY(-80px);
+  transform: translateY(-80px);
+  -webkit-transition: -webkit-transform 0.3s 0.2s;
+  -moz-transition: -moz-transform 0.3s 0.2s;
+  transition: transform 0.3s 0.2s;
+}
+.main-nav li ul li {
+  float: right;
+  opacity: 0;
+  -webkit-transform: translateY(-20px);
+  -moz-transform: translateY(-20px);
+  -ms-transform: translateY(-20px);
+  -o-transform: translateY(-20px);
+  transform: translateY(-20px);
+  -webkit-transition: -webkit-transform 0.3s 0s, opacity 0.3s 0s;
+  -moz-transition: -moz-transform 0.3s 0s, opacity 0.3s 0s;
+  transition: transform 0.3s 0s, opacity 0.3s 0s;
 }
 
-.main-content {
-  position: relative;
-  z-index: 2;
-  min-height: 100vh;
-  padding-top: 50px;
-  background-color: #f2f2f2;
+.main-nav li ul li a {
+  margin-top: 15px;
+}
+
+.main-nav .placeholder {
+  /* never visible or clickable- it is used to take up the same space as the .subnav-trigger */
+  display: block;
+  visibility: hidden;
+  opacity: 0;
+  pointer-event: none;
+}
+.main-nav.moves-out > li > a {
+  -webkit-transform: translateX(0);
+  -moz-transform: translateX(0);
+  -ms-transform: translateX(0);
+  -o-transform: translateX(0);
+  transform: translateX(0);
+  opacity: 1;
+}
+.main-nav.moves-out > li > ul {
   -webkit-transition: -webkit-transform 0.3s;
   -moz-transition: -moz-transform 0.3s;
   transition: transform 0.3s;
+  -webkit-transform: translateY(0);
+  -moz-transform: translateY(0);
+  -ms-transform: translateY(0);
+  -o-transform: translateY(0);
+  transform: translateY(0);
 }
-.main-content.nav-is-visible {
-  -webkit-transform: translateX(-260px);
-  -moz-transform: translateX(-260px);
-  -ms-transform: translateX(-260px);
-  -o-transform: translateX(-260px);
-  transform: translateX(-260px);
+.main-nav.moves-out > li ul li {
+  opacity: 1;
+  -webkit-transform: translateY(0);
+  -moz-transform: translateY(0);
+  -ms-transform: translateY(0);
+  -o-transform: translateY(0);
+  transform: translateY(0);
+  -webkit-transition: -webkit-transform 0.3s 0.2s, opacity 0.3s 0.2s;
+  -moz-transition: -moz-transform 0.3s 0.2s, opacity 0.3s 0.2s;
+  transition: transform 0.3s 0.2s, opacity 0.3s 0.2s;
 }
-@media only screen and (min-width: 1024px) {
-  .main-content {
-    padding-top: 80px;
-  }
-  .main-content.nav-is-visible {
-    -webkit-transform: translateX(0);
-    -moz-transform: translateX(0);
-    -ms-transform: translateX(0);
-    -o-transform: translateX(0);
-    transform: translateX(0);
-  }
+.main-nav.moves-out .subnav-trigger::before, .main-nav.moves-out .subnav-trigger::after {
+  width: 14px;
+  right: 17px;
+}
+.main-nav.moves-out .subnav-trigger::before {
+  -webkit-transform: rotate(225deg);
+  -moz-transform: rotate(225deg);
+  -ms-transform: rotate(225deg);
+  -o-transform: rotate(225deg);
+  transform: rotate(225deg);
+}
+.main-nav.moves-out .subnav-trigger::after {
+  -webkit-transform: rotate(135deg);
+  -moz-transform: rotate(135deg);
+  -ms-transform: rotate(135deg);
+  -o-transform: rotate(135deg);
+  transform: rotate(135deg);
 }
 
 .no-js .nav-trigger, .no-js .subnav-trigger {
@@ -1296,4 +1110,129 @@ Main Components
   .no-js .main-content {
     padding-top: 80px;
   }
+}
+
+@media screen and (min-width: 40.5em) {
+  
+}
+
+@media (max-width: 512px)  and (min-resolution: 1.5dppx),
+       (max-width: 1024px) and (max-resolution: 1.5dppx) {
+
+}
+@media (min-width: 513px)  and (max-width: 1024px) and (min-resolution: 1.5dppx),
+       (min-width: 1025px) and (max-width: 2048px) and (max-resolution: 1.5dppx)  {
+
+}
+@media (min-width: 1025px) and (min-resolution: 1.5dppx),
+       (min-width: 2049px) and (max-resolution: 1.5dppx) {
+
+}
+
+/* Mobile first queries */
+
+/* Larger than mobile */
+@media (min-width: 400px) {}
+
+/* Larger than phablet */
+@media (min-width: 550px) {}
+
+/* Larger than tablet */
+@media (min-width: 750px) {}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {}
+
+/*********************
+  Media Query Classes
+**********************/
+@media only screen and (max-width: 600px) {
+  .hide-on-small-only, .hide-on-small-and-down {
+    display: none !important;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .hide-on-med-and-down {
+    display: none !important;
+  }
+}
+
+@media only screen and (min-width: 601px) {
+  .hide-on-med-and-up {
+    display: none !important;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 992px) {
+  .hide-on-med-only {
+    display: none !important;
+  }
+}
+
+@media only screen and (min-width: 993px) {
+  .hide-on-large-only {
+    display: none !important;
+  }
+}
+
+@media only screen and (min-width: 993px) {
+  .show-on-large {
+    display: block !important;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 992px) {
+  .show-on-medium {
+    display: block !important;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .show-on-small {
+    display: block !important;
+  }
+}
+
+@media only screen and (min-width: 601px) {
+  .show-on-medium-and-up {
+    display: block !important;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .show-on-medium-and-down {
+    display: block !important;
+  }
+
+  .feature-icon {
+    filter: none;
+    -webkit-filter: grayscale(0);
+    -webkit-transform: scale(1.1);
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .center-on-small-only {
+    text-align: center;
+  }
+}
+
+@media (min-height: 28.875em) {
+  
+}
+
+@media (min-height: 35.875em) {
+  
+}
+
+@media (min-height: 40.125em) {
+  
+}
+
+@media (min-height: 46.75em) {
+  
 }

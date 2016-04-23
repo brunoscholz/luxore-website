@@ -1,43 +1,41 @@
-<div id="mainHeader" class="scrollspy">
-  <nav class="main-nav-wrapper" ng-controller="HeaderController">
-    <div class="row">
-      <div class="col s12 m3 relative">
-        <a class="brand-logo" ng-click="home()">
-          <img class="img-responsive center" src="img/ico-72.png" alt="Luxore">Luxore
-        </a>
-        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-      </div>
+<div id="mainHeader" class="scrollspy" ng-controller="HeaderController">
+  <nav>
+    <div class="nav-wrapper">
+      <a class="brand-logo" ng-click="home()">
+        <img class="img-responsive center" src="img/ico-72.png" alt="Luxore">Luxore
+      </a>
+      <a href="#" data-activates="slide-out" class="button-collapse" style="color: black;">
+        <i class="material-icons">menu</i>
+      </a>
 
-      <div class="col s12 m12 hide-on-small-and-down">
-        <div class="right">
-          <ul class="main-nav">
-            <li><a href="#features">{{'What is it?'|translate}}</a></li>
-            <li><a href="#why">{{'Why?'|translate}}</a></li>
-            <li><a target="blank" href="https://www.kickstarter.com/">Kickstarter</a></li>
-            <li>
-              <a href="#0" class="subnav-trigger"><span>Docs</span></a>
-              <ul class="right">
-                <li><a href="#0" class="placeholder">Placeholder</a></li>
-                <li class="go-back"><a href="#0">Menu</a></li>
-                <li style="margin-right: -40px;"><a target="blank" href="https://drive.google.com/open?id=1Ia0-WW6fKUbWMCKISSn7WOKPxL3ggD9Um0YqIBGVTLc">Whitepaper</a></li>
-                <li><a href="#0">Coin</a></li>
-                <li><a href="#0">Disbursement</a></li>
-              </ul>
-            </li>
+      <ul class="right main-nav hide-on-med-and-down">
+        <li><a href="#features">{{'What is it?'|translate}}</a></li>
+        <li><a href="#why">{{'Why?'|translate}}</a></li>
+        <li><a target="blank" href="https://www.kickstarter.com/">Kickstarter</a></li>
+        <li>
+          <a href="#0" class="subnav-trigger"><span>Docs</span></a>
+          <ul class="right">
+            <li style="padding-right: 4.2rem;"><a href="#0" class="placeholder">Placeholder</a></li>
+            <li class="go-back"><a href="#0">Menu</a></li>
+            <li style="margin-right: -40px;"><a target="blank" href="https://drive.google.com/open?id=1Ia0-WW6fKUbWMCKISSn7WOKPxL3ggD9Um0YqIBGVTLc">Whitepaper</a></li>
+            <li><a href="#0">Coin</a></li>
+            <li><a href="#0">Disbursement</a></li>
           </ul>
+        </li>
+      </ul>
 
-          <ul class="side-nav" id="mobile-demo">
-            <li><a class="" href="#features">{{'What is it?'|translate}}</a></li>
-            <li><a class="" href="#why">{{'Why?'|translate}}</a></li>
-            <li><a class="" target="blank" href="https://www.kickstarter.com/">Kickstarter</a></li>
-            <li><a class="" target="blank" href="https://drive.google.com/open?id=1Ia0-WW6fKUbWMCKISSn7WOKPxL3ggD9Um0YqIBGVTLc">Whitepaper</a></li>
-          </ul>
-        </div>
-      </div>
+
     </div>
   </nav>
-  <a href="#0" class="nav-trigger">Menu<span></span></a>
 </div>
+<ul id="slide-out" class="side-nav">
+  <li><a class="" href="#features">{{'What is it?'|translate}}</a></li>
+  <li><a class="" href="#why">{{'Why?'|translate}}</a></li>
+  <li><a class="" target="blank" href="https://www.kickstarter.com/">Kickstarter</a></li>
+  <li style="margin-right: -40px;"><a target="blank" href="https://drive.google.com/open?id=1Ia0-WW6fKUbWMCKISSn7WOKPxL3ggD9Um0YqIBGVTLc">Whitepaper</a></li>
+  <li><a href="#0">Coin</a></li>
+  <li><a href="#0">Disbursement</a></li>
+</ul>
 
 <div class="signup-modal modal">
   <div class="signup-modal-content modal-content"></div>
