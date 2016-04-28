@@ -7,9 +7,10 @@
 
     <title>Luxore - {{'Discover your power'|translate}}</title>
 
-    <meta name="keywords"       content="Oction, action, option, games, education, animation, art, learning, fun, training, knowledge, interactive, history, story, technology, virtual, interativo, conhecimento, treinamento, jogos, educação, aprendizado, diversão, play, animação, arte, diversão, história, estória, tecnologia, serious games, empresa, parceiros, cotas, octionist, octioner, crowdfunding, patrono, financiamento, patreon" />
-    <meta name="description"    content="Oction - Interactive Virtual Learning. Play the Knowledge" />
+    <meta name="keywords"       content="luxore,luxor,looks,visual,moda,art,learning,fun,interactive,technology,virtual,diversão,arte,tecnologia,crowdfunding,financiamento,fashion,design,social,network," />
+    <meta name="description"    content="Luxore - Fashion Social Network" />
     <meta name="author"         content="Bruno Ribeiro Scholz" />
+    <meta name="author"         content="Cristiano Silva" />
 
     <!-- Favicons -->
     <link rel="shortcut icon" href="img/ico-16.ico">
@@ -39,47 +40,55 @@
       }
     </style>
   </head>
-  <body ng-cloak ng-controller="AppController">
-
-    <div ng-include="'header.html'"></div>
-
-    <div ng-view class="page-transition hero-transition">
-      Error loading AngularJS view..
+  <body ng-controller="AppController">
+    <div id="loader-wrapper">
+        <div id="loader"></div>        
+        <div class="loader-section section-left"></div>
+        <div class="loader-section section-right"></div>
     </div>
-    <div ng-include="'footer.html'"></div>
 
-    <div class="cd-modal">
-      <div class="modal-content">
-        <h1 class="home__title">a new kind of social network</h1>
-        <div class="row">
-          <div class="col s12 m4 l2">
-            <p>&nbsp;</p>
-          </div>
-          <div class="col s12 m4 l8">
-            <div class="video-container z-depth-5">
-              <iframe id="inst-video" width="600" height="340" src="//www.youtube.com/embed/JGCsyshUU-A?rel=0" frameborder="0" allowfullscreen></iframe>
+    <div ng-cloak> <!-- Cloak start -->
+      <div ng-include="'header.html'"></div>
+
+      <div ng-view class="page-transition hero-transition">
+        Error loading AngularJS view..
+      </div>
+      <div ng-include="'footer.html'"></div>
+
+      <div class="cd-modal">
+        <div class="modal-content">
+          <h1 class="home__title">a new kind of social network</h1>
+          <div class="row">
+            <div class="col s12 m4 l2">
+              <p>&nbsp;</p>
             </div>
+            <div class="col s12 m4 l8">
+              <div class="video-container z-depth-5">
+                <iframe id="inst-video" width="600" height="340" src="//www.youtube.com/embed/JGCsyshUU-A?rel=0" frameborder="0" allowfullscreen></iframe>
+              </div>
+            </div>
+            <div class="col s12 m4 l2"></div>
           </div>
-          <div class="col s12 m4 l2"></div>
-        </div>
-      </div> <!-- .modal-content -->
+        </div> <!-- .modal-content -->
 
-      <a class="btn-floating btn-large waves-effect waves-light modal-close">
-        <i class="material-icons">close</i>
-      </a>
-    </div> <!-- .cd-modal -->
-     
-    <div class="cd-transition-layer"> 
-      <div class="bg-layer"></div>
-    </div> <!-- .cd-transition-layer -->
+        <a class="btn-floating btn-large waves-effect waves-light modal-close">
+          <i class="material-icons">close</i>
+        </a>
+      </div> <!-- .cd-modal -->
+       
+      <div class="cd-transition-layer"> 
+        <div class="bg-layer"></div>
+      </div> <!-- .cd-transition-layer -->
 
-    <!-- ScrollUp button start -->
-    <div class="scrollup" style="position:fixed; bottom: 50px; right: 19px;">
-      <a class="btn-floating btn-large waves-effect waves-light purple-luxore z-depth-3" href="#mainHeader">
-        <i class="large material-icons" style="font-size: 2.6rem;">expand_less</i>
-      </a>
-    </div>
-    <!-- ScrollUp button end -->
+      <!-- ScrollUp button start -->
+      <div id="scrollup" class="scrollup" style="position:fixed; bottom: 50px; right: 19px;">
+        <a class="btn-floating btn-large waves-effect waves-light purple-luxore z-depth-3" href="#mainHeader">
+          <i class="large material-icons" style="font-size: 2.6rem;">expand_less</i>
+        </a>
+      </div>
+      <!-- ScrollUp button end -->
+
+    </div> <!-- Cloak end -->
 
     <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <!-- Compiled and minified JavaScript -->

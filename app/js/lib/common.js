@@ -1,7 +1,11 @@
 (function($){
 	$(function(){
 
-		$('.button-collapse').sideNav();
+		$('.button-collapse').sideNav({
+      menuWidth: 400,
+      closeOnClick: true
+    });
+
 		$('input, textarea').characterCounter();
         //('.tooltipped').tooltip({delay: 50, position: 'bottom'});
 
@@ -11,7 +15,7 @@
 
     $('.slider > slides').on('click', function(){
         //var activeSlide = $('.active');
-    console.log("teste ");
+      console.log("teste ");
     }).click();
 
     $('.dropdown-button').dropdown({
@@ -29,20 +33,6 @@
 
     $(document).ready(function() {
       $('select').material_select();
-    });
-
-    $(document).ready(function(){
-      $('ul.tabs').tabs();
-    });
-
-    $(document).ready(function(){
-      $('.parallax').parallax();
-    });
-
-    $(document).ready(function(){
-      $('.collapsible').collapsible({
-        accordion : false // A setting that changes the collapsible behavior to expandable instead of the default accordion style
-      });
     });
 
     $(document).ready(function(){
@@ -81,9 +71,9 @@
 	}); // end of document ready
 })(jQuery); // end of jQuery name space
 
-function changeNavColor() {
-  $("#transparent-navbar").addClass('affix');
+/*function changeNavColor() {
+  $("#scrollup").show();
 }
 
 var options = [{ selector:"#transparent-navbar", offset: 500, callback: "changeNavColor()"}];
-Materialize.scrollFire(options);
+Materialize.scrollFire(options);*/

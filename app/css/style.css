@@ -6,8 +6,11 @@
  */
 
 @font-face {
-font-family: Tulip;
-src: url("../Tulip.otf") format("opentype");
+  font-family: "Poiret One";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Poiret One"), local("PoiretOne-Regular"), url("https://fonts.gstatic.com/s/poiretone/v4/HrI4ZJpJ3Fh0wa5ofYMK8fk_vArhqVIZ0nv9q090hN8.woff2") format("woff2");
+  unicode-range: U+0-FF, U+131, U+152-153, U+2C6, U+2DA, U+2DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
 }
 
 .icon-block {
@@ -35,6 +38,130 @@ body {
   overflow-x: hidden;
 }
 
+#loader-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1000;
+}
+
+.loaded #loader-wrapper {
+  visibility: hidden;
+  -webkit-transform: translateY(-100%);
+  -ms-transform: translateY(-100%);
+  transform: translateY(-100%);
+  -webkit-transition: all 0.3s 1s ease-out;
+  transition: all 0.3s 1s ease-out;
+}
+
+#loader {
+  display: block;
+  position: relative;
+  left: 50%;
+  top: 50%;
+  width: 150px;
+  height: 150px;
+  margin: -75px 0 0 -75px;
+  border-radius: 50%;
+  border: 3px solid transparent;
+  border-top-color: #3498db;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+  z-index: 1001;
+}
+
+.loaded #loader {
+  opacity: 0;
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+
+#loader::before {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  right: 5px;
+  bottom: 5px;
+  border-radius: 50%;
+  border: 3px solid transparent;
+  border-top-color: #e74c3c;
+  -webkit-animation: spin 3s linear infinite;
+  animation: spin 3s linear infinite;
+}
+
+#loader::after {
+  content: "";
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  right: 15px;
+  bottom: 15px;
+  border-radius: 50%;
+  border: 3px solid transparent;
+  border-top-color: #f9c922;
+  -webkit-animation: spin 1.5s linear infinite;
+  animation: spin 1.5s linear infinite;
+}
+
+.loaded #loader-wrapper .loader-section.section-left {
+    -webkit-transform: translateX(-100%);
+    -ms-transform: translateX(-100%);
+    transform: translateX(-100%);
+    -webkit-transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+#loader-wrapper .loader-section.section-left {
+    left: 0;
+}
+#loader-wrapper .loader-section {
+    position: fixed;
+    top: 0;
+    width: 51%;
+    height: 100%;
+    background: #eceff1;
+    z-index: 1000;
+    -webkit-transform: translateX(0);
+    -ms-transform: translateX(0);
+    transform: translateX(0);
+}
+
+.loaded #loader-wrapper .loader-section.section-right {
+    -webkit-transform: translateX(100%);
+    -ms-transform: translateX(100%);
+    transform: translateX(100%);
+    -webkit-transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+#loader-wrapper .loader-section.section-right {
+    right: 0;
+}
+#loader-wrapper .loader-section {
+    position: fixed;
+    top: 0;
+    width: 51%;
+    height: 100%;
+    background: #eceff1;
+    z-index: 1000;
+    -webkit-transform: translateX(0);
+    -ms-transform: translateX(0);
+    transform: translateX(0);
+}
+
+@keyframes spin {
+  0% {
+      -webkit-transform: rotate(0deg);
+      -ms-transform: rotate(0deg);
+      transform: rotate(0deg);
+  }
+  100% {
+      -webkit-transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+      transform: rotate(360deg);
+  }
+}
 /* -------------------------------- 
 
 Main components 
@@ -104,7 +231,7 @@ body::after {
 /* -- Angular Hero Animations -- */
 
 /*nav .brand-logo {
-  font-family: "Tulip";
+  font-family: 'Poiret One', cursive;
   font-size: 2.8rem;
   transform: perspective(1px) scale(2);
   margin-top: 4px;
@@ -164,8 +291,15 @@ nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
 
 nav .brand-logo {
   cursor: pointer;
+  font-family: 'Poiret One', cursive;
   z-index: 100;
-  color: #000;
+  color: rgb(102, 102, 102);
+  text-transform: uppercase;
+  transition: all 0.3s linear;
+}
+
+nav .brand-logo:hover {
+  color: #000000;
 }
 
 nav .brand-logo img {
@@ -233,7 +367,7 @@ video {
 OLD: #30094a
 */
 
-.lux-text { font-family: "Tulip"; }
+.lux-text { font-family: 'Poiret One', cursive; }
 .lux-purple { color: #43285f !important; }
 .lux-purple-bkg { background-color: #43285f !important; }
 .lux-indigo { color: #171c80 !important; }
@@ -256,7 +390,7 @@ OLD: #30094a
 }
 
 .section-header h1 {
-  font-family: "Tulip";
+  font-family: 'Poiret One', cursive;
   color: #ddd;
 }
 
@@ -685,6 +819,105 @@ footer .brand-logo img {
 /* icon prefix focus color */
 .input-field .prefix.active {
  color: #4b0a70;
+}
+
+nav .button-collapse {
+  color: black;
+  margin-left: 15px;
+}
+
+ul.side-nav {
+  top: 80px;
+  overflow: hidden;
+  background-color: #fff;
+  background-image: url("../img/sidenav-bkg.png");
+  background-size: 30% 100%;
+  background-repeat: no-repeat;
+  box-shadow: none;
+}
+
+ul.side-nav li {
+  line-height: 50px;
+  padding: 0;
+}
+
+ul.side-nav li:hover {
+  background-color: transparent;
+}
+
+.side-nav a {
+  color: #888;
+  line-height: 50px;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  transition: all 0.3s linear;
+  vertical-align: middle;
+}
+
+.side-nav a:hover {
+  color: #4b0a70;
+}
+
+.side-nav a i {
+  font-size: 2.4rem;
+  vertical-align: middle;
+}
+
+ul.side-nav li:first-child {
+  /*transform: translate(10rem, 0);*/
+  padding-left: 9rem;
+}
+
+ul.side-nav li:nth-child(2) {
+  padding-left: 7.8rem;
+}
+
+ul.side-nav li:nth-child(3) {
+  padding-left: 7rem;
+}
+
+ul.side-nav li:nth-child(4) {
+  padding-left: 6.2rem;
+}
+
+ul.side-nav li:nth-child(5) {
+  padding-left: 5.5rem;
+}
+
+ul.side-nav li:nth-child(6) {
+  padding-left: 4.8rem;
+}
+
+ul.side-nav li:nth-child(7) {
+  padding-left: 4.2rem;
+}
+
+ul.side-nav li:nth-child(8) {
+  padding-left: 4rem;
+}
+
+ul.side-nav li:nth-child(9) {
+  padding-left: 4rem;
+}
+
+ul.side-nav li:nth-child(10) {
+  padding-left: 4rem;
+}
+
+ul.side-nav li:nth-child(11) {
+  padding-left: 4.5rem;
+}
+ul.side-nav li:nth-child(12) {
+  padding-left: 5rem;
+}
+ul.side-nav li:nth-child(13) {
+  padding-left: 5.5rem;
+}
+ul.side-nav li:nth-child(14) {
+  padding-left: 6rem;
+}
+ul.side-nav li:nth-child(15) {
+  padding-left: 6.5rem;
 }
 
 /* -------------------------------- 

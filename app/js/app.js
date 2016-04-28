@@ -19,6 +19,10 @@ app.run(function ($rootScope, languageService, gettextCatalog) {
 
   languageService();
   gettextCatalog.debug = true;
+  $("body").delay(260).queue(function(next) {
+    $(this).addClass("loaded");
+    next();
+  });
   //gettextCatalog.currentLanguage = 'pt_BR';
 
   /*$rootScope.searchQueryChanged = function(query) {
@@ -38,7 +42,7 @@ app.run(function ($rootScope, languageService, gettextCatalog) {
 app.controller('AppController', function ($scope) {
 
   $scope.$on('$routeChangeError', function(event, current, previous, rejection){
-    console.log('routeChangeError');
+    //console.log('routeChangeError');
   });
 
 });
