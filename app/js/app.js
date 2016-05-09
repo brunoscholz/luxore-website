@@ -2,6 +2,7 @@ var app = angular.module('app', [
   'ngRoute',
   'gettext',
   'faq',
+  'terms'
 ]);
 
 app.config(function ($routeProvider, $locationProvider) {
