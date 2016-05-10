@@ -46,7 +46,7 @@ module.exports = function(lineman) {
     nggettext_extract: {
       pot: {
         files: {
-          'po/template.pot': ['app/templates/*.html']
+          'po/template.pot': ['app/**/*.html']
         }
       },
     },
