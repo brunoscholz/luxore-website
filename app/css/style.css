@@ -267,6 +267,7 @@ nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
   -webkit-transition: -webkit-transform 0.3s;
   -moz-transition: -moz-transform 0.3s;
   transition: transform 0.3s;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
 }
 
 #mainHeader nav.nav-is-visible {
@@ -483,28 +484,24 @@ OLD: #30094a
   display: inline-block;
   margin-right: 30px;
   position: relative;
+  background-color: rgba(255, 255, 255, 0.37);
+  line-height: 50px;
+  padding: 0 10px;
 }
 
 .home__highlights {
-  font-size: 15px;
-  line-height: 19px;
-  font-weight: 400;
-  font-style: normal;
-  font-family: "Circular 4r", "Circular A", "Circular B",Circular Pro,Helvetica,Arial,sans-serif;
-  color: #fff;
-  list-style: none;
-  margin-bottom: 40px;
-  margin-top: 24px;
-  text-align: center;
-  font-size: 15px;
-  line-height: 20px;
+  color: #6d2a87 !important;
+  font-family: "Poiret One", cursive;
+  font-size: 3rem;
   font-weight: 700;
-  font-style: normal;
-  font-family: "Circular 7r", "Circular A", "Circular B",Circular Pro,Helvetica,Arial,sans-serif;
+  font-style: normal;  
   letter-spacing: 1.3px;
+  line-height: 20px;
+  text-align: center;
+  list-style: none;
+  text-transform: uppercase;
   margin-top: 28px;
   margin-bottom: 0;
-  text-transform: uppercase;
 }
 
 .home__cta {
@@ -613,8 +610,8 @@ h1.title {
   letter-spacing: 1px;
 }
 .feature-icon {
-  height: 300px;
-  width: 300px;
+  height: 200px;
+  width: 200px;
   text-align: center;
   margin: 70px auto 0;
   background-size: 100%;
@@ -660,53 +657,93 @@ h1.title {
   color: #6c747f;
 }
 
-#benefits {
-  background-image: url("http://www.amusemagazine.co.uk/wp-content/uploads/2015/09/london-fashion.jpg");
-  background-color: #FFF3EA;
+#the-app {
+  /*background-image: url("http://www.amusemagazine.co.uk/wp-content/uploads/2015/09/london-fashion.jpg");
   background-position: center center;
-  background-size: cover;
-  min-height: 736px;
+  background-size: cover;*/
+  background-color: #e1e1e1;
+  padding-top: 100px;
 }
 
-#benefits .content {
-  padding-left: 18px;
-  padding-right: 18px;
-  box-sizing: border-box;
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
+#the-app .feature {
+  cursor: default;
+  color: #78909c;
 }
 
-#benefits h1 {
-  color: #fff;
-  font-size: 46px;
-  font-weight: 800;
-  font-style: normal;
-  font-family: "Surveyor Text 8r", "Surveyor Text A", "Surveyor Text B",Surveyor Text,Georgia,Baskerville,Times New Roman,Times New Roman,Times,serif;
+#the-app .step_1:before, #the-app .step_2:before, #the-app .step_3:before {
+  -webkit-transition: border-color .3s,bottom .3s;
+  -ms-transition: border-color .3s,bottom .3s;
+  transition: border-color .3s,bottom .3s;
   position: relative;
-  text-align: left;
-  text-transform: lowercase;
+  top: 128px;
+  left: 1%;
+  margin-left: -8px;
+  content: '';
+  border-right: 16px solid transparent;
+  border-bottom: 16px solid transparent;
+  border-left: 16px solid transparent;
+  bottom: 0;
+  border-bottom-color: #844c9a;
 }
 
-#benefits h1::before {
-    left: 0;
-    content: "";
-    display: block;
-    position: absolute;
-    background-color: #fff;
-    bottom: 0;
-    height: 4px;
-    width: 120px;
+#the-app .step_2:before { border-bottom-color: #519bc3; }
+#the-app .step_3:before { border-bottom-color: #51c37f; }
+
+#the-app .app-feature-icon i {
+  font-size: 4rem;
 }
 
-#benefits .description {
-  font-size: 19px;
-  line-height: 24px;
-  font-weight: bold;
-  font-style: normal;
-  font-family: "Circular 4r", "Circular A", "Circular B",Circular Pro,Helvetica,Arial,sans-serif;
-  color: #fff;
-  max-width: 296px;
+#the-app .app-feature-title {
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+#the-app .app-feature-description {
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+#app-mockups {
+
+}
+
+#app-mockups .slides li:first-child {
+  background-color: #844c9a;
+}
+
+#app-mockups .slides li:nth-child(2) {
+  background-color: #519bc3;
+}
+
+#app-mockups .slides li:nth-child(3) {
+  background-color: #51c37f;
+}
+
+/* orange: #f36f57 */
+/* golden: #b79c42 */
+
+#app-mockups .slides p.slide-img {
+  position: absolute;
+  right: 0;
+  top: -30%;
+  width: 550px;
+  height: 600px;
+}
+
+#app-mockups .slides p.slide-img img {
+  background-position: top;
+  border-radius: 3px 0 0;
+  box-shadow: 0 10px 28px rgba(30,30,30,.5);
+}
+
+#app-mockups .caption h3 {
+  color: #000;
+}
+
+
+#app-mockups .caption h3 {
+  
 }
 
 #brag {
@@ -750,14 +787,42 @@ h1.title {
   font-size: 1.6rem;
 }
 
+#social-contacts {
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12) inset;
+  padding-top: 20px;
+}
+
+#social-contacts .social {
+  display: table;
+  margin: 0 auto;
+}
+
+#social-contacts .social ul {
+  margin-right:auto;
+  margin-left:auto;
+  text-align:center;
+}
+
+#social-contacts .social ul li {
+  display: inline;
+}
+
+#social-contacts .social ul li a {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+  text-align: center;
+}
+
 footer {
   font-weight: 500;
   font-style: normal;
-  font-family: "Circular 5r", "Circular A", "Circular B",Circular Pro,Helvetica,Arial,sans-serif;
   box-shadow: inset 0px -1px 0 0 #D1D1D1;
 }
 
 footer.page-footer {
+  padding-top: 76px;
   margin-top: 0px;
   background-color: #271639;
 }
@@ -766,39 +831,32 @@ footer .brand-logo img {
   width: 200px;
 }
 
-footer .foundation, footer .social, footer p.lux-text {
+footer, footer p.lux-text {
   font-family: "Poiret One", cursive;
+  font-weight: 500;
+  color: #fff;
   text-transform: uppercase;
   font-size: 2rem;
 }
 
-footer .foundation ul {
+footer ul {
   font-family: "Surveyor Text 8r", "Surveyor Text A", "Surveyor Text B",Surveyor Text,Georgia,Baskerville,Times New Roman,Times New Roman,Times,serif;
   text-transform: lowercase;
   font-size: 1.1rem;
+  margin-left: 30%;
 }
 
-footer .social {
-  display: table;
-  margin: 0 auto;
+footer ul li {
+  padding-top: 10px;
 }
 
-footer .social ul {
-  margin-right:auto;
-  margin-left:auto;
-  text-align:center;
+footer ul li a {
+  color: #b1b1b1;
+  transition: all 0.3s linear;
 }
 
-footer .social ul li {
-  display: inline;
-}
-
-footer .social ul li a {
-  display: inline-block;
-  width: 50px;
-  height: 50px;
-  margin: 5px;
-  text-align: center;
+footer ul li a:hover {
+  color: #fff;
 }
 
 footer.footer-copyright {
@@ -1060,7 +1118,7 @@ Main Components
   -moz-transition: -moz-transform 0.3s, opacity 0.3s;
   transition: transform 0.3s, opacity 0.3s;
 }
-.main-nav li ul {
+.main-nav li ul.second-nav {
   position: absolute;
   top: 0;
   left: 0;
@@ -1224,7 +1282,7 @@ Main Components
   padding-right: 2.4em;
   padding-left: 1.1em;
 }
-.main-nav li ul {
+.main-nav li ul.second-nav {
   height: 80px;
   background-color: #6d2a87;
   /* padding left = logo size + logo left position*/
@@ -1238,7 +1296,7 @@ Main Components
   -moz-transition: -moz-transform 0.3s 0.2s;
   transition: transform 0.3s 0.2s;
 }
-.main-nav li ul li {
+.main-nav li ul.second-nav li {
   float: right;
   opacity: 0;
   -webkit-transform: translateY(-20px);
@@ -1251,7 +1309,7 @@ Main Components
   transition: transform 0.3s 0s, opacity 0.3s 0s;
 }
 
-.main-nav li ul li a {
+.main-nav li ul.second-nav li a {
   margin-top: 15px;
 }
 
@@ -1308,6 +1366,20 @@ Main Components
   -ms-transform: rotate(135deg);
   -o-transform: rotate(135deg);
   transform: rotate(135deg);
+}
+
+#translation-dropdown {
+
+}
+
+#translation-dropdown li {
+  padding: 0;
+}
+
+.dropdown-content {
+  max-width: 100px;
+  min-width: unset;
+  overflow-y: auto;
 }
 
 .no-js .nav-trigger, .no-js .subnav-trigger {

@@ -13,13 +13,18 @@ app.config(function ($routeProvider, $locationProvider) {
       templateUrl:'main/home.html',
       controller: 'AppController'
     })
+    .when('/features', {
+      templateUrl:'features.html',
+      controller: 'AppController'
+    })
     .otherwise({ redirectTo: '/' });
 });
 
-app.run(function ($rootScope, languageService, gettextCatalog) {
+app.run(function ($rootScope, languageService,  gettextCatalog) {
 
   languageService();
   gettextCatalog.debug = true;
+
   $("body").delay(260).queue(function(next) {
     $(this).addClass("loaded");
     next();
@@ -38,6 +43,7 @@ app.run(function ($rootScope, languageService, gettextCatalog) {
   $rootScope.alert = function(thing) {
     alert(thing);
   };
+
 });
 
 app.controller('AppController', function ($scope) {
@@ -48,15 +54,16 @@ app.controller('AppController', function ($scope) {
 
 });
 
-app.controller('HeaderController',
-  function ($scope, $location, $route) {
+app.controller('HeaderController', function ($scope, $rootScope, languageService, $location, $route) {
     $scope.location = $location;
+
+    $scope.selectLanguage = function (code) {
+      $rootScope.changeLang(code);
+    };
 
     $scope.home = function () {
         $location.path('/');
     };
-
-
 
     $scope.isNavbarActive = function (navBarPath) {
       //return navBarPath === breadcrumbs.getFirst().name;

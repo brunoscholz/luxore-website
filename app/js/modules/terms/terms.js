@@ -11,3 +11,7 @@ angular.module('terms').config(['$routeProvider', function ($routeProvider) {
       //controller:'TermsController',
     });
 }]);
+
+/*.controller()
+$('html, body').animate({ scrollTop: 0 }, 'fast');
+;*/

@@ -10,13 +10,8 @@
         //('.tooltipped').tooltip({delay: 50, position: 'bottom'});
 
     $(document).ready(function(){
-      $('.slider').slider({full_width: true, height:650});
+      $('#app-mockups .slider').slider({full_width: true, height:650});
     });
-
-    $('.slider > slides').on('click', function(){
-        //var activeSlide = $('.active');
-      console.log("teste ");
-    }).click();
 
     $('.dropdown-button').dropdown({
         inDuration: 300,
@@ -29,7 +24,12 @@
       }
     );
 
-    $('a.translation-button').dropdown();
+    $('a.translation-button').dropdown({
+        hover: false, // Activate on hover
+        gutter: 0, // Spacing from edge
+        belowOrigin: false, // Displays dropdown below the button
+      }
+    );
 
     $(document).ready(function() {
       $('select').material_select();

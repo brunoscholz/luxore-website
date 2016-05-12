@@ -2,23 +2,39 @@
 <html ng-app="app">
   <head>
     <!-- <base href="/"> -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Luxore - {{'Discover your power'|translate}}</title>
-
-    <meta name="keywords"       content="luxore,luxor,looks,visual,moda,art,learning,fun,interactive,technology,virtual,diversão,arte,tecnologia,crowdfunding,financiamento,fashion,design,social,network," />
-    <meta name="description"    content="Luxore - Fashion Social Network" />
-    <meta name="author"         content="Bruno Ribeiro Scholz" />
-    <meta name="author"         content="Cristiano Silva" />
+    <title>Luxore - {{'A new kind of social network'|translate}}</title>
 
     <!-- Favicons -->
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="/img/i/ico-57.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/img/i/ico-72.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/img/i/ico-114.png.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/img/i/ico-144.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="60x60" href="/img/i/ico-60.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="/img/i/ico-76.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="/img/i/ico-120.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="/img/i/ico-152.png" />
+    <link rel="icon" type="image/png" href="/img/i/ico-16.png" sizes="16x16" />
+    <link rel="icon" type="image/png" href="/img/i/favicon-32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="/img/i/favicon-96.png" sizes="96x96" />
+    <link rel="icon" type="image/png" href="/img/i/favicon-128.png" sizes="128x128" />
+    <link rel="icon" type="image/png" href="/img/i/favicon-196.png" sizes="196x196" />
     <link rel="shortcut icon" href="img/ico-16.ico">
-    <link rel="apple-touch-icon" href="img/ico-57.png" sizes="57x57">
-    <link rel="apple-touch-icon" href="img/ico-72.png" sizes="72x72">
-    <link rel="apple-touch-icon" href="img/ico-114.png" sizes="114x114">
-    <link rel="apple-touch-icon" href="img/ico-144.png" sizes="144x144">
-    <link href="ico-57.ico" rel="icon" type="image/x-icon" />
+    <meta charset="utf-8">
+
+    <meta name="keywords"         content="luxore,luxor,looks,visual,moda,art,learning,fun,interactive,technology,virtual,diversão,arte,tecnologia,crowdfunding,financiamento,fashion,design,social,network,dapp, dapps, decentralized application, dapp store, crypto, currency, cryptocurrency, smart contracts, smart contract, decentralized applications, wallet, blockchain"/>
+    <meta name="description"      content="Luxore - Fashion Social Network" />
+    <meta name="viewport"         content="width=device-width, initial-scale=1.0"/>
+    <meta name="application-name" content="Luxore.me - Decentralized Fashion Social Network"/>
+    <meta name="author"           content="Bruno Ribeiro Scholz" />
+    <meta name="author"           content="Cristiano Silva" />
+
+    <meta name="msapplication-TileColor"         content="#6D2A87" />
+    <meta name="msapplication-TileImage"         content="/img/i/mstile-144x144.png" />
+    <meta name="msapplication-square70x70logo"   content="/img/i/mstile-70x70.png" />
+    <meta name="msapplication-square150x150logo" content="/img/i/mstile-150x150.png" />
+    <meta name="msapplication-wide310x150logo"   content="/img/i/mstile-310x150.png" />
+    <meta name="msapplication-square310x310logo" content="/img/i/mstile-310x310.png" />
 
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
     <!-- Compiled and minified CSS -->
@@ -96,6 +112,17 @@
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"></script>
     <script type="text/javascript" src="<%= js %>"></script>
+
+    <!-- Google Analytics -->
+    <script type="text/javascript">
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-77528886-1', 'auto');
+      ga('send', 'pageview');
+    </script>
 
   </body>
 </html>
