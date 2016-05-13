@@ -22,6 +22,8 @@
 
 html * {
   -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -webkit-osx-font-smoothing: grayscale;
   -moz-osx-font-smoothing: grayscale;
 }
 
@@ -454,10 +456,7 @@ OLD: #30094a
 }
 
 .home__content {
-  padding-left: 30px;
-  padding-right: 30px;
   box-sizing: border-box;
-  max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -477,20 +476,18 @@ OLD: #30094a
     line-height: 37px;
     font-weight: 700;
     font-style: normal;
-    font-family: "Circular 7r", "Circular A", "Circular B",Circular Pro,Helvetica,Arial,sans-serif;
+    font-family: Poiret One;
     display: block;
     letter-spacing: 2px;
-    margin-bottom: 5px;
+    margin-bottom: 20px;
     margin-top: 8px;
+    padding-bottom: 20px;
     text-align: center;
     text-transform: uppercase;
 }
 
 .home__highlight {
-  display: inline-block;
-  margin-right: 30px;
   position: relative;
-  background-color: rgba(255, 255, 255, 0.37);
   line-height: 50px;
   padding: 0 10px;
 }
@@ -498,16 +495,17 @@ OLD: #30094a
 .home__highlights {
   color: #6d2a87 !important;
   font-family: "Poiret One", cursive;
-  font-size: 3rem;
-  font-weight: 700;
+  font-size: 2.5rem;
+  font-weight: 900;
   font-style: normal;  
   letter-spacing: 1.3px;
   line-height: 20px;
   text-align: center;
   list-style: none;
   text-transform: uppercase;
-  margin-top: 28px;
+  margin-top: 50px;
   margin-bottom: 0;
+  background-color: rgba(0,0,0,0.8);
 }
 
 .home__cta {
@@ -577,16 +575,15 @@ OLD: #30094a
 }
 
 h1.title {
-    font-size: 36px;
+    font-size: 37px;
     line-height: 34px;
-    font-weight: 800;
+    font-weight: 900;
     font-style: normal;
-    font-family: "Surveyor Text 8r", "Surveyor Text A", "Surveyor Text B",Surveyor Text,Georgia,Baskerville,Times New Roman,Times New Roman,Times,serif;
-    color: #3B3B3B;
-    letter-spacing: 1.5px;
+    font-family: Poiret One;
+   /* color: #3B3B3B;*/
+    letter-spacing: 2.5px;
     margin-left: auto;
     margin-right: auto;
-    padding-bottom: 45px;
     position: relative;
     text-align: center;
     text-transform: uppercase;
@@ -661,6 +658,7 @@ h1.title {
   padding-top: 10px;
   text-align: center;
   color: #6c747f;
+  font-size: 1.2rem;
 }
 
 #the-app {
@@ -763,16 +761,14 @@ h1.title {
   background-color: #FFF3EA;
   background-position: center center;
   background-size: cover;
-  min-height: 550px;
-  padding-bottom: 90px;
-  padding-top: 130px;
+  padding-bottom: 70px;
+  padding-top: 70px;
   text-align: center;
 }
 
-#join form p {
+#join p {
   text-align: center;
   font-size: 1.3rem;
-  margin-top: -3rem;
 }
 
 .terms, .ethics {
@@ -858,10 +854,10 @@ footer, footer p.lux-text {
 }
 
 footer ul {
-  font-family: "Surveyor Text 8r", "Surveyor Text A", "Surveyor Text B",Surveyor Text,Georgia,Baskerville,Times New Roman,Times New Roman,Times,serif;
+  font-family: Helvetica;
   text-transform: lowercase;
   font-size: 1.1rem;
-  margin-left: 30%;
+  margin-left: 40%;
 }
 
 footer ul li {
@@ -884,7 +880,7 @@ footer.footer-copyright {
 .scrollup {
   position:fixed;
   bottom: 50px; 
-  right: 19px;
+  right: 35px;
 }
 
 .input-field .prefix ~ label {
@@ -1272,6 +1268,7 @@ Main Components
 
 .main-nav li ul.second-nav li a {
   margin-top: 15px;
+  color: #fff;
 }
 
 .main-nav .placeholder {
@@ -1342,7 +1339,13 @@ Main Components
   min-width: unset;
   overflow-y: auto;
 }
-
+.dropdown-content li>a, .dropdown-content li>span {
+  font-size: 16px;
+  color: #26a69a;
+  display: block;
+  line-height: 22px;
+  padding: 14px 16px;
+}
 .no-js .nav-trigger, .no-js .subnav-trigger {
   display: none;
 }
@@ -1763,7 +1766,12 @@ Main Components
 /* Mobile first queries */
 
 /* Larger than mobile */
-@media (min-width: 400px) {}
+@media (min-width: 400px) {
+  .home__highlight {
+    display: inline-block;
+    margin-right: 30px;
+  }
+}
 
 /* Larger than phablet */
 @media (min-width: 550px) {}
