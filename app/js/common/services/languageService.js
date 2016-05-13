@@ -31,6 +31,9 @@ angular.module('app').service('languageService', function ($rootScope, $window, 
     };
 
     var detectLang = function () {
+        console.log("Language: " + $window.navigator.languages);
+        console.log("Browser : " + $window.navigator.browserLanguage);
+        console.log("User    : " + $window.navigator.userLanguage);
         var lang = $window.navigator.languages ? $window.navigator.languages[0] : null;
             lang = lang || $window.navigator.language || $window.navigator.browserLanguage || $window.navigator.userLanguage;
 

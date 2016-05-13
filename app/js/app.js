@@ -6,7 +6,7 @@ var app = angular.module('app', [
 ]);
 
 app.config(function ($routeProvider, $locationProvider) {
-  //$locationProvider.html5Mode({enabled:true});
+  $locationProvider.html5Mode({enabled:true});
   //$routeProvider.otherwise({ redirectTo: '/vitrine' });
   $routeProvider
     .when('/', {
