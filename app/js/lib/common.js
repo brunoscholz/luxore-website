@@ -38,10 +38,6 @@
     });
 
     $(document).ready(function(){
-      $('.scrollspy').scrollSpy();
-    });
-
-    $(document).ready(function(){
       videos = document.querySelectorAll("video");
       for (var i = 0, l = videos.length; i < l; i++) {
           var video = videos[i];
@@ -68,27 +64,28 @@
               }
           }
         }
-      });
+    });
 
-      function navbarScroll() {
-        var y = window.scrollY;
-        if (y > 50) {
-          $('.lux-header').addClass('shrink');
-        } else if (y < 50) {
-          $('.lux-header').removeClass('shrink');
-        }
+    function navbarScroll() {
+      var y = window.scrollY;
+      if (y > 50) {
+        $('.lux-header').addClass('shrink');
+      } else if (y < 50) {
+        $('.lux-header').removeClass('shrink');
       }
+    }
 
-      $(document).scroll(function() {
-        navbarScroll();
-      });
+    $(document).scroll(function() {
+      navbarScroll();
+    });
+
+    $(document).ready(function(){
+      $('.scrollspy').scrollSpy();
+    });
+
+    $('#scrollup').click(function(){
+      $('html, body').animate({ scrollTop: 0 }, 'slow');
+    });
 
 	}); // end of document ready
 })(jQuery); // end of jQuery name space
-
-/*function changeNavColor() {
-  $("#scrollup").show();
-}
-
-var options = [{ selector:"#transparent-navbar", offset: 500, callback: "changeNavColor()"}];
-Materialize.scrollFire(options);*/

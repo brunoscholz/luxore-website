@@ -3,43 +3,26 @@
     <ul class="brand">
       <li class="brand-logo"><img src="img/logo-purple.png"></li>
       <li class="brand-title">LUXORE</li>
-      <li class="brand-slogan">a new kind of social network</li>
     </ul>
     <nav>
-      <ul class="right main-nav hide-on-med-and-down">
+      <ul class="right hide-on-med-and-down">
         <li><a href="#features">{{'Features'|translate}}</a></li>
-        <li><a href="#the-app">{{'The App'|translate}}</a></li>
+        <li><a href="#the-coin">{{'The Coin'|translate}}</a></li>
+        <li><a href="#roadmap">{{'Roadmap'|translate}}</a></li>
         <li><a href="/blog">{{'Blog'|translate}}</a></li>
+        <li><a href="#documentation">Docs</a></li>
         <li><a href="https://www.kickstarter.com/" target="blank">Kickstarter</a></li>
         
         <li>
           <a href="javascript:void(0);" class="waves-effect waves-block waves-light translation-button" data-activates="translation-dropdown">
             <img ng-src="img/flags/{{lang.country}}.png" alt="{{lang.name}}">
           </a>
-          <ul id="translation-dropdown" class="dropdown-content" style="position: absolute;">
+          <ul id="translation-dropdown" class="dropdown-content" style="position: fixed;">
             <li ng-repeat="option in languages">
               <a ng-click="selectLanguage(option.id)">
                 <img ng-src="img/flags/{{option.country}}.png" title="{{option.name}}" alt="{{option.name}}">
               </a>
             </li>
-          </ul>
-        </li>
-
-        <li>
-          <a href="#0" class="subnav-trigger"><span translate>Docs</span></a>
-          <ul class="second-nav right">
-            <li style="padding-right: 4.2rem;"><a href="#0" class="placeholder">Placeholder</a></li>
-            <li class="go-back"><a href="#0">Menu</a></li>
-
-            <li style="margin-right: 40px;">
-              <a href="https://drive.google.com/open?id=1Ia0-WW6fKUbWMCKISSn7WOKPxL3ggD9Um0YqIBGVTLc" target="blank">
-                {{'Whitepaper'|translate}}
-              </a>
-            </li>
-            <li><a href="/documentation">{{'Documentation'|translate}}</a></li>
-            <li><a href="/media-kit">{{'Media Kit'|translate}}</a></li>
-            <li><a href="/coin">{{'LUX Coin'|translate}}</a></li>
-            <li><a href="/faq">{{'FAQ'|translate}}</a></li>
           </ul>
         </li>
       </ul>
@@ -48,7 +31,5 @@
   <div ui-view="fabContent"></div>
   <div ui-view="menuContent" ng-class="{expanded: isExpanded}" ></div>
 </div>
-<div class="offset">
-  <p>Scroll down to initiate resizing of the page header.</p>
-</div>
+
 <div id="contentUI" ui-view="mainContent"></div>
