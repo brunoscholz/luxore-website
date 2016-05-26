@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html ng-app="app">
   <head>
-    <!-- <base href="/"> -->
+    <base href="/">
 
-    <title>Luxore</title>
+    <title>Luxore - {{'A new kind of social network'|translate}}</title>
 
     <!-- Favicons -->
     <link rel="apple-touch-icon-precomposed" sizes="57x57" href="/img/i/ico-57.png" />
@@ -60,21 +60,24 @@
     </style>
   </head>
   <body ng-controller="AppController">
-
-    <div id="loader-wrapper">
-        <div class="luxore-loader lol"></div>
+    <!-- <div id="loader-wrapper">
+        <div id="loader"></div>        
         <div class="loader-section section-left"></div>
         <div class="loader-section section-right"></div>
+    </div> -->
+
+    <div class="container">
+      <div class="verypoop lol"></div>
     </div>
 
     <div ng-cloak> <!-- Cloak start -->
 
-      <div ui-view="master" class="page-transition hero-transition">
+      <div ng-view class="page-transition hero-transition">
         Error loading AngularJS view..
       </div>
       
 
-      <!-- <div class="cd-modal">
+      <div class="cd-modal">
         <div class="modal-content">
           <h1 class="home__title">a new kind of social network</h1>
           <div class="row">
@@ -88,11 +91,11 @@
             </div>
             <div class="col s12 m4 l2"></div>
           </div>
-        </div> --> <!-- .modal-content -->
+        </div> <!-- .modal-content -->
 
-        <!-- <a class="btn-floating btn-large waves-effect waves-light modal-close">
+        <a class="btn-floating btn-large waves-effect waves-light modal-close">
           <i class="material-icons">close</i>
-        </a> -->
+        </a>
       </div> <!-- .cd-modal -->
        
       <div class="cd-transition-layer"> 
@@ -101,7 +104,7 @@
 
       <!-- ScrollUp button start -->
       <div id="scrollup" class="scrollup">
-        <a class="btn-luxore btn-large z-depth-3" href="#mainHeader">
+        <a class="btn-floating btn-large waves-effect waves-light purple-luxore z-depth-3" href="#mainHeader">
           <i class="large material-icons" style="font-size: 2.6rem;">expand_less</i>
         </a>
       </div>
@@ -109,7 +112,7 @@
 
     </div> <!-- Cloak end -->
 
-    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="js/jquery.min.js"></script>
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"></script>
     <script type="text/javascript" src="<%= js %>"></script>

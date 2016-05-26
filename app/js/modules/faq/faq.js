@@ -1,9 +1,11 @@
-angular.module('faq', []);
+angular.module('faq', ['ui.router']);
 
-angular.module('faq').config(['$routeProvider', function ($routeProvider) {
-  $routeProvider
-    .when('/faq', {
-      templateUrl:'main/faq.html',
+angular.module('faq').config(['$stateProvider, $urlRouterProvider', function ($stateProvider, $urlRouterProvider) {
+  $urlRouterProvider.otherwise("/");
+  $stateProvider
+    .state('faq', {
+      url: '/faq',
+      templateUrl:'views/site/faq.html',
       controller:'FaqController',
     });
 }]);
