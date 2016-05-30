@@ -93,7 +93,7 @@
         <!-- <a class="btn-floating btn-large waves-effect waves-light modal-close">
           <i class="material-icons">close</i>
         </a> -->
-      </div> <!-- .cd-modal -->
+      <!-- </div> --> <!-- .cd-modal -->
        
       <div class="cd-transition-layer"> 
         <div class="bg-layer"></div>

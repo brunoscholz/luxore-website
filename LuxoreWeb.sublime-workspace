@@ -1,0 +1,1461 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"paddin",
+				"padding"
+			],
+			[
+				"6c",
+				"67919c"
+			],
+			[
+				"backgro",
+				"background-color"
+			],
+			[
+				"Fo",
+				"font-weight"
+			],
+			[
+				"fade",
+				"fadeIn"
+			],
+			[
+				"ju",
+				"justify"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"margi",
+				"margin-bottom"
+			],
+			[
+				"fon",
+				"font-family"
+			],
+			[
+				"r",
+				"rgba()"
+			],
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"f2",
+				"f3f2f3"
+			],
+			[
+				"backgrou",
+				"background-color"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"bac",
+				"background-image"
+			],
+			[
+				"padd",
+				"padding-top"
+			],
+			[
+				"paddi",
+				"padding-left"
+			],
+			[
+				"i",
+				"list-item"
+			],
+			[
+				"main",
+				"main"
+			],
+			[
+				"NO",
+				"no-repeat"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"sin",
+				"sinFunc"
+			],
+			[
+				"the",
+				"theta"
+			],
+			[
+				"cos",
+				"cosFunc"
+			],
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"c",
+				"changed"
+			],
+			[
+				"sel",
+				"self"
+			],
+			[
+				"chan",
+				"changeLang"
+			],
+			[
+				"lan",
+				"languageService"
+			],
+			[
+				"pa",
+				"padding"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"tras",
+				"transition"
+			],
+			[
+				"t",
+				"title	Attr"
+			],
+			[
+				"text-",
+				"text-transform"
+			],
+			[
+				"in",
+				"inline"
+			],
+			[
+				"sele",
+				"selectedImage"
+			],
+			[
+				"child",
+				"first-child"
+			],
+			[
+				"arri",
+				"arrivedChange"
+			],
+			[
+				"ng",
+				"ng-class	AngularJS"
+			],
+			[
+				"borde",
+				"border-top"
+			],
+			[
+				"ba",
+				"background"
+			],
+			[
+				"gami",
+				"Gamification"
+			],
+			[
+				"hero",
+				"hero-area"
+			],
+			[
+				"box",
+				"box-shadow"
+			],
+			[
+				"ng-cl",
+				"ng-click	AngularJS"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"u",
+				"ul	Tag"
+			],
+			[
+				"Vec",
+				"Vector3"
+			],
+			[
+				"lis",
+				"list-item-info"
+			],
+			[
+				"list",
+				"list-item-open"
+			],
+			[
+				"get",
+				"getItem"
+			],
+			[
+				"se",
+				"sessionStorage"
+			],
+			[
+				"user",
+				"userData"
+			],
+			[
+				"cure",
+				"currentUser"
+			],
+			[
+				"$http",
+				"$httpProvider"
+			],
+			[
+				"load",
+				"loadingService"
+			],
+			[
+				"h",
+				"hidden"
+			],
+			[
+				"co",
+				"country"
+			],
+			[
+				"curre",
+				"currentUser"
+			],
+			[
+				"cach",
+				"cacheSession"
+			],
+			[
+				"promi",
+				"promiseFactory"
+			],
+			[
+				"defe",
+				"deferred"
+			],
+			[
+				"pro",
+				"promiseFactory"
+			],
+			[
+				"$root",
+				"$rootScope	AngularJS"
+			],
+			[
+				"sho",
+				"showLogin"
+			],
+			[
+				"cons",
+				"console"
+			],
+			[
+				"comm",
+				"Common"
+			],
+			[
+				"gettext",
+				"gettextCatalog"
+			],
+			[
+				"def",
+				"deferred"
+			],
+			[
+				"l",
+				"login"
+			],
+			[
+				"Sess",
+				"SessionService"
+			],
+			[
+				"Se",
+				"SessionService"
+			],
+			[
+				"un",
+				"unauthorized-server"
+			],
+			[
+				"inter",
+				"interceptor"
+			],
+			[
+				"forgo",
+				"forgot-password"
+			],
+			[
+				"onLo",
+				"onLoginSuccess"
+			],
+			[
+				"tag",
+				"tagId"
+			],
+			[
+				"for",
+				"forParent"
+			],
+			[
+				"$route",
+				"$route	AngularJS"
+			],
+			[
+				"Look",
+				"LookModel"
+			],
+			[
+				"loo",
+				"lookModel"
+			],
+			[
+				"$sc",
+				"$scope	AngularJS"
+			],
+			[
+				"look",
+				"lookId"
+			],
+			[
+				"Tag",
+				"TagModel"
+			],
+			[
+				"Vitri",
+				"VitrinaModule"
+			],
+			[
+				"mongo",
+				"mongoRouter"
+			],
+			[
+				"sco",
+				"_scope"
+			],
+			[
+				"edi",
+				"editingFile"
+			],
+			[
+				"pic",
+				"picFile"
+			],
+			[
+				"app",
+				"apply"
+			],
+			[
+				"an",
+				"angular-route"
+			],
+			[
+				"or",
+				"originalContext"
+			],
+			[
+				"ori",
+				"originalContext"
+			],
+			[
+				"fuc",
+				"function"
+			],
+			[
+				"e",
+				"editingFile"
+			],
+			[
+				"read",
+				"readFile"
+			],
+			[
+				"on",
+				"onchange	Attr"
+			],
+			[
+				"New",
+				"newlook"
+			],
+			[
+				"init",
+				"initCreate"
+			],
+			[
+				"sa",
+				"sayHello"
+			],
+			[
+				"re",
+				"readFile"
+			],
+			[
+				"lo",
+				"log"
+			],
+			[
+				"medi",
+				"mediaId"
+			],
+			[
+				"Vi",
+				"VitrinaModule"
+			],
+			[
+				"ta",
+				"Tags"
+			],
+			[
+				"Lok",
+				"LookService"
+			],
+			[
+				"a",
+				"crosshair"
+			],
+			[
+				"fi",
+				"firstNodes"
+			],
+			[
+				"chi",
+				"childCount"
+			],
+			[
+				"chil",
+				"childCount"
+			],
+			[
+				"all",
+				"allNodes"
+			],
+			[
+				"te",
+				"termData"
+			],
+			[
+				"tax",
+				"taxData"
+			],
+			[
+				"ter",
+				"termId"
+			],
+			[
+				"term",
+				"termId"
+			],
+			[
+				"pare",
+				"parentId"
+			],
+			[
+				"cate",
+				"category"
+			],
+			[
+				"taxno",
+				"taxonomies"
+			],
+			[
+				"tre",
+				"terms"
+			],
+			[
+				"new",
+				"newNode"
+			],
+			[
+				"log",
+				"logProvider"
+			],
+			[
+				"taxo",
+				"taxonomies"
+			],
+			[
+				"Pa",
+				"Pantyhose"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "\nFifteen minutes of podcast fame. Let a backer act as a co-interviewer with you. \nVanity plate. Put a backer's name on yours. Real deal! \nKeys to the kingdom. Share code keys so backers can hack away.\nTruth or truth. Record a three-minute video answering three questions (even better if you do it for three backers). \nCustom memes. Create 52 personalized memes of a backer's cat — one for every week of the year.\n8-bit avatars. Make custom images for your backers.\nDrake Shake. For everyone who backs the project, create a Drake Shake with their profile pic.\nHandwritten postcards — sent from rest stops on tour.\nLessons via Skype. Host a 101 session for backers anywhere\nBacker map. Make a map of backer locations into a commemorative scroll, puzzle, or poster. \nFollow everyone on Twitter. Of course.\nIn-game treats. A character made to look like a backer, an item on a shelf subtly named after a backer — check out cool ways Thimbleweed Park made backers part of their game!\nHop on the track. Incorporate a backer's 10-second sound sample into a song.\nDedicate the whole book to a backer. Yep, the whole book! \nDo a limited-run poster or print — your unique art will live on!",
+			"settings":
+			{
+				"buffer_size": 1178,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/bruno_000/Documents/Oction/Luxore/docs/blog-posts.txt",
+			"settings":
+			{
+				"buffer_size": 193,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/pages/index.us",
+			"settings":
+			{
+				"buffer_size": 6056,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/js/app.js",
+			"settings":
+			{
+				"buffer_size": 5441,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/templates/views/site/home.html",
+			"settings":
+			{
+				"buffer_size": 12630,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/css/style.css",
+			"settings":
+			{
+				"buffer_size": 42047,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/js/lib/timeline-nav.js",
+			"settings":
+			{
+				"buffer_size": 12090,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "/* -------------------------------- \n\nPrimary style\n\n-------------------------------- */\n*, *::after, *::before {\n  box-sizing: border-box;\n}\n\nhtml {\n  font-size: 62.5%;\n}\n\nbody {\n  font-size: 1.6rem;\n  font-family: \"Fira Sans\", sans-serif;\n  color: #383838;\n  background-color: #f8f8f8;\n}\n\na {\n  color: #7b9d6f;\n  text-decoration: none;\n}\n\n/* -------------------------------- \n\nMain Components \n\n-------------------------------- */\n#roadmap {\n  opacity: 0;\n  margin: 2em auto;\n  -webkit-transition: opacity 0.2s;\n  -moz-transition: opacity 0.2s;\n  transition: opacity 0.2s;\n}\n#roadmap::before {\n  /* never visible - this is used in jQuery to check the current MQ */\n  content: 'mobile';\n  display: none;\n}\n#roadmap.loaded {\n  /* show the timeline after events position has been set (using JavaScript) */\n  opacity: 1;\n}\n#roadmap .timeline {\n  position: relative;\n  height: 100px;\n  width: 90%;\n  max-width: 800px;\n  margin: 0 auto;\n}\n#roadmap .events-wrapper {\n  position: relative;\n  height: 100%;\n  margin: 0 40px;\n  overflow: hidden;\n}\n#roadmap .events-wrapper::after, #roadmap .events-wrapper::before {\n  /* these are used to create a shadow effect at the sides of the timeline */\n  content: '';\n  position: absolute;\n  z-index: 2;\n  top: 0;\n  height: 100%;\n  width: 20px;\n}\n#roadmap .events-wrapper::before {\n  left: 0;\n  background-image: -webkit-linear-gradient( left , #f8f8f8, rgba(248, 248, 248, 0));\n  background-image: linear-gradient(to right, #f8f8f8, rgba(248, 248, 248, 0));\n}\n#roadmap .events-wrapper::after {\n  right: 0;\n  background-image: -webkit-linear-gradient( right , #f8f8f8, rgba(248, 248, 248, 0));\n  background-image: linear-gradient(to left, #f8f8f8, rgba(248, 248, 248, 0));\n}\n#roadmap .events {\n  /* this is the grey line/timeline */\n  position: absolute;\n  z-index: 1;\n  left: 0;\n  top: 49px;\n  height: 2px;\n  /* width will be set using JavaScript */\n  background: #dfdfdf;\n  -webkit-transition: -webkit-transform 0.4s;\n  -moz-transition: -moz-transform 0.4s;\n  transition: transform 0.4s;\n}\n#roadmap .filling-line {\n  /* this is used to create the green line filling the timeline */\n  position: absolute;\n  z-index: 1;\n  left: 0;\n  top: 0;\n  height: 100%;\n  width: 100%;\n  background-color: #7b9d6f;\n  -webkit-transform: scaleX(0);\n  -moz-transform: scaleX(0);\n  -ms-transform: scaleX(0);\n  -o-transform: scaleX(0);\n  transform: scaleX(0);\n  -webkit-transform-origin: left center;\n  -moz-transform-origin: left center;\n  -ms-transform-origin: left center;\n  -o-transform-origin: left center;\n  transform-origin: left center;\n  -webkit-transition: -webkit-transform 0.3s;\n  -moz-transition: -moz-transform 0.3s;\n  transition: transform 0.3s;\n}\n#roadmap .events a {\n  position: absolute;\n  bottom: 0;\n  z-index: 2;\n  text-align: center;\n  font-size: 1.3rem;\n  padding-bottom: 15px;\n  color: #383838;\n  /* fix bug on Safari - text flickering while timeline translates */\n  -webkit-transform: translateZ(0);\n  -moz-transform: translateZ(0);\n  -ms-transform: translateZ(0);\n  -o-transform: translateZ(0);\n  transform: translateZ(0);\n}\n#roadmap .events a::after {\n  /* this is used to create the event spot */\n  content: '';\n  position: absolute;\n  left: 50%;\n  right: auto;\n  -webkit-transform: translateX(-50%);\n  -moz-transform: translateX(-50%);\n  -ms-transform: translateX(-50%);\n  -o-transform: translateX(-50%);\n  transform: translateX(-50%);\n  bottom: -5px;\n  height: 12px;\n  width: 12px;\n  border-radius: 50%;\n  border: 2px solid #dfdfdf;\n  background-color: #f8f8f8;\n  -webkit-transition: background-color 0.3s, border-color 0.3s;\n  -moz-transition: background-color 0.3s, border-color 0.3s;\n  transition: background-color 0.3s, border-color 0.3s;\n}\n.no-touch #roadmap .events a:hover::after {\n  background-color: #7b9d6f;\n  border-color: #7b9d6f;\n}\n#roadmap .events a.selected {\n  pointer-events: none;\n}\n#roadmap .events a.selected::after {\n  background-color: #7b9d6f;\n  border-color: #7b9d6f;\n}\n#roadmap .events a.older-event::after {\n  border-color: #7b9d6f;\n}\n@media only screen and (min-width: 1100px) {\n  #roadmap {\n    margin: 6em auto;\n  }\n  #roadmap::before {\n    /* never visible - this is used in jQuery to check the current MQ */\n    content: 'desktop';\n  }\n}\n\n.cd-timeline-navigation a {\n  /* these are the left/right arrows to navigate the timeline */\n  position: absolute;\n  z-index: 1;\n  top: 50%;\n  bottom: auto;\n  -webkit-transform: translateY(-50%);\n  -moz-transform: translateY(-50%);\n  -ms-transform: translateY(-50%);\n  -o-transform: translateY(-50%);\n  transform: translateY(-50%);\n  height: 34px;\n  width: 34px;\n  border-radius: 50%;\n  border: 2px solid #dfdfdf;\n  /* replace text with an icon */\n  overflow: hidden;\n  color: transparent;\n  text-indent: 100%;\n  white-space: nowrap;\n  -webkit-transition: border-color 0.3s;\n  -moz-transition: border-color 0.3s;\n  transition: border-color 0.3s;\n}\n.cd-timeline-navigation a::after {\n  /* arrow icon */\n  content: '';\n  position: absolute;\n  height: 16px;\n  width: 16px;\n  left: 50%;\n  top: 50%;\n  bottom: auto;\n  right: auto;\n  -webkit-transform: translateX(-50%) translateY(-50%);\n  -moz-transform: translateX(-50%) translateY(-50%);\n  -ms-transform: translateX(-50%) translateY(-50%);\n  -o-transform: translateX(-50%) translateY(-50%);\n  transform: translateX(-50%) translateY(-50%);\n  background: url(../img/cd-arrow.svg) no-repeat 0 0;\n}\n.cd-timeline-navigation a.prev {\n  left: 0;\n  -webkit-transform: translateY(-50%) rotate(180deg);\n  -moz-transform: translateY(-50%) rotate(180deg);\n  -ms-transform: translateY(-50%) rotate(180deg);\n  -o-transform: translateY(-50%) rotate(180deg);\n  transform: translateY(-50%) rotate(180deg);\n}\n.cd-timeline-navigation a.next {\n  right: 0;\n}\n.no-touch .cd-timeline-navigation a:hover {\n  border-color: #7b9d6f;\n}\n.cd-timeline-navigation a.inactive {\n  cursor: not-allowed;\n}\n.cd-timeline-navigation a.inactive::after {\n  background-position: 0 -16px;\n}\n.no-touch .cd-timeline-navigation a.inactive:hover {\n  border-color: #dfdfdf;\n}\n\n#roadmap .events-content {\n  position: relative;\n  width: 100%;\n  margin: 2em 0;\n  overflow: hidden;\n  -webkit-transition: height 0.4s;\n  -moz-transition: height 0.4s;\n  transition: height 0.4s;\n}\n#roadmap .events-content li {\n  position: absolute;\n  z-index: 1;\n  width: 100%;\n  left: 0;\n  top: 0;\n  -webkit-transform: translateX(-100%);\n  -moz-transform: translateX(-100%);\n  -ms-transform: translateX(-100%);\n  -o-transform: translateX(-100%);\n  transform: translateX(-100%);\n  padding: 0 5%;\n  opacity: 0;\n  -webkit-animation-duration: 0.4s;\n  -moz-animation-duration: 0.4s;\n  animation-duration: 0.4s;\n  -webkit-animation-timing-function: ease-in-out;\n  -moz-animation-timing-function: ease-in-out;\n  animation-timing-function: ease-in-out;\n}\n#roadmap .events-content li.selected {\n  /* visible event content */\n  position: relative;\n  z-index: 2;\n  opacity: 1;\n  -webkit-transform: translateX(0);\n  -moz-transform: translateX(0);\n  -ms-transform: translateX(0);\n  -o-transform: translateX(0);\n  transform: translateX(0);\n}\n#roadmap .events-content li.enter-right, #roadmap .events-content li.leave-right {\n  -webkit-animation-name: cd-enter-right;\n  -moz-animation-name: cd-enter-right;\n  animation-name: cd-enter-right;\n}\n#roadmap .events-content li.enter-left, #roadmap .events-content li.leave-left {\n  -webkit-animation-name: cd-enter-left;\n  -moz-animation-name: cd-enter-left;\n  animation-name: cd-enter-left;\n}\n#roadmap .events-content li.leave-right, #roadmap .events-content li.leave-left {\n  -webkit-animation-direction: reverse;\n  -moz-animation-direction: reverse;\n  animation-direction: reverse;\n}\n#roadmap .events-content li > * {\n  max-width: 800px;\n  margin: 0 auto;\n}\n#roadmap .events-content h2 {\n  font-weight: bold;\n  font-size: 2.6rem;\n  font-family: \"Playfair Display\", serif;\n  font-weight: 700;\n  line-height: 1.2;\n}\n#roadmap .events-content em {\n  display: block;\n  font-style: italic;\n  margin: 10px auto;\n}\n#roadmap .events-content em::before {\n  content: '- ';\n}\n#roadmap .events-content p {\n  font-size: 1.4rem;\n  color: #959595;\n}\n#roadmap .events-content em, #roadmap .events-content p {\n  line-height: 1.6;\n}\n@media only screen and (min-width: 768px) {\n  #roadmap .events-content h2 {\n    font-size: 7rem;\n  }\n  #roadmap .events-content em {\n    font-size: 2rem;\n  }\n  #roadmap .events-content p {\n    font-size: 1.8rem;\n  }\n}\n\n@-webkit-keyframes cd-enter-right {\n  0% {\n    opacity: 0;\n    -webkit-transform: translateX(100%);\n  }\n  100% {\n    opacity: 1;\n    -webkit-transform: translateX(0%);\n  }\n}\n@-moz-keyframes cd-enter-right {\n  0% {\n    opacity: 0;\n    -moz-transform: translateX(100%);\n  }\n  100% {\n    opacity: 1;\n    -moz-transform: translateX(0%);\n  }\n}\n@keyframes cd-enter-right {\n  0% {\n    opacity: 0;\n    -webkit-transform: translateX(100%);\n    -moz-transform: translateX(100%);\n    -ms-transform: translateX(100%);\n    -o-transform: translateX(100%);\n    transform: translateX(100%);\n  }\n  100% {\n    opacity: 1;\n    -webkit-transform: translateX(0%);\n    -moz-transform: translateX(0%);\n    -ms-transform: translateX(0%);\n    -o-transform: translateX(0%);\n    transform: translateX(0%);\n  }\n}\n@-webkit-keyframes cd-enter-left {\n  0% {\n    opacity: 0;\n    -webkit-transform: translateX(-100%);\n  }\n  100% {\n    opacity: 1;\n    -webkit-transform: translateX(0%);\n  }\n}\n@-moz-keyframes cd-enter-left {\n  0% {\n    opacity: 0;\n    -moz-transform: translateX(-100%);\n  }\n  100% {\n    opacity: 1;\n    -moz-transform: translateX(0%);\n  }\n}\n@keyframes cd-enter-left {\n  0% {\n    opacity: 0;\n    -webkit-transform: translateX(-100%);\n    -moz-transform: translateX(-100%);\n    -ms-transform: translateX(-100%);\n    -o-transform: translateX(-100%);\n    transform: translateX(-100%);\n  }\n  100% {\n    opacity: 1;\n    -webkit-transform: translateX(0%);\n    -moz-transform: translateX(0%);\n    -ms-transform: translateX(0%);\n    -o-transform: translateX(0%);\n    transform: translateX(0%);\n  }\n}\n",
+			"file": "/C/Users/bruno_000/Documents/Oction/Luxore/bkp/horizontal-timeline/css/style.css",
+			"file_size": 10500,
+			"file_write_time": 130930207980000000,
+			"settings":
+			{
+				"buffer_size": 9930,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Users/bruno_000/Documents/Oction/Luxore/blog/header.php",
+			"settings":
+			{
+				"buffer_size": 12759,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/bruno_000/Documents/Oction/Luxore/blog/style.css",
+			"settings":
+			{
+				"buffer_size": 5684,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"Snippet: Lorem ipsum"
+			]
+		],
+		"width": 472.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/bruno_000/Documents/Oction/Luxore/website",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/css",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/js",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/js/lib",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/pages",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/templates",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/templates/views",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/templates/views/site"
+	],
+	"file_history":
+	[
+		"/C/Users/bruno_000/Desktop/Luxore_comp_vs03_fr.srt",
+		"/C/Users/bruno_000/Desktop/Luxore_comp_vs03.srt",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/bkp/horizontal-timeline/js/main.js",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/website/Site.csproj",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/Profile.txt",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/Settings.txt",
+		"/C/Users/bruno_000/Documents/Oction/angular-app-master/client/src/common/resources/projects.js",
+		"/C/Users/bruno_000/Documents/Oction/angular-app-master/client/src/common/security/authorization.js",
+		"/C/Users/bruno_000/Documents/Oction/angular-app-master/client/src/app/projects/projects.js",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/project/app/js/common/security/security.js",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/project/app/js/modules/friends/friends.js",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/project/app/templates/home.html",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/project/app/js/lib/common.js",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/project/app/js/common/services/languageService.js",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/project/app/js/common/services/navbar.js.js",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/project/app/pages/index.us",
+		"/C/Users/bruno_000/Documents/Oction/GalaxyCRM/project/galaxy.sublime-project",
+		"/C/Users/bruno_000/Documents/Oction/angular-app-master/client/src/common/services/crud.js",
+		"/C/Users/bruno_000/Documents/Oction/angular-app-master/client/src/common/services/crudRouteProvider.js",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/docs/lottery.txt",
+		"/C/Users/bruno_000/Documents/Oction/GalaxyCRM/docs/democracy.sol",
+		"/C/Users/bruno_000/Documents/Oction/GalaxyCRM/docs/Crowdfunding.sol",
+		"/C/wamp/www/humhub/protected/modules_core/wall/StreamAction.php",
+		"/C/wamp/www/humhub/protected/modules_core/wall/models/WallEntry.php",
+		"/C/wamp/www/humhub/protected/modules_core/wall/models/Wall.php",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/docs/lhs.txt",
+		"/C/Users/bruno_000/Documents/Oction/Vitrina/Bkp/Docs/Whitepaper_sketch.txt",
+		"/C/Users/bruno_000/Documents/Oction/Vitrina/Assets/_StrangeVitrina/Game/Model/GameModel.cs",
+		"/C/Users/bruno_000/Documents/Oction/Seguranca/ideas",
+		"/C/wamp/www/bfgminer/wallet/wallet.dat",
+		"/C/Users/bruno_000/Documents/Bruno/BitCoin/Lib/Calculator-master/snapshot.php",
+		"/C/Users/bruno_000/Documents/Bruno/BitCoin/Lib/Calculator-master/calculate.php",
+		"/C/Users/bruno_000/AppData/Roaming/Bitcoin/bitcoin.conf",
+		"/C/Users/bruno_000/Documents/Oction/Institutional/vitrinaWallet.dat",
+		"/C/Users/bruno_000/Documents/Oction/Institutional/Bitcoin_presentation.txt",
+		"/C/Users/bruno_000/Documents/Oction/Institutional/Bitcoin.txt",
+		"/C/Users/bruno_000/Documents/Oction/GalaxyCRM/project/README.md",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/docs/blog_coins.txt",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/docs/blog_coins.html",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/css/style.css",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/css/main.less",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/css/helpers/colors.less",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/ionic/Luxore/www/lib/ionic-material/src/scss/index.scss",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/ionic/Luxore/www/lib/ionic-material/src/scss/elements/button-fab.scss",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/website/vendor/css/materialize.css",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/ionic/Luxore/www/lib/ionic-material/src/scss/helpers/ionic-variables.scss",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/ionic/Luxore/www/lib/ionic-material/src/scss/helpers/utilities.scss",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/templates/main/terms.html",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/templates/main/ethics.html",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/templates/main/home.html",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/templates/docs/header.html",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/templates/docs/index.html",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/templates/features.html",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/templates/menu.html",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/ionic/Luxore/www/templates/menu.html",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/ionic/Luxore/www/js/common/security/security.js",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/project/app/css/style.css",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/docs/Terms.txt",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/js/modules/terms/terms.js",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/js/lib/loader.js",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/js/common/services/languageService.js",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/loaders.html",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/bkp/Angular-Hero-Sample-master/app/index.html",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/website/config/files.js",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/website/config/application.js",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/website/config/lineman.js",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/website/README.md",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/website/Gruntfile.js",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/website/vendor/css/material-design-iconic-font.min.css",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/website/vendor/css/icon.css",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/bkp/Angular-Hero-Sample-master/app/view1/view1.js",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/bkp/Angular-Hero-Sample-master/app/app.js",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/bkp/Angular-Hero-Sample-master/app/animations.css",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/bkp/Angular-Hero-Sample-master/app/app.css",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/bkp/Angular-Hero-Sample-master/README.md",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/bkp/Angular-Hero-Sample-master/package.json",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/bkp/Angular-Hero-Sample-master/bower.json",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/pages/index_off.us",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/website/generated/angular/template-cache.js",
+		"/C/Users/bruno_000/Desktop/Luxore_comp_vs03_pt_BR.srt",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/templates/header.html",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/project/app/templates/header.html",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/static/robots.txt",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/static/sitemap.xml",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/website/tasks/spec-e2e.coffee",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/website/spec/helpers/helper.js",
+		"/C/wamp/www/materialize/product-quick-view/js/main.js",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/js/lib/quick-view.js",
+		"/C/wamp/www/materialize/product-quick-view/index.html",
+		"/C/wamp/www/materialize/product-quick-view/css/style.css",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/templates/main/faq.html",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/templates/ethics.html",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/templates/terms.html",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/project/app/js/app.js",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/blog/style.css",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/blog/templates/style.php",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/blog/media/_frontend/css/nav.css",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/blog/media/css/mythemes-icons.css",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/ionic/Luxore/www/lib/ionic-material/docs/codepen-template.js",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/ionic/Luxore/www/lib/ionic-material/docs/templates/motion.html",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/ionic/Luxore/www/lib/ionic-material/docs/js/app.js",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/ionic/Luxore/www/lib/ionic-material/docs/js/wrapper.js",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/ionic/Luxore/www/lib/ionic-material/docs/css/style.css",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/ionic/Luxore/www/lib/ionic-material/docs/css/wrapper.css",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/ionic/Luxore/www/lib/ionic-material/docs/package.json",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/ionic/Luxore/www/lib/ionic-material/docs/docs.html",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/ionic/Luxore/www/lib/ionic-material/docs/codepen-template.html",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/ionic/Luxore/www/lib/ionic-material/docs/templates/menu.html",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/ionic/Luxore/www/lib/ionic-material/demo/www/templates/menu.html",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/ionic/Luxore/www/lib/ionic-material/src/scss/elements/menu.scss",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/ionic/Luxore/www/lib/ionic-material/src/scss/elements/bar.scss",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/ionic/Luxore/www/css/ionic.app.css",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/ionic/Luxore/www/lib/ionic-material/src/scss/helpers/sizes.scss",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/ionic/Luxore/www/lib/ionic-material/src/scss/elements/bar-header-expanded.scss",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/ionic/Luxore/www/lib/ionic-material/src/scss/elements/button.scss",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/ionic/Luxore/www/lib/ionic-material/src/scss/elements/card.scss",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/ionic/Luxore/www/lib/ionic-material/src/scss/elements/button-floating.scss",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/ionic/Luxore/www/lib/ionic-material/src/scss/elements/button-bar.scss",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/ionic/Luxore/www/lib/ionic-material/src/scss/overrides/ink.scss",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/ionic/Luxore/www/lib/ionic-material/src/scss/overrides/ionic-colors.scss",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/ionic/Luxore/www/lib/ionic-material/src/scss/overrides/ionic.scss",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/ionic/Luxore/www/lib/ionic-material/src/scss/motion/blinds.scss",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/ionic/Luxore/www/lib/ionic-material/src/scss/motion/slide-up.scss",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/ionic/Luxore/www/lib/ionic-material/src/scss/motion/slide-in-right.scss",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/ionic/Luxore/www/lib/ionic-material/src/scss/motion/slide-fade-in.scss",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/ionic/Luxore/www/lib/ionic-material/src/scss/motion/ripple.scss",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/ionic/Luxore/www/lib/ionic-material/src/scss/motion/pan-in-left.scss",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/ionic/Luxore/www/lib/ionic-material/src/scss/helpers/colors/positive.scss"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"gradient",
+			"7b9d6f",
+			"foote",
+			"nav",
+			"content",
+			"300",
+			".cd-horizontal-timeline",
+			"cd-timeline-navigation",
+			".cd-horizontal-timeline",
+			"dropdown",
+			"translation",
+			"translate",
+			"translation",
+			"brand-logo",
+			"shrink",
+			"header",
+			"Por",
+			"Por quê LUX vale mais que dinheiro?! | Why LUX worth more than money?!\nLUX é a moeda usada para transações dentro da Luxore. É uma moeda digital baseada nos mesmos princípios\ndo Bitcoin... E ela vale mais que dinheiro! Silvio Santos, um apresentador brasileiro, dizia que ouro valia\nmais que dinheiro. Por quê ele faria tal afirmação? Primeiro é necessário entender como nosso dinheiro \nfunciona: o governo tem o controle e o poder de \"criar\" eese bem, e ele é só um pedaço de papel.\nAntigamente, dinheiro era vinculado a algum tipo de bem valioso; o ouro era um deles. Isso significava\nque ninguém podia usar mais dinheiro do que podia, garantidamente, pagar. Acontece que hoje, nosso dinheiro\nnão tem contrapartida real; não existem limites, nem é palpável. O ouro ou moedas padrão-ouro impõe um limite\nde disponibilidade: só existe um número finito e limitado que é disponível para a população... \n\nO que é Bitcoin?\nHouve diversas tentativas de moedas digitais para solucionar os problemas relacionados à transferência\nde valores internacionais, de pequenos montantes devido a taxas, de discrição, de facilidade\nde transporte, etc.. Algumas dessas tentativas têm êxito até hoje, como os programas de milhagem e\npontuações de clientela de cachorros quentes a starbucks. Mas com isso surgem outros problemas: \nsegurança de informação, roubo de senhas, malwares, etc..\nA criptografia e avanços no hardware dos computadores permitiram que isso fosse minimizado, até 2009\nquando Satochi Nakamoto revolucionou o mundo com o Bitcoin!\nO Bitcoin foi construído para solucionar problemas! Mas o grande responsável por isso é a tecnologia por\ntrás do dele: o blockchain. Mesmo que o bitcoin caia em desuso e nunca substitua o dinheiro atual,\noutras moedas poderão, mas o blockchain, com certeza, estará em todas elas. Moedas criptográficas são apenas\numa das diversas aplicações dessa revolucionária tecnologia. \"O blockchain é uma máquina de confiança\ne transparência\". Imagine o seguinte: uma empresa registra todos os fornecedores, suas entregas, devoluções,\nvendas, compras, etc. Além de ter que pagar pelo espaço utilizado, com o tempo ela ficará obsoleta e,\ndependendo do formato das tabelas, um caos! O usuário nunca sabe de onde vieram as matérias-primas, se\na empresa realmente tem um controle de qualidade, se o produto é realmente original, e até mesmo se a\nempresa não usa trabalho escravo... Com a utilização do blockchain como base dos dados, isso se torna\npúblico e de fácil acesso, possibilitando aos consumidores maior transparência no processo, e a certeza\nde originalidade! Quando toda a cadeia de fabricação é pública, não existe um meio de enganar quaisquer\nagentes no processo. Além de tudo, o armazenamento dessas informações é distribuído entre os usuários,\ne fica guardado para sempre!!!\n\nComo assim público?\nTodas as transações podem ser verificadas matematicamente, mas isso não significa que as informações\nserão divulgadas para todos. Significa que, matematicamente, todos os usuários \"sabem\" ao mesmo tempo,\no tempo todo, quais transações são válidas... o que é \"verdade\"... mas não necessariamente, o conteúdo\ntrocado! Isso elimina custos entre empresas, por exemplo. Se uma empresa de sapatos, precisa armazenar \ntodas as suas interações com o fornecedor de camurça, e o forncedor precisa armazenar também todas as\nmesmas informações, com o blockchain, em um único local e sem custos, os dois automaticamente \"sabem\"\nexatamente a mesma coisa em qualquer momento. Portanto podem agora \"confiar\" nas entregas.\n\nSmart contracts\nOutra aplicabilidade são os contratos inteligentes. São pedaços de programas (bem matrix) enviados\ncomo transações em um blockchain. Ou seja, envia-se um pedaço de código, que pode ser verificado\npor qualquer um e fica armazenado para sempre, além de não poder ser alterado! Toda vez que uma \ntransação atige esse código, ele é executado - faz o que devia fazer! Então podemos, por exemplo,\narmazenar um programa que \"segura\" o pagamento de um blazer, até sua entrega. Caso tudo esteja normal,\no pagamento é transferido ao fabricante... Se algum problema ocorrer, pode ser julgado por uma terceira\nparte não envolvida no processo, ou deveolvido ao consumidor!!!!\n\nMas se o blockchain é tão poderoso, por quê ainda temos tantos problemas? Por quê não vemos mais empresas\ne governos usando essa ferramenta?\nBem... Essa é complicada. Pode parecer conspiração, mas uma ferramenta que expõe falhas, não é exatamente\na coisa mais desejada do mundo... No nosso momento atual, como seres humanos, estamos vivendo um período\nde extrema velocidade de tecnologias, ao mesmo tempo em que a corrupção nunca esteve tão evidente!!!\nImagine que você tem uma empresa... Você conhece um cara que conhece um cara... De repente você consegue\num empréstimo que pode alavancar suas vendas - graças a um amigo de um amigo do cara conhecido do \ncara que você conhece! (fácil de seguir?!). Um dia você descobre que sua empresa foi usada em um esquema\nde lavagem de dinheiro, ou de desvio de verbas públicas, ou qualquer outro método desses... Ou então,\naquele cara poderoso que conseguiu liberar a grana que chegou até você, é investigado por essas falcatruas!\nTudo isso foi feito por baixo dos panos. Quem vai querer que isso venha à tona?\nAh, Bruno, você está sendo muito dramático! Pode parecer que isso acontece pouco, mas vamos um pouco além?!\nO BNDES empresta dinheiro para empresários... As contas dele não são exatamente auditáveis... Eike Batista\npegou 10bi, faliu e não pagou!! Quem paga isso tudo? Quem confere?\nOs governos contraem dívidas todos os dias... Sabe qual é o jeito mais fácil que eles usam pra pagar?\n\"Imprimem\" mais dinheiro!! Dinheiro também é um produto em uma sociedade e é regido pelas mesmas regras:\noferta e demanda! Mais dinheiro numa economia, menos valem os dinheiros. O nome do resultado dessa\nprática é inflação: quando o dinheiro vale menos, os preços sobem, inflam - inflação! Agora, sabe que moeda\nnão sofre com inflação? Aquelas que são transparentes quanto à sua criação (impressão) e que são confiáveis.\nMoedas digitais - as sérias - têm limite de moedas em circulação e esse limite é imutável, justamente para\nnão sofrer inflação. Se alguém cria uma moeda para um fim ou uma determinada comunidade, não existe motivos\nque não sejam criminosos, para se querer controlar aquele bem!!\n\nÉ justamente por isso que as moedas digitais são úteis: são transparentes no funcionamento, não dependem de\nconfiança, não desvalorizam por caprichos de um grupo de pessoas, e servem ao consumidor!!! O nosso dinheiro,\nhoje, não vale tudo isso!",
+			"$",
+			"material",
+			"content",
+			"navicon",
+			"shrinking",
+			"luxore-loader",
+			"border-radius",
+			"carrinho",
+			"less",
+			"loader",
+			"purple",
+			"jquery",
+			"verypoop",
+			"comunicação",
+			"<",
+			"h1",
+			"h2",
+			"hide-on-med",
+			"languageService",
+			"nav",
+			"transition",
+			"box-shadow",
+			"first-child",
+			"prototype",
+			"app",
+			"benefits",
+			"footer",
+			"translation-dropdown",
+			"2016-01-12",
+			"lisk.io",
+			"whether",
+			"Poiret",
+			"footer",
+			"footer-c",
+			"container",
+			"items",
+			"container",
+			"cd-items",
+			"qv-items",
+			"empty-box",
+			"velocity",
+			"velocity-animating",
+			"animateQuickView",
+			".empty-box",
+			"empty",
+			"animateQuickView",
+			"parent",
+			"cd-",
+			".cd-",
+			"cd-",
+			"4b0a70",
+			"garbage face",
+			"hide",
+			"recommend",
+			"recomend",
+			"”",
+			"“",
+			"Provenance",
+			"’",
+			"DC",
+			"“",
+			"”",
+			"e53932",
+			"PhotoCtrl",
+			"ion-navicon",
+			"menu",
+			"menus",
+			"upercase",
+			"has-header",
+			"ion-nav-bar",
+			"itrineCtrl",
+			"867b1c",
+			"button-energized",
+			"#ffc900",
+			"ffc900",
+			"387ef5",
+			"highlight",
+			"button-energized-900",
+			"button-energized",
+			"side-menu",
+			"redirect",
+			"#E0E0E0",
+			"#FFCDD2",
+			"#B71C1C",
+			"#F44336",
+			"#FFE0B2",
+			"#E65100",
+			"#FF9800",
+			"#C8E6C9",
+			"#1B5E20",
+			"#4CAF50",
+			"#D1C4E9",
+			"#311B92",
+			"#673AB7",
+			"#BBDEFB",
+			"#0D47A1",
+			"#2196F3",
+			"positive100",
+			"C5CAE9",
+			"3F51B5",
+			"1A237E",
+			"import",
+			"color",
+			"style=\"\"",
+			"=\"\">",
+			"Controller",
+			"Ctrl",
+			"language",
+			"achievements",
+			"Invite"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"#roadmap",
+			"timeline-navigation",
+			"#roadmap",
+			"@",
+			"luxore",
+			"lux",
+			"h1",
+			"h1 class=\"title\"",
+			"the-app",
+			"app",
+			"2016-05-11",
+			"www.luxore.me",
+			"qv-",
+			".qv-",
+			"qv-",
+			"6d2a87",
+			"jerkface",
+			"\"",
+			"Luxore",
+			"'",
+			"LF",
+			"\"",
+			"button-energized",
+			"button-energized-100",
+			"$material-stable",
+			"$material-assertive100",
+			"$material-assertive900",
+			"$material-assertive",
+			"$material-energized100",
+			"$material-energized900",
+			"$material-energized",
+			"$material-balanced100",
+			"$material-balanced900",
+			"$material-balanced",
+			"$material-royal100",
+			"$material-royal900",
+			"$material-royal",
+			"$material-calm100",
+			"$material-calm900",
+			"$material-calm",
+			"",
+			"4b0a70",
+			"",
+			"43285f",
+			"4b0a70",
+			"video",
+			"brag",
+			"",
+			"\"Tulip\"",
+			"",
+			"Debug.Log",
+			"list-item-open",
+			"list-nav-trigger",
+			"%",
+			"list-scroll",
+			"list-item-info",
+			"list-single-item",
+			"list-item-title",
+			"list-scroll",
+			"list-item-info",
+			"list-item-title",
+			"list-single-item",
+			"list-single-project",
+			"list",
+			"friends",
+			"../img/flags",
+			"Relationships",
+			"'",
+			"Looks",
+			"fonts/",
+			"http://i.imgur.com/wzHBJhv.jpg",
+			"ProfileModel",
+			"editingFile",
+			"hextag",
+			"model.",
+			"model",
+			"LookTimeline",
+			"\"",
+			"photo",
+			"img/",
+			"newLook.",
+			"lookCreation",
+			"tags",
+			"crudOperations.caption",
+			"look",
+			"LookModel",
+			"UserController",
+			"eventbus",
+			"LookService",
+			"LookModel",
+			"LookController",
+			"LooksService",
+			"_looksService",
+			"LooksModel",
+			"_looksModel",
+			"category",
+			"\"parent\": 32",
+			"\"termCategoryId\": 0",
+			"\"termCategoryId\": 2",
+			"tags",
+			"\"",
+			"msg",
+			"Normal",
+			"Scenery",
+			"vitrina-container",
+			"Token",
+			"photo",
+			"Photo",
+			"`",
+			"`Date`",
+			"badge",
+			"\"",
+			"vitrina",
+			"../images/",
+			"topbar-section",
+			"VitrinaApp",
+			"",
+			"\\n",
+			"",
+			"%]",
+			"[%",
+			"$chain_name",
+			"brunotestchain",
+			"test_chain",
+			"\\n",
+			"\""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 9,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1178,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								545,
+								545
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/C/Users/bruno_000/Documents/Oction/Luxore/docs/blog-posts.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 193,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								193,
+								193
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/pages/index.us",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6056,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5254,
+								5536
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"word_wrap": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1152.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/js/app.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5441,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4530,
+								4530
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3168.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "app/templates/views/site/home.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 12630,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2437,
+								2437
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 984.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "app/css/style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 42047,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								14647,
+								14647
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 13757.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "app/js/lib/timeline-nav.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 12090,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								11823,
+								11823
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 4176.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/C/Users/bruno_000/Documents/Oction/Luxore/bkp/horizontal-timeline/css/style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 9930,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								477,
+								460
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 648.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "/C/Users/bruno_000/Documents/Oction/Luxore/blog/header.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 12759,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3528.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "/C/Users/bruno_000/Documents/Oction/Luxore/blog/style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5684,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3168.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 118.0
+	},
+	"pinned_build_system": "",
+	"project": "LuxoreWeb.sublime-project",
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"C:\\Users\\bruno_000\\Documents\\Oction\\Luxore\\project\\LuxoreApp.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

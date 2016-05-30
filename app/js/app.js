@@ -1,7 +1,7 @@
 var app = angular.module('app', [
   'ui.router',
   'ngAnimate',
-  'gettext',
+  'gettext'
 
 ]);
 
