@@ -1,7 +1,93 @@
-h1,h2,h3,h4,h5 {
-  text-align: center;
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
 }
 
-button {
-  margin-bottom: 0px !important;
+.btn-luxore, .cd-slider-navigation li a {
+  display: inline-block;
+  color: @luxore-bg-white;
+  position: relative;
+  z-index: 1;
+  width: 37px;
+  height: 37px;
+  line-height: 37px;
+  padding: 0;
+  background-color: @color-primary-0;
+  border-radius: 100%;
+  transition: .3s;
+  cursor: pointer;
+  vertical-align: middle;
+  text-align: center;
+  padding-right: 3px;
+  padding-top: 3px;
+  font-weight: bold;
+  &:hover {
+    //color: @color-primary-0;
+    color: @luxore-bg-dark;
+    background-color: @luxore-bg-white;
+  }
+  &:after {
+    content: '';
+    background-color: transparent;
+    width: 37px;
+    height: 37px;
+    border: 2px solid @luxore-bg-dark;
+    border-radius: 100%;
+    position: absolute; /* could also be absolute */ 
+    z-index: 10;
+    right: 2px;
+    top: 3px;
+  }
+  &.btn-large {
+    width: 55px;
+    height: 55px;
+    line-height: 54px;
+    font-size: 1.2rem;
+  }
+  &.btn-large:after {
+    width: 55px;
+    height: 55px;
+    border: 3px solid @luxore-bg-dark;
+    right: 2px;
+    top: 3px;
+  }
+}
+
+
+section {
+  background: @luxore-bg-white;
+  padding: 100px 20px;
+  width: 100%;
+  &.grey {
+    background: @luxore-bg-gray;
+  }
+  &.dark {
+    background: @luxore-bg-dark;
+  }
+}
+
+section {
+  h1.title {
+    font-size: 37px;
+    line-height: 37px;
+    font-weight: 900;
+    font-style: normal;
+    font-family: @fontName;
+    letter-spacing: 2.5px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  p {
+    font-size: 25px;
+    line-height: 25px;
+    font-weight: 400;
+    font-style: normal;
+    font-family: @fontNameLight;
+    text-align: justify;
+  }
 }
