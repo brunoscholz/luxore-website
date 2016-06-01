@@ -1,8 +1,6 @@
 jQuery(document).ready(function($){
 	var sliderContainers = $('.cd-slider-wrapper');
 
-	if( sliderContainers.length > 0 ) initBlockSlider(sliderContainers);
-
 	function initBlockSlider(sliderContainers) {
 		sliderContainers.each(function(){
 			var sliderContainer = $(this),
@@ -39,7 +37,7 @@ jQuery(document).ready(function($){
 	function createSliderPagination(container){
 		var wrapper = $('<ol class="cd-slider-navigation"></ol>');
 		container.children('.cd-slider').find('li').each(function(index) {
-			var dotWrapper = (index == 0) ? $('<li class="selected"></li>') : $('<li></li>'),
+			var dotWrapper = (index === 0) ? $('<li class="selected"></li>') : $('<li></li>'),
 				dot = $('<a href="#0"></a>').appendTo(dotWrapper);
 			dotWrapper.appendTo(wrapper);
 			var dotText = ( index+1 < 10 ) ? '0'+ (index+1) : index+1;
@@ -61,5 +59,9 @@ jQuery(document).ready(function($){
 
 	function enableSwipe(container) {
 		return ( container.parents('.touch').length > 0 );
+	}
+
+	if( sliderContainers.length > 0 ) {
+		initBlockSlider(sliderContainers);
 	}
 });

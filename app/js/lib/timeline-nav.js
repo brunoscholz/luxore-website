@@ -69,7 +69,12 @@ jQuery(document).ready(function($){
 		var translateValue = getTranslateValue(timelineComponents['eventsWrapper']),
 			wrapperWidth = Number(timelineComponents['timelineWrapper'].css('width').replace('px', ''));
 		//translate the timeline to the left('next')/right('prev') 
-		(string === 'next') ? translateTimeline(timelineComponents, translateValue - wrapperWidth + eventsMinDistance, wrapperWidth - timelineTotWidth) : translateTimeline(timelineComponents, translateValue + wrapperWidth - eventsMinDistance);
+		if (string === 'next') {
+			translateTimeline(timelineComponents, translateValue - wrapperWidth + eventsMinDistance, wrapperWidth - timelineTotWidth);
+		}
+		else {
+			translateTimeline(timelineComponents, translateValue + wrapperWidth - eventsMinDistance);
+		}
 	}
 
 	function showNewContent(timelineComponents, timelineTotWidth, string) {
@@ -98,7 +103,7 @@ jQuery(document).ready(function($){
 			timelineTotWidth = Number(timelineComponents['eventsWrapper'].css('width').replace('px', ''));
 		var timelineTranslate = getTranslateValue(timelineComponents['eventsWrapper']);
 
-        if( (string === 'next' && eventLeft > timelineWidth - timelineTranslate) || (string == 'prev' && eventLeft < - timelineTranslate) ) {
+        if( (string === 'next' && eventLeft > timelineWidth - timelineTranslate) || (string === 'prev' && eventLeft < - timelineTranslate) ) {
         	translateTimeline(timelineComponents, - eventLeft + timelineWidth/2, timelineWidth - timelineTotWidth);
         }
 	}
@@ -106,7 +111,7 @@ jQuery(document).ready(function($){
 	function translateTimeline(timelineComponents, value, totWidth) {
 		var eventsWrapper = timelineComponents['eventsWrapper'].get(0);
 		value = (value > 0) ? 0 : value; //only negative translate value
-		value = ( !(typeof totWidth === 'undefined') &&  value < totWidth ) ? totWidth : value; //do not translate more than timeline width
+		value = ((typeof totWidth !== 'undefined') &&  value < totWidth ) ? totWidth : value; //do not translate more than timeline width
 		setTransformValue(eventsWrapper, 'translateX', value+'px');
 		//update navigation arrows visibility
 		(value === 0 ) ? timelineComponents['timelineNavigation'].find('.prev').addClass('inactive') : timelineComponents['timelineNavigation'].find('.prev').removeClass('inactive');
@@ -134,8 +139,11 @@ jQuery(document).ready(function($){
 	function setTimelineWidth(timelineComponents, width) {
 		var timeSpan = daydiff(timelineComponents['timelineDates'][0], timelineComponents['timelineDates'][timelineComponents['timelineDates'].length-1]),
 			timeSpanNorm = timeSpan/timelineComponents['eventsMinLapse'],
-			timeSpanNorm = Math.round(timeSpanNorm) + 4,
-			totalWidth = timeSpanNorm*width;
+			totalWidth = 0;
+
+		timeSpanNorm = Math.round(timeSpanNorm) + 4;
+		totalWidth = timeSpanNorm*width;
+
 		timelineComponents['eventsWrapper'].css('width', totalWidth+'px');
 		updateFilling(timelineComponents['eventsWrapper'].find('a.selected'), timelineComponents['fillingLine'], totalWidth);
 		updateTimelinePosition('next', timelineComponents['eventsWrapper'].find('a.selected'), timelineComponents);

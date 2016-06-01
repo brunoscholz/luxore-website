@@ -110,6 +110,10 @@ app.controller('AppController', function ($scope, $state, $timeout) {
     });
   }
 
+  $scope.donate = function() {
+    console.log("1Np2iFGAPJNxpKkPpMHeqxaAotJZZUTrqr");
+  };
+
   $scope.hideNavBar = function() {
     document.getElementsByTagName('ion-nav-bar')[0].style.display = 'none';
   };

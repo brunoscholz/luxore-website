@@ -71,39 +71,35 @@
 
     <div ng-cloak> <!-- Cloak start -->
 
-      <div ui-view="master" class="page-transition hero-transition">
+      <main ui-view="master" class="page-transition hero-transition">
         Error loading AngularJS view..
-      </div>
+      </main>
       
+      <section class="cd-modal-section">
+        <div class="cd-modal">
+          <div class="cd-modal-content">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad modi repellendus, optio eveniet eligendi molestiae? Fugiat, temporibus! A rerum pariatur neque laborum earum, illum voluptatibus eum voluptatem fugiat, porro animi tempora? Sit harum nulla, nesciunt molestias, iusto aliquam aperiam est qui possimus reprehenderit ipsam ea aut assumenda inventore iste! Animi quaerat facere repudiandae earum quisquam accusamus tempora, delectus nesciunt, provident quae aliquam, voluptatum beatae quis similique in maiores repellat eligendi voluptas veniam optio illum vero! Eius, dignissimos esse eligendi veniam.
+            </p>
 
-      <!-- <div class="cd-modal">
-        <div class="modal-content">
-          <h1 class="home__title">a new kind of social network</h1>
-          <div class="row">
-            <div class="col s12 m4 l2">
-              <p>&nbsp;</p>
-            </div>
-            <div class="col s12 m4 l8">
-              <div class="video-container z-depth-5">
-                <iframe id="inst-video" width="600" height="340" src="//www.youtube.com/embed/JGCsyshUU-A?rel=0" frameborder="0" allowfullscreen></iframe>
-              </div>
-            </div>
-            <div class="col s12 m4 l2"></div>
-          </div>
-        </div> --> <!-- .modal-content -->
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad modi repellendus, optio eveniet eligendi molestiae? Fugiat, temporibus! A rerum pariatur neque laborum earum, illum voluptatibus eum voluptatem fugiat, porro animi tempora? Sit harum nulla, nesciunt molestias, iusto aliquam aperiam est qui possimus reprehenderit ipsam ea aut assumenda inventore iste! Animi quaerat facere repudiandae earum quisquam accusamus tempora, delectus nesciunt, provident quae aliquam, voluptatum beatae quis similique in maiores repellat eligendi voluptas veniam optio illum vero! Eius, dignissimos esse eligendi veniam.
+            </p>
 
-        <!-- <a class="btn-floating btn-large waves-effect waves-light modal-close">
-          <i class="material-icons">close</i>
-        </a> -->
-      <!-- </div> --> <!-- .cd-modal -->
-       
-      <div class="cd-transition-layer"> 
-        <div class="bg-layer"></div>
-      </div> <!-- .cd-transition-layer -->
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad modi repellendus, optio eveniet eligendi molestiae? Fugiat, temporibus! A rerum pariatur neque laborum earum, illum voluptatibus eum voluptatem fugiat, porro animi tempora? Sit harum nulla, nesciunt molestias, iusto aliquam aperiam est qui possimus reprehenderit ipsam ea aut assumenda inventore iste! Animi quaerat facere repudiandae earum quisquam accusamus tempora, delectus nesciunt, provident quae aliquam, voluptatum beatae quis similique in maiores repellat eligendi voluptas veniam optio illum vero! Eius, dignissimos esse eligendi veniam.
+            </p>
+          </div> <!-- cd-modal-content -->
+        </div> <!-- cd-modal -->
+        <a href="#0" class="btn-luxore btn-large cd-modal-close">
+          <i class="large material-icons" style="font-size: 2rem;">close</i>
+        </a>
+      </section>
+
 
       <!-- ScrollUp button start -->
       <div id="scrollup" class="scrollup">
-        <a class="btn-luxore btn-large z-depth-3" href="#mainHeader">
+        <a class="btn-luxore btn-large" href="#mainHeader">
           <i class="large material-icons" style="font-size: 2.6rem;">expand_less</i>
         </a>
       </div>

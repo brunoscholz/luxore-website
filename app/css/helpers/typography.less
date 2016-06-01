@@ -4,28 +4,28 @@
 @fontNameLight: 'Raleway', sans-serif;
 @fontNameBold: 'Raleway', sans-serif;
 
-.luxore-text {
-   &.light {
-      font-family: 'Poiret One', cursive;
+@font-size--extra-large: 4rem;
+@font-size--large: 3.3rem;
+@font-size--medium: 1.2rem;
+@font-size--small: 0.7rem;
+
+/* {
+   & .light {
       font-weight: 100;
    }
-   &.regular {
-      font-family: 'Poiret One', cursive;
+   & .regular {
       font-weight: 400;
    }
-   &.medium {
-      font-family: 'Poiret One', cursive;
+   & .medium {
       font-weight: 500;
    }
-   &.bold {
-      font-family: 'Poiret One', cursive;
+   & .bold {
       font-weight: 700;
    }
-   &.heavy {
-      font-family: 'Poiret One', cursive;
+   & .heavy {
       font-weight: 900;
    }
-}
+}*/
 
 html * {
   -webkit-font-smoothing: antialiased;
@@ -41,23 +41,22 @@ html * {
 body {
   font-size: 100%;
   color: @luxore-logo-purple;
-  background-color: @luxore-bg-white;
+  background-color: @luxore-text-light;
   overflow-x: hidden;
   font-family: 'Raleway', sans-serif;
   font-weight: 400;
 }
 
-.bg-white,
-a.white {
-   color: @luxore-bg-white;
-   &:hover {
-      color: @luxore-logo-purple;
-   }
-}
-.bg-grey,
-a.grey {
-  color: @luxore-bg-gray;
+a {
+  color: @luxore-text-medium;
   &:hover {
-    color: @luxore-bg-white;
+    color: @luxore-logo-purple;
   }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
 }
