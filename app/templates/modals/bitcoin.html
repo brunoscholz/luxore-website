@@ -1,4 +1,68 @@
 <div class="btf-modal">
-  <h3>Hello Bitcoin</h3>
-  <p><a href ng-click="modal.closeMe()">Close Me</a></p>
+  <div class="sample">
+    <a href="bitcoin:1Np2iFGAPJNxpKkPpMHeqxaAotJZZUTrqr">Sample using <code>href="bitcoin:1Np2iFGAPJNxpKkPpMHeqxaAotJZZUTrqr"</code></a>
+    <pre>
+&lt;a
+  href="<span class="attribute">bitcoin:1Np2iFGAPJNxpKkPpMHeqxaAotJZZUTrqr?amount=0.01</span>"
+&gt;
+  Sample using href="bitcoin:1Np2iFGAPJNxpKkPpMHeqxaAotJZZUTrqr"
+&lt;/a&gt;
+    </pre>
+  </div>
+  <div class="sample">
+    <a href="bitcoin:1BPVHqxcMAdPEtfSHLLPfpqucrDfgCGgD4?amount=0.01">Sample using <code>href="bitcoin:..." with an amount</code></a>
+    <pre>
+&lt;a
+href="<span class="attribute">bitcoin:1BPVHqxcMAdPEtfSHLLPfpqucrDfgCGgD4?amount=0.01</span>"
+&gt;
+Sample using href="bitcoin:..." with an amount
+&lt;/a&gt;
+    </pre>
+  </div>
+
+  <div class="sample">
+    <a href="https://blockchain.info/address/1BPVHqxcMAdPEtfSHLLPfpqucrDfgCGgD4" data-btcaddress="1BPVHqxcMAdPEtfSHLLPfpqucrDfgCGgD4">Sample using <code>data-btcaddress</code></a>
+    <pre>
+&lt;a
+href="<span class="attribute">https://blockchain.info/address/1BPVHqxcMAdPEtfSHLLPfpqucrDfgCGgD4</span>"
+data-btcaddress="<span class="attribute">1BPVHqxcMAdPEtfSHLLPfpqucrDfgCGgD4</span>"
+&gt;
+Sample using data-btcaddress
+&lt;/a&gt;
+    </pre>
+  </div>
+
+  <div class="sample">
+    <a href="https://blockchain.info/address/1BPVHqxcMAdPEtfSHLLPfpqucrDfgCGgD4" data-btcaddress="1BPVHqxcMAdPEtfSHLLPfpqucrDfgCGgD4?amount=0.01">Sample using <code>data-btcaddress</code> with an amount</a>
+    <pre>
+&lt;a
+href="<span class="attribute">https://blockchain.info/address/1BPVHqxcMAdPEtfSHLLPfpqucrDfgCGgD4</span>"
+data-btcaddress="<span class="attribute">1BPVHqxcMAdPEtfSHLLPfpqucrDfgCGgD4</span>"
+&gt;
+Sample using data-btcaddress with an amount
+&lt;/a&gt;
+    </pre>
+  </div>
+  <!-- <p><a href ng-click="modal.closeMe()">Close Me</a></p> -->
 </div>
+
+<script type="text/javascript">
+  btcdonate();
+  /*
+   *
+   * You can also try variations by changing the "fill" and "radius" values:
+   *
+   * Use a black QR code:
+   *   btcdonate({fill: "#990000"});
+   *
+   * Don't curve the lines so much:
+   *   btcdonate({radius: 0});
+   *
+   * Combine both of the above:
+   *   btcdonate({
+   *     fill: "#990000",
+   *     radius: 0
+   *   });
+   *
+   */
+</script>

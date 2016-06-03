@@ -63,13 +63,13 @@ app.config(function ($stateProvider, $urlRouterProvider, $locationProvider) {
           }
         });
 
-        $(document).on("click", ".Modal-backdrop, .Modal-holder", function() {
+        /*$(document).on("click", ".Modal-backdrop, .Modal-holder", function() {
           $state.go("Modal.Default");
         });
 
         $(document).on("click", ".Modal-box, .Modal-box *", function(e) {
           e.stopPropagation();
-        });
+        });*/
       }],
     })
     .state("Modal.Default", {})
@@ -155,7 +155,7 @@ app.controller('AppController', function ($scope, $state, $timeout, modal) {
   $scope.$state = $state;
 
   $scope.donateInBitcoin = function(e) {
-    console.log("1Np2iFGAPJNxpKkPpMHeqxaAotJZZUTrqr");
+    // console.log("1Np2iFGAPJNxpKkPpMHeqxaAotJZZUTrqr");
     var elem = angular.element(e.target);
     modal.open(elem);
     $state.go('Modal.bitcoinDonate');
