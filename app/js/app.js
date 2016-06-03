@@ -132,7 +132,7 @@ app.run(function ($rootScope, $state, $stateParams, languageService, gettextCata
 app.controller('AppController', function ($scope, $state, $timeout, ngClipboard, modal) {
   $scope.toClipboard = function(element) {
     ngClipboard.toClipboard(element);
-    Materialize.toast('Address Copied!', 4000);
+    Materialize.toast('Address Copied!', 4000, 'rounded');
   };
 
   $(window).on('resize', function(){
@@ -163,6 +163,7 @@ app.controller('AppController', function ($scope, $state, $timeout, ngClipboard,
   $scope.donateInBitcoin = function(e) {
     // console.log("1Np2iFGAPJNxpKkPpMHeqxaAotJZZUTrqr");
     var elem = angular.element(e.target);
+    console.log(elem);
     modal.open(elem);
     $state.go('Modal.bitcoinDonate');
   };
