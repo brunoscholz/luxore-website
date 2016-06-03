@@ -319,7 +319,7 @@ video {
   text-align: left;
 }
 
-#features .row .btn {
+#features .row .btn, #join .btn {
   margin-top: 5px;
   background-color: #82778C;
   color: #f3f2f3;
@@ -327,7 +327,7 @@ video {
   width: unset;
 }
 
-#features .row .btn:hover {
+#features .row .btn:hover, #join .btn:hover {
   background-color: #f3f2f3;
   border: 2px solid #60526d;
   color: #82778C;
@@ -453,10 +453,6 @@ video {
   position: relative;
   width: 100%;
   height: 550px;
-}
-
-#coin h1.title {
-  margin-bottom: 140px;
 }
 
 .slider .indicators .indicator-item {
@@ -746,7 +742,7 @@ Slider
     padding: 0 90px;
   }
   .cd-slider h2 {
-    font-weight: 300;
+    font-weight: 700;
   }
 }
 
@@ -835,6 +831,10 @@ Modal
   font-size: 1em;
   line-height: 2;
   text-align: left;
+}
+
+.card-bitcoin .btcdonate-qr img {
+  margin: 10% 25%;
 }
 
 .card-bitcoin .btcdonate {
@@ -1217,6 +1217,7 @@ Modal
   -webkit-transition: height 0.4s;
   -moz-transition: height 0.4s;
   transition: height 0.4s;
+  color: transparent;
 }
 #roadmap .events-content li {
   position: absolute;
@@ -1238,6 +1239,18 @@ Modal
   -moz-animation-timing-function: ease-in-out;
   animation-timing-function: ease-in-out;
 }
+#roadmap .events-content li h2, #roadmap .events-content li em {
+  color: #6d2a87;
+}
+
+#roadmap .events-content a {
+  color: #000;
+}
+
+#roadmap .events-content a:hover {
+  color: #6d2a87;
+}
+
 #roadmap .events-content li.selected {
   /* visible event content */
   position: relative;

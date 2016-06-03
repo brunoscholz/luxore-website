@@ -46,11 +46,15 @@ jQuery(document).ready(function($){
 			//on swipe, show next/prev event content
 			timelineComponents['eventsContent'].on('swipeleft', function(){
 				var mq = checkMQ();
-				( mq === 'mobile' ) && showNewContent(timelineComponents, timelineTotWidth, 'next');
+				if ( mq === 'mobile' ) {
+					showNewContent(timelineComponents, timelineTotWidth, 'next');
+				}
 			});
 			timelineComponents['eventsContent'].on('swiperight', function(){
 				var mq = checkMQ();
-				( mq === 'mobile' ) && showNewContent(timelineComponents, timelineTotWidth, 'prev');
+				if ( mq === 'mobile' ) {
+					showNewContent(timelineComponents, timelineTotWidth, 'prev');
+				}
 			});
 
 			//keyboard navigation
@@ -114,8 +118,19 @@ jQuery(document).ready(function($){
 		value = ((typeof totWidth !== 'undefined') &&  value < totWidth ) ? totWidth : value; //do not translate more than timeline width
 		setTransformValue(eventsWrapper, 'translateX', value+'px');
 		//update navigation arrows visibility
-		(value === 0 ) ? timelineComponents['timelineNavigation'].find('.prev').addClass('inactive') : timelineComponents['timelineNavigation'].find('.prev').removeClass('inactive');
-		(value === totWidth ) ? timelineComponents['timelineNavigation'].find('.next').addClass('inactive') : timelineComponents['timelineNavigation'].find('.next').removeClass('inactive');
+		if (value === 0 ) {
+			timelineComponents['timelineNavigation'].find('.prev').addClass('inactive');
+		}
+		else {
+			timelineComponents['timelineNavigation'].find('.prev').removeClass('inactive');
+		}
+
+		if (value === totWidth ) {
+			timelineComponents['timelineNavigation'].find('.next').addClass('inactive');
+		}
+		else {
+			timelineComponents['timelineNavigation'].find('.next').removeClass('inactive');
+		}
 	}
 
 	function updateFilling(selectedEvent, filling, totWidth) {
@@ -159,12 +174,15 @@ jQuery(document).ready(function($){
 			selectedContent = eventsContent.find('[data-date="'+ eventDate +'"]'),
 			selectedContentHeight = selectedContent.height();
 
+		var classEnetering = 'selected enter-right',
+			classLeaving = 'leave-left';
+
 		if (selectedContent.index() > visibleContent.index()) {
-			var classEnetering = 'selected enter-right',
-				classLeaving = 'leave-left';
+			classEnetering = 'selected enter-right';
+			classLeaving = 'leave-left';
 		} else {
-			var classEnetering = 'selected enter-left',
-				classLeaving = 'leave-right';
+			classEnetering = 'selected enter-left';
+			classLeaving = 'leave-right';
 		}
 
 		selectedContent.attr('class', classEnetering);
@@ -172,7 +190,7 @@ jQuery(document).ready(function($){
 			visibleContent.removeClass('leave-right leave-left');
 			selectedContent.removeClass('enter-left enter-right');
 		});
-		eventsContent.css('height', selectedContentHeight+'px');
+		eventsContent.css('min-height', selectedContentHeight+'px');
 	}
 
 	function updateOlderEvents(event) {
@@ -187,13 +205,15 @@ jQuery(document).ready(function($){
          		timelineStyle.getPropertyValue("-o-transform") ||
          		timelineStyle.getPropertyValue("transform");
 
+        var translateValue = 0;
+
         if( timelineTranslate.indexOf('(') >=0 ) {
-        	var timelineTranslate = timelineTranslate.split('(')[1];
+        	timelineTranslate = timelineTranslate.split('(')[1];
     		timelineTranslate = timelineTranslate.split(')')[0];
     		timelineTranslate = timelineTranslate.split(',');
-    		var translateValue = timelineTranslate[4];
+    		translateValue = timelineTranslate[4];
         } else {
-        	var translateValue = 0;
+        	translateValue = 0;
         }
 
         return Number(translateValue);
@@ -212,16 +232,18 @@ jQuery(document).ready(function($){
 		var dateArrays = [];
 		events.each(function(){
 			var singleDate = $(this),
-				dateComp = singleDate.data('date').split('T');
+				dateComp = singleDate.data('date').split('T'),
+				dayComp = '',
+				timeComp = '';
 			if( dateComp.length > 1 ) { //both DD/MM/YEAR and time are provided
-				var dayComp = dateComp[0].split('/'),
-					timeComp = dateComp[1].split(':');
+				dayComp = dateComp[0].split('/');
+				timeComp = dateComp[1].split(':');
 			} else if( dateComp[0].indexOf(':') >=0 ) { //only time is provide
-				var dayComp = ["2000", "0", "0"],
-					timeComp = dateComp[0].split(':');
+				dayComp = ["2000", "0", "0"];
+				timeComp = dateComp[0].split(':');
 			} else { //only DD/MM/YEAR
-				var dayComp = dateComp[0].split('/'),
-					timeComp = ["0", "0"];
+				dayComp = dateComp[0].split('/');
+				timeComp = ["0", "0"];
 			}
 			var	newDate = new Date(dayComp[2], dayComp[1]-1, dayComp[0], timeComp[0], timeComp[1]);
 			dateArrays.push(newDate);
@@ -269,7 +291,7 @@ jQuery(document).ready(function($){
 
 	function checkMQ() {
 		//check if mobile or desktop device
-		return window.getComputedStyle(document.querySelector('#roadmap'), '::before').getPropertyValue('content').replace(/'/g, "").replace(/"/g, "");
+		//return window.getComputedStyle(document.querySelector('#roadmap'), '::before').getPropertyValue('content').replace(/'/g, "").replace(/"/g, "");
 	}
 
 	(timelines.length > 0) && initTimeline(timelines);
