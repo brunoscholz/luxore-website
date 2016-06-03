@@ -190,6 +190,7 @@ video {
   width: 20em;
   white-space: nowrap;
   font-weight: 700;
+  letter-spacing: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-transition: color 0.2s, width 0.3s 0s, background-color 0.3s, border-radius 0.3s;
@@ -272,13 +273,27 @@ video {
 }
 
 .btn-kickstarter .btn:hover {
-  color: #f3f2f3;
+  background-color: #f3f2f3;
+  border: 2px solid #3fab71;
+  color: #3fab71;
 }
 
 .home .call-to-action li.btn-header {
   height: 55px;
   line-height: 55px;
   margin: 25px 0;
+}
+
+.btn-header .btn {
+  background-color: #82778C;
+  color: #f3f2f3;
+  transition: all 0.3s;
+}
+
+.btn-header .btn:hover {
+  background-color: #f3f2f3;
+  border: 2px solid #60526d;
+  color: #82778C;
 }
 
 .emphasis {
@@ -811,6 +826,25 @@ Modal
 
 -------------------------------- */
 
+.card-bitcoin {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.card-bitcoin p {
+  font-size: 1em;
+  line-height: 2;
+  text-align: left;
+}
+
+.card-bitcoin .btcdonate {
+
+}
+
+.card-bitcoin .btcdonate a {
+  color: #000;
+  font-size: 0.8em;
+}
 
 .btf-modal {
   position: fixed;
@@ -831,13 +865,7 @@ Modal
   padding: 0 !important;
   text-align: center;
 }
-.cd-modal-section p {
-  margin: 2em 0;
-  line-height: 1.6;
-  color: #ffffff;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+
 @media only screen and (min-width: 768px) {
   .cd-modal-section {
     padding: 4em 10%;
@@ -889,11 +917,7 @@ Modal
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-.cd-modal p {
-  color: #ffffff;
-  line-height: 1.6;
-  margin: 2em 0;
-}
+
 .modal-is-visible .cd-modal {
   visibility: visible;
   opacity: 1;
@@ -910,10 +934,6 @@ Modal
 @media only screen and (min-width: 1170px) {
   .cd-modal .cd-modal-content {
     padding: 6em 20%;
-  }
-  .cd-modal p {
-    font-size: 2rem;
-    line-height: 2;
   }
 }
 

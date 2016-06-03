@@ -40,7 +40,7 @@ var btcdonate = function(options){
 
     var $qr = $('<div class="btcdonate-qr"></div>')
       .qrcode({
-        size: 128,
+        size: 256,
         fill: qr.fill,
         radius: qr.radius,
         text: address.replace("bitcoin:", ""),
@@ -52,63 +52,8 @@ var btcdonate = function(options){
       .append($qr)
       .append('<div class="btcdonate-address">' + address.replace("bitcoin:", "").replace(/\?.*/, "") + '</div>');
 
-    $(this).append($bubble);
+    //$(this).append($bubble);
+    $('.qrcode').append($qr);
 
-    // Set the mouseover and mouseout on both elements
-    $([trigger, $bubble.get(0)]).mouseover(function () {
-
-      var bubble_offset_vertical = ($bubble.height() + 25) * -1;
-      var bubble_offset_horizontal = (($bubble.width() - $(trigger).width()) / 2) * -1;
-
-      // Stops the hide event if we move from the trigger to the popup element
-      if (hideDelayTimer) {
-        clearTimeout(hideDelayTimer);
-      }
-
-      // Don't trigger the animation again if we're being shown, or already visible
-      if (!beingShown && !shown) {
-
-        beingShown = true;
-
-        // reset position of popup box
-        $bubble
-          .css({
-            top: bubble_offset_vertical,
-            left: bubble_offset_horizontal,
-            display: "block",
-              position: "absolute"
-          })
-          .animate({
-            top: '-=' + distance + 'px',
-            opacity: 1
-          }, time, 'swing', function() {
-            beingShown = false;
-            shown = true;
-          });
-      }
-
-    }).mouseout(function () {
-
-      // Reset the timer if we get fired again - avoids double animations
-      if (hideDelayTimer) {
-        clearTimeout(hideDelayTimer);
-      }
-
-      // Store the timer so that it can be cleared in the mouseover if required
-      hideDelayTimer = setTimeout(function (){
-        hideDelayTimer = null;
-        $bubble.animate({
-          top: '-=' + distance + 'px',
-          opacity: 0
-        }, time, 'swing', function () {
-          // Once the animate is complete, set the tracker variables
-          shown = false;
-          // Hide the popup entirely after the effect (opacity alone doesn't do the job)
-          $bubble.css('display', 'none');
-        });
-      }, hideDelay);
-
-    });
   });
-
 };

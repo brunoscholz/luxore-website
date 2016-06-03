@@ -4,6 +4,7 @@ var app = angular.module('app', [
   'ct.ui.router.extras.sticky',
   'ngAnimate',
   'gettext',
+  'ngClipboard',
   'uimodal'
 ]);
 
@@ -59,7 +60,8 @@ app.config(function ($stateProvider, $urlRouterProvider, $locationProvider) {
         $(document).on("keyup", function(e) {
           if(e.keyCode === 27) {
             $(document).off("keyup");
-            $state.go("Modal.Default");
+            //$state.go("Modal.Default");
+            //$scope.closeModal();
           }
         });
 
@@ -127,7 +129,11 @@ app.run(function ($rootScope, $state, $stateParams, languageService, gettextCata
 
 });
 
-app.controller('AppController', function ($scope, $state, $timeout, modal) {
+app.controller('AppController', function ($scope, $state, $timeout, ngClipboard, modal) {
+  $scope.toClipboard = function(element) {
+    ngClipboard.toClipboard(element);
+    Materialize.toast('Address Copied!', 4000);
+  };
 
   $(window).on('resize', function(){
     //on window resize - update cover layer dimention and position

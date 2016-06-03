@@ -1,53 +1,34 @@
-<div class="btf-modal">
-  <div class="sample">
-    <a href="bitcoin:1Np2iFGAPJNxpKkPpMHeqxaAotJZZUTrqr">Sample using <code>href="bitcoin:1Np2iFGAPJNxpKkPpMHeqxaAotJZZUTrqr"</code></a>
-    <pre>
-&lt;a
-  href="<span class="attribute">bitcoin:1Np2iFGAPJNxpKkPpMHeqxaAotJZZUTrqr?amount=0.01</span>"
-&gt;
-  Sample using href="bitcoin:1Np2iFGAPJNxpKkPpMHeqxaAotJZZUTrqr"
-&lt;/a&gt;
-    </pre>
+<div class="card card-bitcoin">
+  <div class="card-image waves-effect waves-block waves-light">
+    <img class="activator" src="https://res.cloudinary.com/coinbase/image/upload/c_fill,h_360,w_920/v1421211174/bvrrexahhi31enwxu3wz.jpg">
   </div>
-  <div class="sample">
-    <a href="bitcoin:1BPVHqxcMAdPEtfSHLLPfpqucrDfgCGgD4?amount=0.01">Sample using <code>href="bitcoin:..." with an amount</code></a>
-    <pre>
-&lt;a
-href="<span class="attribute">bitcoin:1BPVHqxcMAdPEtfSHLLPfpqucrDfgCGgD4?amount=0.01</span>"
-&gt;
-Sample using href="bitcoin:..." with an amount
-&lt;/a&gt;
-    </pre>
+  <div class="card-content">
+    <span class="card-title activator grey-text text-darken-4">Donate to:<i class="material-icons right">more_vert</i></span>
+    <p><a href="bitcoin:1Np2iFGAPJNxpKkPpMHeqxaAotJZZUTrqr" target="_blank">1Np2iFGAPJNxpKkPpMHeqxaAotJZZUTrqr</a></p>
+    <em>click in the image or the icon on the left for the QR Code</em>
   </div>
-
-  <div class="sample">
-    <a href="https://blockchain.info/address/1BPVHqxcMAdPEtfSHLLPfpqucrDfgCGgD4" data-btcaddress="1BPVHqxcMAdPEtfSHLLPfpqucrDfgCGgD4">Sample using <code>data-btcaddress</code></a>
-    <pre>
-&lt;a
-href="<span class="attribute">https://blockchain.info/address/1BPVHqxcMAdPEtfSHLLPfpqucrDfgCGgD4</span>"
-data-btcaddress="<span class="attribute">1BPVHqxcMAdPEtfSHLLPfpqucrDfgCGgD4</span>"
-&gt;
-Sample using data-btcaddress
-&lt;/a&gt;
-    </pre>
+  <div class="card-action">
+    <input type="text" ng-model="vm.model">
+    <a href="#" ng-click="toClipboard('1Np2iFGAPJNxpKkPpMHeqxaAotJZZUTrqr')">
+      Copy Address
+    </a>
+    <a href="#" class="btn btn-waiting"  style="display: none;">
+      Waiting for Payment
+    </a>
   </div>
-
-  <div class="sample">
-    <a href="https://blockchain.info/address/1BPVHqxcMAdPEtfSHLLPfpqucrDfgCGgD4" data-btcaddress="1BPVHqxcMAdPEtfSHLLPfpqucrDfgCGgD4?amount=0.01">Sample using <code>data-btcaddress</code> with an amount</a>
-    <pre>
-&lt;a
-href="<span class="attribute">https://blockchain.info/address/1BPVHqxcMAdPEtfSHLLPfpqucrDfgCGgD4</span>"
-data-btcaddress="<span class="attribute">1BPVHqxcMAdPEtfSHLLPfpqucrDfgCGgD4</span>"
-&gt;
-Sample using data-btcaddress with an amount
-&lt;/a&gt;
-    </pre>
+  <div class="card-reveal">
+    <span class="card-title grey-text text-darken-4">Scan QR code<i class="material-icons right">close</i></span>
+    <div class="qrcode" data-size="6" data-level="l" data-css-size="100">
+      
+    </div>
   </div>
-  <!-- <p><a href ng-click="modal.closeMe()">Close Me</a></p> -->
 </div>
 
 <script type="text/javascript">
-  btcdonate();
+  $(document).ready(function() {
+    //btcdonate();
+    btcdonate({fill: "#000000"});
+  });
   /*
    *
    * You can also try variations by changing the "fill" and "radius" values:
