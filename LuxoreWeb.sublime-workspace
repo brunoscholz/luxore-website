@@ -4,6 +4,70 @@
 		"selected_items":
 		[
 			[
+				"mai",
+				"mainContent"
+			],
+			[
+				"tim",
+				"timeComp"
+			],
+			[
+				"day",
+				"dayComp"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"qr",
+				"qrcode"
+			],
+			[
+				"btn",
+				"btnRadius"
+			],
+			[
+				"scal",
+				"scaleValue"
+			],
+			[
+				"st",
+				"sticky"
+			],
+			[
+				"paddi",
+				"padding-top"
+			],
+			[
+				"bor",
+				"border-radius"
+			],
+			[
+				"$stat",
+				"$stateParams"
+			],
+			[
+				"modal",
+				"modalapp"
+			],
+			[
+				"set",
+				"setType"
+			],
+			[
+				"moda",
+				"modal"
+			],
+			[
+				"tem",
+				"template"
+			],
+			[
+				"ng",
+				"ng-click	AngularJS"
+			],
+			[
 				"background-",
 				"background-repeat"
 			],
@@ -120,10 +184,6 @@
 				"padding-top"
 			],
 			[
-				"paddi",
-				"padding-left"
-			],
-			[
 				"i",
 				"list-item"
 			],
@@ -214,10 +274,6 @@
 			[
 				"arri",
 				"arrivedChange"
-			],
-			[
-				"ng",
-				"ng-class	AngularJS"
 			],
 			[
 				"borde",
@@ -458,73 +514,35 @@
 			[
 				"init",
 				"initCreate"
-			],
-			[
-				"sa",
-				"sayHello"
-			],
-			[
-				"re",
-				"readFile"
-			],
-			[
-				"lo",
-				"log"
-			],
-			[
-				"medi",
-				"mediaId"
-			],
-			[
-				"Vi",
-				"VitrinaModule"
-			],
-			[
-				"ta",
-				"Tags"
-			],
-			[
-				"Lok",
-				"LookService"
-			],
-			[
-				"a",
-				"crosshair"
-			],
-			[
-				"fi",
-				"firstNodes"
-			],
-			[
-				"chi",
-				"childCount"
-			],
-			[
-				"chil",
-				"childCount"
-			],
-			[
-				"all",
-				"allNodes"
-			],
-			[
-				"te",
-				"termData"
-			],
-			[
-				"tax",
-				"taxData"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
+			"contents": " Having a default set of objects (Contacts, Opportunities..)\n✓ Defining your own objects and fields\n✓ Controlling access to objects and fields at a granular level\n✓ Adding, searching, and deleting records of any type\n✓ Validating data in those fields\n✓ Basic reporting and exporting\n✓ Managing users, logins, and passwords\n\nBut many things are not actually required for an MVP:\n\n✗ Workflow and rule-based actions\n✗ Server-side code execution\n✗ Bulk import functionality\n✗ Layout customization\n✗ External integrations\n✗ Bulk data load application\n✗ Marketing and sales machines\n✗ ... and lots of other stuff.\n\n\n    Standardising decentralised processes that impede customer relationships – to replace old systems that risk quality, cost and customer experience.\n    Enhancing connections with customers via new technologies – to prioritise human-driven interaction with customers, and move away from dated mass automation.\n    Utilising new channels that offer a path to more personal customer communications – practicing communications across smart devices, video and social media to achieve a personal approach.”\n\n\n    Understand the issues and challenges that you currently face when interacting with your customer.  “For example, do your team have the information they need readily available to respond to customer queries? Can you provide a seamless experience for your customer regardless of the channel? Is time being spent with customers or on repetitive manual tasks? This will help you understand your internal challenges,” she explains.\n    Identify your customer journeys.  “A customer journey is how your customer interacts with your business, e.g. purchasing a product, reporting an issue. Then align your internal business processes with these journeys.  This will help you determine if you are easy or hard to do business with.”\n    Identify how you will measure success, what will your KPIs be. “Once you have identified them, measure your current state of play. That way you will have a comparison point.”\n    Identify critical business dates or milestones. “Do you have a new product launch coming? Do you have a busy period that requires a systems freeze, etc. This will he you determine critical timing.”\n\n\n    The cultural readiness of the organisation to adopt a customer-centric approach to business.\n    A clear vision of what good CRM looks like across the organisation.\n    Clearly documented customer journeys across the organisation.\n    A communication plan for sharing the actionable items within the strategy, progress charts that show what has been implemented and where.\n    An education program for the entire staff, including third-parties who may have involvement in the interactions with the organisation’s customers.\n    An implementation plan, including a feedback loop that allows everyone to highlight implementation or execution problems.\n    Clear leadership – ideally including the responsibilities of the most senior managers in terms of managing the operationalisation of the strategy.\n    Clear measures that show everyone the value of adopting and applying the strategic initiatives.\n    The selection of appropriate software to support the unique CRM strategy of the organisation.\n    Celebration of excellence when it is achieved – how do we know we are at a point of excellence?\n\n\n    Relationship objectives - What are the key objectives of the programme? What is the ultimate vision and mission for the brand’s relationship with customers and prospects?\n    Customer need states - Through customer/prospect research, determine the needs of customers throughout their purchase journey and after as a customer. Determine priorities and identify gaps that should be met.\n    User journeys - Map out example user journeys of customers interacting with the business to determine when, how, and what the CRM system would provide.\n    Data strategy plan -Data is the core of the platform. Consideration should be given on how to make sure all data is passed back to the CRM from any additional platforms and how the data flows out of the CRM to any relevant platforms.\n    CRM system plan - Determine the stages of relationship with prospects/customers, map out the moments for contact interaction, and identity the necessary workflows required by employees to make it happen.\n    Content strategy and process - Content is at the heart of CRM. A content strategy must be developed to determine the topical themes, forms, channels, tone and cadence of the relationships with contacts. Equally it’s important to identify a process for creating the content (internal/external), how it’s created (production, design, approvals), and when it will be published (editorial calendar).\n    Feature requirements - Interview end users of the system to determine the most important features and user cases so that the system is selected and built in a way that meets the most important requirements.\n    System selection - Research and demo different systems to determine the one that most thoroughly meets the CRM objectives, customer needs, feature requirements and budget model.\n    Training - Training is a key element to determine adoption. Investing in one-to-one or group training, as well as continued support, will help to establish adoption and unlock the value of the system amongst employees.\n\n",
+			"settings":
+			{
+				"buffer_size": 5340,
+				"line_ending": "Unix",
+				"name": "Having a default set of objects (Contacts, Opport"
+			}
+		},
+		{
 			"contents": "\nFifteen minutes of podcast fame. Let a backer act as a co-interviewer with you. \nVanity plate. Put a backer's name on yours. Real deal! \nKeys to the kingdom. Share code keys so backers can hack away.\nTruth or truth. Record a three-minute video answering three questions (even better if you do it for three backers). \nCustom memes. Create 52 personalized memes of a backer's cat — one for every week of the year.\n8-bit avatars. Make custom images for your backers.\nDrake Shake. For everyone who backs the project, create a Drake Shake with their profile pic.\nHandwritten postcards — sent from rest stops on tour.\nLessons via Skype. Host a 101 session for backers anywhere\nBacker map. Make a map of backer locations into a commemorative scroll, puzzle, or poster. \nFollow everyone on Twitter. Of course.\nIn-game treats. A character made to look like a backer, an item on a shelf subtly named after a backer — check out cool ways Thimbleweed Park made backers part of their game!\nHop on the track. Incorporate a backer's 10-second sound sample into a song.\nDedicate the whole book to a backer. Yep, the whole book! \nDo a limited-run poster or print — your unique art will live on!",
 			"settings":
 			{
 				"buffer_size": 1178,
 				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "9133 2446\nEvelyn\nevytrend\nevelyn@evytrend.com",
+			"settings":
+			{
+				"buffer_size": 45,
+				"line_ending": "Unix",
+				"name": "9133 2446"
 			}
 		},
 		{
@@ -539,56 +557,101 @@
 			"file": "app/pages/index.us",
 			"settings":
 			{
-				"buffer_size": 7622,
-				"line_ending": "Unix"
+				"buffer_size": 5747,
+				"line_ending": "Windows"
 			}
 		},
 		{
 			"file": "app/js/app.js",
 			"settings":
 			{
-				"buffer_size": 5533,
+				"buffer_size": 8017,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"contents": "9133 2446\nEvelyn\nevytrend\nevelyn@evytrend.com",
+			"file": "app/templates/footer.html",
 			"settings":
 			{
-				"buffer_size": 45,
-				"line_ending": "Unix",
-				"name": "9133 2446"
-			}
-		},
-		{
-			"file": "app/js/lib/common.js",
-			"settings":
-			{
-				"buffer_size": 2749,
+				"buffer_size": 2721,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "app/js/lib/cd-modal.js",
+			"file": "app/templates/main.html",
 			"settings":
 			{
-				"buffer_size": 3039,
-				"line_ending": "Unix"
+				"buffer_size": 3335,
+				"line_ending": "Windows"
 			}
 		},
 		{
 			"file": "app/templates/views/site/home.html",
 			"settings":
 			{
-				"buffer_size": 12690,
+				"buffer_size": 9717,
 				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/templates/views/site/terms.html",
+			"settings":
+			{
+				"buffer_size": 10558,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/templates/views/site/faq.html",
+			"settings":
+			{
+				"buffer_size": 16991,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/js/modules/docs/docs.js",
+			"settings":
+			{
+				"buffer_size": 739,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "angular.module('faq', [\n  'ui.router',\n  'ct.ui.router.extras.core',\n  'ct.ui.router.extras.sticky'\n]);\n\nangular.module('faq').config(['$stateProvider, $urlRouterProvider', function ($stateProvider, $urlRouterProvider) {\n  $urlRouterProvider.otherwise(\"/\");\n  $stateProvider\n    ;\n}]);\n\nangular.module('faq').controller('FaqController', ['$scope', '$location',\n  function ($scope, $location) {\n\n  }]);",
+			"file": "app/js/modules/faq/faq.js",
+			"file_size": 0,
+			"file_write_time": 131094548843628707,
+			"settings":
+			{
+				"buffer_size": 401,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "angular.module('terms', []);\n\nangular.module('terms').config(['$routeProvider', function ($routeProvider) {\n  $routeProvider\n    ;\n}]);\n\n/*.controller()\n$('html, body').animate({ scrollTop: 0 }, 'fast');\n;*/\n",
+			"file": "app/js/modules/terms/terms.js",
+			"file_size": 0,
+			"file_write_time": 131094549687487683,
+			"settings":
+			{
+				"buffer_size": 208,
+				"line_ending": "Unix"
 			}
 		},
 		{
 			"file": "app/css/style.css",
 			"settings":
 			{
-				"buffer_size": 34063,
+				"buffer_size": 35531,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/css/faq.css",
+			"settings":
+			{
+				"buffer_size": 7752,
 				"line_ending": "Windows"
 			}
 		},
@@ -596,7 +659,7 @@
 			"file": "app/css/style.less",
 			"settings":
 			{
-				"buffer_size": 6741,
+				"buffer_size": 6816,
 				"line_ending": "Windows"
 			}
 		},
@@ -604,7 +667,7 @@
 			"file": "app/css/helpers/typography.less",
 			"settings":
 			{
-				"buffer_size": 1017,
+				"buffer_size": 1424,
 				"line_ending": "Unix"
 			}
 		},
@@ -617,6 +680,22 @@
 			}
 		},
 		{
+			"file": "/C/Users/bruno_000/Documents/Oction/Luxore/liveblog/style.css",
+			"settings":
+			{
+				"buffer_size": 61388,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/bruno_000/Documents/Oction/Luxore/liveblog/content.php",
+			"settings":
+			{
+				"buffer_size": 2913,
+				"line_ending": "Windows"
+			}
+		},
+		{
 			"contents": ".lux-header ul.brand,\n.lux-header ul.brand li,\n.lux-header nav a {\n  -webkit-transition: all 0.3s;\n  -moz-transition: all 0.3s;\n  transition: all 0.3s;\n}\n.lux-header ul.brand li.brand-logo img, \n.lux-header {\n  -webkit-transition: all 0.5s;\n  -moz-transition: all 0.5s;\n  transition: all 0.5s;\n}\n.lux-header {\n  position: fixed;\n  width: 100%;\n  height: 200px;\n  z-index: 998;\n  background: transparent;\n  overflow: hidden;\n}\n\n.lux-header .nav-wrapper {}\n\n.lux-header ul.brand {\n  list-style: none outside none;\n  height: 200px;\n  line-height: 200px;\n}\n\n.lux-header ul.brand li {\n  display: inline-block;\n  float: left;\n  padding-left: 20px;\n}\n\n.lux-header ul.brand li.brand-logo {\n\n}\n\n.lux-header ul.brand li.brand-logo img {\n  height: 150px;\n  vertical-align: middle;\n}\n\n.lux-header .brand-title {\n  margin: 0;\n  cursor: pointer;\n  font-family: 'Poiret One', cursive;\n  color: #fff;\n  font-weight: 400;\n  font-size: 3.4rem;\n  text-transform: uppercase;\n}\n\n.lux-header nav {\n  float: right;\n  background-color: transparent;\n  box-shadow: unset;\n  margin-top: -150px;\n}\n\n.lux-header nav li {\n  line-height: 75px;\n}\n\n.lux-header nav a {\n  color: #f3f2f3;\n  font-weight: 700;\n  margin: 0 0 0 20px;\n  font-size: 1.4em;\n}\n\n.lux-header nav a:hover {\n  color: #333;\n}\n\n.lux-header nav a.translation-button {\n  padding-right: 25px;\n}\n\n.lux-header nav a.translation-button img {\n  vertical-align: middle;\n}\n\n.dropdown-content li > a, .dropdown-content li > span {\n    display: block;\n    padding: 14px 0;\n}\n\n.lux-header.shrink {\n  height: 75px;\n  /*box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);*/\n  /*background-color: #82778c;*/\n  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);\n  background: -webkit-linear-gradient(-45deg, #635471, #82778c);\n  background: -o-linear-gradient(-45deg, #635471, #82778c);\n  background: -moz-linear-gradient(-45deg, #635471, #82778c);\n  background: linear-gradient(-45deg, #635471, #82778c);\n}\n\n.lux-header.shrink nav {\n  width: 70%;\n  height: 75px;\n  margin-top: -75px;\n}\n\n.lux-header.shrink ul.brand {\n  height: 75px;\n  line-height: 75px;\n  margin: 0;\n  margin-bottom: 0;\n}\n\n.lux-header.shrink ul.brand li {\n  display: inline-block;\n  height: 75px;\n  padding-left: 20px;\n  vertical-align: middle;\n  text-align: center;\n}\n\n.lux-header ul.brand li,\n.lux-header.shrink nav a {\n  \n}\n\n.lux-header.shrink ul.brand li.brand-logo {\n  padding-top: 7px;\n}\n\n.lux-header.shrink ul.brand li.brand-logo img {\n  height: 60px;\n  vertical-align: unset;\n}\n\n.lux-header.shrink .brand-title {\n  font-size: 2.6rem;\n}\n\n.lux-header .brand-title:hover {\n  color: #82778c;\n}\n\nnav .button-collapse i {\n  line-height: 80px;\n}\n\n@-webkit-keyframes fadeIn {\n    from { opacity: 0; }\n      to { opacity: 1; }\n}\n\n@keyframes fadeIn {\n    from { opacity: 0; }\n      to { opacity: 1; }\n}\n\n@-webkit-keyframes fadeOut {\n    from { opacity: 1; }\n      to { opacity: 0; }\n}\n\n@keyframes fadeOut {\n    from { opacity: 1; }\n      to { opacity: 0; }\n}\n\n@keyframes grow {\n  0% {\n    display: none;\n    opacity: 0;\n  }\n  10% {\n    display: block;\n    opacity: 0;\n    transform: scale(1);\n  }\n  100% {\n    opacity: 1;\n    transform: scale(1);\n  }\n}\n\n/* Example Media Queries */\n@media screen and (max-width: 55em) {\n  \n  .lux-header .lux-inner {\n    width: 100%;\n  }\n\n  .lux-header h1,\n  .lux-header nav {\n    display: block;\n    margin: 0 auto;\n    text-align: center;\n    float: none;\n  }\n\n  .lux-header h1,\n  .lux-header nav a {\n    line-height: 115px;\n  }\n\n  .lux-header nav a {\n    margin: 0 10px;\n  }\n\n  .lux-header.shrink h1,\n  .lux-header.shrink nav a {\n    line-height: 45px;\n  }\n\n  .lux-header.shrink h1 {\n    font-size: 2em;\n  }\n\n  .lux-header.shrink nav a {\n    font-size: 1em;\n  }\n}\n\n@media screen and (max-width: 32.25em) {\n  .lux-header nav a {\n    font-size: 1em;\n  }\n}\n\n@media screen and (max-width: 24em) {\n  .lux-header nav a,\n  .lux-header.shrink nav a {\n    line-height: 1;\n  }\n}",
 			"settings":
 			{
@@ -625,10 +704,13 @@
 			}
 		},
 		{
+			"contents": "/*\nTheme Name: Materialize\nTheme URI: http://mythem.es/item/materialize-free-wordpress-theme/\nDescription: Materialize is an white, clean, elegant, modern, creative and beautiful freemium WordPress theme built with HTML5 and CSS3. The clean, white, elegant, modern and creative design can be used for any type of website: business, corporate, portfolio, products, creative, arts, design, construction, transport, manufacturing, ecology, cosmetics, beauty, hygiene, sports, culture, presentations, food business, restaurants, drink, bar, pub, club, radio, tv, television, music, movies, live style, garden, cuisine, chemical, pharmaceutical, medicine, travel, sample blog, agriculture, science, politics and more others. The theme is builded base on white, clean and responsive Material Design Concept. This theme is suitable for all type of devices: desktop, notebook, tablete, iPhone and others. Responsive design and Materialia Design Concept are based on Materialize framework. Theme is developed by myThem.es. We carefully handcrafted this theme with a strong focus on typography, usability and overall user-experience. It’s very quick to setup and easy to customize. It also comes with free support. Please read the FAQ: Admin Dashboard > Appearances > Materialize FAQ.\nVersion: 0.0.8  \nTags:  black, silver, light, white, red, green, three-columns, two-columns, one-column, right-sidebar, left-sidebar, fluid-layout, responsive-layout, flexible-header, featured-images, sticky-post, theme-options, translation-ready, custom-colors, custom-menu, featured-image-header, threaded-comments, custom-background, custom-header\nText Domain: materialize\nAuthor: myThem.es\nAuthor URI: http://mythem.es/\nLicense: GNU General Public License v2.0\nLicense URI: http://www.gnu.org/licenses/gpl-2.0.html\n\n\n\n\n    Materialize, Copyright 2015 myThem.es\n    Materialize is distributed under the terms of the GNU GPL\n\n\n                     ________________\n                    |_____    _______|\n     ___ ___ ___   __ __  |  |  __       ____   ___ ___ ___       ____   ____ \n    |           | |_ |  | |  | |  |___  |  __| |           |     |  __| |  __|\n    |   |   |   |  | |  | |  | |  __  | |  __| |   |   |   |  _  |  __| |__  |\n    |___|___|___|   |  |  |__| |_ ||_ | |____| |___|___|___| |_| |____| |____|   \n                    |_|\n\n\n                         myThem.es Marketplace provides WordPress themes with\n                                    the best quality and the smallest prices.\n\n\n\n\n*/\n/* ALIGN TEXT */\n.align-none{\n    text-align: none;\n}\n.align-left{\n    text-align: left;\n}\n.align-center{\n    text-align: center;\n}\n.align-justify{\n    text-align: justify;\n}\n.align-right{\n    text-align: right;\n}\n\n/* WORDPRESS */\n.alignleft,\n.alignright{\n    margin-top: 10px;\n    margin-bottom: 10px;\n}\n.alignnone,\n.aligncenter{\n    margin-top: 25px;\n    margin-bottom: 25px;\n}\n\ndiv.mythemes-page > .aligncenter:first-child,\ndiv.mythemes-page > .alignnone:first-child{\n    margin-top: 0px;\n}\ndiv.mythemes-page > .aligncenter:last-child,\ndiv.mythemes-page > .alignnone:last-child{\n    margin-bottom: 0px;\n}\n.alignleft{\n    float:left;\n    margin-right: 15px;\n}\n.alignright{\n    float:right;\n    margin-left: 15px;\n}\n.aligncenter{\n    clear:both;\n    display: block;\n    margin-left:auto;\n    margin-right:auto;\n    text-align: center;\n}\n\n.sticky,\n.gallery-caption,\n.screen-reader-text,\n.bypostauthor{}\n\n.wp-caption{\n    background-color: #ffffff;\n\n    -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);\n       -moz-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);\n            box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);\n}\n.wp-caption,\n.wp-caption p,\n.wp-caption a{\n    font-style: italic;\n}\n.wp-caption,\n.wp-caption p{\n    color: #454545;\n}\nsection .wp-caption p,\nsection .wp-caption p.wp-caption-text{\n    background: #ffffff;\n    color: #454545;\n    padding: 15px 25px;\n    margin: 0px;\n    line-height: 24px;\n}\nsection .post-thumbnail .valign-bottom-cell-wrapper{\n    height: auto;\n}\n.single-portfolio .thumbnail-content footer,\nsection .post-thumbnail footer{\n    background: rgba( 0,0,0, 0.4 );\n    color: #ffffff;\n    font-style: italic;\n    padding: 10px;\n}\n.wp-caption img{\n    display: block;\n    \n    width: -webkit-calc( 100% + 10px );\n    width: calc( 100% + 10px );\n\n}\n\n.mythemes-round-corners{\n    -webkit-border-radius: 5px;\n       -moz-border-radius: 5px;\n            border-radius: 5px;\n}\n\ncode {\n    background: #e9e9e9;\n    font-size: 12px;\n    padding: 8px 15px;\n  \n    -webkit-border-radius: 2px;\n       -moz-border-radius: 2px;\n            border-radius: 2px;\n}\ncode {\n    font-family: Consolas, \"Liberation Mono\", Courier, monospace;\n    font-weight: 400;\n    color: #333;\n}\n\naside.mythemes-sidebar div.widget {\n    background-color: #f5f5f5;\n    margin-bottom: 20px;\n    -webkit-box-shadow: 0 2px 5px 0 rgba(130, 119, 140, 0.66), 0 2px 10px 0 rgba(130, 119, 140, 0.42);\n    -moz-box-shadow: 0 2px 5px 0 rgba(130, 119, 140, 0.66), 0 2px 10px 0 rgba(130, 119, 140, 0.42);\n    box-shadow: 0 2px 5px 0 rgba(130, 119, 140, 0.66), 0 2px 10px 0 rgba(130, 119, 140, 0.42);\n}\n\ndiv.widget h4.widget-title {\n    background-color: #fff;\n    color: #4b0a70;\n    font-family: 'Poiret One', sans-serif, Arial, serif;\n    font-size: 16px;\n    font-style: normal;\n    font-variant: normal;\n    font-weight: 400;\n    line-height: 20px;\n    margin: 0px;\n    padding: 5px 20px;\n    letter-spacing: 1px;\n    text-transform: uppercase;\n    border-bottom: 1px solid #ddd;\n}\n\nbody.single section article, .mythemes-classic > article {\n    background: #f5f5f5;\n    padding: 30px 30px 50px 30px;\n    margin-top: 20px;\n}\n\ndiv.nav-wrapper div.not-collapsed-wrapper {\n    display: inline-block;\n    padding: 0;\n}\n\n.btn-luxore {\n  display: inline-block;\n  color: #f3f2f3;\n  position: relative;\n  z-index: 1;\n  width: 37px;\n  height: 37px;\n  line-height: 37px;\n  padding: 0;\n  background-color: #82778c;\n  border-radius: 100%;\n  transition: .3s;\n  cursor: pointer;\n  vertical-align: middle;\n  text-align: center;\n  padding-right: 3px;\n  padding-top: 3px;\n}\n\n.btn-luxore:hover {\n  background-color: #82778c;\n}\n\n.btn-luxore:after {\n  content: '';\n  background-color: transparent;\n  width: 37px;\n  height: 37px;\n  border: 2px solid #60526d;\n  border-radius: 100%;\n  position: absolute; /* could also be absolute */ \n  z-index: 10;\n  right: 2px;\n  top: 3px;\n}\n\n.btn-luxore.btn-large {\n  width: 55px;\n  height: 55px;\n  line-height: 54px;\n  font-size: 1.2rem;\n}\n\n.btn-luxore.btn-large:after {\n  width: 55px;\n  height: 55px;\n  border: 3px solid #60526d;\n  right: 2px;\n  top: 3px;\n}\n\nh1.title {\n    font-size: 37px;\n    line-height: 34px;\n    font-weight: 900;\n    font-style: normal;\n    font-family: \"Poiret One\", cursive;\n    /*color: #3B3B3B;*/\n    letter-spacing: 2.5px;\n    margin-left: auto;\n    margin-right: auto;\n    position: relative;\n    text-align: center;\n    text-transform: uppercase;\n}\n\n.lux-header ul.brand,\n.lux-header ul.brand li,\n.lux-header nav a {\n  -webkit-transition: all 0.3s;\n  -moz-transition: all 0.3s;\n  transition: all 0.3s;\n}\n.lux-header ul.brand li.brand-logo img, \n.lux-header {\n  -webkit-transition: all 0.5s;\n  -moz-transition: all 0.5s;\n  transition: all 0.5s;\n}\n.lux-header {\n  position: fixed;\n  width: 100%;\n  height: 200px;\n  z-index: 998;\n  background: transparent;\n  overflow: hidden;\n}\n\n.lux-header .nav-wrapper {}\n\n.lux-header ul.brand {\n  list-style: none outside none;\n  height: 200px;\n  line-height: 200px;\n}\n\n.lux-header ul.brand li {\n  display: inline-block;\n  float: left;\n  padding-left: 20px;\n}\n\n.lux-header ul.brand li.brand-logo {\n\n}\n\n.lux-header ul.brand li.brand-logo img {\n  width: 150px;\n  vertical-align: middle;\n}\n\n.lux-header .brand-title {\n  margin: 0;\n  cursor: pointer;\n  font-family: 'Poiret One', cursive;\n  color: #fff;\n  font-weight: 400;\n  font-size: 3.4rem;\n  text-transform: uppercase;\n}\n\n.lux-header nav {\n  float: right;\n  background-color: transparent;\n  box-shadow: unset;\n  margin-top: -150px;\n}\n\n.lux-header nav li {\n  line-height: 75px;\n}\n\n.lux-header nav a {\n  color: #f3f2f3;\n  font-weight: 700;\n  margin: 0 0 0 20px;\n  font-size: 1.4em;\n}\n\n.lux-header nav a:hover {\n  color: #333;\n}\n\n.lux-header nav a.translation-button {\n  padding-right: 25px;\n}\n\n.lux-header nav a.translation-button img {\n  vertical-align: middle;\n}\n\n.dropdown-content li > a, .dropdown-content li > span {\n    display: block;\n    padding: 14px 0;\n}\n\n.lux-header.shrink {\n  height: 75px;\n  /*box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);*/\n  /*background-color: #82778c;*/\n  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);\n  background: -webkit-linear-gradient(-45deg, #43285f, #82778c);\n  background: -o-linear-gradient(-45deg, #43285f, #82778c);\n  background: -moz-linear-gradient(-45deg, #43285f, #82778c);\n  background: linear-gradient(-45deg, #43285f, #82778c);\n}\n\n.lux-header.shrink nav {\n  width: 70%;\n  height: 75px;\n  margin-top: -75px;\n}\n\n.lux-header.shrink ul.brand {\n  height: 75px;\n  line-height: 75px;\n  margin: 0;\n  margin-bottom: 0;\n}\n\n.lux-header.shrink ul.brand li {\n  display: inline-block;\n  height: 75px;\n  padding-left: 20px;\n  vertical-align: middle;\n  text-align: center;\n}\n\n.lux-header ul.brand li,\n.lux-header.shrink nav a {\n  \n}\n\n.lux-header.shrink ul.brand li.brand-logo {\n  padding-top: 7px;\n}\n\n.lux-header.shrink ul.brand li.brand-logo img {\n  width: 60px;\n  vertical-align: unset;\n}\n\n.lux-header.shrink .brand-title {\n  font-size: 2.6rem;\n}\n\n.lux-header .brand-title:hover {\n  color: #6d2a87\n}\n\n@-webkit-keyframes fadeIn {\n    from { opacity: 0; }\n      to { opacity: 1; }\n}\n\n@keyframes fadeIn {\n    from { opacity: 0; }\n      to { opacity: 1; }\n}\n\n@-webkit-keyframes fadeOut {\n    from { opacity: 1; }\n      to { opacity: 0; }\n}\n\n@keyframes fadeOut {\n    from { opacity: 1; }\n      to { opacity: 0; }\n}\n\n@keyframes grow {\n  0% {\n    display: none;\n    opacity: 0;\n  }\n  10% {\n    display: block;\n    opacity: 0;\n    transform: scale(1);\n  }\n  100% {\n    opacity: 1;\n    transform: scale(1);\n  }\n}\n\n/* Example Media Queries */\n@media screen and (max-width: 55em) {\n  \n  .lux-header .lux-inner {\n    width: 100%;\n  }\n\n  .lux-header h1,\n  .lux-header nav {\n    display: block;\n    margin: 0 auto;\n    text-align: center;\n    float: none;\n  }\n\n  .lux-header h1,\n  .lux-header nav a {\n    line-height: 115px;\n  }\n\n  .lux-header nav a {\n    margin: 0 10px;\n  }\n\n  .lux-header.shrink h1,\n  .lux-header.shrink nav a {\n    line-height: 45px;\n  }\n\n  .lux-header.shrink h1 {\n    font-size: 2em;\n  }\n\n  .lux-header.shrink nav a {\n    font-size: 1em;\n  }\n}\n\n@media screen and (max-width: 32.25em) {\n  .lux-header nav a {\n    font-size: 1em;\n  }\n}\n\n@media screen and (max-width: 24em) {\n  .lux-header nav a,\n  .lux-header.shrink nav a {\n    line-height: 1;\n  }\n}\n\n.content {\n  padding-top: 120px;\n  padding-bottom: 80px;\n}\n\ndiv.mythemes-page-header {\n    display: none;\n}\n\n/* POSTS */\n\nbody.single section article, .mythemes-classic > article, div.comments-list div.mythemes-comments {\n    -webkit-box-shadow: 0 2px 5px 0 rgba(130, 119, 140, 0.66), 0 2px 10px 0 rgba(130, 119, 140, 0.42);\n    -moz-box-shadow: 0 2px 5px 0 rgba(130, 119, 140, 0.66), 0 2px 10px 0 rgba(130, 119, 140, 0.42);\n    box-shadow: 0 2px 5px 0 rgba(130, 119, 140, 0.66), 0 2px 10px 0 rgba(130, 119, 140, 0.42);\n}\n\nbody.single section article, .mythemes-classic > article {\n    background: #ffffff;\n    padding: 30px 30px 50px 30px;\n    margin-top: 20px;\n}\n\ndiv.comments-list div.mythemes-comments {\n    background-color: #ffffff;\n    margin: 20px 0px;\n    padding: 20px 30px;\n}\n\nbody.single section div.post-meta-terms {\n  background-color: transparent;\n  margin: unset;\n  padding: 20px 30px;\n  -webkit-box-shadow: none;\n  -moz-box-shadow: none;\n  box-shadow: none;\n}\n\n/* POST h1 & title */\n.mythemes-classic article h2.post-title {\n    margin-top: 0px;\n    margin-bottom: 10px;\n}\n\n.hentry h1.post-title, article h1.post-title, .hentry h2.post-title, article h2.post-title, .hentry h1, article h1 {\n    font-size: 34px;\n    line-height: 42px;\n    font-family: \"Poiret One\", cursive;\n    color: #82778c;\n    font-weight: bold;\n}\n\narticle h2.post-title a {\n    color: #6d2a87;\n    font-size: 42px;\n    line-height: 50px;\n    font-family: \"Poiret One\", cursive;\n    font-weight: bold;\n}\n\narticle h2.post-title a:hover {\n    color: #6d2a87;\n    text-decoration: none;\n}\n\ndiv.widget_post_tags div.tagcloud a, div.widget_tag_cloud div.tagcloud a {\n    position: relative;\n    background-color: #f3f2f3;\n    border: 2px solid #6d2a87;\n    color: #6d2a87;\n    display: inline-block;\n    font-size: 12px !important;\n    line-height: 24px;\n    padding: 2px 14px;\n    margin: 5px 0px 0px 5px;\n    text-transform: uppercase;\n    -webkit-box-sizing: border-box;\n    -moz-box-sizing: border-box;\n    box-sizing: border-box;\n    -webkit-transition: all 0.2s linear;\n    -moz-transition: all 0.2s linear;\n    -ms-transition: all 0.2s linear;\n    -o-transition: all 0.2s linear;\n    transition: all 0.2s linear;\n    border-radius: 30px;\n}\n\ndiv.widget_post_tags div.tagcloud a:hover, div.widget_tag_cloud div.tagcloud a:hover {\n    background-color: #6d2a87;\n    color: #f3f2f3;\n}\n\nbody.single section div.post-meta-tags a {\n    background-color: #6d2a87;\n    -webkit-user-select: none;\n    -moz-user-select: none;\n    -ms-user-select: none;\n    user-select: none;\n    -webkit-tap-highlight-color: transparent;\n    vertical-align: middle;\n    z-index: 1;\n    will-change: opacity, transform;\n    -webkit-transition: all .3s ease-out;\n    -moz-transition: all .3s ease-out;\n    -o-transition: all .3s ease-out;\n    -ms-transition: all .3s ease-out;\n    transition: all .3s ease-out;\n    border-radius: 30px;\n}\n\nbody.single section div.post-meta-tags a:hover {\n    color: #6d2a87;\n    background-color: #f3f2f3;\n    border: 1px solid #6d2a87;\n}\n\n/* categories */\narticle div.meta ul.post-categories li a {\n    background-color: #6d2a87;\n    color: #ffffff;\n    padding: 5px 12px;\n    margin: 0px;\n    -webkit-user-select: none;\n    -moz-user-select: none;\n    -ms-user-select: none;\n    user-select: none;\n    -webkit-tap-highlight-color: transparent;\n    vertical-align: middle;\n    z-index: 1;\n    will-change: opacity, transform;\n    -webkit-transition: all .3s ease-out;\n    -moz-transition: all .3s ease-out;\n    -o-transition: all .3s ease-out;\n    -ms-transition: all .3s ease-out;\n    transition: all .3s ease-out;\n}\n\narticle div.meta ul.post-categories li a:hover, div.comment-respond form.comment-form button.submit-comment:hover {\n    color: #6d2a87;\n    background-color: #f3f2f3;\n    border: 1px solid #6d2a87;\n}\n\narticle div.post-content {\n    padding-top: 20px;\n}\n\narticle div.post-content h1 {\n    color: #6d2a87;\n    font-family: \"Poiret One\", cursive;\n    font-weight: 600;\n}\n\nsection div.mythemes-page blockquote, section article blockquote {\n    border-left: 5px solid #6d2a87;\n    background-color: #f5f5f5;\n    margin: 20px 0;\n    padding: 10px 15px 10px 55px;\n    font-size: 14px;\n    font-style: italic;\n    color: #000000;\n}\n\nblockquote {\n    \n}\n\nblockquote::before, blockquote::before {\n    content: '\\ec91';\n    color: #6d2a87;\n    font-family: \"fontello\";\n    font-style: normal;\n    font-weight: normal;\n    font-size: 22px;\n    speak: none;\n    float: left;\n    margin: 0px 0px 0px -40px;\n    display: inline-block;\n    text-decoration: inherit;\n    text-align: center;\n    font-variant: normal;\n    text-transform: none;\n}\n\nbody.single section div.post-meta-tags span {\n    background-color: transparent !important;\n    color: #6d2a87;\n    box-shadow: unset;\n}\n\ndiv.comment-respond form.comment-form button.submit-comment {\n    background-color: #6d2a87;\n    color: rgba( 255, 255, 255, 0.8 );\n    float: right;\n    font-family: Raleway, sans-serif, Arial, serif;\n    font-weight: normal;\n    font-variant: normal;\n    font-style: normal;\n    margin: -45px 0px 40px 0px;\n    text-transform: uppercase;\n    -webkit-transition: all 0.3s linear;\n    -moz-transition: all 0.3s linear;\n    -ms-transition: all 0.3s linear;\n    -o-transition: all 0.3s linear;\n    transition: all 0.3s linear;\n    -webkit-border-radius: 0px;\n    -moz-border-radius: 0px;\n    -ms-border-radius: 0px;\n    -o-border-radius: 0px;\n    border-radius: 0px;\n}\n\n/*  */\n\n#join {\n  background-image: url(\"https://d2ypq1gviimup.cloudfront.net/img/events/2015_fashion_show_bg6.jpg\");\n  background-color: #f3f2f3;\n  background-position: center center;\n  background-size: cover;\n  padding-bottom: 70px;\n  padding-top: 70px;\n  text-align: center;\n}\n\n#join p {\n  text-align: center;\n  font-size: 1.3rem;\n}\n\n.terms, .ethics {\n}\n\n.terms .row p, .ethics .row p {\n  font-size: 1.2rem;\n  text-align: justify !important;\n  color: #000;\n}\n\n.terms h2, .ethics h2 {\n  font-size: 2.3rem;\n}\n\n.terms h3, .ethics h3 {\n  text-align: left;\n  font-size: 1.6rem;\n}\n\n#social-contacts {\n  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12) inset;\n  padding-top: 20px;\n}\n\n#social-contacts .social {\n  display: table;\n  margin: 0 auto;\n}\n\n#social-contacts .social ul {\n  margin-right:auto;\n  margin-left:auto;\n  text-align:center;\n}\n\n#social-contacts .social ul li {\n  display: inline;\n}\n\n#social-contacts .social ul li a {\n  display: inline-block;\n  width: 50px;\n  height: 50px;\n  margin: 5px;\n  text-align: center;\n}\n\nfooter {\n  font-weight: 500;\n  font-style: normal;\n  box-shadow: inset 0px -1px 0 0 #D1D1D1;\n}\n\nfooter.page-footer {\n  padding-top: 76px;\n  margin-top: -20px;\n  background: -webkit-linear-gradient(-45deg, #43285f, #82778c);\n  background: -o-linear-gradient(-45deg, #43285f, #82778c);\n  background: -moz-linear-gradient(-45deg, #43285f, #82778c);\n  background: linear-gradient(-45deg, #43285f, #82778c);\n}\n\nfooter .brand-logo img {\n  width: 200px;\n}\n\nfooter, footer p.lux-text {\n  font-family: \"Poiret One\", cursive;\n  font-weight: 500;\n  color: #fff;\n  text-transform: uppercase;\n  font-size: 2rem;\n}\n\nfooter ul {\n  font-family: Helvetica;\n  text-transform: lowercase;\n  font-size: 1.1rem;\n  margin-left: 40%;\n}\n\nfooter ul li {\n  padding-top: 10px;\n}\n\nfooter ul li a {\n  color: #b1b1b1;\n  transition: all 0.3s linear;\n}\n\nfooter ul li a:hover {\n  color: #fff;\n}\n\nfooter.footer-copyright {\n  background-color: #D1D1D1;\n}\n\n.scrollup {\n  position:fixed;\n  bottom: 50px; \n  right: 35px;\n}\n",
 			"file": "/C/Users/bruno_000/Documents/Oction/Luxore/blog/style.css",
+			"file_size": 19212,
+			"file_write_time": 131091902683601554,
 			"settings":
 			{
-				"buffer_size": 18390,
+				"buffer_size": 18312,
 				"line_ending": "Windows"
 			}
 		},
@@ -645,14 +727,6 @@
 			"settings":
 			{
 				"buffer_size": 7784,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/C/wamp/www/OctionGalaxyProject/ng-yii/src/scripts/app.js",
-			"settings":
-			{
-				"buffer_size": 152,
 				"line_ending": "Unix"
 			}
 		},
@@ -711,33 +785,6 @@
 				"buffer_size": 1564,
 				"line_ending": "Unix"
 			}
-		},
-		{
-			"file": "app/templates/main.html",
-			"settings":
-			{
-				"buffer_size": 1521,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "app/templates/footer.html",
-			"settings":
-			{
-				"buffer_size": 2571,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"contents": "/* -------------------------------- \n\nPrimary style\n\n-------------------------------- */\n*, *::after, *::before {\n  box-sizing: border-box;\n}\n\nhtml {\n  font-size: 62.5%;\n}\n\nbody {\n  font-size: 1.6rem;\n  font-family: \"Fira Sans\", sans-serif;\n  color: #383838;\n  background-color: #f8f8f8;\n}\n\na {\n  color: #7b9d6f;\n  text-decoration: none;\n}\n\n/* -------------------------------- \n\nMain Components \n\n-------------------------------- */\n#roadmap {\n  opacity: 0;\n  margin: 2em auto;\n  -webkit-transition: opacity 0.2s;\n  -moz-transition: opacity 0.2s;\n  transition: opacity 0.2s;\n}\n#roadmap::before {\n  /* never visible - this is used in jQuery to check the current MQ */\n  content: 'mobile';\n  display: none;\n}\n#roadmap.loaded {\n  /* show the timeline after events position has been set (using JavaScript) */\n  opacity: 1;\n}\n#roadmap .timeline {\n  position: relative;\n  height: 100px;\n  width: 90%;\n  max-width: 800px;\n  margin: 0 auto;\n}\n#roadmap .events-wrapper {\n  position: relative;\n  height: 100%;\n  margin: 0 40px;\n  overflow: hidden;\n}\n#roadmap .events-wrapper::after, #roadmap .events-wrapper::before {\n  /* these are used to create a shadow effect at the sides of the timeline */\n  content: '';\n  position: absolute;\n  z-index: 2;\n  top: 0;\n  height: 100%;\n  width: 20px;\n}\n#roadmap .events-wrapper::before {\n  left: 0;\n  background-image: -webkit-linear-gradient( left , #f8f8f8, rgba(248, 248, 248, 0));\n  background-image: linear-gradient(to right, #f8f8f8, rgba(248, 248, 248, 0));\n}\n#roadmap .events-wrapper::after {\n  right: 0;\n  background-image: -webkit-linear-gradient( right , #f8f8f8, rgba(248, 248, 248, 0));\n  background-image: linear-gradient(to left, #f8f8f8, rgba(248, 248, 248, 0));\n}\n#roadmap .events {\n  /* this is the grey line/timeline */\n  position: absolute;\n  z-index: 1;\n  left: 0;\n  top: 49px;\n  height: 2px;\n  /* width will be set using JavaScript */\n  background: #dfdfdf;\n  -webkit-transition: -webkit-transform 0.4s;\n  -moz-transition: -moz-transform 0.4s;\n  transition: transform 0.4s;\n}\n#roadmap .filling-line {\n  /* this is used to create the green line filling the timeline */\n  position: absolute;\n  z-index: 1;\n  left: 0;\n  top: 0;\n  height: 100%;\n  width: 100%;\n  background-color: #7b9d6f;\n  -webkit-transform: scaleX(0);\n  -moz-transform: scaleX(0);\n  -ms-transform: scaleX(0);\n  -o-transform: scaleX(0);\n  transform: scaleX(0);\n  -webkit-transform-origin: left center;\n  -moz-transform-origin: left center;\n  -ms-transform-origin: left center;\n  -o-transform-origin: left center;\n  transform-origin: left center;\n  -webkit-transition: -webkit-transform 0.3s;\n  -moz-transition: -moz-transform 0.3s;\n  transition: transform 0.3s;\n}\n#roadmap .events a {\n  position: absolute;\n  bottom: 0;\n  z-index: 2;\n  text-align: center;\n  font-size: 1.3rem;\n  padding-bottom: 15px;\n  color: #383838;\n  /* fix bug on Safari - text flickering while timeline translates */\n  -webkit-transform: translateZ(0);\n  -moz-transform: translateZ(0);\n  -ms-transform: translateZ(0);\n  -o-transform: translateZ(0);\n  transform: translateZ(0);\n}\n#roadmap .events a::after {\n  /* this is used to create the event spot */\n  content: '';\n  position: absolute;\n  left: 50%;\n  right: auto;\n  -webkit-transform: translateX(-50%);\n  -moz-transform: translateX(-50%);\n  -ms-transform: translateX(-50%);\n  -o-transform: translateX(-50%);\n  transform: translateX(-50%);\n  bottom: -5px;\n  height: 12px;\n  width: 12px;\n  border-radius: 50%;\n  border: 2px solid #dfdfdf;\n  background-color: #f8f8f8;\n  -webkit-transition: background-color 0.3s, border-color 0.3s;\n  -moz-transition: background-color 0.3s, border-color 0.3s;\n  transition: background-color 0.3s, border-color 0.3s;\n}\n.no-touch #roadmap .events a:hover::after {\n  background-color: #7b9d6f;\n  border-color: #7b9d6f;\n}\n#roadmap .events a.selected {\n  pointer-events: none;\n}\n#roadmap .events a.selected::after {\n  background-color: #7b9d6f;\n  border-color: #7b9d6f;\n}\n#roadmap .events a.older-event::after {\n  border-color: #7b9d6f;\n}\n@media only screen and (min-width: 1100px) {\n  #roadmap {\n    margin: 6em auto;\n  }\n  #roadmap::before {\n    /* never visible - this is used in jQuery to check the current MQ */\n    content: 'desktop';\n  }\n}\n\n.cd-timeline-navigation a {\n  /* these are the left/right arrows to navigate the timeline */\n  position: absolute;\n  z-index: 1;\n  top: 50%;\n  bottom: auto;\n  -webkit-transform: translateY(-50%);\n  -moz-transform: translateY(-50%);\n  -ms-transform: translateY(-50%);\n  -o-transform: translateY(-50%);\n  transform: translateY(-50%);\n  height: 34px;\n  width: 34px;\n  border-radius: 50%;\n  border: 2px solid #dfdfdf;\n  /* replace text with an icon */\n  overflow: hidden;\n  color: transparent;\n  text-indent: 100%;\n  white-space: nowrap;\n  -webkit-transition: border-color 0.3s;\n  -moz-transition: border-color 0.3s;\n  transition: border-color 0.3s;\n}\n.cd-timeline-navigation a::after {\n  /* arrow icon */\n  content: '';\n  position: absolute;\n  height: 16px;\n  width: 16px;\n  left: 50%;\n  top: 50%;\n  bottom: auto;\n  right: auto;\n  -webkit-transform: translateX(-50%) translateY(-50%);\n  -moz-transform: translateX(-50%) translateY(-50%);\n  -ms-transform: translateX(-50%) translateY(-50%);\n  -o-transform: translateX(-50%) translateY(-50%);\n  transform: translateX(-50%) translateY(-50%);\n  background: url(../img/cd-arrow.svg) no-repeat 0 0;\n}\n.cd-timeline-navigation a.prev {\n  left: 0;\n  -webkit-transform: translateY(-50%) rotate(180deg);\n  -moz-transform: translateY(-50%) rotate(180deg);\n  -ms-transform: translateY(-50%) rotate(180deg);\n  -o-transform: translateY(-50%) rotate(180deg);\n  transform: translateY(-50%) rotate(180deg);\n}\n.cd-timeline-navigation a.next {\n  right: 0;\n}\n.no-touch .cd-timeline-navigation a:hover {\n  border-color: #7b9d6f;\n}\n.cd-timeline-navigation a.inactive {\n  cursor: not-allowed;\n}\n.cd-timeline-navigation a.inactive::after {\n  background-position: 0 -16px;\n}\n.no-touch .cd-timeline-navigation a.inactive:hover {\n  border-color: #dfdfdf;\n}\n\n#roadmap .events-content {\n  position: relative;\n  width: 100%;\n  margin: 2em 0;\n  overflow: hidden;\n  -webkit-transition: height 0.4s;\n  -moz-transition: height 0.4s;\n  transition: height 0.4s;\n}\n#roadmap .events-content li {\n  position: absolute;\n  z-index: 1;\n  width: 100%;\n  left: 0;\n  top: 0;\n  -webkit-transform: translateX(-100%);\n  -moz-transform: translateX(-100%);\n  -ms-transform: translateX(-100%);\n  -o-transform: translateX(-100%);\n  transform: translateX(-100%);\n  padding: 0 5%;\n  opacity: 0;\n  -webkit-animation-duration: 0.4s;\n  -moz-animation-duration: 0.4s;\n  animation-duration: 0.4s;\n  -webkit-animation-timing-function: ease-in-out;\n  -moz-animation-timing-function: ease-in-out;\n  animation-timing-function: ease-in-out;\n}\n#roadmap .events-content li.selected {\n  /* visible event content */\n  position: relative;\n  z-index: 2;\n  opacity: 1;\n  -webkit-transform: translateX(0);\n  -moz-transform: translateX(0);\n  -ms-transform: translateX(0);\n  -o-transform: translateX(0);\n  transform: translateX(0);\n}\n#roadmap .events-content li.enter-right, #roadmap .events-content li.leave-right {\n  -webkit-animation-name: cd-enter-right;\n  -moz-animation-name: cd-enter-right;\n  animation-name: cd-enter-right;\n}\n#roadmap .events-content li.enter-left, #roadmap .events-content li.leave-left {\n  -webkit-animation-name: cd-enter-left;\n  -moz-animation-name: cd-enter-left;\n  animation-name: cd-enter-left;\n}\n#roadmap .events-content li.leave-right, #roadmap .events-content li.leave-left {\n  -webkit-animation-direction: reverse;\n  -moz-animation-direction: reverse;\n  animation-direction: reverse;\n}\n#roadmap .events-content li > * {\n  max-width: 800px;\n  margin: 0 auto;\n}\n#roadmap .events-content h2 {\n  font-weight: bold;\n  font-size: 2.6rem;\n  font-family: \"Playfair Display\", serif;\n  font-weight: 700;\n  line-height: 1.2;\n}\n#roadmap .events-content em {\n  display: block;\n  font-style: italic;\n  margin: 10px auto;\n}\n#roadmap .events-content em::before {\n  content: '- ';\n}\n#roadmap .events-content p {\n  font-size: 1.4rem;\n  color: #959595;\n}\n#roadmap .events-content em, #roadmap .events-content p {\n  line-height: 1.6;\n}\n@media only screen and (min-width: 768px) {\n  #roadmap .events-content h2 {\n    font-size: 7rem;\n  }\n  #roadmap .events-content em {\n    font-size: 2rem;\n  }\n  #roadmap .events-content p {\n    font-size: 1.8rem;\n  }\n}\n\n@-webkit-keyframes cd-enter-right {\n  0% {\n    opacity: 0;\n    -webkit-transform: translateX(100%);\n  }\n  100% {\n    opacity: 1;\n    -webkit-transform: translateX(0%);\n  }\n}\n@-moz-keyframes cd-enter-right {\n  0% {\n    opacity: 0;\n    -moz-transform: translateX(100%);\n  }\n  100% {\n    opacity: 1;\n    -moz-transform: translateX(0%);\n  }\n}\n@keyframes cd-enter-right {\n  0% {\n    opacity: 0;\n    -webkit-transform: translateX(100%);\n    -moz-transform: translateX(100%);\n    -ms-transform: translateX(100%);\n    -o-transform: translateX(100%);\n    transform: translateX(100%);\n  }\n  100% {\n    opacity: 1;\n    -webkit-transform: translateX(0%);\n    -moz-transform: translateX(0%);\n    -ms-transform: translateX(0%);\n    -o-transform: translateX(0%);\n    transform: translateX(0%);\n  }\n}\n@-webkit-keyframes cd-enter-left {\n  0% {\n    opacity: 0;\n    -webkit-transform: translateX(-100%);\n  }\n  100% {\n    opacity: 1;\n    -webkit-transform: translateX(0%);\n  }\n}\n@-moz-keyframes cd-enter-left {\n  0% {\n    opacity: 0;\n    -moz-transform: translateX(-100%);\n  }\n  100% {\n    opacity: 1;\n    -moz-transform: translateX(0%);\n  }\n}\n@keyframes cd-enter-left {\n  0% {\n    opacity: 0;\n    -webkit-transform: translateX(-100%);\n    -moz-transform: translateX(-100%);\n    -ms-transform: translateX(-100%);\n    -o-transform: translateX(-100%);\n    transform: translateX(-100%);\n  }\n  100% {\n    opacity: 1;\n    -webkit-transform: translateX(0%);\n    -moz-transform: translateX(0%);\n    -ms-transform: translateX(0%);\n    -o-transform: translateX(0%);\n    transform: translateX(0%);\n  }\n}\n",
-			"file": "/C/Users/bruno_000/Documents/Oction/Luxore/bkp/horizontal-timeline/css/style.css",
-			"file_size": 10500,
-			"file_write_time": 130930207980000000,
-			"settings":
-			{
-				"buffer_size": 9930,
-				"line_ending": "Unix"
-			}
 		}
 	],
 	"build_system": "",
@@ -788,19 +835,42 @@
 	],
 	"file_history":
 	[
+		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/css/main.less",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/css/helpers/mixins.less",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/templates/views/site/ethics.html",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/templates/views/site/home.html",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/templates/main.html",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/templates/modals/bitcoin.html",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/templates/modals/video.html",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/website/config/application.js",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/templates/footer.html",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/templates/header.html",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/js/lib/timeline-nav.js",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/js/lib/common.js",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/website/vendor/js/ngClipboard.js",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/js/lib/bitcoindonate.js",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/css/bitcoin.css",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/templates/modal.html",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/js/lib/cd-modal.js",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/js/modules/modal.js",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/liveblog/footer.php",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/liveblog/template-parts/post-meta.php",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/liveblog/searchform.php",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/liveblog/template-parts/author-box.php",
+		"/C/Users/bruno_000/Desktop/Luxore/Luxore_comp_vs03_zh.srt",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/bkp/horizontal-timeline/css/style.css",
+		"/C/wamp/www/OctionGalaxyProject/ng-yii/src/scripts/app.js",
 		"/C/Users/bruno_000/Documents/Oction/Luxore/website/generated/css/app.less.css",
 		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/js/lib/cd-slider.js",
 		"/C/Users/bruno_000/Documents/Oction/Luxore/bkp/morphing-modal-window/index.html",
 		"/C/Users/bruno_000/Documents/Oction/Luxore/bkp/morphing-modal-window/css/style.css",
 		"/C/Users/bruno_000/Documents/Oction/Luxore/bkp/morphing-modal-window/js/main.js",
-		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/js/lib/timeline-nav.js",
 		"/C/Users/bruno_000/Desktop/Luxore_comp_vs03_es.srt",
 		"/C/Users/bruno_000/Documents/Oction/Luxore/bitcoin-donation-callback.php",
 		"/C/Users/bruno_000/Documents/Oction/Luxore/bitcoin-donation-rest.php",
 		"/C/Users/bruno_000/Desktop/Luxore_comp_vs03_pt_BR.srt",
 		"/C/Users/bruno_000/Desktop/Luxore_comp_vs03_es.txt",
 		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/css/helpers/typography.less",
-		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/css/main.less",
 		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/css/helpers/colors.less",
 		"/C/wamp/www/zurmo/app/protected/modules/users/controllers/UserApiController.php",
 		"/C/wamp/www/zurmo/app/protected/modules/users/models/UserSearch.php",
@@ -820,8 +890,6 @@
 		"/C/Users/bruno_000/Documents/Oction/Luxore/blog/style.css",
 		"/C/Users/bruno_000/Desktop/Luxore_comp_vs03.srt",
 		"/C/Users/bruno_000/Desktop/Luxore_comp_vs03_fr.srt",
-		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/templates/footer.html",
-		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/js/lib/common.js",
 		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/js/lib/ink-modal.js",
 		"/C/Users/bruno_000/Documents/Oction/Luxore/blog/templates/header.php",
 		"/C/Users/bruno_000/Documents/Oction/Luxore/blog/readme.txt",
@@ -887,7 +955,6 @@
 		"/C/Users/bruno_000/Documents/Oction/Luxore/loaders.html",
 		"/C/Users/bruno_000/Documents/Oction/Luxore/bkp/Angular-Hero-Sample-master/app/index.html",
 		"/C/Users/bruno_000/Documents/Oction/Luxore/website/config/files.js",
-		"/C/Users/bruno_000/Documents/Oction/Luxore/website/config/application.js",
 		"/C/Users/bruno_000/Documents/Oction/Luxore/website/config/lineman.js",
 		"/C/Users/bruno_000/Documents/Oction/Luxore/website/README.md",
 		"/C/Users/bruno_000/Documents/Oction/Luxore/website/Gruntfile.js",
@@ -895,27 +962,7 @@
 		"/C/Users/bruno_000/Documents/Oction/Luxore/website/vendor/css/icon.css",
 		"/C/Users/bruno_000/Documents/Oction/Luxore/bkp/Angular-Hero-Sample-master/app/view1/view1.js",
 		"/C/Users/bruno_000/Documents/Oction/Luxore/bkp/Angular-Hero-Sample-master/app/app.js",
-		"/C/Users/bruno_000/Documents/Oction/Luxore/bkp/Angular-Hero-Sample-master/app/animations.css",
-		"/C/Users/bruno_000/Documents/Oction/Luxore/bkp/Angular-Hero-Sample-master/app/app.css",
-		"/C/Users/bruno_000/Documents/Oction/Luxore/bkp/Angular-Hero-Sample-master/README.md",
-		"/C/Users/bruno_000/Documents/Oction/Luxore/bkp/Angular-Hero-Sample-master/package.json",
-		"/C/Users/bruno_000/Documents/Oction/Luxore/bkp/Angular-Hero-Sample-master/bower.json",
-		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/pages/index_off.us",
-		"/C/Users/bruno_000/Documents/Oction/Luxore/website/generated/angular/template-cache.js",
-		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/templates/header.html",
-		"/C/Users/bruno_000/Documents/Oction/Luxore/project/app/templates/header.html",
-		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/static/robots.txt",
-		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/static/sitemap.xml",
-		"/C/Users/bruno_000/Documents/Oction/Luxore/website/tasks/spec-e2e.coffee",
-		"/C/Users/bruno_000/Documents/Oction/Luxore/website/spec/helpers/helper.js",
-		"/C/wamp/www/materialize/product-quick-view/js/main.js",
-		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/js/lib/quick-view.js",
-		"/C/wamp/www/materialize/product-quick-view/index.html",
-		"/C/wamp/www/materialize/product-quick-view/css/style.css",
-		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/templates/main/faq.html",
-		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/templates/ethics.html",
-		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/templates/terms.html",
-		"/C/Users/bruno_000/Documents/Oction/Luxore/project/app/js/app.js"
+		"/C/Users/bruno_000/Documents/Oction/Luxore/bkp/Angular-Hero-Sample-master/app/animations.css"
 	],
 	"find":
 	{
@@ -933,6 +980,23 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"<a",
+			"eventsContent",
+			"number",
+			"height",
+			"events-content",
+			"cd-modal-action",
+			"updateLayer",
+			"padding-top: 15px",
+			"social-widget",
+			"btn",
+			"feature",
+			"eventsMinDistance",
+			"setDatePosition",
+			"style",
+			"120",
+			"102",
+			"left",
 			"modal-sec",
 			"modal-is-visible",
 			"@luxore-bg-gray",
@@ -1043,24 +1107,7 @@
 			"cd-",
 			"4b0a70",
 			"garbage face",
-			"hide",
-			"recommend",
-			"recomend",
-			"”",
-			"“",
-			"Provenance",
-			"’",
-			"DC",
-			"“",
-			"”",
-			"e53932",
-			"PhotoCtrl",
-			"ion-navicon",
-			"menu",
-			"menus",
-			"upercase",
-			"has-header",
-			"ion-nav-bar"
+			"hide"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1206,11 +1253,39 @@
 	"groups":
 	[
 		{
-			"selected": 4,
+			"selected": 16,
 			"sheets":
 			[
 				{
 					"buffer": 0,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5340,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5340,
+								5340
+							]
+						],
+						"settings":
+						{
+							"auto_name": "Having a default set of objects (Contacts, Opport",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 462.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 23,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
 					"semi_transient": false,
 					"settings":
 					{
@@ -1238,96 +1313,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 1,
-					"file": "/C/Users/bruno_000/Documents/Oction/Luxore/docs/blog-posts.txt",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 193,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								193,
-								193
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 26,
-					"type": "text"
-				},
-				{
 					"buffer": 2,
-					"file": "app/pages/index.us",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 7622,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								6450,
-								6450
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true,
-							"word_wrap": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 1434.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "app/js/app.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 5533,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2846,
-								2846
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1944.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
 					"semi_transient": false,
 					"settings":
 					{
@@ -1351,24 +1337,83 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 24,
 					"type": "text"
 				},
 				{
-					"buffer": 5,
-					"file": "app/js/lib/common.js",
+					"buffer": 3,
+					"file": "/C/Users/bruno_000/Documents/Oction/Luxore/docs/blog-posts.txt",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2749,
+						"buffer_size": 193,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2565,
-								2565
+								193,
+								193
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 31,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "app/pages/index.us",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5747,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5000,
+								5000
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"word_wrap": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 983.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 16,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "app/js/app.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8017,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1478,
+								1478
 							]
 						],
 						"settings":
@@ -1378,56 +1423,87 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1224.0,
+						"translation.y": 576.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 15,
+					"stack_index": 10,
 					"type": "text"
 				},
 				{
 					"buffer": 6,
-					"file": "app/js/lib/cd-modal.js",
+					"file": "app/templates/footer.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3039,
+						"buffer_size": 2721,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1065,
-								1080
+								1890,
+								1830
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
-						"translation.x": 64.0,
-						"translation.y": 99.0,
+						"translation.x": 0.0,
+						"translation.y": 588.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
 					"buffer": 7,
-					"file": "app/templates/views/site/home.html",
+					"file": "app/templates/main.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 12690,
+						"buffer_size": 3335,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								599,
-								599
+								893,
+								893
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "app/templates/views/site/home.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 9717,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5609,
+								5611
 							]
 						],
 						"settings":
@@ -1435,28 +1511,172 @@
 							"syntax": "Packages/HTML/HTML.sublime-syntax",
 							"translate_tabs_to_spaces": false
 						},
-						"translation.x": 195.0,
-						"translation.y": 432.0,
+						"translation.x": -0.0,
+						"translation.y": 4044.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "app/templates/views/site/terms.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 10558,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								325,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "app/templates/views/site/faq.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 16991,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								326,
+								326
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "app/js/modules/docs/docs.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 739,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								546,
+								546
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 72.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 3,
 					"type": "text"
 				},
 				{
-					"buffer": 8,
+					"buffer": 12,
+					"file": "app/js/modules/faq/faq.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 401,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								401,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 15,
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "app/js/modules/terms/terms.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 208,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								208
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 14,
+					"type": "text"
+				},
+				{
+					"buffer": 14,
 					"file": "app/css/style.css",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 34063,
+						"buffer_size": 35531,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								16823,
-								16823
+								6371,
+								6371
 							]
 						],
 						"settings":
@@ -1466,27 +1686,27 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 14225.0,
+						"translation.y": 5388.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 7,
 					"type": "text"
 				},
 				{
-					"buffer": 9,
-					"file": "app/css/style.less",
+					"buffer": 15,
+					"file": "app/css/faq.css",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 6741,
+						"buffer_size": 7752,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2282,
-								2282
+								206,
+								206
 							]
 						],
 						"settings":
@@ -1496,27 +1716,57 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 3868.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 6,
 					"type": "text"
 				},
 				{
-					"buffer": 10,
-					"file": "app/css/helpers/typography.less",
+					"buffer": 16,
+					"file": "app/css/style.less",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1017,
+						"buffer_size": 6816,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								178,
-								196
+								6784,
+								6784
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 504.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 17,
+					"file": "app/css/helpers/typography.less",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1424,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								842,
+								842
 							]
 						],
 						"settings":
@@ -1526,14 +1776,14 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 650.0,
+						"translation.y": 764.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 8,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
-					"buffer": 11,
+					"buffer": 18,
 					"file": "app/css/helpers/colors.less",
 					"semi_transient": false,
 					"settings":
@@ -1545,8 +1795,8 @@
 						"selection":
 						[
 							[
-								1073,
-								1092
+								482,
+								475
 							]
 						],
 						"settings":
@@ -1554,14 +1804,72 @@
 							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 504.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 12,
+					"buffer": 19,
+					"file": "/C/Users/bruno_000/Documents/Oction/Luxore/liveblog/style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 61388,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								12707,
+								12824
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 9404.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
+					"type": "text"
+				},
+				{
+					"buffer": 20,
+					"file": "/C/Users/bruno_000/Documents/Oction/Luxore/liveblog/content.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2913,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								490,
+								453
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 123.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 18,
+					"type": "text"
+				},
+				{
+					"buffer": 21,
 					"semi_transient": false,
 					"settings":
 					{
@@ -1572,38 +1880,8 @@
 						"selection":
 						[
 							[
-								3898,
-								3898
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": -0.0,
-						"translation.y": 3686.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 9,
-					"type": "text"
-				},
-				{
-					"buffer": 13,
-					"file": "/C/Users/bruno_000/Documents/Oction/Luxore/blog/style.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 18390,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								11758,
-								11758
+								15,
+								16
 							]
 						],
 						"settings":
@@ -1613,14 +1891,44 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 11813.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 10,
+					"stack_index": 19,
 					"type": "text"
 				},
 				{
-					"buffer": 14,
+					"buffer": 22,
+					"file": "/C/Users/bruno_000/Documents/Oction/Luxore/blog/style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 18312,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								12558,
+								12558
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 9528.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 13,
+					"type": "text"
+				},
+				{
+					"buffer": 23,
 					"file": "/C/wamp/www/OctionGalaxyProject/index.php",
 					"semi_transient": false,
 					"settings":
@@ -1641,14 +1949,14 @@
 							"syntax": "Packages/PHP/PHP.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 216.0,
+						"translation.y": 138.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 21,
+					"stack_index": 22,
 					"type": "text"
 				},
 				{
-					"buffer": 15,
+					"buffer": 24,
 					"file": "/C/wamp/www/OctionGalaxyProject/protected/config/main.php",
 					"semi_transient": false,
 					"settings":
@@ -1674,39 +1982,11 @@
 						"translation.y": 2982.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 12,
+					"stack_index": 21,
 					"type": "text"
 				},
 				{
-					"buffer": 16,
-					"file": "/C/wamp/www/OctionGalaxyProject/ng-yii/src/scripts/app.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 152,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								84,
-								84
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 20,
-					"type": "text"
-				},
-				{
-					"buffer": 17,
+					"buffer": 25,
 					"file": "/C/wamp/www/zurmo/app/protected/modules/users/models/User.php",
 					"semi_transient": false,
 					"settings":
@@ -1732,11 +2012,11 @@
 						"translation.y": 2201.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 18,
+					"stack_index": 20,
 					"type": "text"
 				},
 				{
-					"buffer": 18,
+					"buffer": 26,
 					"file": "/C/wamp/www/zurmo/app/protected/modules/api/ApiModule.php",
 					"semi_transient": false,
 					"settings":
@@ -1762,11 +2042,11 @@
 						"translation.y": 1008.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 17,
+					"stack_index": 27,
 					"type": "text"
 				},
 				{
-					"buffer": 19,
+					"buffer": 27,
 					"file": "/C/wamp/www/zurmo/app/protected/modules/api/components/ApiRestHelper.php",
 					"semi_transient": false,
 					"settings":
@@ -1792,11 +2072,11 @@
 						"translation.y": 648.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 16,
+					"stack_index": 26,
 					"type": "text"
 				},
 				{
-					"buffer": 20,
+					"buffer": 28,
 					"file": "/C/wamp/www/OctionGalaxyProject/protected/models/LoginForm.php",
 					"semi_transient": false,
 					"settings":
@@ -1821,11 +2101,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 19,
+					"stack_index": 28,
 					"type": "text"
 				},
 				{
-					"buffer": 21,
+					"buffer": 29,
 					"file": "/C/wamp/www/OctionGalaxyProject/protected/models/User.php",
 					"semi_transient": false,
 					"settings":
@@ -1851,11 +2131,11 @@
 						"translation.y": 1368.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 22,
+					"stack_index": 29,
 					"type": "text"
 				},
 				{
-					"buffer": 22,
+					"buffer": 30,
 					"file": "/C/Users/bruno_000/Documents/Oction/Luxore/bkp/pointy-slider/js/main.js",
 					"semi_transient": false,
 					"settings":
@@ -1880,11 +2160,11 @@
 						"translation.y": 864.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 24,
+					"stack_index": 30,
 					"type": "text"
 				},
 				{
-					"buffer": 23,
+					"buffer": 31,
 					"semi_transient": false,
 					"settings":
 					{
@@ -1908,97 +2188,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 23,
-					"type": "text"
-				},
-				{
-					"buffer": 24,
-					"file": "app/templates/main.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1521,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								1521
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 72.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 13,
-					"type": "text"
-				},
-				{
-					"buffer": 25,
-					"file": "app/templates/footer.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2571,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								284,
-								293
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 11,
-					"type": "text"
-				},
-				{
-					"buffer": 26,
-					"file": "/C/Users/bruno_000/Documents/Oction/Luxore/bkp/horizontal-timeline/css/style.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 9930,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								477,
-								460
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 648.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 14,
+					"stack_index": 17,
 					"type": "text"
 				}
 			]

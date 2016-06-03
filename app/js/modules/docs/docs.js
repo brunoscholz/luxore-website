@@ -17,11 +17,52 @@ angular.module('docs').config(function ($stateProvider, $urlRouterProvider) {
   })
   .state('docs.index', {
     url: '/documentation',
-    templateUrl:'views/docs/index.html'
+    views: {
+      'mainContent@docs': {
+        templateUrl:'views/docs/index.html'
+      }
+    }
   })
   .state('docs.about', {
-    templateUrl:'views/docs/about.html'
+    views: { 'mainContent@docs': { templateUrl:'views/docs/about.html' } }
   })
+  .state('docs.looks', {
+    views: { 'mainContent@docs': { templateUrl:'views/docs/features/looks.html' } }
+  })
+  .state('docs.coin', {
+    views: { 'mainContent@docs': { templateUrl:'views/docs/features/coin.html' } }
+  })
+  .state('docs.studios', {
+    views: { 'mainContent@docs': { templateUrl:'views/docs/features/studios.html' } }
+  })
+  .state('docs.news', {
+    views: { 'mainContent@docs': { templateUrl:'views/docs/features/news.html' } }
+  })
+  .state('docs.gamification', {
+    views: { 'mainContent@docs': { templateUrl:'views/docs/features/gamification.html' } }
+  })
+  .state('docs.social', {
+    views: { 'mainContent@docs': { templateUrl:'views/docs/features/social.html' } }
+  })
+  .state('docs.lists', {
+    views: { 'mainContent@docs': { templateUrl:'views/docs/features/lists.html' } }
+  })
+  .state('docs.search', {
+    views: { 'mainContent@docs': { templateUrl:'views/docs/features/search.html' } }
+  })
+  .state('docs.tips', {
+    views: { 'mainContent@docs': { templateUrl:'views/docs/features/tips.html' } }
+  })
+  .state('docs.profile', {
+    views: { 'mainContent@docs': { templateUrl:'views/docs/features/profile.html' } }
+  })
+  .state('docs.notifications', {
+    views: { 'mainContent@docs': { templateUrl:'views/docs/features/notifications.html' } }
+  })
+  .state('docs.messenger', {
+    views: { 'mainContent@docs': { templateUrl:'views/docs/features/messenger.html' } }
+  })
+
   ;
 
   $urlRouterProvider.otherwise("/documentation");

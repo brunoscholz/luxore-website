@@ -1,70 +1,40 @@
-<header>
-  <div class="container">
-    <a href="#" data-activates="nav-mobile" class="button-collapse top-nav waves-effect waves-light circle hide-on-large-only"><i class="material-icons">menu</i></a>
+<main style="padding-left: 240px;">
+  <div class="doc-header">
+    <h1>Looks</h1>
+    <p>The Luxore's posts.</p>
   </div>
-  <ul style="transform: translateX(0%); margin-top: 20px;" id="nav-mobile" class="side-nav fixed">
-    <li class="logo center" style="margin-bottom: 40px;">
-      <a id="logo-container" href="http://luxore.me/" class="brand-logo"><img src="img/i/ico-72.png"></a>
-    </li>
+  <div class="container">
+    <div class="row">
+      <div class="col s12 m9 l10">
+        <div id="posting" class="section scrollspy">
+          <h4>Posting your Look</h4>
+          <p>A few steps for you, a giant step for everybody..</p>
+          <h5>Prepare</h5>
+        </div>
+      </div>
+      <!-- Table of Contents -->
+      <div class="col hide-on-small-only m3 l2">
+        <div style="top: 0px;" class="toc-wrapper pinned">
+          <div style="height: 1px;">
+            <ul class="section">
+              <li><a class="" href="#introduction">Introduction</a></li>
+              <li><a class="" href="#popularity">Number One</a></li>
+              <li><a class="" href="#posting">Step by Step</a></li>
+              <li><a class="" href="#ads">$$$$$$</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
 
-    <li class="bold"><a href="/docs/index" class="waves-effect waves-teal">Welcome to Luxore</a></li>
-    <li class="bold"><a href="/docs/roadmap" class="waves-effect waves-teal">Development Roadmap</a></li>
-    <li class="no-padding">
-      <ul class="collapsible collapsible-accordion">
-        <li class="bold"><a class="collapsible-header  waves-effect waves-teal">Features</a>
-          <div style="" class="collapsible-body">
-            <ul>
-              <li><a href="color.html">Looks</a></li>
-              <li><a href="grid.html">Coin</a></li>
-              <li><a href="helpers.html">Lists</a></li>
-              <li><a href="media-css.html">Media</a></li>
-              <li><a href="sass.html">Sass</a></li>
-              <li><a href="shadow.html">Shadow</a></li>
-              <li><a href="table.html">Table</a></li>
-              <li><a href="typography.html">Typography</a></li>
-            </ul>
-          </div>
-        </li>
-        <li class="bold"><a class="collapsible-header  waves-effect waves-teal">Weapons</a>
-          <div style="" class="collapsible-body">
-            <ul>
-              <li><a href="badges.html">Badges</a></li>
-              <li><a href="buttons.html">Buttons</a></li>
-              <li><a href="breadcrumbs.html">Breadcrumbs</a></li>
-              <li><a href="cards.html">Cards</a></li>
-              <li><a href="chips.html">Chips</a></li>
-              <li><a href="collections.html">Collections</a></li>
-              <li><a href="footer.html">Footer</a></li>
-              <li><a href="forms.html">Forms</a></li>
-              <li><a href="icons.html">Icons</a></li>
-              <li><a href="navbar.html">Navbar</a></li>
-              <li><a href="pagination.html">Pagination</a></li>
-              <li><a href="preloader.html">Preloader</a></li>
-            </ul>
-          </div>
-        </li>
-        <li class="bold"><a class="collapsible-header  waves-effect waves-teal">JavaScript</a>
-          <div style="" class="collapsible-body">
-            <ul>
-              <li><a href="collapsible.html">Collapsible</a></li>
-              <li><a href="dialogs.html">Dialogs</a></li>
-              <li><a href="dropdown.html">Dropdown</a></li>
-              <li><a href="media.html">Media</a></li>
-              <li><a href="modals.html">Modals</a></li>
-              <li><a href="parallax.html">Parallax</a></li>
-              <li><a href="pushpin.html">Pushpin</a></li>
-              <li><a href="scrollfire.html">ScrollFire</a></li>
-              <li><a href="scrollspy.html">Scrollspy</a></li>
-              <li><a href="side-nav.html">SideNav</a></li>
-              <li><a href="tabs.html">Tabs</a></li>
-              <li><a href="transitions.html">Transitions</a></li>
-              <li><a href="waves.html">Waves</a></li>
-            </ul>
-          </div>
-        </li>
-      </ul>
-    </li>
-    <li class="bold"><a href="http://materializecss.com/mobile.html" class="waves-effect waves-teal">Mobile</a></li>
-    <li class="bold"><a href="showcase.html" class="waves-effect waves-teal">Showcase</a></li>
-  </ul>
-</header>
+<script type="text/javascript">
+  $(document).ready(function(){
+    $('.toc-wrapper').pushpin({ top: $('.toc-wrapper').offset().top, offset: 80 });
+  });
+
+  $(document).ready(function(){
+    $('.scrollspy').scrollSpy();
+  });
+</script>
