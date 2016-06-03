@@ -1,56 +1,42 @@
 var app = angular.module('app', [
   'ui.router',
+  'ct.ui.router.extras.core',
+  'ct.ui.router.extras.sticky',
   'ngAnimate',
-  'gettext'
-
+  'gettext',
+  'uimodal'
 ]);
 
 app.config(function ($stateProvider, $urlRouterProvider, $locationProvider) {
   /*$locationProvider.html5Mode({enabled:true});*/
 
   $stateProvider
+    //set up the app parent state, and its child-states
     .state('app', {
-      url: '/',
+      abstract: true,
+      sticky: true,
       views: {
-        'master': {
-          templateUrl: 'main.html',
-          controller: 'AppController'
-        },
-        'mainContent@app': {
-          templateUrl: 'views/site/home.html',
-          controller: 'AppController'
-        }
+        'master': { templateUrl: 'main.html' }
       }
     })
 
     .state('app.home', {
-      url: '/home',
+      url: '/',
       views: {
-        'master': {
-          templateUrl: 'main.html',
-          controller: 'AppController'
-        },
-        'mainContent': {
+        'mainContent@app': {
           templateUrl: 'views/site/home.html',
         },
-        'fabContent': {}
+        'fabContent@app': {},
       }
     })
-
-    /*.state('splash', {
-      url: '/splash',
-      templateUrl: 'templates/luxore.html',
-      controller: 'SplashCtrl'
-    })*/
-
-    .state('features', {
+    .state('app.features', {
       url: '/features',
       views: {
-        'mainContent': {
+        'mainContent@app': {
           templateUrl: 'views/site/features.html',
           controller: 'AppController'
         },
-        'fabContent': {
+        'fabContent@app': {
           /*template: '<button id="fab-friends" class="button button-fab button-fab-top-left expanded button-energized spin"><i class="icon ion-chatbubbles"></i></button>',
           controller: function ($timeout) {
             $timeout(function () {
@@ -59,13 +45,52 @@ app.config(function ($stateProvider, $urlRouterProvider, $locationProvider) {
           }*/
         }
       }
+    })
+
+    //set up the modal parent state, and its child-states
+    .state("Modal", {
+      abstract: true,
+      sticky: true,
+      views: {
+        'modal': { templateUrl: 'modal.html' }
+      },
+
+      onEnter: ["$state", function($state) {
+        $(document).on("keyup", function(e) {
+          if(e.keyCode === 27) {
+            $(document).off("keyup");
+            $state.go("Modal.Default");
+          }
+        });
+
+        $(document).on("click", ".Modal-backdrop, .Modal-holder", function() {
+          $state.go("Modal.Default");
+        });
+
+        $(document).on("click", ".Modal-box, .Modal-box *", function(e) {
+          e.stopPropagation();
+        });
+      }],
+    })
+    .state("Modal.Default", {})
+    .state("Modal.bitcoinDonate", {
+      templateUrl: "modals/bitcoin.html"
+    })
+    .state("Modal.watchVideo", {
+      templateUrl: "modals/video.html"
     });
+
+    /*.state('splash', {
+      url: '/splash',
+      templateUrl: 'templates/luxore.html',
+      controller: 'SplashCtrl'
+    })*/
 
     // if none of the above states are matched, use this as the fallback
     $urlRouterProvider.otherwise('/');
 });
 
-app.run(function ($rootScope, languageService, gettextCatalog) {
+app.run(function ($rootScope, $state, $stateParams, languageService, gettextCatalog) {
 
   languageService();
   gettextCatalog.debug = true;
@@ -94,9 +119,26 @@ app.run(function ($rootScope, languageService, gettextCatalog) {
     alert(thing);
   };
 
+  $state.go('app.home').then(function() {
+    $state.go('Modal.Default');
+  });
+  $rootScope.$state = $state;
+  $rootScope.$stateParams = $stateParams;
+
 });
 
-app.controller('AppController', function ($scope, $state, $timeout) {
+app.controller('AppController', function ($scope, $state, $timeout, modal) {
+
+  $(window).on('resize', function(){
+    //on window resize - update cover layer dimention and position
+    if($('.cd-modal-section.modal-is-visible').length > 0) {
+      window.requestAnimationFrame(modal.updateLayer);
+    }
+  });
+
+  /*$('[data-type="modal-trigger"]').on('click', OpenModal(this));
+  $('.cd-modal-section .cd-modal-close').on('click', CloseModal());*/
+
   // Form data for the login modal
   $scope.loginData = {};
   $scope.isExpanded = false;
@@ -110,8 +152,24 @@ app.controller('AppController', function ($scope, $state, $timeout) {
     });
   }
 
-  $scope.donate = function() {
+  $scope.$state = $state;
+
+  $scope.donateInBitcoin = function(e) {
     console.log("1Np2iFGAPJNxpKkPpMHeqxaAotJZZUTrqr");
+    var elem = angular.element(e.target);
+    modal.open(elem);
+    $state.go('Modal.bitcoinDonate');
+  };
+
+  $scope.watchVideo = function(e) {
+    var elem = angular.element(e.target);
+    modal.open(elem);
+    $state.go('Modal.watchVideo');
+  };
+
+  $scope.closeModal = function() {
+    modal.close();
+    $state.go('Modal.Default');
   };
 
   $scope.hideNavBar = function() {

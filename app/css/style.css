@@ -304,6 +304,20 @@ video {
   text-align: left;
 }
 
+#features .row .btn {
+  margin-top: 5px;
+  background-color: #82778C;
+  color: #f3f2f3;
+  transition: all 0.3s;
+  width: unset;
+}
+
+#features .row .btn:hover {
+  background-color: #f3f2f3;
+  border: 2px solid #60526d;
+  color: #82778C;
+}
+
 .features-divider {
   text-align: center;
   color: #F62D51;
@@ -607,13 +621,13 @@ Slider
   background: rgba(0, 0, 0, 0.6);
 }
 .cd-slider li:nth-of-type(2) .content {
-  background-color: #d0ceae;
+  background-color: #5f4d70;
 }
 .cd-slider li:nth-of-type(3) .content {
-  background-color: #7a5170;
+  background-color: #5f4d70;
 }
 .cd-slider li:nth-of-type(4) .content {
-  background-color: #bec6a6;
+  background-color: #5f4d70;
 }
 .cd-slider h2 {
   font-size: 2.2rem;
@@ -796,6 +810,23 @@ Slider Navigation
 Modal
 
 -------------------------------- */
+
+
+.btf-modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 50%;
+  max-width: 550px;
+  min-width: 330px;
+  height: auto;
+  z-index: 2000;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
 .cd-modal-section {
   padding: 0 !important;
   text-align: center;
@@ -1398,7 +1429,8 @@ footer h5 {
 }
 
 footer.page-footer {
-  padding-top: 76px;
+  padding-top: 60px;
+  padding-bottom: 40px;
   margin-top: 0px;
   margin-bottom: -20px;
   background: -webkit-linear-gradient(-45deg, #635471, #82778c);
@@ -1416,7 +1448,9 @@ footer, footer p.lux-text {
   font-weight: 500;
   color: #fff;
   text-transform: uppercase;
-  font-size: 2rem;
+  font-size: 4rem;
+  margin:0;
+  margin-top: -20px;
 }
 
 footer ul {

@@ -4,6 +4,58 @@
 		"selected_items":
 		[
 			[
+				"background-",
+				"background-repeat"
+			],
+			[
+				"back",
+				"background-position"
+			],
+			[
+				"trans",
+				"transform"
+			],
+			[
+				"8c",
+				"82778c"
+			],
+			[
+				"lu",
+				"luxore-text-medium"
+			],
+			[
+				"nav",
+				"navIndex"
+			],
+			[
+				"norm",
+				"normalIndex"
+			],
+			[
+				"clos",
+				"closeModal"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"databa",
+				"databaseHash"
+			],
+			[
+				"php",
+				"phpassHashObject"
+			],
+			[
+				"tex",
+				"text-decoration"
+			],
+			[
 				"paddin",
 				"padding"
 			],
@@ -48,10 +100,6 @@
 				"border-radius"
 			],
 			[
-				"margin",
-				"margin-bottom"
-			],
-			[
 				"wid",
 				"width"
 			],
@@ -66,10 +114,6 @@
 			[
 				"font",
 				"font-family"
-			],
-			[
-				"bac",
-				"background-image"
 			],
 			[
 				"padd",
@@ -114,10 +158,6 @@
 			[
 				"text",
 				"text-align"
-			],
-			[
-				"back",
-				"background"
 			],
 			[
 				"c",
@@ -474,46 +514,6 @@
 			[
 				"tax",
 				"taxData"
-			],
-			[
-				"ter",
-				"termId"
-			],
-			[
-				"term",
-				"termId"
-			],
-			[
-				"pare",
-				"parentId"
-			],
-			[
-				"cate",
-				"category"
-			],
-			[
-				"taxno",
-				"taxonomies"
-			],
-			[
-				"tre",
-				"terms"
-			],
-			[
-				"new",
-				"newNode"
-			],
-			[
-				"log",
-				"logProvider"
-			],
-			[
-				"taxo",
-				"taxonomies"
-			],
-			[
-				"Pa",
-				"Pantyhose"
 			]
 		]
 	},
@@ -539,7 +539,7 @@
 			"file": "app/pages/index.us",
 			"settings":
 			{
-				"buffer_size": 6056,
+				"buffer_size": 7622,
 				"line_ending": "Unix"
 			}
 		},
@@ -547,15 +547,40 @@
 			"file": "app/js/app.js",
 			"settings":
 			{
-				"buffer_size": 5441,
+				"buffer_size": 5533,
 				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "9133 2446\nEvelyn\nevytrend\nevelyn@evytrend.com",
+			"settings":
+			{
+				"buffer_size": 45,
+				"line_ending": "Unix",
+				"name": "9133 2446"
+			}
+		},
+		{
+			"file": "app/js/lib/common.js",
+			"settings":
+			{
+				"buffer_size": 2749,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/js/lib/cd-modal.js",
+			"settings":
+			{
+				"buffer_size": 3039,
+				"line_ending": "Unix"
 			}
 		},
 		{
 			"file": "app/templates/views/site/home.html",
 			"settings":
 			{
-				"buffer_size": 12630,
+				"buffer_size": 12690,
 				"line_ending": "Windows"
 			}
 		},
@@ -563,16 +588,144 @@
 			"file": "app/css/style.css",
 			"settings":
 			{
-				"buffer_size": 42047,
+				"buffer_size": 34063,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "app/js/lib/timeline-nav.js",
+			"file": "app/css/style.less",
 			"settings":
 			{
-				"buffer_size": 12090,
+				"buffer_size": 6741,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/css/helpers/typography.less",
+			"settings":
+			{
+				"buffer_size": 1017,
 				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/css/helpers/colors.less",
+			"settings":
+			{
+				"buffer_size": 2407,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": ".lux-header ul.brand,\n.lux-header ul.brand li,\n.lux-header nav a {\n  -webkit-transition: all 0.3s;\n  -moz-transition: all 0.3s;\n  transition: all 0.3s;\n}\n.lux-header ul.brand li.brand-logo img, \n.lux-header {\n  -webkit-transition: all 0.5s;\n  -moz-transition: all 0.5s;\n  transition: all 0.5s;\n}\n.lux-header {\n  position: fixed;\n  width: 100%;\n  height: 200px;\n  z-index: 998;\n  background: transparent;\n  overflow: hidden;\n}\n\n.lux-header .nav-wrapper {}\n\n.lux-header ul.brand {\n  list-style: none outside none;\n  height: 200px;\n  line-height: 200px;\n}\n\n.lux-header ul.brand li {\n  display: inline-block;\n  float: left;\n  padding-left: 20px;\n}\n\n.lux-header ul.brand li.brand-logo {\n\n}\n\n.lux-header ul.brand li.brand-logo img {\n  height: 150px;\n  vertical-align: middle;\n}\n\n.lux-header .brand-title {\n  margin: 0;\n  cursor: pointer;\n  font-family: 'Poiret One', cursive;\n  color: #fff;\n  font-weight: 400;\n  font-size: 3.4rem;\n  text-transform: uppercase;\n}\n\n.lux-header nav {\n  float: right;\n  background-color: transparent;\n  box-shadow: unset;\n  margin-top: -150px;\n}\n\n.lux-header nav li {\n  line-height: 75px;\n}\n\n.lux-header nav a {\n  color: #f3f2f3;\n  font-weight: 700;\n  margin: 0 0 0 20px;\n  font-size: 1.4em;\n}\n\n.lux-header nav a:hover {\n  color: #333;\n}\n\n.lux-header nav a.translation-button {\n  padding-right: 25px;\n}\n\n.lux-header nav a.translation-button img {\n  vertical-align: middle;\n}\n\n.dropdown-content li > a, .dropdown-content li > span {\n    display: block;\n    padding: 14px 0;\n}\n\n.lux-header.shrink {\n  height: 75px;\n  /*box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);*/\n  /*background-color: #82778c;*/\n  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);\n  background: -webkit-linear-gradient(-45deg, #635471, #82778c);\n  background: -o-linear-gradient(-45deg, #635471, #82778c);\n  background: -moz-linear-gradient(-45deg, #635471, #82778c);\n  background: linear-gradient(-45deg, #635471, #82778c);\n}\n\n.lux-header.shrink nav {\n  width: 70%;\n  height: 75px;\n  margin-top: -75px;\n}\n\n.lux-header.shrink ul.brand {\n  height: 75px;\n  line-height: 75px;\n  margin: 0;\n  margin-bottom: 0;\n}\n\n.lux-header.shrink ul.brand li {\n  display: inline-block;\n  height: 75px;\n  padding-left: 20px;\n  vertical-align: middle;\n  text-align: center;\n}\n\n.lux-header ul.brand li,\n.lux-header.shrink nav a {\n  \n}\n\n.lux-header.shrink ul.brand li.brand-logo {\n  padding-top: 7px;\n}\n\n.lux-header.shrink ul.brand li.brand-logo img {\n  height: 60px;\n  vertical-align: unset;\n}\n\n.lux-header.shrink .brand-title {\n  font-size: 2.6rem;\n}\n\n.lux-header .brand-title:hover {\n  color: #82778c;\n}\n\nnav .button-collapse i {\n  line-height: 80px;\n}\n\n@-webkit-keyframes fadeIn {\n    from { opacity: 0; }\n      to { opacity: 1; }\n}\n\n@keyframes fadeIn {\n    from { opacity: 0; }\n      to { opacity: 1; }\n}\n\n@-webkit-keyframes fadeOut {\n    from { opacity: 1; }\n      to { opacity: 0; }\n}\n\n@keyframes fadeOut {\n    from { opacity: 1; }\n      to { opacity: 0; }\n}\n\n@keyframes grow {\n  0% {\n    display: none;\n    opacity: 0;\n  }\n  10% {\n    display: block;\n    opacity: 0;\n    transform: scale(1);\n  }\n  100% {\n    opacity: 1;\n    transform: scale(1);\n  }\n}\n\n/* Example Media Queries */\n@media screen and (max-width: 55em) {\n  \n  .lux-header .lux-inner {\n    width: 100%;\n  }\n\n  .lux-header h1,\n  .lux-header nav {\n    display: block;\n    margin: 0 auto;\n    text-align: center;\n    float: none;\n  }\n\n  .lux-header h1,\n  .lux-header nav a {\n    line-height: 115px;\n  }\n\n  .lux-header nav a {\n    margin: 0 10px;\n  }\n\n  .lux-header.shrink h1,\n  .lux-header.shrink nav a {\n    line-height: 45px;\n  }\n\n  .lux-header.shrink h1 {\n    font-size: 2em;\n  }\n\n  .lux-header.shrink nav a {\n    font-size: 1em;\n  }\n}\n\n@media screen and (max-width: 32.25em) {\n  .lux-header nav a {\n    font-size: 1em;\n  }\n}\n\n@media screen and (max-width: 24em) {\n  .lux-header nav a,\n  .lux-header.shrink nav a {\n    line-height: 1;\n  }\n}",
+			"settings":
+			{
+				"buffer_size": 3898,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Users/bruno_000/Documents/Oction/Luxore/blog/style.css",
+			"settings":
+			{
+				"buffer_size": 18390,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/wamp/www/OctionGalaxyProject/index.php",
+			"settings":
+			{
+				"buffer_size": 1350,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/wamp/www/OctionGalaxyProject/protected/config/main.php",
+			"settings":
+			{
+				"buffer_size": 7784,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/wamp/www/OctionGalaxyProject/ng-yii/src/scripts/app.js",
+			"settings":
+			{
+				"buffer_size": 152,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/wamp/www/zurmo/app/protected/modules/users/models/User.php",
+			"settings":
+			{
+				"buffer_size": 50008,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/wamp/www/zurmo/app/protected/modules/api/ApiModule.php",
+			"settings":
+			{
+				"buffer_size": 3073,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/wamp/www/zurmo/app/protected/modules/api/components/ApiRestHelper.php",
+			"settings":
+			{
+				"buffer_size": 3667,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/wamp/www/OctionGalaxyProject/protected/models/LoginForm.php",
+			"settings":
+			{
+				"buffer_size": 4018,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/wamp/www/OctionGalaxyProject/protected/models/User.php",
+			"settings":
+			{
+				"buffer_size": 6863,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Users/bruno_000/Documents/Oction/Luxore/bkp/pointy-slider/js/main.js",
+			"settings":
+			{
+				"buffer_size": 2405,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "<li class=\"two\">\n				<div class=\"caption left-align\">\n					<div class=\"row\">\n						<div class=\"col s6\">\n							<img src=\"img/features/coin-04.png\">\n						</div>\n						<div class=\"col s4 pull-s1\">\n							<h3>Secure</h3>\n							<h5 class=\"light grey-text text-lighten-3\">\n								Cryptocurrencies are secured by its decentralization and encryption.\n							</h5>\n						</div>\n					</div>\n				</div>\n			</li>\n			<li class=\"three\">\n				<div class=\"caption center-align\">\n					<div class=\"row\">\n						<div class=\"col s4 push-s1\">\n							<h3>No Masters</h3>\n							<h5 class=\"light grey-text text-lighten-3\">\n								There will be only LUX 1 billion ever! No one can rule the creation or transactions of the coin. This means no one can interfere in it's value or form.\n							</h5>\n						</div>\n						<div class=\"col s6 push-s1\">\n							<img src=\"img/features/coin-01.png\">\n						</div>\n					</div>\n				</div>\n			</li>\n			<li class=\"four\">\n				<div class=\"caption right-align\">\n					<div class=\"row\">\n						<div class=\"col s6\">\n							<img src=\"img/features/coin-03.png\">\n						</div>\n						<div class=\"col s4 pull-s1\">\n							<h3>Valuable</h3>\n							<h5 class=\"light grey-text text-lighten-3\">\n								Value is subjective! So LUX value will be based on peoples will of using it. Since, inside Luxore, that is the only way of make transactions, it's value will be determined by market rules of supply and demand: sellers can ask the price they want, and buyers can pay what they want! All voluntary and peaceful.\n							</h5>\n						</div>\n					</div>\n				</div>\n			</li>",
+			"settings":
+			{
+				"buffer_size": 1564,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/templates/main.html",
+			"settings":
+			{
+				"buffer_size": 1521,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/templates/footer.html",
+			"settings":
+			{
+				"buffer_size": 2571,
+				"line_ending": "Windows"
 			}
 		},
 		{
@@ -584,22 +737,6 @@
 			{
 				"buffer_size": 9930,
 				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/C/Users/bruno_000/Documents/Oction/Luxore/blog/header.php",
-			"settings":
-			{
-				"buffer_size": 12759,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/C/Users/bruno_000/Documents/Oction/Luxore/blog/style.css",
-			"settings":
-			{
-				"buffer_size": 5684,
-				"line_ending": "Windows"
 			}
 		}
 	],
@@ -651,8 +788,45 @@
 	],
 	"file_history":
 	[
-		"/C/Users/bruno_000/Desktop/Luxore_comp_vs03_fr.srt",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/website/generated/css/app.less.css",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/js/lib/cd-slider.js",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/bkp/morphing-modal-window/index.html",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/bkp/morphing-modal-window/css/style.css",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/bkp/morphing-modal-window/js/main.js",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/js/lib/timeline-nav.js",
+		"/C/Users/bruno_000/Desktop/Luxore_comp_vs03_es.srt",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/bitcoin-donation-callback.php",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/bitcoin-donation-rest.php",
+		"/C/Users/bruno_000/Desktop/Luxore_comp_vs03_pt_BR.srt",
+		"/C/Users/bruno_000/Desktop/Luxore_comp_vs03_es.txt",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/css/helpers/typography.less",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/css/main.less",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/css/helpers/colors.less",
+		"/C/wamp/www/zurmo/app/protected/modules/users/controllers/UserApiController.php",
+		"/C/wamp/www/zurmo/app/protected/modules/users/models/UserSearch.php",
+		"/C/wamp/www/zurmo/app/protected/modules/users/UsersModule.php",
+		"/C/wamp/www/OctionGalaxyProject/ng-yii/server.js",
+		"/C/wamp/www/OctionGalaxyProject/ng-yii/routes.js",
+		"/C/wamp/www/OctionGalaxyProject/ng-yii/src/scripts/main.js",
+		"/C/wamp/www/OctionGalaxyProject/ng-yii/src/scripts/run.js",
+		"/C/wamp/www/OctionGalaxy/protected/config/main.php",
+		"/C/wamp/www/OctionGalaxyProject/protected/controllers/SiteController.php",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/bkp/pointy-slider/css/style.css",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/bkp/pointy-slider/index.html",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/blog/header.php",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/blog/footer.php",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/blog/page.php",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/blog/media/_frontend/js/functions.js",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/blog/style.css",
 		"/C/Users/bruno_000/Desktop/Luxore_comp_vs03.srt",
+		"/C/Users/bruno_000/Desktop/Luxore_comp_vs03_fr.srt",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/templates/footer.html",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/js/lib/common.js",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/js/lib/ink-modal.js",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/blog/templates/header.php",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/blog/readme.txt",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/blog/instructions.txt",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/blog/index.php",
 		"/C/Users/bruno_000/Documents/Oction/Luxore/bkp/horizontal-timeline/js/main.js",
 		"/C/Users/bruno_000/Documents/Oction/Luxore/website/Site.csproj",
 		"/C/Users/bruno_000/Documents/Oction/Luxore/Profile.txt",
@@ -691,8 +865,6 @@
 		"/C/Users/bruno_000/Documents/Oction/Luxore/docs/blog_coins.txt",
 		"/C/Users/bruno_000/Documents/Oction/Luxore/docs/blog_coins.html",
 		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/css/style.css",
-		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/css/main.less",
-		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/css/helpers/colors.less",
 		"/C/Users/bruno_000/Documents/Oction/Luxore/ionic/Luxore/www/lib/ionic-material/src/scss/index.scss",
 		"/C/Users/bruno_000/Documents/Oction/Luxore/ionic/Luxore/www/lib/ionic-material/src/scss/elements/button-fab.scss",
 		"/C/Users/bruno_000/Documents/Oction/Luxore/website/vendor/css/materialize.css",
@@ -730,7 +902,6 @@
 		"/C/Users/bruno_000/Documents/Oction/Luxore/bkp/Angular-Hero-Sample-master/bower.json",
 		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/pages/index_off.us",
 		"/C/Users/bruno_000/Documents/Oction/Luxore/website/generated/angular/template-cache.js",
-		"/C/Users/bruno_000/Desktop/Luxore_comp_vs03_pt_BR.srt",
 		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/templates/header.html",
 		"/C/Users/bruno_000/Documents/Oction/Luxore/project/app/templates/header.html",
 		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/static/robots.txt",
@@ -744,41 +915,7 @@
 		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/templates/main/faq.html",
 		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/templates/ethics.html",
 		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/templates/terms.html",
-		"/C/Users/bruno_000/Documents/Oction/Luxore/project/app/js/app.js",
-		"/C/Users/bruno_000/Documents/Oction/Luxore/blog/style.css",
-		"/C/Users/bruno_000/Documents/Oction/Luxore/blog/templates/style.php",
-		"/C/Users/bruno_000/Documents/Oction/Luxore/blog/media/_frontend/css/nav.css",
-		"/C/Users/bruno_000/Documents/Oction/Luxore/blog/media/css/mythemes-icons.css",
-		"/C/Users/bruno_000/Documents/Oction/Luxore/ionic/Luxore/www/lib/ionic-material/docs/codepen-template.js",
-		"/C/Users/bruno_000/Documents/Oction/Luxore/ionic/Luxore/www/lib/ionic-material/docs/templates/motion.html",
-		"/C/Users/bruno_000/Documents/Oction/Luxore/ionic/Luxore/www/lib/ionic-material/docs/js/app.js",
-		"/C/Users/bruno_000/Documents/Oction/Luxore/ionic/Luxore/www/lib/ionic-material/docs/js/wrapper.js",
-		"/C/Users/bruno_000/Documents/Oction/Luxore/ionic/Luxore/www/lib/ionic-material/docs/css/style.css",
-		"/C/Users/bruno_000/Documents/Oction/Luxore/ionic/Luxore/www/lib/ionic-material/docs/css/wrapper.css",
-		"/C/Users/bruno_000/Documents/Oction/Luxore/ionic/Luxore/www/lib/ionic-material/docs/package.json",
-		"/C/Users/bruno_000/Documents/Oction/Luxore/ionic/Luxore/www/lib/ionic-material/docs/docs.html",
-		"/C/Users/bruno_000/Documents/Oction/Luxore/ionic/Luxore/www/lib/ionic-material/docs/codepen-template.html",
-		"/C/Users/bruno_000/Documents/Oction/Luxore/ionic/Luxore/www/lib/ionic-material/docs/templates/menu.html",
-		"/C/Users/bruno_000/Documents/Oction/Luxore/ionic/Luxore/www/lib/ionic-material/demo/www/templates/menu.html",
-		"/C/Users/bruno_000/Documents/Oction/Luxore/ionic/Luxore/www/lib/ionic-material/src/scss/elements/menu.scss",
-		"/C/Users/bruno_000/Documents/Oction/Luxore/ionic/Luxore/www/lib/ionic-material/src/scss/elements/bar.scss",
-		"/C/Users/bruno_000/Documents/Oction/Luxore/ionic/Luxore/www/css/ionic.app.css",
-		"/C/Users/bruno_000/Documents/Oction/Luxore/ionic/Luxore/www/lib/ionic-material/src/scss/helpers/sizes.scss",
-		"/C/Users/bruno_000/Documents/Oction/Luxore/ionic/Luxore/www/lib/ionic-material/src/scss/elements/bar-header-expanded.scss",
-		"/C/Users/bruno_000/Documents/Oction/Luxore/ionic/Luxore/www/lib/ionic-material/src/scss/elements/button.scss",
-		"/C/Users/bruno_000/Documents/Oction/Luxore/ionic/Luxore/www/lib/ionic-material/src/scss/elements/card.scss",
-		"/C/Users/bruno_000/Documents/Oction/Luxore/ionic/Luxore/www/lib/ionic-material/src/scss/elements/button-floating.scss",
-		"/C/Users/bruno_000/Documents/Oction/Luxore/ionic/Luxore/www/lib/ionic-material/src/scss/elements/button-bar.scss",
-		"/C/Users/bruno_000/Documents/Oction/Luxore/ionic/Luxore/www/lib/ionic-material/src/scss/overrides/ink.scss",
-		"/C/Users/bruno_000/Documents/Oction/Luxore/ionic/Luxore/www/lib/ionic-material/src/scss/overrides/ionic-colors.scss",
-		"/C/Users/bruno_000/Documents/Oction/Luxore/ionic/Luxore/www/lib/ionic-material/src/scss/overrides/ionic.scss",
-		"/C/Users/bruno_000/Documents/Oction/Luxore/ionic/Luxore/www/lib/ionic-material/src/scss/motion/blinds.scss",
-		"/C/Users/bruno_000/Documents/Oction/Luxore/ionic/Luxore/www/lib/ionic-material/src/scss/motion/slide-up.scss",
-		"/C/Users/bruno_000/Documents/Oction/Luxore/ionic/Luxore/www/lib/ionic-material/src/scss/motion/slide-in-right.scss",
-		"/C/Users/bruno_000/Documents/Oction/Luxore/ionic/Luxore/www/lib/ionic-material/src/scss/motion/slide-fade-in.scss",
-		"/C/Users/bruno_000/Documents/Oction/Luxore/ionic/Luxore/www/lib/ionic-material/src/scss/motion/ripple.scss",
-		"/C/Users/bruno_000/Documents/Oction/Luxore/ionic/Luxore/www/lib/ionic-material/src/scss/motion/pan-in-left.scss",
-		"/C/Users/bruno_000/Documents/Oction/Luxore/ionic/Luxore/www/lib/ionic-material/src/scss/helpers/colors/positive.scss"
+		"/C/Users/bruno_000/Documents/Oction/Luxore/project/app/js/app.js"
 	],
 	"find":
 	{
@@ -796,6 +933,46 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"modal-sec",
+			"modal-is-visible",
+			"@luxore-bg-gray",
+			"@luxore-bg",
+			"@luxore-bg-dark",
+			"@luxore-bg",
+			"@luxore-text",
+			"@luxore-bg-dark",
+			"ore-text-medium",
+			"@luxore-bg-gray",
+			"@luxore-bg-white",
+			"z-index",
+			"cd-modal-content",
+			"cd-modal",
+			"cd-section",
+			"home",
+			"cd-modal",
+			"retrieveScale",
+			"btn",
+			".btn",
+			"cd-section",
+			"  ",
+			"post-meta",
+			"lux-title",
+			"feature-ti",
+			"635471",
+			"spin",
+			"color",
+			"43285f",
+			"checkPassword",
+			"hashPassword",
+			"hash",
+			"btn-luxore",
+			"navigation",
+			"->",
+			": ",
+			"box-shadow",
+			"Poiret",
+			"mainheader",
+			"$mythemes_header_class",
 			"gradient",
 			"7b9d6f",
 			"foote",
@@ -883,47 +1060,7 @@
 			"menus",
 			"upercase",
 			"has-header",
-			"ion-nav-bar",
-			"itrineCtrl",
-			"867b1c",
-			"button-energized",
-			"#ffc900",
-			"ffc900",
-			"387ef5",
-			"highlight",
-			"button-energized-900",
-			"button-energized",
-			"side-menu",
-			"redirect",
-			"#E0E0E0",
-			"#FFCDD2",
-			"#B71C1C",
-			"#F44336",
-			"#FFE0B2",
-			"#E65100",
-			"#FF9800",
-			"#C8E6C9",
-			"#1B5E20",
-			"#4CAF50",
-			"#D1C4E9",
-			"#311B92",
-			"#673AB7",
-			"#BBDEFB",
-			"#0D47A1",
-			"#2196F3",
-			"positive100",
-			"C5CAE9",
-			"3F51B5",
-			"1A237E",
-			"import",
-			"color",
-			"style=\"\"",
-			"=\"\">",
-			"Controller",
-			"Ctrl",
-			"language",
-			"achievements",
-			"Invite"
+			"ion-nav-bar"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -931,6 +1068,13 @@
 		"regex": false,
 		"replace_history":
 		[
+			"@luxore-text-medium",
+			"@luxore-text-dark",
+			"@luxore-text-medium",
+			"@luxore-text-light",
+			"cd-modal-section",
+			"-->",
+			":",
 			"#roadmap",
 			"timeline-navigation",
 			"#roadmap",
@@ -1051,12 +1195,7 @@
 			"\\n",
 			"",
 			"%]",
-			"[%",
-			"$chain_name",
-			"brunotestchain",
-			"test_chain",
-			"\\n",
-			"\""
+			"[%"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -1067,7 +1206,7 @@
 	"groups":
 	[
 		{
-			"selected": 9,
+			"selected": 4,
 			"sheets":
 			[
 				{
@@ -1095,7 +1234,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 8,
+					"stack_index": 25,
 					"type": "text"
 				},
 				{
@@ -1123,7 +1262,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 9,
+					"stack_index": 26,
 					"type": "text"
 				},
 				{
@@ -1132,15 +1271,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 6056,
+						"buffer_size": 7622,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								5254,
-								5536
+								6450,
+								6450
 							]
 						],
 						"settings":
@@ -1151,10 +1290,10 @@
 							"word_wrap": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1152.0,
+						"translation.y": 1434.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
@@ -1163,15 +1302,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5441,
+						"buffer_size": 5533,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4530,
-								4530
+								2846,
+								2846
 							]
 						],
 						"settings":
@@ -1181,27 +1320,114 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 3168.0,
+						"translation.y": 1944.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
 					"buffer": 4,
-					"file": "app/templates/views/site/home.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 12630,
+						"buffer_size": 45,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2437,
-								2437
+								45,
+								45
+							]
+						],
+						"settings":
+						{
+							"auto_name": "9133 2446",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "app/js/lib/common.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2749,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2565,
+								2565
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1224.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 15,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "app/js/lib/cd-modal.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3039,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1065,
+								1080
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 64.0,
+						"translation.y": 99.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "app/templates/views/site/home.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 12690,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								599,
+								599
 							]
 						],
 						"settings":
@@ -1209,28 +1435,28 @@
 							"syntax": "Packages/HTML/HTML.sublime-syntax",
 							"translate_tabs_to_spaces": false
 						},
-						"translation.x": 0.0,
-						"translation.y": 984.0,
+						"translation.x": 195.0,
+						"translation.y": 432.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 3,
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 8,
 					"file": "app/css/style.css",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 42047,
+						"buffer_size": 34063,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								14647,
-								14647
+								16823,
+								16823
 							]
 						],
 						"settings":
@@ -1240,27 +1466,409 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 13757.0,
+						"translation.y": 14225.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,
 					"type": "text"
 				},
 				{
-					"buffer": 6,
-					"file": "app/js/lib/timeline-nav.js",
+					"buffer": 9,
+					"file": "app/css/style.less",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 12090,
+						"buffer_size": 6741,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								11823,
-								11823
+								2282,
+								2282
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3868.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "app/css/helpers/typography.less",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1017,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								178,
+								196
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 650.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "app/css/helpers/colors.less",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2407,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1073,
+								1092
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 504.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3898,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3898,
+								3898
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": -0.0,
+						"translation.y": 3686.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "/C/Users/bruno_000/Documents/Oction/Luxore/blog/style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 18390,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								11758,
+								11758
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 11813.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": "/C/wamp/www/OctionGalaxyProject/index.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1350,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								394,
+								394
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 216.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 21,
+					"type": "text"
+				},
+				{
+					"buffer": 15,
+					"file": "/C/wamp/www/OctionGalaxyProject/protected/config/main.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7784,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7257,
+								7257
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2982.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
+					"type": "text"
+				},
+				{
+					"buffer": 16,
+					"file": "/C/wamp/www/OctionGalaxyProject/ng-yii/src/scripts/app.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 152,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								84,
+								84
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 20,
+					"type": "text"
+				},
+				{
+					"buffer": 17,
+					"file": "/C/wamp/www/zurmo/app/protected/modules/users/models/User.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 50008,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4379,
+								4379
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2201.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 18,
+					"type": "text"
+				},
+				{
+					"buffer": 18,
+					"file": "/C/wamp/www/zurmo/app/protected/modules/api/ApiModule.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3073,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1008.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 17,
+					"type": "text"
+				},
+				{
+					"buffer": 19,
+					"file": "/C/wamp/www/zurmo/app/protected/modules/api/components/ApiRestHelper.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3667,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 648.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 16,
+					"type": "text"
+				},
+				{
+					"buffer": 20,
+					"file": "/C/wamp/www/OctionGalaxyProject/protected/models/LoginForm.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4018,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 19,
+					"type": "text"
+				},
+				{
+					"buffer": 21,
+					"file": "/C/wamp/www/OctionGalaxyProject/protected/models/User.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6863,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": -0.0,
+						"translation.y": 1368.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 22,
+					"type": "text"
+				},
+				{
+					"buffer": 22,
+					"file": "/C/Users/bruno_000/Documents/Oction/Luxore/bkp/pointy-slider/js/main.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2405,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								2405
 							]
 						],
 						"settings":
@@ -1269,14 +1877,102 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 4176.0,
+						"translation.y": 864.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 24,
 					"type": "text"
 				},
 				{
-					"buffer": 7,
+					"buffer": 23,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1564,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								278,
+								346
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 76.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 23,
+					"type": "text"
+				},
+				{
+					"buffer": 24,
+					"file": "app/templates/main.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1521,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								1521
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 72.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 13,
+					"type": "text"
+				},
+				{
+					"buffer": 25,
+					"file": "app/templates/footer.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2571,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								284,
+								293
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 26,
 					"file": "/C/Users/bruno_000/Documents/Oction/Luxore/bkp/horizontal-timeline/css/style.css",
 					"semi_transient": false,
 					"settings":
@@ -1302,67 +1998,7 @@
 						"translation.y": 648.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"file": "/C/Users/bruno_000/Documents/Oction/Luxore/blog/header.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 12759,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 3528.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 9,
-					"file": "/C/Users/bruno_000/Documents/Oction/Luxore/blog/style.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 5684,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 3168.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
+					"stack_index": 14,
 					"type": "text"
 				}
 			]
