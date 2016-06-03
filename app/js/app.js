@@ -5,7 +5,8 @@ var app = angular.module('app', [
   'ngAnimate',
   'gettext',
   'ngClipboard',
-  'uimodal'
+  'uimodal',
+  'docs'
 ]);
 
 app.config(function ($stateProvider, $urlRouterProvider, $locationProvider) {
@@ -44,6 +45,33 @@ app.config(function ($stateProvider, $urlRouterProvider, $locationProvider) {
               document.getElementById('fab-friends').classList.toggle('on');
             }, 900);
           }*/
+        }
+      }
+    })
+
+    .state('app.faq', {
+      url: '/faq',
+      views: {
+        'mainContent@app': {
+          templateUrl:'views/site/faq.html'
+        }
+      }
+      //controller:'FaqController',
+    })
+
+    .state('app.terms', {
+      url: '/terms-of-use',
+      views: {
+        'mainContent@app': {
+          templateUrl:'views/site/terms.html'
+        }
+      }
+    })
+    .state('app.ethics', {
+      url: '/ethical-guidelines',
+      views: {
+        'mainContent@app': {
+          templateUrl:'views/site/ethics.html'
         }
       }
     })

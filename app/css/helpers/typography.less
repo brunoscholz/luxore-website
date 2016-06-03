@@ -47,10 +47,43 @@ body {
   font-weight: 400;
 }
 
-a {
-  color: @luxore-text-medium;
+.transition (@transition) {
+  -webkit-transition: @transition;
+  -moz-transition:    @transition;
+  -ms-transition:     @transition;
+  -o-transition:      @transition;
+}
+
+.transform(@string){
+  -webkit-transform: @string;
+  -moz-transform:    @string;
+  -ms-transform:     @string;
+  -o-transform:      @string;
+}
+
+.linx {
+  position: relative;
+  color: #404040;
+  text-decoration: none;
+  .transition(none 0.25s linear);
   &:hover {
     color: @luxore-logo-purple;
+  }
+  &:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: -1px;
+    left: 0;
+    background-color: @luxore-logo-purple;
+    visibility: hidden;
+    .transform(scaleX(0));
+    .transition(all 0.3s ease-in-out 0s);
+  }
+  &:hover:before {
+    visibility: visible;
+    .transform(scaleX(1));
   }
 }
 

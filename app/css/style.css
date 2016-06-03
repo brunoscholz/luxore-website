@@ -222,6 +222,7 @@ video {
   background-image: url("../img/backgrounds/ana01.jpg");
 }
 
+.headerless-home .quote,
 .home .quote {
   background-color: rgba(243, 242, 243, 0.8);
   min-height: 400px;
@@ -235,6 +236,7 @@ video {
   text-align: center;
 }
 
+.headerless-home .quote span,
 .home .quote span {
   color: #000;
   font-family: Raleway;
@@ -294,6 +296,20 @@ video {
   background-color: #f3f2f3;
   border: 2px solid #60526d;
   color: #82778C;
+}
+
+.headerless-home {
+  background-position: center center;
+  background-size: cover;
+  min-height: 300px;
+  padding-bottom: 180px;
+  padding-top: 270px;
+  text-align: center;
+  background-image: url("../img/backgrounds/polygon-back.jpg");
+}
+
+.headerless-home .quote {
+  min-height: 0;
 }
 
 .emphasis {

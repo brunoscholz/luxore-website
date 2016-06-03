@@ -1,3 +1,15 @@
+<section class="headerless-home">
+	<div class="container">
+		<div class="row">
+			<div class="col s12">
+				<p class="quote" translate>
+					<span>Luxore</span> is a new kind of social network where you make your looks, share them, become a reference and inspire your followers.
+				</p>
+			</div>
+		</div>
+	</div>
+</section>
+
 <section class="ethics">
 	<div class="row">
 		<div class="col s2 m2 l2 push-s1 hide-on-med-and-down">
@@ -33,7 +45,7 @@
 				<div class="faq-title"><h3 translate>DOs</h3></div>
 				<ul>
 					<li>
-					    <b translate>RESPECT IP RIGHTS.</b> <translate>Ha ha, just kidding... There is no such a thing.. See why</translate> <a href="https://mises.org/library/against-intellectual-property-0" target="_blank" translate>here</a> <translate>and</translate> <a href="http://everythingisaremix.info/" target="_blank" translate>here</a>.
+					    <b translate>RESPECT IP RIGHTS.</b> <translate>Ha ha, just kidding... There is no such a thing.. See why</translate> <a class="linx" href="https://mises.org/library/against-intellectual-property-0" target="_blank" translate>here</a> <translate>and</translate> <a class="linx" href="http://everythingisaremix.info/" target="_blank" translate>here</a>.
 					</li>
 					<li>
 					    <b translate>KEEP IT ORIGINAL.</b> <translate>Luxore is to empower real-life people (not hollywood frauds), to help them find their own styles or create it. So, instead of copy super-duper-models, find out what people think about you... Keep it real.</translate>
@@ -78,20 +90,22 @@
 				</p>
 				<p>
 					<translate>Got a question about something not covered here? Just ask.
-					Contact us:</translate> <a href="mailto:whatsup@luxore.me" translate>whatsup@luxore.me</a>
+					Contact us:</translate> <a class="linx" href="mailto:whatsup@luxore.me" translate>whatsup@luxore.me</a>
 				</p>
 				<p>
 					<translate>Got a complain about anything covered here?
-					Contact us:</translate> <a href="mailto:dearjerksofluxorefoundation@luxore.me" translate>dearjerksofluxorefoundation@luxore.me</a>
+					Contact us:</translate> <a class="linx" href="mailto:dearjerksofluxorefoundation@luxore.me" translate>dearjerksofluxorefoundation@luxore.me</a>
 				</p>
 			</div>
 		</div>
 	</div>
 </section>
 
+<div ng-include="'footer.html'"></div>
+
 <script type="text/javascript">
 	$(document).ready(function(){
-	  $('.toc-wrapper').pushpin({ top: $('.toc-wrapper').offset().top, offset: 0 });
+	  $('.toc-wrapper').pushpin({ top: $('.toc-wrapper').offset().top, offset: 80 });
 	  $('.scrollspy').scrollSpy();
 	  $('html, body').animate({ scrollTop: 0 }, 'fast');
 	});
