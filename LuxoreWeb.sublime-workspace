@@ -4,6 +4,46 @@
 		"selected_items":
 		[
 			[
+				"ba",
+				"background-color"
+			],
+			[
+				"over",
+				"overNormalIndex"
+			],
+			[
+				"pa",
+				"padding-top"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"marg",
+				"margin"
+			],
+			[
+				"lis",
+				"list-style-type"
+			],
+			[
+				"im",
+				"important"
+			],
+			[
+				"font",
+				"font-weight--normal"
+			],
+			[
+				"trans",
+				"transition"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
 				"mai",
 				"mainContent"
 			],
@@ -76,10 +116,6 @@
 				"background-position"
 			],
 			[
-				"trans",
-				"transform"
-			],
-			[
 				"8c",
 				"82778c"
 			],
@@ -144,10 +180,6 @@
 				"justify"
 			],
 			[
-				"mar",
-				"margin"
-			],
-			[
 				"margi",
 				"margin-bottom"
 			],
@@ -174,10 +206,6 @@
 			[
 				"backgrou",
 				"background-color"
-			],
-			[
-				"font",
-				"font-family"
 			],
 			[
 				"padd",
@@ -212,10 +240,6 @@
 				"cosFunc"
 			],
 			[
-				"marg",
-				"margin-top"
-			],
-			[
 				"text",
 				"text-align"
 			],
@@ -234,10 +258,6 @@
 			[
 				"lan",
 				"languageService"
-			],
-			[
-				"pa",
-				"padding"
 			],
 			[
 				"min",
@@ -280,10 +300,6 @@
 				"border-top"
 			],
 			[
-				"ba",
-				"background"
-			],
-			[
 				"gami",
 				"Gamification"
 			],
@@ -310,10 +326,6 @@
 			[
 				"Vec",
 				"Vector3"
-			],
-			[
-				"lis",
-				"list-item-info"
 			],
 			[
 				"list",
@@ -502,18 +514,6 @@
 			[
 				"read",
 				"readFile"
-			],
-			[
-				"on",
-				"onchange	Attr"
-			],
-			[
-				"New",
-				"newlook"
-			],
-			[
-				"init",
-				"initCreate"
 			]
 		]
 	},
@@ -557,7 +557,7 @@
 			"file": "app/pages/index.us",
 			"settings":
 			{
-				"buffer_size": 5747,
+				"buffer_size": 5460,
 				"line_ending": "Windows"
 			}
 		},
@@ -570,22 +570,6 @@
 			}
 		},
 		{
-			"file": "app/templates/footer.html",
-			"settings":
-			{
-				"buffer_size": 2721,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "app/templates/main.html",
-			"settings":
-			{
-				"buffer_size": 3335,
-				"line_ending": "Windows"
-			}
-		},
-		{
 			"file": "app/templates/views/site/home.html",
 			"settings":
 			{
@@ -594,18 +578,18 @@
 			}
 		},
 		{
-			"file": "app/templates/views/site/terms.html",
+			"file": "app/templates/main.html",
 			"settings":
 			{
-				"buffer_size": 10558,
+				"buffer_size": 3570,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "app/templates/views/site/faq.html",
+			"file": "app/templates/views/site/features.html",
 			"settings":
 			{
-				"buffer_size": 16991,
+				"buffer_size": 10429,
 				"line_ending": "Windows"
 			}
 		},
@@ -613,29 +597,63 @@
 			"file": "app/js/modules/docs/docs.js",
 			"settings":
 			{
-				"buffer_size": 739,
+				"buffer_size": 2358,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"contents": "angular.module('faq', [\n  'ui.router',\n  'ct.ui.router.extras.core',\n  'ct.ui.router.extras.sticky'\n]);\n\nangular.module('faq').config(['$stateProvider, $urlRouterProvider', function ($stateProvider, $urlRouterProvider) {\n  $urlRouterProvider.otherwise(\"/\");\n  $stateProvider\n    ;\n}]);\n\nangular.module('faq').controller('FaqController', ['$scope', '$location',\n  function ($scope, $location) {\n\n  }]);",
-			"file": "app/js/modules/faq/faq.js",
-			"file_size": 0,
-			"file_write_time": 131094548843628707,
+			"file": "app/templates/views/docs/main.html",
 			"settings":
 			{
-				"buffer_size": 401,
+				"buffer_size": 3626,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"contents": "angular.module('terms', []);\n\nangular.module('terms').config(['$routeProvider', function ($routeProvider) {\n  $routeProvider\n    ;\n}]);\n\n/*.controller()\n$('html, body').animate({ scrollTop: 0 }, 'fast');\n;*/\n",
-			"file": "app/js/modules/terms/terms.js",
-			"file_size": 0,
-			"file_write_time": 131094549687487683,
+			"file": "app/templates/views/docs/index.html",
 			"settings":
 			{
-				"buffer_size": 208,
+				"buffer_size": 1277,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/templates/views/docs/about.html",
+			"settings":
+			{
+				"buffer_size": 1223,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/templates/views/docs/features/looks.html",
+			"settings":
+			{
+				"buffer_size": 7198,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/templates/views/docs/features/studios.html",
+			"settings":
+			{
+				"buffer_size": 1782,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/templates/views/docs/features/news.html",
+			"settings":
+			{
+				"buffer_size": 1961,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/templates/views/docs/features/gamification.html",
+			"settings":
+			{
+				"buffer_size": 1869,
 				"line_ending": "Unix"
 			}
 		},
@@ -643,15 +661,7 @@
 			"file": "app/css/style.css",
 			"settings":
 			{
-				"buffer_size": 35531,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "app/css/faq.css",
-			"settings":
-			{
-				"buffer_size": 7752,
+				"buffer_size": 33874,
 				"line_ending": "Windows"
 			}
 		},
@@ -659,15 +669,34 @@
 			"file": "app/css/style.less",
 			"settings":
 			{
-				"buffer_size": 6816,
+				"buffer_size": 10261,
 				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "/*********************\n     FAQ Section\n**********************/\n.faq {\n  width: 90%;\n  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);\n}\n.faq:after {\n  content: \"\";\n  display: table;\n  clear: both;\n}\n@media only screen and (min-width: 768px) {\n  .faq {\n    position: relative;\n    box-shadow: none;\n  }\n}\n\n.table-of-contents a.active {\n  border-left: 2px solid #4b0a70;\n}\n\n.collapsible-body p {\n  color: black;\n  font-size: 1.3rem;\n}\n\n.faq-categories a {\n  position: relative;\n  display: block;\n  overflow: hidden;\n  height: 50px;\n  line-height: 50px;\n  padding: 0 28px 0 16px;\n  background-color: #4e5359;\n  -webkit-font-smoothing: antialiased;\n  -moz-osx-font-smoothing: grayscale;\n  color: #ffffff;\n  white-space: nowrap;\n  border-bottom: 1px solid #555b61;\n  text-overflow: ellipsis;\n}\n.faq-categories a::before, .faq-categories a::after {\n  /* plus icon on the right */\n  position: absolute;\n  top: 50%;\n  right: 16px;\n  display: inline-block;\n  height: 1px;\n  width: 10px;\n  background-color: #7f868e;\n}\n.faq-categories a::after {\n  -webkit-transform: rotate(90deg);\n  -moz-transform: rotate(90deg);\n  -ms-transform: rotate(90deg);\n  -o-transform: rotate(90deg);\n  transform: rotate(90deg);\n}\n.faq-categories li:last-child a {\n  border-bottom: none;\n}\n@media only screen and (min-width: 768px) {\n  .faq-categories {\n    width: 20%;\n    float: left;\n    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.08);\n  }\n  .faq-categories a {\n    font-size: 13px;\n    font-size: 0.8125rem;\n    font-weight: 600;\n    padding-left: 24px;\n    padding: 0 24px;\n    -webkit-transition: background 0.2s, padding 0.2s;\n    -moz-transition: background 0.2s, padding 0.2s;\n    transition: background 0.2s, padding 0.2s;\n  }\n  .faq-categories a::before, .faq-categories a::after {\n    display: none;\n  }\n  .no-touch .faq-categories a:hover {\n    background: #555b61;\n  }\n  .no-js .faq-categories {\n    width: 100%;\n    margin-bottom: 2em;\n  }\n}\n@media only screen and (min-width: 1024px) {\n  .faq-categories {\n    position: absolute;\n    top: 0;\n    left: 0;\n    width: 200px;\n    z-index: 2;\n  }\n  .faq-categories a::before {\n    /* decorative rectangle on the left visible for the selected item */\n    display: block;\n    top: 0;\n    right: auto;\n    left: 0;\n    height: 100%;\n    width: 3px;\n    background-color: #a9c056;\n    opacity: 0;\n    -webkit-transition: opacity 0.2s;\n    -moz-transition: opacity 0.2s;\n    transition: opacity 0.2s;\n  }\n  .faq-categories .selected {\n    background: #42464b !important;\n  }\n  .faq-categories .selected::before {\n    opacity: 1;\n  }\n  .faq-categories.is-fixed {\n    /* top and left value assigned in jQuery */\n    position: fixed;\n  }\n  .no-js .faq-categories {\n    position: relative;\n  }\n}\n\n.faq-items {\n  position: fixed;\n  height: 100%;\n  width: 90%;\n  top: 0;\n  right: 0;\n  background: #ffffff;\n  padding: 0 5% 1em;\n  overflow: auto;\n  -webkit-overflow-scrolling: touch;\n  z-index: 1;\n  -webkit-backface-visibility: hidden;\n  backface-visibility: hidden;\n  -webkit-transform: translateZ(0) translateX(100%);\n  -moz-transform: translateZ(0) translateX(100%);\n  -ms-transform: translateZ(0) translateX(100%);\n  -o-transform: translateZ(0) translateX(100%);\n  transform: translateZ(0) translateX(100%);\n  -webkit-transition: -webkit-transform .3s;\n  -moz-transition: -moz-transform .3s;\n  transition: transform .3s;\n}\n.faq-items.slide-in {\n  -webkit-transform: translateZ(0) translateX(0%);\n  -moz-transform: translateZ(0) translateX(0%);\n  -ms-transform: translateZ(0) translateX(0%);\n  -o-transform: translateZ(0) translateX(0%);\n  transform: translateZ(0) translateX(0%);\n}\n.no-js .faq-items {\n  position: static;\n  height: auto;\n  width: 100%;\n  -webkit-transform: translateX(0);\n  -moz-transform: translateX(0);\n  -ms-transform: translateX(0);\n  -o-transform: translateX(0);\n  transform: translateX(0);\n}\n@media only screen and (min-width: 768px) {\n  .faq-items {\n    position: static;\n    height: auto;\n    width: 78%;\n    float: right;\n    overflow: visible;\n    -webkit-transform: translateZ(0) translateX(0);\n    -moz-transform: translateZ(0) translateX(0);\n    -ms-transform: translateZ(0) translateX(0);\n    -o-transform: translateZ(0) translateX(0);\n    transform: translateZ(0) translateX(0);\n    padding: 0;\n    background: transparent;\n  }\n}\n@media only screen and (min-width: 1024px) {\n  .faq-items {\n    float: none;\n    width: 100%;\n    padding-left: 220px;\n  }\n  .no-js .faq-items {\n    padding-left: 0;\n  }\n}\n\n.close-panel {\n  position: fixed;\n  top: 5px;\n  right: -100%;\n  display: block;\n  height: 40px;\n  width: 40px;\n  overflow: hidden;\n  text-indent: 100%;\n  white-space: nowrap;\n  z-index: 2;\n  /* Force Hardware Acceleration in WebKit */\n  -webkit-transform: translateZ(0);\n  -moz-transform: translateZ(0);\n  -ms-transform: translateZ(0);\n  -o-transform: translateZ(0);\n  transform: translateZ(0);\n  -webkit-backface-visibility: hidden;\n  backface-visibility: hidden;\n  -webkit-transition: right 0.4s;\n  -moz-transition: right 0.4s;\n  transition: right 0.4s;\n}\n.close-panel::before, .close-panel::after {\n  /* close icon in CSS */\n  position: absolute;\n  top: 16px;\n  left: 12px;\n  display: inline-block;\n  height: 3px;\n  width: 18px;\n  background: #6c7d8e;\n}\n.close-panel::before {\n  -webkit-transform: rotate(45deg);\n  -moz-transform: rotate(45deg);\n  -ms-transform: rotate(45deg);\n  -o-transform: rotate(45deg);\n  transform: rotate(45deg);\n}\n.close-panel::after {\n  -webkit-transform: rotate(-45deg);\n  -moz-transform: rotate(-45deg);\n  -ms-transform: rotate(-45deg);\n  -o-transform: rotate(-45deg);\n  transform: rotate(-45deg);\n}\n.close-panel.move-left {\n  right: 2%;\n}\n@media only screen and (min-width: 768px) {\n  .close-panel {\n    display: none;\n  }\n}\n\n.no-touch .faq-title:hover {\n  box-shadow: none;\n}\n.faq-title h2 {\n  text-transform: uppercase;\n  font-size: 1.2rem;\n  font-weight: 700;\n  color: #bbbbc7;\n}\n\n.faq-trigger {\n  position: relative;\n  display: block;\n  margin: 1.6em 0 .4em;\n  line-height: 1.2;\n}\n@media only screen and (min-width: 768px) {\n  .faq-trigger {\n    font-size: 24px;\n    font-size: 1.5rem;\n    font-weight: 300;\n    margin: 0;\n    padding: 24px 72px 24px 24px;\n  }\n  .faq-trigger::before, .faq-trigger::after {\n    /* arrow icon on the right */\n    position: absolute;\n    right: 24px;\n    top: 50%;\n    height: 2px;\n    width: 13px;\n    background: #cfdca0;\n    -webkit-backface-visibility: hidden;\n    backface-visibility: hidden;\n    -webkit-transition-property: -webkit-transform;\n    -moz-transition-property: -moz-transform;\n    transition-property: transform;\n    -webkit-transition-duration: 0.2s;\n    -moz-transition-duration: 0.2s;\n    transition-duration: 0.2s;\n  }\n  .faq-trigger::before {\n    -webkit-transform: rotate(45deg);\n    -moz-transform: rotate(45deg);\n    -ms-transform: rotate(45deg);\n    -o-transform: rotate(45deg);\n    transform: rotate(45deg);\n    right: 32px;\n  }\n  .faq-trigger::after {\n    -webkit-transform: rotate(-45deg);\n    -moz-transform: rotate(-45deg);\n    -ms-transform: rotate(-45deg);\n    -o-transform: rotate(-45deg);\n    transform: rotate(-45deg);\n  }\n  .content-visible .faq-trigger::before {\n    -webkit-transform: rotate(-45deg);\n    -moz-transform: rotate(-45deg);\n    -ms-transform: rotate(-45deg);\n    -o-transform: rotate(-45deg);\n    transform: rotate(-45deg);\n  }\n  .content-visible .faq-trigger::after {\n    -webkit-transform: rotate(45deg);\n    -moz-transform: rotate(45deg);\n    -ms-transform: rotate(45deg);\n    -o-transform: rotate(45deg);\n    transform: rotate(45deg);\n  }\n}\n\n.faq-content p {\n  font-size: 14px;\n  font-size: 0.875rem;\n  line-height: 1.4;\n  color: #6c7d8e;\n}\n@media only screen and (min-width: 768px) {\n  .faq-content {\n    display: none;\n    padding: 0 24px 30px;\n  }\n  .faq-content p {\n    line-height: 1.6;\n  }\n  .no-js .faq-content {\n    display: block;\n  }\n}",
+			"file": "app/css/faq.css",
+			"file_size": 8087,
+			"file_write_time": 131094595993215434,
+			"settings":
+			{
+				"buffer_size": 7816,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/css/helpers/mixins.less",
+			"settings":
+			{
+				"buffer_size": 5321,
+				"line_ending": "Unix"
 			}
 		},
 		{
 			"file": "app/css/helpers/typography.less",
 			"settings":
 			{
-				"buffer_size": 1424,
+				"buffer_size": 1665,
 				"line_ending": "Unix"
 			}
 		},
@@ -835,23 +864,43 @@
 	],
 	"file_history":
 	[
+		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/templates/views/docs/features/tags.html",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/templates/views/docs/features/search.html",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/templates/views/docs/features/coin.html",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/templates/views/docs/footer.html",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/css/faq.css",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/js/lib/common.js",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/templates/modals/video.html",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/website/generated/css/app.less.css",
 		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/css/main.less",
 		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/css/helpers/mixins.less",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/templates/views/docs/features/gamification.html",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/templates/views/docs/features/lists.html",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/templates/views/docs/features/messenger.html",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/templates/views/docs/features/news.html",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/templates/views/docs/features/profile.html",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/templates/views/docs/features/notifications.html",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/templates/views/docs/features/social.html",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/templates/views/docs/features/tips.html",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/templates/views/docs/features/studios.html",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/templates/modals/bitcoin.html",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/templates/views/site/faq.html",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/templates/footer.html",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/templates/main.html",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/templates/views/site/terms.html",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/js/common/directives/modal.js",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/js/lib/cd-modal.js",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/js/modules/terms/terms.js",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/js/modules/faq/faq.js",
 		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/templates/views/site/ethics.html",
 		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/templates/views/site/home.html",
-		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/templates/main.html",
-		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/templates/modals/bitcoin.html",
-		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/templates/modals/video.html",
 		"/C/Users/bruno_000/Documents/Oction/Luxore/website/config/application.js",
-		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/templates/footer.html",
 		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/templates/header.html",
 		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/js/lib/timeline-nav.js",
-		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/js/lib/common.js",
 		"/C/Users/bruno_000/Documents/Oction/Luxore/website/vendor/js/ngClipboard.js",
 		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/js/lib/bitcoindonate.js",
 		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/css/bitcoin.css",
 		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/templates/modal.html",
-		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/js/lib/cd-modal.js",
 		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/js/modules/modal.js",
 		"/C/Users/bruno_000/Documents/Oction/Luxore/liveblog/footer.php",
 		"/C/Users/bruno_000/Documents/Oction/Luxore/liveblog/template-parts/post-meta.php",
@@ -860,7 +909,6 @@
 		"/C/Users/bruno_000/Desktop/Luxore/Luxore_comp_vs03_zh.srt",
 		"/C/Users/bruno_000/Documents/Oction/Luxore/bkp/horizontal-timeline/css/style.css",
 		"/C/wamp/www/OctionGalaxyProject/ng-yii/src/scripts/app.js",
-		"/C/Users/bruno_000/Documents/Oction/Luxore/website/generated/css/app.less.css",
 		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/js/lib/cd-slider.js",
 		"/C/Users/bruno_000/Documents/Oction/Luxore/bkp/morphing-modal-window/index.html",
 		"/C/Users/bruno_000/Documents/Oction/Luxore/bkp/morphing-modal-window/css/style.css",
@@ -943,26 +991,7 @@
 		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/templates/main/home.html",
 		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/templates/docs/header.html",
 		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/templates/docs/index.html",
-		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/templates/features.html",
-		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/templates/menu.html",
-		"/C/Users/bruno_000/Documents/Oction/Luxore/ionic/Luxore/www/templates/menu.html",
-		"/C/Users/bruno_000/Documents/Oction/Luxore/ionic/Luxore/www/js/common/security/security.js",
-		"/C/Users/bruno_000/Documents/Oction/Luxore/project/app/css/style.css",
-		"/C/Users/bruno_000/Documents/Oction/Luxore/docs/Terms.txt",
-		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/js/modules/terms/terms.js",
-		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/js/lib/loader.js",
-		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/js/common/services/languageService.js",
-		"/C/Users/bruno_000/Documents/Oction/Luxore/loaders.html",
-		"/C/Users/bruno_000/Documents/Oction/Luxore/bkp/Angular-Hero-Sample-master/app/index.html",
-		"/C/Users/bruno_000/Documents/Oction/Luxore/website/config/files.js",
-		"/C/Users/bruno_000/Documents/Oction/Luxore/website/config/lineman.js",
-		"/C/Users/bruno_000/Documents/Oction/Luxore/website/README.md",
-		"/C/Users/bruno_000/Documents/Oction/Luxore/website/Gruntfile.js",
-		"/C/Users/bruno_000/Documents/Oction/Luxore/website/vendor/css/material-design-iconic-font.min.css",
-		"/C/Users/bruno_000/Documents/Oction/Luxore/website/vendor/css/icon.css",
-		"/C/Users/bruno_000/Documents/Oction/Luxore/bkp/Angular-Hero-Sample-master/app/view1/view1.js",
-		"/C/Users/bruno_000/Documents/Oction/Luxore/bkp/Angular-Hero-Sample-master/app/app.js",
-		"/C/Users/bruno_000/Documents/Oction/Luxore/bkp/Angular-Hero-Sample-master/app/animations.css"
+		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/templates/features.html"
 	],
 	"find":
 	{
@@ -980,6 +1009,16 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"waves-teal",
+			"tags",
+			"tablets",
+			"smart",
+			"dropdown",
+			"translation",
+			"font-size",
+			"75px",
+			"75",
+			"box-sha",
 			"<a",
 			"eventsContent",
 			"number",
@@ -1097,17 +1136,7 @@
 			"empty-box",
 			"velocity",
 			"velocity-animating",
-			"animateQuickView",
-			".empty-box",
-			"empty",
-			"animateQuickView",
-			"parent",
-			"cd-",
-			".cd-",
-			"cd-",
-			"4b0a70",
-			"garbage face",
-			"hide"
+			"animateQuickView"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1115,6 +1144,8 @@
 		"regex": false,
 		"replace_history":
 		[
+			"waves-purple",
+			"@navBarNormalHeight",
 			"@luxore-text-medium",
 			"@luxore-text-dark",
 			"@luxore-text-medium",
@@ -1240,9 +1271,7 @@
 			"VitrinaApp",
 			"",
 			"\\n",
-			"",
-			"%]",
-			"[%"
+			""
 		],
 		"reverse": false,
 		"show_context": true,
@@ -1253,7 +1282,7 @@
 	"groups":
 	[
 		{
-			"selected": 16,
+			"selected": 18,
 			"sheets":
 			[
 				{
@@ -1281,7 +1310,7 @@
 						"translation.y": 462.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 23,
+					"stack_index": 27,
 					"type": "text"
 				},
 				{
@@ -1309,7 +1338,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 25,
+					"stack_index": 29,
 					"type": "text"
 				},
 				{
@@ -1337,7 +1366,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 24,
+					"stack_index": 28,
 					"type": "text"
 				},
 				{
@@ -1365,7 +1394,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 31,
+					"stack_index": 35,
 					"type": "text"
 				},
 				{
@@ -1374,15 +1403,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5747,
+						"buffer_size": 5460,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								5000,
-								5000
+								4156,
+								4156
 							]
 						],
 						"settings":
@@ -1393,10 +1422,10 @@
 							"word_wrap": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 983.0,
+						"translation.y": 1271.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 16,
+					"stack_index": 7,
 					"type": "text"
 				},
 				{
@@ -1412,8 +1441,8 @@
 						"selection":
 						[
 							[
-								1478,
-								1478
+								1477,
+								1378
 							]
 						],
 						"settings":
@@ -1423,74 +1452,14 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 576.0,
+						"translation.y": 792.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 10,
+					"stack_index": 17,
 					"type": "text"
 				},
 				{
 					"buffer": 6,
-					"file": "app/templates/footer.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2721,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1890,
-								1830
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 588.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "app/templates/main.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3335,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								893,
-								893
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 8,
 					"file": "app/templates/views/site/home.html",
 					"semi_transient": false,
 					"settings":
@@ -1511,27 +1480,57 @@
 							"syntax": "Packages/HTML/HTML.sublime-syntax",
 							"translate_tabs_to_spaces": false
 						},
-						"translation.x": -0.0,
-						"translation.y": 4044.0,
+						"translation.x": 0.0,
+						"translation.y": 3842.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 11,
+					"stack_index": 18,
 					"type": "text"
 				},
 				{
-					"buffer": 9,
-					"file": "app/templates/views/site/terms.html",
+					"buffer": 7,
+					"file": "app/templates/main.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 10558,
+						"buffer_size": 3570,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								325,
+								3570,
+								3327
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1656.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "app/templates/views/site/features.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 10429,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
 								0
 							]
 						],
@@ -1541,56 +1540,27 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 2520.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 9,
+					"stack_index": 16,
 					"type": "text"
 				},
 				{
-					"buffer": 10,
-					"file": "app/templates/views/site/faq.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 16991,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								326,
-								326
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 8,
-					"type": "text"
-				},
-				{
-					"buffer": 11,
+					"buffer": 9,
 					"file": "app/js/modules/docs/docs.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 739,
+						"buffer_size": 2358,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								546,
-								546
+								1631,
+								1635
 							]
 						],
 						"settings":
@@ -1600,60 +1570,328 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 72.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 12,
-					"file": "app/js/modules/faq/faq.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 401,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								401,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 658.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 15,
 					"type": "text"
 				},
 				{
-					"buffer": 13,
-					"file": "app/js/modules/terms/terms.js",
+					"buffer": 10,
+					"file": "app/templates/views/docs/main.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 208,
+						"buffer_size": 3626,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								208
+								2173,
+								2173
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": -0.0,
+						"translation.y": 216.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "app/templates/views/docs/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1277,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								763,
+								763
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": -0.0,
+						"translation.y": 216.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "app/templates/views/docs/about.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1223,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								403,
+								403
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "app/templates/views/docs/features/looks.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7198,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6576,
+								6445
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2736.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": "app/templates/views/docs/features/studios.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1782,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1230,
+								1099
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 648.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 13,
+					"type": "text"
+				},
+				{
+					"buffer": 15,
+					"file": "app/templates/views/docs/features/news.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1961,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								358,
+								358
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": -0.0,
+						"translation.y": 144.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 16,
+					"file": "app/templates/views/docs/features/gamification.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1869,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								375,
+								375
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 72.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
+					"type": "text"
+				},
+				{
+					"buffer": 17,
+					"file": "app/css/style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 33874,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								32474,
+								32474
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 27368.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 18,
+					"file": "app/css/style.less",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 10261,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								9156,
+								9156
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 8362.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 19,
+					"file": "app/css/faq.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7816,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								39,
+								39
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1152.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 20,
+					"file": "app/css/helpers/mixins.less",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5321,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								55,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1663,110 +1901,20 @@
 					"type": "text"
 				},
 				{
-					"buffer": 14,
-					"file": "app/css/style.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 35531,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								6371,
-								6371
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 5388.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 7,
-					"type": "text"
-				},
-				{
-					"buffer": 15,
-					"file": "app/css/faq.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 7752,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								206,
-								206
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 16,
-					"file": "app/css/style.less",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 6816,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								6784,
-								6784
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 504.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 17,
+					"buffer": 21,
 					"file": "app/css/helpers/typography.less",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1424,
+						"buffer_size": 1665,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								842,
-								842
+								377,
+								383
 							]
 						],
 						"settings":
@@ -1776,14 +1924,14 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 764.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 18,
+					"buffer": 22,
 					"file": "app/css/helpers/colors.less",
 					"semi_transient": false,
 					"settings":
@@ -1795,8 +1943,8 @@
 						"selection":
 						[
 							[
-								482,
-								475
+								358,
+								339
 							]
 						],
 						"settings":
@@ -1807,11 +1955,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
-					"buffer": 19,
+					"buffer": 23,
 					"file": "/C/Users/bruno_000/Documents/Oction/Luxore/liveblog/style.css",
 					"semi_transient": false,
 					"settings":
@@ -1835,11 +1983,11 @@
 						"translation.y": 9404.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 12,
+					"stack_index": 19,
 					"type": "text"
 				},
 				{
-					"buffer": 20,
+					"buffer": 24,
 					"file": "/C/Users/bruno_000/Documents/Oction/Luxore/liveblog/content.php",
 					"semi_transient": false,
 					"settings":
@@ -1865,11 +2013,11 @@
 						"translation.y": 123.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 18,
+					"stack_index": 22,
 					"type": "text"
 				},
 				{
-					"buffer": 21,
+					"buffer": 25,
 					"semi_transient": false,
 					"settings":
 					{
@@ -1894,11 +2042,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 19,
+					"stack_index": 23,
 					"type": "text"
 				},
 				{
-					"buffer": 22,
+					"buffer": 26,
 					"file": "/C/Users/bruno_000/Documents/Oction/Luxore/blog/style.css",
 					"semi_transient": false,
 					"settings":
@@ -1924,11 +2072,11 @@
 						"translation.y": 9528.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 13,
+					"stack_index": 20,
 					"type": "text"
 				},
 				{
-					"buffer": 23,
+					"buffer": 27,
 					"file": "/C/wamp/www/OctionGalaxyProject/index.php",
 					"semi_transient": false,
 					"settings":
@@ -1952,11 +2100,11 @@
 						"translation.y": 138.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 22,
+					"stack_index": 26,
 					"type": "text"
 				},
 				{
-					"buffer": 24,
+					"buffer": 28,
 					"file": "/C/wamp/www/OctionGalaxyProject/protected/config/main.php",
 					"semi_transient": false,
 					"settings":
@@ -1982,11 +2130,11 @@
 						"translation.y": 2982.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 21,
+					"stack_index": 25,
 					"type": "text"
 				},
 				{
-					"buffer": 25,
+					"buffer": 29,
 					"file": "/C/wamp/www/zurmo/app/protected/modules/users/models/User.php",
 					"semi_transient": false,
 					"settings":
@@ -2012,11 +2160,11 @@
 						"translation.y": 2201.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 20,
+					"stack_index": 24,
 					"type": "text"
 				},
 				{
-					"buffer": 26,
+					"buffer": 30,
 					"file": "/C/wamp/www/zurmo/app/protected/modules/api/ApiModule.php",
 					"semi_transient": false,
 					"settings":
@@ -2042,11 +2190,11 @@
 						"translation.y": 1008.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 27,
+					"stack_index": 31,
 					"type": "text"
 				},
 				{
-					"buffer": 27,
+					"buffer": 31,
 					"file": "/C/wamp/www/zurmo/app/protected/modules/api/components/ApiRestHelper.php",
 					"semi_transient": false,
 					"settings":
@@ -2072,11 +2220,11 @@
 						"translation.y": 648.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 26,
+					"stack_index": 30,
 					"type": "text"
 				},
 				{
-					"buffer": 28,
+					"buffer": 32,
 					"file": "/C/wamp/www/OctionGalaxyProject/protected/models/LoginForm.php",
 					"semi_transient": false,
 					"settings":
@@ -2101,11 +2249,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 28,
+					"stack_index": 32,
 					"type": "text"
 				},
 				{
-					"buffer": 29,
+					"buffer": 33,
 					"file": "/C/wamp/www/OctionGalaxyProject/protected/models/User.php",
 					"semi_transient": false,
 					"settings":
@@ -2131,11 +2279,11 @@
 						"translation.y": 1368.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 29,
+					"stack_index": 33,
 					"type": "text"
 				},
 				{
-					"buffer": 30,
+					"buffer": 34,
 					"file": "/C/Users/bruno_000/Documents/Oction/Luxore/bkp/pointy-slider/js/main.js",
 					"semi_transient": false,
 					"settings":
@@ -2160,11 +2308,11 @@
 						"translation.y": 864.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 30,
+					"stack_index": 34,
 					"type": "text"
 				},
 				{
-					"buffer": 31,
+					"buffer": 35,
 					"semi_transient": false,
 					"settings":
 					{
@@ -2188,7 +2336,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 17,
+					"stack_index": 21,
 					"type": "text"
 				}
 			]

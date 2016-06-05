@@ -4,12 +4,13 @@
 @overNavIndex: 700;
 @modalIndex: 900;
 
+@navBarNormalHeight: 4.8em;
 
 /* Mobile first queries */
-@smartphones: ~"only screen and (min-width: 25em)";
-@tablets: ~"only screen and (min-width: 48em)";
-@desktop: ~"only screen and (min-width: 60em)";
-@desktopHD: ~"only screen and (min-width: 75em)";
+@smartphones: ~"screen and (max-width: 25em)";
+@tablets: ~"screen and (max-width: 48em)";
+@desktop: ~"screen and (max-width: 60em)";
+@desktopHD: ~"screen and (min-width: 60.2em)";
 
 /*@media @smartphones, @tablets {}*/
 
@@ -37,33 +38,29 @@ main {
 .lux-header ul.brand,
 .lux-header ul.brand li,
 .lux-header nav a {
-  -webkit-transition: all 0.3s;
-  -moz-transition: all 0.3s;
-  transition: all 0.3s;
+  .transition(all 0.3s ease-in-out 0s);
 }
 .lux-header ul.brand li.brand-logo img, 
 .lux-header {
-  -webkit-transition: all 0.5s;
-  -moz-transition: all 0.5s;
-  transition: all 0.5s;
+  .transition(all 0.5s ease-in-out 0s);
 }
 
 .lux-header {
   z-index: @navIndex;
+  overflow:visible;
   position: fixed;
   width: 100%;
-  height: 200px;
+  height: 12.5em;
   background: transparent;
-  overflow: hidden;
 
   & ul.brand {
     list-style: none outside none;
-    height: 200px;
-    line-height: 200px;
+    height: 12.5em;
+    line-height: 12.5em;
     & li {
       display: inline-block;
       float: left;
-      padding-left: 20px;
+      padding-left: 25px;
       &.brand-logo img {
         width: 150px;
         vertical-align: middle;
@@ -76,7 +73,7 @@ main {
     cursor: pointer;
     font-family: @fontName;
     color: @luxore-text-light;
-    font-weight: 700;
+    font-weight: @font-weight--bold;
     font-size: @font-size--extra-large;
     text-transform: uppercase;
   }
@@ -87,22 +84,32 @@ main {
     box-shadow: unset;
     margin-top: -150px;
     & li {
-      line-height: 75px;
+      line-height: @navBarNormalHeight;
     }
     & a {
       color: @luxore-text-light;
       font-size: @font-size--medium;
-      font-weight: 700;
-      margin: 0 0 0 20px;
+      font-weight: @font-weight--bold;
+      margin: 0 0 0 25px;
+      line-height: 40px;
+      padding-top: 15px;
     }
     & a:hover {
       color: @luxore-text-medium;
+      background-color: unset;
+    }
+    & a.button-collapse {
+      margin: 0px;
+      padding: 0px;
+      right: -30px;
+      bottom: 5px;
+      color: @luxore-text-light;
     }
   }
 }
 
 .lux-header nav a.translation-button {
-  padding-right: 25px;
+  padding-right: 45px;
 }
 
 .lux-header nav a.translation-button img {
@@ -118,17 +125,23 @@ main {
   left: unset !important;
   right: 0 !important;
   position: fixed !important;
-  width: 75px !important;
+  width: @navBarNormalHeight !important;
+}
+
+.dropdown-content {
+  background-color: @luxore-text-medium;
+  margin: -7px 19px 0 0;
+  overflow-y: hidden;
 }
 
 #translation-dropdown {
   & li {
-    height: 75px;
-    line-height: 75px;
+    height: 5.4em;
+    line-height: 5.4em;
   }
   & a {
-    height: 75px;
-    line-height: 75px;
+    height: @navBarNormalHeight;
+    line-height: @navBarNormalHeight;
     margin: 0;
   }
   & a img {
@@ -137,33 +150,30 @@ main {
 }
 
 .lux-header.shrink {
-  height: 75px;
+  height: @navBarNormalHeight;
   /*box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);*/
   /*background-color: #82778c;*/
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
-  background: -webkit-linear-gradient(-45deg, #635471, #82778c);
-  background: -o-linear-gradient(-45deg, #635471, #82778c);
-  background: -moz-linear-gradient(-45deg, #635471, #82778c);
-  background: linear-gradient(-45deg, #635471, #82778c);
+  .box-shadow (0 0 5px rgba(0, 0, 0, 0.4));
+  .angle-gradient (-45deg, #635471, #82778c);
 }
 
 .lux-header.shrink nav {
   width: 70%;
-  height: 75px;
-  margin-top: -75px;
+  height: @navBarNormalHeight;
+  margin-top: -@navBarNormalHeight;
 }
 
 .lux-header.shrink ul.brand {
-  height: 75px;
-  line-height: 75px;
+  height: @navBarNormalHeight;
+  line-height: @navBarNormalHeight;
   margin: 0;
   margin-bottom: 0;
 }
 
 .lux-header.shrink ul.brand li {
   display: inline-block;
-  height: 75px;
-  padding-left: 20px;
+  height: @navBarNormalHeight;
+  padding-left: 25px;
   vertical-align: middle;
   text-align: center;
   cursor: pointer;
@@ -261,17 +271,17 @@ nav .button-collapse i {
   }
 
   .lux-header.shrink h1 {
-    font-size: 2em;
+    font-size: @font-size--double;
   }
 
   .lux-header.shrink nav a {
-    font-size: 1em;
+    font-size: @font-size--normal;
   }
 }
 
 @media screen and (max-width: 32.25em) {
   .lux-header nav a {
-    font-size: 1em;
+    font-size: @font-size--normal;
   }
 }
 
@@ -286,13 +296,14 @@ nav .button-collapse i {
   display: inline-block;
   color: @luxore-text-light;
   position: relative;
-  z-index: 1;
-  width: 37px;
-  height: 37px;
-  line-height: 37px;
+  z-index: @overNormalIndex;
+  width: 2.5em;
+  height: 2.5em;
+  line-height: 2.5em;
   padding: 0;
   background-color: @color-primary-0;
-  border-radius: 100%;
+  //border-radius: 100%;
+  .border-radius (100%);
   transition: .3s;
   cursor: pointer;
   vertical-align: middle;
@@ -308,12 +319,12 @@ nav .button-collapse i {
   &:after {
     content: '';
     background-color: transparent;
-    width: 37px;
-    height: 37px;
+    width: 2.5em;
+    height: 2.5em;
     border: 2px solid @luxore-text-dark;
     border-radius: 100%;
     position: absolute; /* could also be absolute */ 
-    z-index: 10;
+    z-index: @overNormalIndex + 1;
     right: 2px;
     top: 3px;
   }
@@ -321,7 +332,7 @@ nav .button-collapse i {
     width: 55px;
     height: 55px;
     line-height: 54px;
-    font-size: 1.2rem;
+    font-size: @font-size--medium;
   }
   &.btn-large:after {
     width: 55px;
@@ -329,6 +340,35 @@ nav .button-collapse i {
     border: 3px solid @luxore-text-dark;
     right: 2px;
     top: 3px;
+  }
+}
+
+.btn {
+  .border-radius(8px 8px);
+  background-color: @luxore-text-light;
+  color: #000;
+  line-height: 4em;
+  height: 4em;
+  width: 20em;
+  white-space: nowrap;
+  font-weight: @font-weight--bold;
+  letter-spacing: 0;
+  .transition(color 0.2s);
+  .transition(width 0.3s 0s);
+  .transition(background-color 0.3s);
+  .transition(border-radius 0.3s);
+  &:hover {
+    color: @color-primary-0;
+    background-color: @luxore-text-light;
+  }
+  &.to-circle {
+    width: 4em;
+    color: transparent;
+    .border-radius(8em);
+    .transition(color 0.2s);
+    .transition(width 0.3s 0.2s);
+    .transition(background-color 0.3s);
+    .transition(border-radius 0.3s);
   }
 }
 
@@ -348,7 +388,7 @@ section {
   h1.title {
     font-size: @font-size--extra-large;
     line-height: @font-size--extra-large;
-    font-weight: 900;
+    font-weight: @font-weight--ultra-bold;
     font-style: normal;
     font-family: @fontName;
     letter-spacing: 2.5px;
@@ -356,11 +396,14 @@ section {
     position: relative;
     text-align: center;
     text-transform: uppercase;
+    @media @smartphones {
+      font-size: @font-size--large;
+    }
   }
   p {
     font-size: 25px;
     line-height: 25px;
-    font-weight: 400;
+    font-weight: @font-weight--normal;
     font-style: normal;
     font-family: @fontNameLight;
     text-align: justify;
@@ -369,4 +412,119 @@ section {
     text-align: center;
     margin-bottom: 140px;
   }
+}
+
+/*********************
+     DOCS Section
+**********************/
+.doc-header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  height: 10em;
+  z-index: @navIndex;
+  background: #f3f2f3 url(../img/backgrounds/polygon-style-back.png) no-repeat 100%;
+  .box-shadow(~"0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12)");
+
+  & h1 {
+    padding: 0 0 0 1em;
+    font-family: "Poiret One", cursive;
+    margin-top: 0.3em;
+  }
+  & p {
+    padding: 0 0 0 4.3em;
+    color: #404040;
+    font-size: @font-size--medium;
+    margin-top: -1em;
+  }
+}
+
+.doc-content {
+  padding-top: 10em;
+  z-index: @overNormalIndex;
+  & h4 {
+    margin: 1rem 0;
+    font-weight: @font-weight--bold;
+    color: @luxore-text-dark;
+  }
+
+  & h5 {
+    font-weight: @font-weight--normal;
+  }
+  & ul.normal-list {
+    padding: 1em 0 1em 1em;
+  }
+
+  & ul.normal-list li {
+    list-style: disc;
+    position: relative;
+    padding-left: 10px;
+    margin-bottom: 11px;
+  }
+}
+
+/*********************
+  Side & Mobile Nav
+**********************/
+nav .button-collapse {
+  color: @luxore-text-light;
+  margin-left: 15px;
+}
+ul.side-nav {
+  box-shadow: none;
+  & li {
+    line-height: 50px;
+    padding: 0;
+    font-weight: @font-weight--normal;
+    &.bold {
+      font-weight: @font-weight--bold;
+    }
+    &:hover {
+      background-color: @luxore-text-medium;
+    }
+    & a {
+      color: #404040;
+      line-height: 50px;
+      font-size: 1.2rem;
+      text-transform: uppercase;
+      transition: all 0.3s linear;
+      vertical-align: middle;
+      height: 56px;
+      &:hover {
+        color: @luxore-logo-purple;
+      }
+      & i {
+        font-size: 2.1rem;
+        vertical-align: middle;
+        float: left;
+        padding-top: 0.7rem;
+      }
+      & span {
+        vertical-align: middle;
+        float: left;
+        margin-left: 1.4rem;
+      }
+    }
+    &.logo {
+      height: 10em;
+      margin-top: 0px;
+      background: #f3f2f3 url(../img/backgrounds/polygon-back.jpg) no-repeat;
+      box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.16), 0px 2px 10px 0px rgba(0, 0, 0, 0.12);
+      & a {
+        height: 100%;
+        line-height: 11em;
+        & img {
+          width: 72px;
+        }
+      }
+    }
+  }
+}
+
+.side-nav .collapsible-body li a {
+  margin: 0;
+  padding: 0 1rem 0 2rem;
+}
+.side-nav .collapsible-header {
+  margin: 0;
 }

@@ -1,81 +1,66 @@
-<main style="padding-left: 240px;">
+<div class="docs" style="padding-left: 240px;">
 	<div class="doc-header">
-		<h1>Tags & Search</h1>
+		<h1>Search</h1>
 		<p>The Luxore's machinery.</p>
 	</div>
-	<div class="container">
-		<div class="row">
-			<div class="col s12 m9 l10">
+	<div class="doc-content">
+		<div class="container">
+			<div class="row">
+				<div class="col s12 m9 l10">
 
-				<div id="introduction" class="section scrollspy">
-					<h4>Introduction</h4>
-					<p class="caption">
-					Looks are the posts! They are references to trends and the way to show your own fashion style!
-					</p>
-					<div class="card look" style="max-width: 500px;">
-						<div class="card-image waves-effect waves-block waves-light">
-							<img class="activator" src="img/models/ana01.png">
-						</div>
-						<div class="card-content">
-							<span class="card-title activator grey-text text-darken-4">{{'Donate to'|translate}}:<i class="material-icons right">more_vert</i></span>
-							<p><a href="bitcoin:1Np2iFGAPJNxpKkPpMHeqxaAotJZZUTrqr" target="_blank">1Np2iFGAPJNxpKkPpMHeqxaAotJZZUTrqr</a></p>
-							<em>click in the image or the icon on the left for the QR Code</em>
-						</div>
-						<div class="card-action">
-							<a href="#" ng-click="toClipboard('1Np2iFGAPJNxpKkPpMHeqxaAotJZZUTrqr')" translate>
-								Copy Address
-							</a>
-						</div>
+					<div id="introduction" class="section scrollspy">
+						<h4>Introduction</h4>
+						<p class="caption">
+							Your Vitrine is like a timeline to show things you want! You can filter and search directly from your Vitrine..
+						</p>
+
 					</div>
-				</div>
 
-				<div id="popularity" class="section scrollspy">
-					<h4>How popular is a look?</h4>
-					<p class="caption">
-					To show how popular any look is, based on the points made by it, the border will change.
-					</p>
-					<ul class="">
-						<li>
-							<div class="">White</div>
-							<div class=""><p>less than 100 points</p></div>
-						</li>
-
-					</ul>
-				</div>
-
-				<div id="posting" class="section scrollspy">
-					<h4>Posting your Look</h4>
-					<p>A few steps for you, a giant step for everybody..</p>
-					<h5>Prepare</h5>
-				</div>
-
-				<div id="ads" class="section scrollspy">
-					<h4>Making money!!!</h4>
-					<p>Ok. Show me the money!</p>
-
-				</div>
-
-			</div>
-			<!-- Table of Contents -->
-			<div class="col hide-on-small-only m3 l2">
-				<div style="top: 0px;" class="toc-wrapper pinned">
-					<div style="height: 1px;">
-						<ul class="section">
-							<li><a class="" href="#introduction">Introduction</a></li>
-							<li><a class="" href="#popularity">Number One</a></li>
-							<li><a class="" href="#posting">Step by Step</a></li>
-							<li><a class="" href="#ads">$$$$$$</a></li>
+					<div id="interests" class="section scrollspy">
+						<h4>Interests</h4>
+						<p class="caption">
+							Inside the main settings section on your profile, you can "follow" tags; Those tags will filter the content that you see.
+						</p>
+						<h5>Profile</h5>
+						<ul class="normal-list">
+							<li>Select your main interests</li>
+							<li>Block tags you don't want</li>
+							<li>Choose the behavior of your Vitrine</li>
 						</ul>
+					</div>
+
+					<div id="global" class="section scrollspy">
+						<h4>Global</h4>
+						<p>Your Vitrine can show global things ordered by date/time as they happen...</p>
+					</div>
+
+					<div id="trends" class="section scrollspy">
+						<h4>Trends</h4>
+						<p>Or can show trends based on your interests and relevance of the looks</p>
+					</div>
+
+				</div>
+				<!-- Table of Contents -->
+				<div class="col hide-on-small-only m3 l2">
+					<div style="top: 200px;" class="toc-wrapper pinned">
+						<div style="height: 1px;">
+							<ul class="section table-of-contents">
+								<li><a class="" href="#introduction">Introduction</a></li>
+								<li><a class="" href="#interests">Interests</a></li>
+								<li><a class="" href="#global">Global</a></li>
+								<li><a class="" href="#trends">Trends</a></li>
+							</ul>
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-</main>
+</div>
 
 <script type="text/javascript">
 	$(document).ready(function(){
-	  $('.toc-wrapper').pushpin({ top: $('.toc-wrapper').offset().top, offset: 80 });
+	  $('.toc-wrapper').pushpin({ top: $('.toc-wrapper').offset().top, offset: 160 });
 	});
 
 	$(document).ready(function(){

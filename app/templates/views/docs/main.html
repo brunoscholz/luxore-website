@@ -3,35 +3,35 @@
     <a href="#" data-activates="nav-mobile" class="button-collapse top-nav waves-effect waves-light circle hide-on-large-only"><i class="material-icons">menu</i></a>
   </div>
   <ul style="margin-top: 0px;" id="nav-mobile" class="side-nav fixed collapsible collapsible-accordion" data-collapsible="accordion">
-    <li class="logo center" style="padding-top: 20px; margin-bottom: 40px;">
-      <a id="logo-container" href="http://luxore.me/" class="brand-logo"><img src="img/i/ico-72.png"></a>
+    <li class="logo center">
+      <a id="logo-container" href="http://luxore.me/" class="brand-logo"><img src="img/logo-vazado.png"></a>
     </li>
 
-    <li class="bold"><a ui-sref="docs.index" class="waves-effect waves-teal">Welcome to Luxore</a></li>
-    <li class="bold"><a ui-sref="docs.roadmap" class="waves-effect waves-teal">Development Roadmap</a></li>
+    <li class="bold"><a ui-sref="docs.index" class="waves-effect waves-purple">Welcome to Luxore</a></li>
+    <li class="bold"><a ui-sref="docs.roadmap" class="waves-effect waves-purple">Development Roadmap</a></li>
     <li class="bold">
-      <a class="collapsible-header waves-effect waves-teal">Features</a>
-      <div style="" class="collapsible-body">
+      <a class="collapsible-header waves-effect waves-purple">Features</a>
+      <div class="collapsible-body">
         <ul>
-          <li><a class="waves-effect waves-teal" ui-sref="docs.looks">Looks</a></li>
-          <li><a class="waves-effect waves-teal" ui-sref="docs.search">Search</a></li>
-          <li><a class="waves-effect waves-teal" ui-sref="docs.tags">Tags</a></li>
-          <li><a class="waves-effect waves-teal" ui-sref="docs.coin">Coin</a></li>
-          <li><a class="waves-effect waves-teal" ui-sref="docs.studios">Studios</a></li>
-          <li><a class="waves-effect waves-teal" ui-sref="docs.news">News</a></li>
-          <li><a class="waves-effect waves-teal" ui-sref="docs.gamification">Gamification</a></li>
-          <li><a class="waves-effect waves-teal" ui-sref="docs.social">Social</a></li>
-          <li><a class="waves-effect waves-teal" ui-sref="docs.lists">Lists</a></li>
-          <li><a class="waves-effect waves-teal" ui-sref="docs.tips">Tips</a></li>
-          <li><a class="waves-effect waves-teal" ui-sref="docs.profile">Profile</a></li>
-          <li><a class="waves-effect waves-teal" ui-sref="docs.notifications">Notifications</a></li>
-          <li><a class="waves-effect waves-teal" ui-sref="docs.messenger">Messenger</a></li>
+          <li><a class="waves-effect waves-purple" ui-sref="docs.looks">Looks</a></li>
+          <li><a class="waves-effect waves-purple" ui-sref="docs.search">Search</a></li>
+          <li><a class="waves-effect waves-purple" ui-sref="docs.tags">Tags</a></li>
+          <li><a class="waves-effect waves-purple" ui-sref="docs.coin">Coin</a></li>
+          <li><a class="waves-effect waves-purple" ui-sref="docs.studios">Studios</a></li>
+          <li><a class="waves-effect waves-purple" ui-sref="docs.news">News</a></li>
+          <li><a class="waves-effect waves-purple" ui-sref="docs.gamification">Gamification</a></li>
+          <li><a class="waves-effect waves-purple" ui-sref="docs.social">Social</a></li>
+          <li><a class="waves-effect waves-purple" ui-sref="docs.tips">Tips</a></li>
+          <li><a class="waves-effect waves-purple" ui-sref="docs.lists">Lists</a></li>
+          <li><a class="waves-effect waves-purple" ui-sref="docs.profile">Profile</a></li>
+          <li><a class="waves-effect waves-purple" ui-sref="docs.notifications">Notifications</a></li>
+          <li><a class="waves-effect waves-purple" ui-sref="docs.messenger">Messenger</a></li>
         </ul>
       </div>
     </li>
     <li class="bold">
-      <a class="collapsible-header waves-effect waves-teal">Weapons</a>
-      <div style="" class="collapsible-body">
+      <a class="collapsible-header waves-effect waves-purple">Weapons</a>
+      <div class="collapsible-body">
         <ul>
           <li><a href="badges.html">Badges</a></li>
           <li><a href="buttons.html">Buttons</a></li>
@@ -48,14 +48,17 @@
         </ul>
       </div>
     </li>  
-    <li class="bold"><a href="http://materializecss.com/mobile.html" class="waves-effect waves-teal">Mobile</a></li>
-    <li class="bold"><a href="showcase.html" class="waves-effect waves-teal">Showcase</a></li>
+    <li class="bold"><a href="http://materializecss.com/mobile.html" class="waves-effect waves-purple">Mobile</a></li>
+    <li class="bold"><a href="showcase.html" class="waves-effect waves-purple">Showcase</a></li>
   </ul>
   <div ui-view="fabContent"></div>
   <div ui-view="menuContent" ng-class="{expanded: isExpanded}" ></div>
 </header>
 
 <div id="contentUI" ui-view="mainContent"></div>
+
+
+
 <div ng-include="'views/docs/footer.html'" style="padding-left: 240px;"></div>
 
 <script type="text/javascript">

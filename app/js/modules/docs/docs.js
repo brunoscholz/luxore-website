@@ -50,6 +50,9 @@ angular.module('docs').config(function ($stateProvider, $urlRouterProvider) {
   .state('docs.search', {
     views: { 'mainContent@docs': { templateUrl:'views/docs/features/search.html' } }
   })
+  .state('docs.tags', {
+    views: { 'mainContent@docs': { templateUrl:'views/docs/features/tags.html' } }
+  })
   .state('docs.tips', {
     views: { 'mainContent@docs': { templateUrl:'views/docs/features/tips.html' } }
   })

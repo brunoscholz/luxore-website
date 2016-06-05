@@ -75,14 +75,6 @@
         Error loading AngularJS view..
       </main>
 
-      <!-- ScrollUp button start -->
-      <div id="scrollup" class="scrollup">
-        <a class="btn-luxore btn-large" href="#mainHeader">
-          <i class="large material-icons" style="font-size: 2.6rem;">expand_less</i>
-        </a>
-      </div>
-      <!-- ScrollUp button end -->
-
     </div> <!-- Cloak end -->
 
     <section class="cd-modal-section">
