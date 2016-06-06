@@ -33,7 +33,7 @@
 		<div class="row">
 			<div class="col s12 m4 l4">
 				<div class="center feature">
-					<div class="feature-icon" style="background-image: url('img/features/search.png');"></div>
+					<div class="feature-icon" style="background-image: url('img/features/improve.png');"></div>
 					<div class="feature-title" translate><span class="btn-luxore">L</span>ooks</div>
 					<div class="feature-description" translate>Custom looks made by the power of putting people together. Just search and start dressing.</div>
 				</div>
@@ -213,31 +213,28 @@
 
 <section id="join">
 	<div class="container">
-		<h1 class="title" translate>Join our newsletter</h1>
-		<p translate>Keep informed of the steps taken into making this great.</p>
-		<form>
-			<div class="row">
-				<div class="col s1 m3 l3">&nbsp;</div>
-				<div class="col s10 m6 l6">
-					<div class="" style="margin-bottom: 0px;">
-						<div class="card-content" style="height: 100px;">
-							<div class="input-field col m12 s12">
-								<i class="material-icons prefix pale-text" translate>email</i>
-								<input id="email" type="email" class="validate">
-								<label for="email" data-error="wrong" translate>Your email address</label>
+		<div class="newsletter">
+			<h1 class="title" translate>Join our newsletter</h1>
+			<p translate>Keep informed of the steps taken into making this great.</p>
+			<form name="formNewsletter" ng-submit="sendEmail(user)" ng-controller="NewsletterController">
+				<div class="row">
+					<div class="col s12">
+						<div style="margin-bottom: 0px;">
+							<div class="card-content" style="height: 100px;">
+								<div class="input-field col m12 s12">
+									<i class="material-icons prefix pale-text" translate>email</i>
+									<input id="email" type="email" class="validate" ng-model="user.email" ng-pattern="/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/" required>
+									<label for="email" data-error="wrong" translate>Your email address</label>
+								</div>
 							</div>
-						</div>
-						<div class="card-action">
-							<a class="btn">
-								<i class="material-icons right">send</i>
-								{{'Subscribe'|translate}}
-							</a>
+							<div class="card-action">
+								<input type="submit" class="btn" value="{{'Subscribe'|translate}}">
+							</div>
 						</div>
 					</div>
 				</div>
-				<div class="col s1 m3 l3">&nbsp;</div>
-			</div>
-		</form>
+			</form>
+		</div>
 	</div>
 </section>
 

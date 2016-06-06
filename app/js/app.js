@@ -12,149 +12,156 @@ var app = angular.module('app', [
 app.config(function ($stateProvider, $urlRouterProvider, $locationProvider) {
   /*$locationProvider.html5Mode({enabled:true});*/
 
-  $stateProvider
-    //set up the app parent state, and its child-states
-    .state('app', {
-      abstract: true,
-      sticky: true,
-      views: {
-        'master': { templateUrl: 'main.html' }
-      }
-    })
-
-    .state('app.home', {
-      url: '/',
-      views: {
-        'mainContent@app': {
-          templateUrl: 'views/site/home.html',
-        },
-        'fabContent@app': {},
-      }
-    })
-    .state('app.features', {
-      url: '/features',
-      views: {
-        'mainContent@app': {
-          templateUrl: 'views/site/features.html',
-          controller: 'AppController'
-        },
-        'fabContent@app': {
-          /*template: '<button id="fab-friends" class="button button-fab button-fab-top-left expanded button-energized spin"><i class="icon ion-chatbubbles"></i></button>',
-          controller: function ($timeout) {
-            $timeout(function () {
-              document.getElementById('fab-friends').classList.toggle('on');
-            }, 900);
-          }*/
-        }
-      }
-    })
-
-    .state('app.faq', {
-      url: '/faq',
-      views: {
-        'mainContent@app': {
-          templateUrl:'views/site/faq.html'
-        }
-      }
-      //controller:'FaqController',
-    })
-
-    .state('app.terms', {
-      url: '/terms-of-use',
-      views: {
-        'mainContent@app': {
-          templateUrl:'views/site/terms.html'
-        }
-      }
-    })
-    .state('app.ethics', {
-      url: '/ethical-guidelines',
-      views: {
-        'mainContent@app': {
-          templateUrl:'views/site/ethics.html'
-        }
-      }
-    })
-
-    //set up the modal parent state, and its child-states
-    .state("Modal", {
-      abstract: true,
-      sticky: true,
-      views: {
-        'modal': { templateUrl: 'modal.html' }
+  var states = [];
+  // Root of main app states
+  states.push({
+    name: 'app',
+    abstract: true,
+    views: {
+      'master': { controller: 'AppController', templateUrl: 'main.html' },
+    },
+    deepStateRedirect: { default: "app.home" },
+    sticky: true
+  });
+  
+  // Home
+  states.push({
+    name: 'app.home',
+    url: '/',
+    views: {
+      'mainContent@app': {
+        controller: 'AppController',
+        templateUrl: 'views/site/home.html'
       },
+      'fabContent@app': {},
+    },
+    deepStateRedirect: { default: "app" }
+  });
+  states.push({
+    name: 'app.features',
+    url: '/features',
+    views: {
+      'mainContent@app': {
+        templateUrl: 'views/site/features.html'
+      },
+      'fabContent@app': {
+        /*template: '<button id="fab-friends" class="button button-fab button-fab-top-left expanded button-energized spin"><i class="icon ion-chatbubbles"></i></button>',
+        controller: function ($timeout) {
+          $timeout(function () {
+            document.getElementById('fab-friends').classList.toggle('on');
+          }, 900);
+        }*/
+      }
+    },
+  });
 
-      onEnter: ["$state", function($state) {
-        $(document).on("keyup", function(e) {
-          if(e.keyCode === 27) {
-            $(document).off("keyup");
-            //$state.go("Modal.Default");
-            //$scope.closeModal();
-          }
-        });
+  states.push({
+    name: 'app.faq',
+    url: '/faq',
+    views: {
+      'mainContent@app': {
+        templateUrl:'views/site/faq.html'
+      }
+    }
+    //controller:'FaqController',
+  });
+  states.push({
+    name: 'app.terms',
+    url: '/terms-of-use',
+    views: {
+      'mainContent@app': {
+        templateUrl:'views/site/terms.html'
+      }
+    }
+  });
+  states.push({
+    name: 'app.ethics',
+    url: '/ethical-guidelines',
+    views: {
+      'mainContent@app': {
+        templateUrl:'views/site/ethics.html'
+      }
+    }
+  });
 
-        /*$(document).on("click", ".Modal-backdrop, .Modal-holder", function() {
-          $state.go("Modal.Default");
-        });
+  //set up the modal parent state, and its child-states
+  states.push({
+    name: "Modal",
+    abstract: true,
+    sticky: true,
+    views: {
+      'modal': { templateUrl: 'modal.html' }
+    },
 
-        $(document).on("click", ".Modal-box, .Modal-box *", function(e) {
-          e.stopPropagation();
-        });*/
-      }],
-    })
-    .state("Modal.Default", {})
-    .state("Modal.bitcoinDonate", {
-      templateUrl: "modals/bitcoin.html"
-    })
-    .state("Modal.watchVideo", {
-      templateUrl: "modals/video.html"
-    });
+    onEnter: ["$state", function($state) {
+      $(document).on("keyup", function(e) {
+        if(e.keyCode === 27) {
+          $(document).off("keyup");
+          //$state.go("Modal.Default");
+          //$scope.closeModal();
+        }
+      });
 
-    /*.state('splash', {
-      url: '/splash',
-      templateUrl: 'templates/luxore.html',
-      controller: 'SplashCtrl'
-    })*/
+      /*$(document).on("click", ".Modal-backdrop, .Modal-holder", function() {
+        $state.go("Modal.Default");
+      });
 
-    // if none of the above states are matched, use this as the fallback
-    $urlRouterProvider.otherwise('/');
+      $(document).on("click", ".Modal-box, .Modal-box *", function(e) {
+        e.stopPropagation();
+      });*/
+    }],
+    deepStateRedirect: { default: "Modal.Default" },
+  });
+  states.push({
+    name: "Modal.Default"
+  });
+  states.push({
+    name:  "Modal.bitcoinDonate",
+    templateUrl: "modals/bitcoin.html"
+  });
+  states.push({
+    name:  "Modal.watchVideo",
+    templateUrl: "modals/video.html"
+  });
+
+  angular.forEach(states, function(state) { $stateProvider.state(state); });
+  $urlRouterProvider.otherwise("/");
 });
 
 app.run(function ($rootScope, $state, $stateParams, languageService, gettextCatalog) {
 
   languageService();
   gettextCatalog.debug = true;
-
-  $("body").delay(260).queue(function(next) {
-    $(this).addClass("loaded");
-    next();
-  });
-
   //gettextCatalog.currentLanguage = 'pt_BR';
 
   /*$rootScope.searchQueryChanged = function(query) {
     $rootScope.searchQuery = query;
   };*/
 
-  /*$rootScope.$on('$stateChangeSuccess', function (event, toState, toParams, fromState, fromParams) {
-    $rootScope.currentState = toState.name;
-  });*/
-
-  // adds some basic utilities to the $rootScope for debugging purposes
-  $rootScope.log = function(thing) {
-    console.log(thing);
-  };
-
-  $rootScope.alert = function(thing) {
-    alert(thing);
-  };
-
-  $state.go('app.home').then(function() {
-    $state.go('Modal.Default');
+  $("body").delay(260).queue(function(next) {
+    $(this).addClass("loaded");
+    next();
   });
-  $rootScope.$state = $state;
-  $rootScope.$stateParams = $stateParams;
 
+  $rootScope.$state = $state;
+  // This code applies a default background state for the modal
+  $rootScope.$on("$stateChangeStart", function(evt, toState, toParams, fromState) {
+    // Is initial transition and is going to modal1.*?
+    if (fromState.name === '' && /Modal.*/.exec(toState.name)) {
+      evt.preventDefault(); // cancel initial transition
+
+      // go to app.home, then go to modal1.whatever
+      $state.go("app.home", null, { location: false }).then(function() {
+        $state.go(toState, toParams); }
+      );
+    }
+  });
+
+  $rootScope.$on("$stateChangeSuccess", function() {
+    $timeout(function() {
+      $window.ga('send', 'pageview', $window.location.pathname+$window.location.hash);
+    });
+  });
 });
 
 app.controller('AppController', function ($scope, $state, $timeout, ngClipboard, modal) {
@@ -163,7 +170,7 @@ app.controller('AppController', function ($scope, $state, $timeout, ngClipboard,
     Materialize.toast('Address Copied!', 4000, 'rounded');
   };
 
-  $(window).on('resize', function(){
+  $(window).on('resize', function() {
     //on window resize - update cover layer dimention and position
     if($('.cd-modal-section.modal-is-visible').length > 0) {
       window.requestAnimationFrame(modal.updateLayer);
@@ -276,6 +283,37 @@ app.controller('AppController', function ($scope, $state, $timeout, ngClipboard,
   $scope.$on('$routeChangeError', function(event, current, previous, rejection) {
     //console.log('routeChangeError');
   });
+});
+
+app.controller('NewsletterController', function ($scope, languageService, NewsletterData) {
+  $scope.user = { email:'' };
+
+  function sendMailSuccess(data) {
+    alert('email sent to ' + $scope.user.email);
+    console.log(data);
+    //$scope.error = null;
+  }
+
+  function sendMailError(data) {
+    alert('error while sending email to ' + $scope.user.email);
+    //$scope.error = data;
+    console.log(data);
+  }
+
+  $scope.sendEmail = function (usr) {
+    NewsletterData.SendEmail({ email: $scope.user.email, subject: 'Newsletter Subscription' })
+      .success(sendMailSuccess)
+      .error(sendMailError);
+  };
+});
+
+angular.module('app').factory('NewsletterData', function($http) {
+  var data = {};
+
+  data.SendEmail = function SendEmail(data) { return $http.post('../send_email.php', data); };
+  //data.getPerson = function getPerson(id) { return $http.get('read_one.php?id=' + id); };
+
+  return data;
 });
 
 app.controller('HeaderController', function ($scope, $rootScope, languageService, $location) {
