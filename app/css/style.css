@@ -182,46 +182,6 @@ video {
 }
 
 
-
-.home {
-  background-position: center center;
-  background-size: cover;
-  min-height: 666px;
-  padding-bottom: 180px;
-  padding-top: 270px;
-  text-align: center;
-  background-image: url("../img/backgrounds/yellowcape.png");
-}
-
-.headerless-home .quote,
-.home .quote {
-  background-color: rgba(243, 242, 243, 0.8);
-  min-height: 400px;
-  font-size: 2.2rem;
-  color: #777;
-  padding: 25px 40px;
-  border-radius: 8px 8px;
-  line-height: inherit;
-  font-weight: inherit;
-  font-style: inherit;
-  text-align: center;
-}
-
-.newsletter {
-  background-color: rgba(243, 242, 243, 0.8);
-  padding: 25px 40px;
-  max-width: 800px;
-  margin: 0 auto;
-  border-radius: 8px 8px;
-}
-
-.headerless-home .quote span,
-.home .quote span {
-  color: #000;
-  font-family: 'Raleway', sans-serif;
-  font-weight: 500;
-}
-
 .home .call-to-action {
 
 }
@@ -752,17 +712,7 @@ Slider Navigation
 
 -------------------------------- */
 .cd-slider-navigation {
-  /* you won't see this element in the html but it will be created using jQuery */
-  position: absolute;
-  z-index: 3;
-  left: 50%;
-  right: auto;
-  -webkit-transform: translateX(-50%);
-  -moz-transform: translateX(-50%);
-  -ms-transform: translateX(-50%);
-  -o-transform: translateX(-50%);
-  transform: translateX(-50%);
-  top: -130px;
+  
 }
 
 .cd-slider-navigation li {

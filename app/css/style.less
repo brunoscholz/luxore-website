@@ -7,10 +7,28 @@
 @navBarNormalHeight: 4.8em;
 
 /* Mobile first queries */
-@smartphones: ~"only screen and (max-width: 25em)";
-@tablets: ~"only screen and (max-width: 48em)";
-@desktop: ~"only screen and (max-width: 60em)";
-@desktopHD: ~"only screen and (max-width: 68em)";
+/* Custom, iPhone Retina 320px */
+@custom: ~"only screen and (min-width : 20em)";
+/* Extra Small Devices, Phones 480px */ 
+@smartphones: ~"only screen and (min-width: 30em)";
+/* Small Devices, Tablets 768px */
+@tablets: ~"only screen and (min-width: 48em)";
+/* Medium Devices, Desktops 992px */
+@desktop: ~"only screen and (min-width: 62em)";
+/* Large Devices, Wide Screens 1200px */
+@desktopHD: ~"only screen and (min-width: 75em)";
+
+/* Non-Mobile first queries */
+/* Large Devices, Wide Screens */
+@large: ~"only screen and (max-width : 75em)";
+/* Medium Devices, Desktops */
+@medium: ~"only screen and (max-width : 62em)";
+/* Small Devices, Tablets */
+@small: ~"only screen and (max-width : 48em)";
+/* Extra Small Devices, Phones */ 
+@extrasmall: ~"only screen and (max-width : 30em)";
+/* Custom, iPhone Retina */ 
+@smaller: ~"only screen and (max-width : 20em)";
 
 /*@media @smartphones, @tablets {}*/
 
@@ -53,17 +71,35 @@ main {
   height: 12.5em;
   background: transparent;
 
+  @media @small {
+    height: @navBarNormalHeight;
+  }
+
   & ul.brand {
     list-style: none outside none;
     height: 12.5em;
     line-height: 12.5em;
+    @media @small {
+      height: @navBarNormalHeight;
+      line-height: @navBarNormalHeight;
+      margin: 0;
+    }
     & li {
       display: inline-block;
       float: left;
       padding-left: 25px;
-      &.brand-logo img {
-        width: 150px;
-        vertical-align: middle;
+      &.brand-logo {
+        @media @small {
+          padding-top: 7px;
+        }
+        & img {
+          width: 150px;
+          vertical-align: middle;
+          @media @small {
+            width: 60px;
+            vertical-align: unset;
+          }
+        }
       }
     }
   }
@@ -76,6 +112,9 @@ main {
     font-weight: @font-weight--bold;
     font-size: @font-size--extra-large;
     text-transform: uppercase;
+    @media @small {
+      font-size: 2.6em;
+    }
   }
 
   & nav {
@@ -83,6 +122,11 @@ main {
     background-color: transparent;
     box-shadow: unset;
     margin-top: -150px;
+    @media @small {
+      width: 70%;
+      height: @navBarNormalHeight;
+      margin-top: -@navBarNormalHeight !important;
+    }
     & li {
       line-height: @navBarNormalHeight;
     }
@@ -381,6 +425,9 @@ section {
   background: @luxore-text-light;
   padding: 60px 20px;
   width: 100%;
+  @media @small {
+    padding: 60px 0;
+  }
   &.grey {
     background: @luxore-text-medium !important;
   }
@@ -401,8 +448,8 @@ section {
     position: relative;
     text-align: center;
     text-transform: uppercase;
-    @media @smartphones {
-      font-size: @font-size--large;
+    @media @small {
+      font-size: 3em;
     }
   }
   p {
@@ -417,6 +464,52 @@ section {
     text-align: center;
     margin-bottom: 140px;
   }
+}
+
+/*********************
+     Home Section
+**********************/
+.home {
+  background-position: center center;
+  background-size: cover;
+  min-height: 40em;
+  padding-bottom: 11em;
+  padding-top: 16em;
+  text-align: center;
+  background-image: url("../img/backgrounds/yellowcape.png");
+
+  @media @small {
+    padding-top: 4em;
+  }
+}
+
+.headerless-home .quote,
+.home .quote {
+  background-color: rgba(243, 242, 243, 0.8);
+  min-height: 400px;
+  font-size: 2.2rem;
+  color: #777;
+  padding: 25px 40px;
+  border-radius: 8px 8px;
+  line-height: inherit;
+  font-weight: inherit;
+  font-style: inherit;
+  text-align: center;
+}
+
+.newsletter {
+  background-color: rgba(243, 242, 243, 0.8);
+  padding: 25px 40px;
+  max-width: 800px;
+  margin: 0 auto;
+  border-radius: 8px 8px;
+}
+
+.headerless-home .quote span,
+.home .quote span {
+  color: #000;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
 }
 
 /*********************
@@ -588,7 +681,7 @@ ul.side-nav {
     }
     & a {
       color: #404040;
-      line-height: 50px;
+      line-height: 75px;
       font-size: 1.2em;
       text-transform: uppercase;
       transition: all 0.3s linear;
@@ -601,7 +694,7 @@ ul.side-nav {
         font-size: 2.1em;
         vertical-align: middle;
         float: left;
-        padding-top: 0.7em;
+        padding-top: 0.5em;
       }
       & span {
         vertical-align: middle;
@@ -631,6 +724,29 @@ ul.side-nav {
 }
 .side-nav .collapsible-header {
   margin: 0;
+}
+
+/*********************
+   Slider Section
+**********************/
+
+/* -------------------------------- 
+
+Slider Navigation
+
+-------------------------------- */
+.cd-slider-navigation {
+  /* you won't see this element in the html but it will be created using jQuery */
+  position: absolute;
+  z-index: 3;
+  left: 50%;
+  right: auto;
+  .transform(translateX(-50%));
+  top: -130px;
+  @media @small {
+    right: unset;
+    width: 100%;
+  }
 }
 
 /*********************
@@ -788,6 +904,11 @@ ul.side-nav {
   overflow: hidden;
   color: transparent;
   .transition(height 0.4s);
+  & ol {
+    @media @small {
+      padding-left: 0;
+    }
+  }
   & li {
     position: absolute;
     z-index: 1;

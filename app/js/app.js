@@ -128,7 +128,7 @@ app.config(function ($stateProvider, $urlRouterProvider, $locationProvider) {
   $urlRouterProvider.otherwise("/");
 });
 
-app.run(function ($rootScope, $state, $stateParams, languageService, gettextCatalog) {
+app.run(function ($rootScope, $state, $stateParams, languageService, gettextCatalog, $timeout, $window) {
 
   languageService();
   gettextCatalog.debug = true;
@@ -158,6 +158,8 @@ app.run(function ($rootScope, $state, $stateParams, languageService, gettextCata
   });
 
   $rootScope.$on("$stateChangeSuccess", function() {
+    $('html, body').animate({ scrollTop: 0 }, 'fast');
+
     $timeout(function() {
       $window.ga('send', 'pageview', $window.location.pathname+$window.location.hash);
     });

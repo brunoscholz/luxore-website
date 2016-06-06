@@ -3,7 +3,7 @@
  * Original popup magic from: http://jqueryfordesigners.com/coda-popup-bubbles.1.html
  *
  */
-var btcdonate = function(options){
+var btcdonate = function(options) {
 
   if (!options) {
     options = {};
