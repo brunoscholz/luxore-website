@@ -512,6 +512,69 @@ section {
   font-weight: 500;
 }
 
+.home .call-to-action {
+  height: 10em;
+  margin-bottom: 2.25em;
+  & li {
+    
+    margin-bottom: 10px;
+    &.brand {
+      & img {
+        width: 144px;
+      }
+    }
+    & a {
+      text-align: center;
+      vertical-align: middle;
+    }
+  }
+
+}
+
+.btn-kickstarter .btn {
+  background-color: #3fab71;
+  height: 75px;
+  line-height: 75px; 
+}
+
+.btn-kickstarter .btn:hover {
+  background-color: #f3f2f3;
+  border: 2px solid #3fab71;
+  color: #3fab71;
+}
+
+.btn-header {
+  height: 55px;
+  line-height: 55px;
+  margin: 25px 0;
+}
+
+.btn-header .btn {
+  background-color: #82778C;
+  color: #f3f2f3;
+  transition: all 0.3s;
+}
+
+.btn-header .btn:hover {
+  background-color: #f3f2f3;
+  border: 2px solid #60526d;
+  color: #82778C;
+}
+
+.headerless-home {
+  background-position: center center;
+  background-size: cover;
+  min-height: 300px;
+  padding-bottom: 80px;
+  padding-top: 270px;
+  text-align: center;
+  background-image: url("../img/backgrounds/polygon-back.png");
+}
+
+.headerless-home .quote {
+  min-height: 0;
+}
+
 /*********************
      DOCS Section
 **********************/
@@ -619,6 +682,7 @@ footer {
       & a {
         color: @luxore-text-medium !important;
         transition: all 0.3s linear;
+        padding-bottom: 5px;
         &:hover {
           color: @luxore-text-light !important;
         }

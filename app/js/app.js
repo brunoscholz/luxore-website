@@ -84,6 +84,16 @@ app.config(function ($stateProvider, $urlRouterProvider, $locationProvider) {
     }
   });
 
+  states.push({
+    name: 'app.team',
+    url: '/team',
+    views: {
+      'mainContent@app': {
+        templateUrl:'views/site/team.html'
+      }
+    }
+  });
+
   //set up the modal parent state, and its child-states
   states.push({
     name: "Modal",
