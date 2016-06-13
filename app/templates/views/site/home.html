@@ -1,16 +1,24 @@
 <div ng-class="{expanded:isExpanded}" class="main-content animate-fade-slide-in"></div>
 <section id="home" class="home">
-	<div class="container">
+	<div class="">
 		<div class="row">
-			<div class="col s12 m6 l4 push-l2">
+			<div class="col s12 m6 l3 push-l3">
 				<p class="quote" translate>
-					<span>Luxore</span> is a new kind of social network where you make your looks, share them, become a reference and inspire your followers.
+					<span class="brand">Luxore</span> is a new kind of social network where you make your looks, share them, become a reference and inspire your followers.
 				</p>
 			</div>
-			<div class="col s12 m6 l6 push-l2">
-				<ul class="call-to-action">
+			<div class="col s12 m6 l4 push-l2">
+				<ul class="call-to-action" ng-controller="HeaderController">
 					<li class="brand"><img src="img/logo-vazado.png"></li>
-					<li class="btn-kickstarter">
+					<li class="btn-kickstarter" ng-if="timerRunning">
+						<div class="btn">
+							Kickstarter will begin soon
+							<!-- <timer end-time="1466424000000" autostart="false">
+								{{days}} days, {{hours}} hours, {{minutes}} minutes, {{seconds}} seconds
+							</timer> -->
+						</div>
+					</li>
+					<li class="btn-kickstarter" ng-if="!timerRunning">
 						<a href="#0" class="btn">{{'support us on kickstarter'|translate}}</a>
 					</li>
 					<li class="btn-header cd-modal-action">
@@ -74,7 +82,7 @@
 					<div>
 						<h2 translate>Decentralized</h2>
 						<p translate>
-							Luxore will be running on top of <a class="linx" href="http://lisk.io">Lisk</a>, a platform for decentralized apps with their own sidechain. The network and the data will be spread in all users' devices.
+							Luxore will be running on top of <a class="linx" href="http://lisk.io">Lisk</a>, a platform for decentralized apps with its own sidechain. The network and the data will be spread in all users' devices.
 						</p>
 					</div>
 				</div>
@@ -100,7 +108,7 @@
 					<div>
 						<h2 translate>No Masters</h2>
 						<p translate>
-							There will be only LUX 1 billion ever! No one can rule the creation or the transactions of the coin. This means no one can interfere in it's value or it's form. The coin is free from rulers, so it can be used by free people!
+							There will be only 1 billion LUX ever! No one can rule over the creation or the transactions of the coin. This means no one can interfere in it's value or it's form. The coin is free from rulers, so it can be used by free people!
 						</p>
 					</div>
 				</div> <!-- .cd-half-block.content -->
@@ -243,8 +251,8 @@
 <script type="text/javascript">
 
 	$('#scrollup').click(function() {
-      $('html, body').animate({ scrollTop: 0 }, 'slow');
-    });
+	  $('html, body').animate({ scrollTop: 0 }, 'slow');
+	});
 
 jQuery(document).ready(function($) {
 	var sliderContainers = $('.cd-slider-wrapper');

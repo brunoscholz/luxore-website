@@ -2,6 +2,7 @@ var app = angular.module('app', [
   'ui.router',
   'ct.ui.router.extras.core',
   'ct.ui.router.extras.sticky',
+  'timer',
   'ngAnimate',
   'gettext',
   'ngClipboard',
@@ -176,7 +177,7 @@ app.run(function ($rootScope, $state, $stateParams, languageService, gettextCata
   });
 });
 
-app.controller('AppController', function ($scope, $state, $timeout, ngClipboard, modal) {
+app.controller('AppController', function ($scope, $state, ngClipboard, modal) {
   $scope.toClipboard = function(element) {
     ngClipboard.toClipboard(element);
     Materialize.toast('Address Copied!', 4000, 'rounded');
@@ -329,20 +330,64 @@ angular.module('app').factory('NewsletterData', function($http) {
 });
 
 app.controller('HeaderController', function ($scope, $rootScope, languageService, $location) {
-    $scope.location = $location;
+  $scope.location = $location;
 
-    $scope.selectLanguage = function (code) {
-      $rootScope.changeLang(code);
-    };
+  $scope.selectLanguage = function (code) {
+    $rootScope.changeLang(code);
+  };
 
-    $scope.home = function () {
-        $location.path('/');
-    };
+  $scope.home = function () {
+      $location.path('/');
+  };
 
-    $scope.isNavbarActive = function (navBarPath) {
-      //return navBarPath === breadcrumbs.getFirst().name;
-    };
+  // KICKSTARTER Start Date Sat Jun 20 2016 09:00:00 GMT-0400
+  // miliseconds: 1466427600000
+  // {{'support us on kickstarter'|translate}}
+  $scope.kickTimer = 1466413200000;
+  $scope.timerRunning = false;
+  var timeStarted = false;
+
+  var d1 = new Date();
+  var d2 = new Date($scope.kickTimer);
+
+  $scope.startClock = function() {
+    if (!timeStarted) {
+      $scope.$broadcast('timer-start');
+      $scope.timerRunning = true;
+      timeStarted = true;
+    } else if ((timeStarted) && (!$scope.timerRunning)) {
+      $scope.$broadcast('timer-resume');
+      $scope.timerRunning = true;
+    }
+  };
+
+  $scope.stopClock = function() {
+    if ((timeStarted) && ($scope.timerRunning)) {
+      $scope.$broadcast('timer-stop');
+      $scope.timerRunning = false;
+    }
+  };
+
+  $scope.resetClock = function() {
+    if ((!$scope.timerRunning)) {
+      $scope.$broadcast('timer-reset');
+    }
+  };
+
+  $scope.$on('timer-stopped', function(event, data) {
+      timeStarted = true;
+  });
+
+  $scope.isNavbarActive = function (navBarPath) {
+    //return navBarPath === breadcrumbs.getFirst().name;
+  };
+
+  if(d1 < d2) {
+    console.log('Starting the clock!');
+    $scope.startClock();
+  }
 });
+
 
 app.value('version', '0.1');
 

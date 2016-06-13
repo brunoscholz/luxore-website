@@ -1,5 +1,28 @@
-angular.module('app').service('languageService', function ($rootScope, $window, gettextCatalog) {
+angular.module('app').factory('userStorage', function ($rootScope, $window) {
+  var service = {
+    model: {
+        lang: ''
+    },
+    SaveState: function () {
+      //sessionStorage.userStorage = angular.toJson(service.model);
+      $window.localStorage.setItem('userPrefs', angular.toJson(service.model));
+    },
+    RestoreState: function () {
+      //service.model = angular.fromJson(sessionStorage.userStorage);
+      service.model = angular.fromJson($window.localStorage.getItem('userPrefs'));
+    }
+  };
+
+  /*$rootScope.$on("savestate", service.SaveState);
+  $rootScope.$on("restorestate", service.RestoreState);*/
+
+  return service;
+});
+
+angular.module('app').service('languageService', function ($rootScope, $window, gettextCatalog, userStorage) {
     var self = this;
+
+    var userPrefs = userStorage;
 
     $rootScope.languages = [
         { id: 'en', name: 'English', country: 'us' },
@@ -22,6 +45,8 @@ angular.module('app').service('languageService', function ($rootScope, $window, 
         var lang = findLang(changed);
 
         if (lang) {
+            userPrefs.model.lang = lang;
+            userPrefs.SaveState();
             $rootScope.lang = lang;
             $rootScope.selectedLang = $rootScope.lang.id;
             $rootScope.selectedCountry = $rootScope.lang.country;
@@ -50,13 +75,22 @@ angular.module('app').service('languageService', function ($rootScope, $window, 
     };
 
     return function () {
-        $rootScope.lang = detectLang();
+        userPrefs.RestoreState();
+        if (userPrefs.model !== null) {
+            $rootScope.lang = userPrefs.model.lang;
+        }
+        else {
+            $rootScope.lang = detectLang();
+            userPrefs.model = { lang: '' };
+            userPrefs.model.lang = $rootScope.lang;
+            userPrefs.SaveState();
+        }
+
         $rootScope.selectedLang = $rootScope.lang.id;
         $rootScope.selectedCountry = $rootScope.lang.country;
-
         // console.log($rootScope.lang);
         // console.log($rootScope.selectedLang);
         gettextCatalog.setCurrentLanguage($rootScope.lang.id);
+        // console.log(angular.fromJson($window.localStorage.getItem('userPrefs')));
     };
-
 });

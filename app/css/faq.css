@@ -17,6 +17,10 @@
   }
 }
 
+.faq p ul {
+  margin-left: 4em;
+}
+
 .table-of-contents a.active {
   border-left: 2px solid #4b0a70;
 }

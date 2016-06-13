@@ -22,11 +22,11 @@
 /* Large Devices, Wide Screens */
 @large: ~"only screen and (max-width : 75em)";
 /* Medium Devices, Desktops */
-@medium: ~"only screen and (max-width : 62em)";
+@medium: ~"only screen and (max-width : 65em)";
 /* Small Devices, Tablets */
 @small: ~"only screen and (max-width : 48em)";
 /* Extra Small Devices, Phones */ 
-@extrasmall: ~"only screen and (max-width : 30em)";
+@extrasmall: ~"only screen and (max-width : 40em)";
 /* Custom, iPhone Retina */ 
 @smaller: ~"only screen and (max-width : 20em)";
 
@@ -71,7 +71,7 @@ main {
   height: 12.5em;
   background: transparent;
 
-  @media @small {
+  @media @small, @medium {
     height: @navBarNormalHeight;
   }
 
@@ -79,7 +79,7 @@ main {
     list-style: none outside none;
     height: 12.5em;
     line-height: 12.5em;
-    @media @small {
+    @media @small, @medium {
       height: @navBarNormalHeight;
       line-height: @navBarNormalHeight;
       margin: 0;
@@ -89,13 +89,13 @@ main {
       float: left;
       padding-left: 25px;
       &.brand-logo {
-        @media @small {
+        @media @small, @medium {
           padding-top: 7px;
         }
         & img {
           width: 150px;
           vertical-align: middle;
-          @media @small {
+          @media @small, @medium {
             width: 60px;
             vertical-align: unset;
           }
@@ -112,7 +112,7 @@ main {
     font-weight: @font-weight--bold;
     font-size: @font-size--extra-large;
     text-transform: uppercase;
-    @media @small {
+    @media @small, @medium {
       font-size: 2.6em;
     }
   }
@@ -122,7 +122,7 @@ main {
     background-color: transparent;
     box-shadow: unset;
     margin-top: -150px;
-    @media @small {
+    @media @small, @medium {
       width: 70%;
       height: @navBarNormalHeight;
       margin-top: -@navBarNormalHeight !important;
@@ -137,6 +137,9 @@ main {
       margin: 0 0 0 25px;
       line-height: 40px;
       padding-top: 15px;
+      @media @medium {
+        font-size: @font-size--normal;
+      }
     }
     & a:hover {
       color: @luxore-text-medium;
@@ -417,15 +420,16 @@ nav .button-collapse i {
 
 .scrollup {
   position:fixed;
-  bottom: 50px; 
+  bottom: 50px;
   right: 35px;
+  z-index: @modalIndex !important;
 }
 
 section {
   background: @luxore-text-light;
   padding: 60px 20px;
   width: 100%;
-  @media @small {
+  @media @small, @medium {
     padding: 60px 0;
   }
   &.grey {
@@ -448,7 +452,7 @@ section {
     position: relative;
     text-align: center;
     text-transform: uppercase;
-    @media @small {
+    @media @small, @medium {
       font-size: 3em;
     }
   }
@@ -478,8 +482,13 @@ section {
   text-align: center;
   background-image: url("../img/backgrounds/yellowcape.png");
 
-  @media @small {
-    padding-top: 4em;
+  @media @extrasmall {
+    padding-top: 5em;
+    min-height: 75em;
+  }
+  @media @medium {
+    padding-top: 5em;
+    min-height: 40em;
   }
 }
 
@@ -505,11 +514,11 @@ section {
   border-radius: 8px 8px;
 }
 
-.headerless-home .quote span,
-.home .quote span {
-  color: #000;
-  font-family: 'Raleway', sans-serif;
-  font-weight: 500;
+span.brand {
+  color: @luxore-logo-purple;
+  font-family: @fontName;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 
 .home .call-to-action {
@@ -799,6 +808,7 @@ ul.side-nav {
 Slider Navigation
 
 -------------------------------- */
+
 .cd-slider-navigation {
   /* you won't see this element in the html but it will be created using jQuery */
   position: absolute;
@@ -807,9 +817,11 @@ Slider Navigation
   right: auto;
   .transform(translateX(-50%));
   top: -130px;
-  @media @small {
-    right: unset;
-    width: 100%;
+  @media @small, @medium {
+    /*right: unset;
+    width: 100%;*/
+    left: 45%;
+    display: inline-flex;
   }
 }
 
@@ -969,7 +981,7 @@ Slider Navigation
   color: transparent;
   .transition(height 0.4s);
   & ol {
-    @media @small {
+    @media @small, @medium {
       padding-left: 0;
     }
   }

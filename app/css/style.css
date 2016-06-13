@@ -227,8 +227,8 @@ video {
 }
 
 .feature-icon {
-  height: 300px;
-  width: 300px;
+  height: 15em;
+  width: 15em;
   border-radius: 50%;
   text-align: center;
   margin: 70px auto 0;
@@ -471,7 +471,7 @@ Slider
 }
 .cd-slider li:first-of-type .image {
   background: #e5e5e5 url(../img/features/coin-02.png);
-  background-size: 100%;
+  background-size: cover;
   background-position: 0 0;
 }
 .cd-slider li:nth-of-type(2) .image {
