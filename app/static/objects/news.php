@@ -20,12 +20,10 @@ class News
     function create()
     {
         // query to insert record
-        $query = "INSERT INTO
-                    " . $this->table_name . "
-                SET
-                    email=:email, created_at=:created_at";
+        $query = "INSERT INTO " . $this->table_name . " SET `email`=:email, `created_at`=:created_at";
 
         // prepare query
+        var_dump($stmt);
         $stmt = $this->conn->prepare($query);
 
         // posted values
@@ -33,8 +31,8 @@ class News
         $this->created_at=htmlspecialchars(strip_tags($this->created_at));
 
         // bind values
-        $stmt->bindParam(":email", $this->email);
-        $stmt->bindParam(":created_at", $this->created_at);
+        $stmt->bind_param(":email", $this->email);
+        $stmt->bind_param(":created_at", $this->created_at);
 
         // execute query
         if($stmt->execute())

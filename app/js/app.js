@@ -95,6 +95,16 @@ app.config(function ($stateProvider, $urlRouterProvider, $locationProvider) {
     }
   });
 
+  states.push({
+    name: 'app.contact',
+    url: '/contact',
+    views: {
+      'mainContent@app': {
+        templateUrl:'views/site/contact.html'
+      }
+    }
+  });
+
   //set up the modal parent state, and its child-states
   states.push({
     name: "Modal",
@@ -320,12 +330,41 @@ app.controller('NewsletterController', function ($scope, languageService, Newsle
   };
 });
 
+app.controller('ContactController', function ($scope, languageService, NewsletterData) {
+  $scope.user = { name:'', email:'', subject:'', message:'', subscribe:true};
+
+  function sendMailSuccess(data) {
+    alert('message sent');
+    console.log(data);
+    $scope.user = { name:'', email:'', subject:'', message:'', subscribe:true};
+    //$scope.error = null;
+  }
+
+  function sendMailError(data) {
+    alert('error while sending your message');
+    //$scope.error = data;
+    console.log(data);
+  }
+
+  $scope.sendContact = function (usr) {
+    NewsletterData.SendContact({
+        name: $scope.user.name,
+        email: $scope.user.email,
+        subject: $scope.user.subject,
+        message: $scope.user.message,
+        subscribe: $scope.user.subscribe
+      })
+      .success(sendMailSuccess)
+      .error(sendMailError);
+  };
+});
+
 angular.module('app').factory('NewsletterData', function($http) {
   var data = {};
 
   data.SendEmail = function SendEmail(data) { return $http.post('../send_email.php', data); };
+  data.SendContact = function SendContact(data) { return $http.post('../send_email.php', data); };
   //data.getPerson = function getPerson(id) { return $http.get('read_one.php?id=' + id); };
-
   return data;
 });
 

@@ -198,7 +198,7 @@ video {
   text-align: left;
 }
 
-#features .row .btn, #join .btn {
+#features .row .btn, #join .btn, .contact-form .btn {
   margin-top: 5px;
   background-color: #82778C;
   color: #f3f2f3;
@@ -206,7 +206,7 @@ video {
   width: unset;
 }
 
-#features .row .btn:hover, #join .btn:hover {
+#features .row .btn:hover, #join .btn:hover, .contact-form .btn:hover {
   background-color: #f3f2f3;
   border: 2px solid #60526d;
   color: #82778C;
@@ -907,22 +907,28 @@ Modal
   color: #000;
 }
 /* label focus color */
-.input-field input[type=email]:focus + label {
-  color: #6d2a87;
+.input-field input[type]:focus + label, textarea.materialize-textarea:focus:not([readonly]) + label {
+  color: #6d2a87 !important;
 }
+
 /* label underline focus color */
-.input-field input[type=email]:focus {
+.input-field input[type]:focus, textarea.materialize-textarea:focus:not([readonly]) {
  border-bottom: 1px solid #6d2a87;
  box-shadow: 0 1px 0 0 #000;
 }
 /* valid color */
-.input-field input[type=email].valid {
+.input-field input[type].valid, textarea.materialize-textarea.valid {
  border-bottom: 1px solid #6d2a87;
  box-shadow: 0 1px 0 0 #000;
 }
 /* icon prefix focus color */
 .input-field .prefix.active {
  color: #6d2a87;
+}
+
+[type="checkbox"]:checked + label::before {
+  border-right: 2px solid #6d2a87;
+  border-bottom: 2px solid #6d2a87;
 }
 
 /*********************

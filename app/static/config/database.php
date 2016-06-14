@@ -16,7 +16,7 @@ class Database
     public function getConnection()
     {
     	$this->conn = null;
-        try
+        /*try
         {
             $this->conn = new PDO("mysql:host=" . $this->host . ";dbname=" . $this->db_name, $this->username, $this->password);
         } 
@@ -24,6 +24,16 @@ class Database
         {
             echo "Connection error: " . $exception->getMessage();
         }
+        return $this->conn;*/
+        // Create connection
+        $this->conn = mysqli_connect($this->host, $this->username, $this->password);
+
+        // Check connection
+        if (!$this->conn)
+        {
+            die("Connection failed: " . mysqli_connect_error());
+        }
+
         return $this->conn;
     }
 }

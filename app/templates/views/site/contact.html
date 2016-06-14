@@ -3,46 +3,84 @@
 		<div class="row">
 			<div class="col s12">
 				<p class="quote" translate>
-					<span>Luxore</span> is about have things your way! Our way is to develop this for you...
+					At <span>Luxore</span>, we'd love to hear about you and what you think about all this...
 				</p>
 			</div>
 		</div>
 	</div>
 </section>
 
-<div id="team-list">
-	<section class="team-member">
+<div id="contacts">
+	<section class="contact-form">
 		<div class="container">
 			<div class="row">
-				<div class="col l4 m4 s12 center hide-on-small-only">
-					<div class="feature-icon" style="background-image: url('img/team/bruno.png');"></div>
-				</div>
-				<div class="col l7 m8 s12">
-					<h1 class="title">Bruno</h1>
-					<p>
-						
-					</p>
-				</div>
-			</div>
-		</div>
-	</section>
+				<form name="formNewsletter" class="col s12" ng-submit="sendContact(user)" ng-controller="ContactController">
+					<div class="row">
+						<div class="col s12 m8 l8">
+							<div class="input-field col m12 s12">
+								<i class="material-icons prefix pale-text">account_circle</i>
+								<input id="name" type="text" class="validate" ng-model="user.name" required>
+								<label for="name" data-error="We need to call you something..." translate>How your friends call you?</label>
+							</div>
+							<div class="input-field col m12 s12">
+								<i class="material-icons prefix pale-text">email</i>
+								<input id="email" type="email" class="validate" ng-model="user.email" ng-pattern="/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/" required>
+								<label for="email" data-error="Oops! It looks like that's not an email!" translate>Where can we email you back?</label>
+							</div>
+							<div class="input-field col m12 s12">
+								<i class="material-icons prefix pale-text">subject</i>
+								<input id="subject" type="text" class="validate" ng-model="user.subject" required>
+								<label for="subject" data-error="Please! Let us know what is it about..." translate>What you want to talk about?</label>
+							</div>
+							<div class="input-field col s12">
+								<i class="material-icons prefix pale-text">comment</i>
+								<textarea id="message" class="materialize-textarea" ng-model="user.message"></textarea>
+								<label for="message">What is on your mind?</label>
+							</div>
 
-	<section class="team-member grey">
-		<div class="container">
-			<div class="row">
-				<div class="col l7 m8 s12">
-					<h1 class="title">Loris</h1>
-					<p>
-						
-					</p>
-				</div>
-				<div class="col l4 m4 s12 center push-l1 hide-on-small-only">
-					<div class="feature-icon" style="background-image: url('img/team/loris.png');"></div>
-				</div>
+							<div class="input-field col s12 center">
+								<input type="checkbox" id="subscribe" checked="checked" ng-model="user.subscribe">
+								<label for="subscribe">Subscribe to newsletter?</label>
+							</div>
+
+							<div class="input-field col s12 center" style="margin-top: 40px;">
+								<input type="submit" class="btn" value="{{'Send my Thoughts!!'|translate}}">
+							</div>
+						</div>
+						<div class="col s12 m4 l4">
+							<h5>Want contact by email?</h5>
+							<a class="linx" href="mailto:whatsup@luxore.me">whatsup@luxore.me</a>
+							<h5>Have a complain about something?</h5>
+							<a class="linx" href="mailto:dearjerksofluxorefoundation@luxore.me">dearjerksofluxorefoundation@luxore.me</a>
+							<h5>Or use our channels in social media...</h5>
+							<div class="row">
+						      <div class="col s12 social">
+						        <ul style="display:inline-block;">
+						          <li>
+						            <a href="https://www.facebook.com/luxoreapp/" class="btn-luxore btn-large" target="_blank">
+						              <i class="zmdi zmdi-facebook"></i>
+						            </a>
+						          </li>
+						          <li>
+						            <a href="http://twitter.com/luxoreapp" class="btn-luxore btn-large" target="_blank">
+						              <i class="zmdi zmdi-twitter"></i> 
+						            </a>
+						          </li>
+						          <li>
+						            <a href="http://www.instagram.com/luxoreapp/" class="btn-luxore btn-large" target="_blank">
+						              <i class="zmdi zmdi-instagram"></i>
+						            </a>
+						          </li>
+						        </ul>
+						      </div>
+						    </div>
+						</div>
+					</div>
+				</form>
 			</div>
 		</div>
 	</section>
 
 </div>
 
-<div ng-include="'footer.html'"></div>
+<div ng-include="'views/docs/footer.html'"></div>
