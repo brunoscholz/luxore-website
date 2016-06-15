@@ -1144,3 +1144,46 @@ Slider Navigation
     transform: translateX(0%);
   }
 }
+
+/*********************
+        MODAL
+**********************/
+
+.modal {
+  background-color: #fafafa;
+  max-height: 100%;
+  border-radius: 20px;
+  overflow-y: hidden;
+  & .modal-content {
+    padding: 0px;
+  }
+
+  & h3 {
+    background-image: url('../img/email/polygon-back.png');
+    background-size: cover;
+    color: #f3f2f3;
+    font-family: @fontName;
+    font-weight: @font-weight--bold;
+    padding: 24px;
+    margin: 0;
+  }
+  & .video-container {
+
+  }
+}
+
+.bitcoin-container {
+  & .logo {
+    width: 200px;
+    @media @small, @medium {
+      width: 100px;
+    }
+  }
+  & .btcdonate-qr {
+    & img {
+      @media @small, @medium {
+        width: 140px;
+      }
+    }
+  }
+}

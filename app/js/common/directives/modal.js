@@ -1,4 +1,4 @@
-function modalFactoryFactory($animate, $compile, $rootScope, $controller, $q, $http, $templateCache) {
+/*function modalFactoryFactory($animate, $compile, $rootScope, $controller, $q, $http, $templateCache) {
   return function modalFactory (config) {
     if (!(!config.template ^ !config.templateUrl)) {
       throw new Error('Expected modal to have exacly one of either `template` or `templateUrl`');
@@ -83,4 +83,4 @@ function modalFactoryFactory($animate, $compile, $rootScope, $controller, $q, $h
   };
 }
 
-angular.module('modal', []).factory('Modal', ['$animate', '$compile', '$rootScope', '$controller', '$q', '$http', '$templateCache', modalFactoryFactory]);
+angular.module('modal', []).factory('Modal', ['$animate', '$compile', '$rootScope', '$controller', '$q', '$http', '$templateCache', modalFactoryFactory]);*/

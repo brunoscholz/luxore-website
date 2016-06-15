@@ -6,7 +6,6 @@ var app = angular.module('app', [
   'ngAnimate',
   'gettext',
   'ngClipboard',
-  'uimodal',
   'docs'
 ]);
 
@@ -125,9 +124,9 @@ app.config(function ($stateProvider, $urlRouterProvider, $locationProvider) {
 
       /*$(document).on("click", ".Modal-backdrop, .Modal-holder", function() {
         $state.go("Modal.Default");
-      });
+      });*/
 
-      $(document).on("click", ".Modal-box, .Modal-box *", function(e) {
+      /*$(document).on("click", ".cd-modal-section, .cd-modal *", function(e) {
         e.stopPropagation();
       });*/
     }],
@@ -187,7 +186,7 @@ app.run(function ($rootScope, $state, $stateParams, languageService, gettextCata
   });
 });
 
-app.controller('AppController', function ($scope, $state, ngClipboard, modal) {
+app.controller('AppController', function ($scope, $state, ngClipboard) {
   $scope.toClipboard = function(element) {
     ngClipboard.toClipboard(element);
     Materialize.toast('Address Copied!', 4000, 'rounded');
@@ -221,20 +220,22 @@ app.controller('AppController', function ($scope, $state, ngClipboard, modal) {
   $scope.donateInBitcoin = function(e) {
     // console.log("1Np2iFGAPJNxpKkPpMHeqxaAotJZZUTrqr");
     var elem = angular.element(e.target);
-    console.log(elem);
-    modal.open(elem);
     $state.go('Modal.bitcoinDonate');
+    //modal.open(elem);
+    $('#modal1').openModal();
   };
 
   $scope.watchVideo = function(e) {
     var elem = angular.element(e.target);
-    modal.open(elem);
     $state.go('Modal.watchVideo');
+    //modal.open(elem);
+    $('#modal1').openModal();
   };
 
   $scope.closeModal = function() {
-    modal.close();
     $state.go('Modal.Default');
+    //modal.close();
+    $('#modal1').closeModal();
   };
 
   $scope.hideNavBar = function() {

@@ -77,15 +77,25 @@
 
     </div> <!-- Cloak end -->
 
-    <section class="cd-modal-section">
+    <!-- <section class="cd-modal-section">
       <div class="cd-modal" ui-view="modal" autoscroll="false">
         Can't load modal content
-      </div> <!-- cd-modal -->
+      </div> --> <!-- cd-modal -->
 
-      <a ng-click="closeModal()" class="btn-luxore btn-large cd-modal-close">
+    <!--   <a ng-click="closeModal()" class="btn-luxore btn-large cd-modal-close">
         <i class="large material-icons" style="font-size: 2rem;">close</i>
       </a>
-    </section>
+    </section> -->
+    <!-- Modal Structure -->
+    <div id="modal1" class="modal">
+      <div class="modal-content" ui-view="modal">
+        <h4>Modal Header</h4>
+        <p>A bunch of text</p>
+      </div>
+      <div class="modal-footer">
+        <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+      </div>
+    </div>
 
     <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lrsjng.jquery-qrcode/0.14.0/jquery-qrcode.min.js"></script>
