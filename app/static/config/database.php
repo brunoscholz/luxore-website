@@ -26,7 +26,7 @@ class Database
         }
         return $this->conn;*/
         // Create connection
-        $this->conn = mysqli_connect($this->host, $this->username, $this->password);
+        $this->conn = mysqli_connect($this->host, $this->username, $this->password, $this->db_name);
 
         // Check connection
         if (!$this->conn)

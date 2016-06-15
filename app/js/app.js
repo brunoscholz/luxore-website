@@ -159,7 +159,7 @@ app.run(function ($rootScope, $state, $stateParams, languageService, gettextCata
     $rootScope.searchQuery = query;
   };*/
 
-  $("body").delay(260).queue(function(next) {
+  $("body").delay(3260).queue(function(next) {
     $(this).addClass("loaded");
     next();
   });
@@ -308,23 +308,29 @@ app.controller('AppController', function ($scope, $state, ngClipboard, modal) {
   });
 });
 
+app.controller('FaqController', function ($scope, languageService, faqcontents) {
+  
+});
+
 app.controller('NewsletterController', function ($scope, languageService, NewsletterData) {
-  $scope.user = { email:'' };
+  $scope.user = { newsletter: 'true', email:'', subject: '' };
 
   function sendMailSuccess(data) {
-    alert('email sent to ' + $scope.user.email);
     console.log(data);
     //$scope.error = null;
   }
 
   function sendMailError(data) {
-    alert('error while sending email to ' + $scope.user.email);
     //$scope.error = data;
     console.log(data);
   }
 
   $scope.sendEmail = function (usr) {
-    NewsletterData.SendEmail({ email: $scope.user.email, subject: 'Newsletter Subscription' })
+    NewsletterData.SendEmail({
+        newsletter: 'true',
+        email: $scope.user.email,
+        subject: 'Newsletter Subscription'
+      })
       .success(sendMailSuccess)
       .error(sendMailError);
   };
@@ -334,20 +340,19 @@ app.controller('ContactController', function ($scope, languageService, Newslette
   $scope.user = { name:'', email:'', subject:'', message:'', subscribe:true};
 
   function sendMailSuccess(data) {
-    alert('message sent');
     console.log(data);
     $scope.user = { name:'', email:'', subject:'', message:'', subscribe:true};
     //$scope.error = null;
   }
 
   function sendMailError(data) {
-    alert('error while sending your message');
     //$scope.error = data;
     console.log(data);
   }
 
   $scope.sendContact = function (usr) {
     NewsletterData.SendContact({
+        contact: 'true',
         name: $scope.user.name,
         email: $scope.user.email,
         subject: $scope.user.subject,

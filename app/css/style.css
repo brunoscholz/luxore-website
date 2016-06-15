@@ -243,6 +243,10 @@ video {
   background-size: 100%;
 }
 
+.feature-icon.bruno {
+  background-color: #000;
+}
+
 #feature-list .feature-icon {
   margin: 0;
 }

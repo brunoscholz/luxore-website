@@ -17,8 +17,47 @@
   }
 }
 
-.faq p ul {
+.faq li ul {
   margin-left: 4em;
+}
+
+.trophy .trophy-icon {
+  height: 8em;
+  width: 8em;
+  border-radius: 50%;
+  text-align: center;
+  margin: 20px auto 0;
+  background-size: 80%;
+  background-color: #ffffff;
+  transition: all 0.4s;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.trophy .trophy-icon:hover {
+  background-size: 100%;
+}
+
+.trophy .trophy-icon i {
+  color: #6d2a87;
+  font-size: 50px;
+  line-height: 96px;
+}
+
+.trophy .trophy-name {
+  padding-top: 20px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  color: #82778c;
+}
+
+.trophy .trophy-description {
+  padding-top: 10px;
+  text-align: center;
+  color: #6c747f;
+  font-size: 1.2rem;
 }
 
 .table-of-contents a.active {
