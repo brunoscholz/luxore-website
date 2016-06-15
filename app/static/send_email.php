@@ -46,10 +46,10 @@ $message .= '<section class="newsletter">
                     <div class="col s12">
                         <div class="col s12 social">
                             <ul>
-                              <li><a href="https://www.facebook.com/luxoreapp/" class="btn-luxore btn-large" target="_blank"><img src="http://www.luxore.me/img/email/f.png"></i></a></li>
-                              <li><a href="https://twitter.com/luxoreapp" class="btn-luxore btn-large" target="_blank"><img src="http://www.luxore.me/img/email/t.png"></i></a></li>
-                              <li><a href="https://www.instagram.com/luxoreapp/" class="btn-luxore btn-large" target="_blank"><img src="http://www.luxore.me/img/email/i.png"></i></a></li>
-                              <li><a href="https://www.youtube.com/channel/UCbxAgjYJIGXZTlTXkeeYuzw" class="btn-luxore btn-large" target="_blank"><img src="http://www.luxore.me/img/email/y.png"></i></a></li>
+                              <li><a href="https://www.facebook.com/luxoreapp/" class="btn-luxore btn-large" target="_blank"><img src="http://www.luxore.me/img/email/facebook.png"></i></a></li>
+                              <li><a href="https://twitter.com/luxoreapp" class="btn-luxore btn-large" target="_blank"><img src="http://www.luxore.me/img/email/twitter.png"></i></a></li>
+                              <li><a href="https://www.instagram.com/luxoreapp/" class="btn-luxore btn-large" target="_blank"><img src="http://www.luxore.me/img/email/instagram.png"></i></a></li>
+                              <li><a href="https://www.youtube.com/channel/UCbxAgjYJIGXZTlTXkeeYuzw" class="btn-luxore btn-large" target="_blank"><img src="http://www.luxore.me/img/email/youtube.png"></i></a></li>
                             </ul>
                           </div>
                     </div>

@@ -16,7 +16,7 @@
 			<div class="row">
 				<form name="formNewsletter" class="col s12" ng-submit="sendContact(user)" ng-controller="ContactController">
 					<div class="row">
-						<div class="col s12 m8 l8">
+						<div class="col s12 m8 l8  contact-mail">
 							<div class="input-field col m12 s12">
 								<i class="material-icons prefix pale-text">account_circle</i>
 								<input id="name" type="text" class="validate" ng-model="user.name" required>
@@ -47,7 +47,7 @@
 								<input type="submit" class="btn" value="{{'Send my Thoughts!!'|translate}}">
 							</div>
 						</div>
-						<div class="col s12 m4 l4">
+						<div class="col s12 m3 l3 push-m1 push-l1 contact-other">
 							<h5>Want contact by email?</h5>
 							<a class="linx" href="mailto:whatsup@luxore.me">whatsup@luxore.me</a>
 							<h5>Have a complain about something?</h5>

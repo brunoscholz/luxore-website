@@ -1,4 +1,4 @@
-var modalapp = angular.module('uimodal', [
+/*var modalapp = angular.module('uimodal', [
   'ui.router'
 ]);
 
@@ -86,10 +86,10 @@ modalapp.factory('modal', function () {
   };
 
   return modal;
-});
+});*/
 
-modalapp.config(function ($stateProvider, $urlRouterProvider, $locationProvider) {
+//modalapp.config(function ($stateProvider, $urlRouterProvider, $locationProvider) {
   /*$stateProvider
 
   $urlRouterProvider.otherwise('/');*/
-});
+//});

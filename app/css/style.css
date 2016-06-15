@@ -535,6 +535,19 @@ Slider
 .cd-slider p {
   font-size: 1.4rem;
 }
+
+.cd-slider a {
+  color: #000;
+}
+
+.cd-slider a:hover {
+  color: #f3f2f3;
+}
+
+.cd-slider a:before {
+  background-color: #6d2a87;
+}
+
 .cd-slider h2, .cd-slider p {
   line-height: 1.4;
 }
@@ -692,6 +705,19 @@ Slider Navigation
     -o-transform: translateX(-50%) scale(1);
     transform: translateX(-50%) scale(1);
   }
+}
+
+section.contact-form .contact-mail, section.contact-form .contact-other {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 25px 0;
+  margin: 0 auto;
+  border-radius: 20px 20px;
+  text-align: center;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+  min-height: 36em;
+}
+section.contact-form .contact-other {
+  padding-top: 5.65em;
 }
 
 .input-field .prefix ~ label {
