@@ -720,6 +720,12 @@ section.contact-form .contact-other {
   padding-top: 5.65em;
 }
 
+@media only screen and (max-width : 48em), only screen and (max-width : 65em) {
+  section.contact-form .contact-other {
+    margin-top: 20px;
+  }
+}
+
 .input-field .prefix ~ label {
   margin-left: 3rem;
   margin-top: -.7rem;
