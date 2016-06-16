@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html ng-app="app">
   <head>
-    <!-- <base href="/"> -->
-
+    <base href="/">
     <title>Luxore</title>
 
     <!-- Favicons -->

@@ -10,7 +10,7 @@ var app = angular.module('app', [
 ]);
 
 app.config(function ($stateProvider, $urlRouterProvider, $locationProvider) {
-  /*$locationProvider.html5Mode({enabled:true});*/
+  $locationProvider.html5Mode({enabled:true});
 
   var states = [];
   // Root of main app states

@@ -11,9 +11,9 @@
 </section>
 
 <div id="team-list">
-	<section class="team-member">
+	<section id="bruno" class="team-member">
 		<div class="container">
-			<div class="row">
+			<div class="row valign-wrapper">
 				<div class="col l4 m4 s12 center hide-on-small-only">
 					<div class="feature-icon bruno" style="background-image: url('img/team/bruno.png');"></div>					
 				</div>
@@ -46,9 +46,9 @@
 		</div>
 	</section>
 
-	<section class="team-member grey">
+	<section id="cristiano" class="team-member grey">
 		<div class="container">
-			<div class="row">
+			<div class="row valign-wrapper">
 				<div class="col l7 m8 s12">
 					<h1 class="title">Cristiano</h1>
 					<p translate>
@@ -81,9 +81,9 @@
 		</div>
 	</section>
 
-	<section class="team-member">
+	<section id="gustavo" class="team-member">
 		<div class="container">
-			<div class="row">
+			<div class="row valign-wrapper">
 				<div class="col l4 m4 s12 center push-l1 hide-on-small-only">
 					<div class="feature-icon" style="background-image: url('img/team/gustavo.png');"></div>
 				</div>
@@ -116,9 +116,9 @@
 		</div>
 	</section>
 
-	<section class="team-member grey">
+	<section id="loris" class="team-member grey">
 		<div class="container">
-			<div class="row">
+			<div class="row valign-wrapper">
 				<div class="col l7 m8 s12">
 					<h1 class="title">Loris</h1>
 					<p translate>
@@ -154,3 +154,10 @@
 </div>
 
 <div ng-include="'footer.html'"></div>
+
+<script type="text/javascript">
+	$(document).ready(function(){
+	  $('.scrollspy').scrollSpy();
+	  // $('html, body').animate({ scrollTop: 0 }, 'fast');
+	});
+</script>

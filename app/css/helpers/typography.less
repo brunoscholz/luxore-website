@@ -58,9 +58,19 @@ body {
   font-weight: 400;
 }
 
+*::selection {
+  background: @luxore-text-dark; /* WebKit/Blink Browsers */
+  color: @luxore-text-light;
+}
+*::-moz-selection {
+  background: @luxore-text-dark; /* Gecko Browsers */
+  color: @luxore-text-light;
+}
+
 .linx {
   position: relative;
-  color: #404040;
+  color: @luxore-logo-purple;
+  font-weight: 700;
   text-decoration: none;
   .transition(none 0.25s linear);
   &:hover {
