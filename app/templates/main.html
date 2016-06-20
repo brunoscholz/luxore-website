@@ -36,65 +36,59 @@
 </div>
 
 <ul id="slide-out" class="side-nav collapsible collapsible-accordion" data-collapsible="accordion"" ng-controller="HeaderController">
-  <li>
-    <a href="#features" class="linx waves-effect waves-purple">
-      <i class="material-icons">image</i>
-      <span>{{'Features'|translate}}</span>
-    </a>
-  </li>
-  <li>
-    <a href="#the-app" class="linx waves-effect waves-purple">
-      <i class="material-icons">apps</i>
-      <span>{{'The App'|translate}}</span>
-    </a>
-  </li>
-  <li>
-    <a href="/blog" class="linx waves-effect waves-purple">
-      <i class="material-icons">description</i>
-      <span>{{'Blog'|translate}}</span>
-    </a>
-  </li>
-  <li>
+  <li ng-if="!timerRunning">
     <a href="https://www.kickstarter.com/" target="blank" class="linx waves-effect waves-purple">
       <i class="material-icons">people</i>
       <span>Kickstarter</span>
     </a>
   </li>
   <li>
-    <a href="#" class="linx waves-effect waves-purple">
+    <a ui-sref="app.features" class="linx waves-effect waves-purple">
+      <i class="material-icons">apps</i>
+      <span>{{'Features'|translate}}</span>
+    </a>
+  </li>
+  <li>
+    <a ui-sref="app.home({'#':'coin'})" class="linx waves-effect waves-purple">
+      <i class="material-icons">monetization_on</i>
+      <span>{{'LUX Coin'|translate}}</span>
+    </a>
+  </li>
+  <li>
+    <a href="/blog" class="linx waves-effect waves-purple">
+      <i class="material-icons">receipt</i>
+      <span>{{'Blog'|translate}}</span>
+    </a>
+  </li>
+  <li>
+    <a ui-sref="app.faq" class="linx waves-effect waves-purple">
       <i class="material-icons">find_in_page</i>
       <span>{{'FAQ'|translate}}</span>
     </a>
   </li>
   <li>
-    <a href="#0" class="linx waves-effect waves-purple">
-      <i class="material-icons">monetization_on</i>
-      <span>{{'Lux Coin'|translate}}</span>
-    </a>
-  </li>
-  <li>
     <a href="#" class="linx waves-effect waves-purple">
-      <i class="material-icons">receipt</i>
+      <i class="material-icons">description</i>
       <span>{{'Media Kit'|translate}}</span>
     </a>
   </li>
-  <li>
+  <!-- <li>
     <a href="#" class="linx waves-effect waves-purple">
       <i class="material-icons">receipt</i>
       <span>{{'Docs'|translate}}</span>
     </a>
-  </li>
+  </li> -->
   <li>
     <a href="#" class="linx collapsible-header waves-effect waves-purple">
-      <i class="material-icons">receipt</i>
+      <i class="material-icons">flag</i>
       <span>{{'Language'|translate}}</span>
     </a>
-    <div class="collapsible-body">
+    <div class="collapsible-body dropdown-languages">
         <ul>
           <li ng-repeat="option in languages">
             <a ng-click="selectLanguage(option.id)">
               <img ng-src="img/flags/{{option.country}}.png" title="{{option.name}}" alt="{{option.name}}">
-              {{option.name}}
+              <span>{{option.name}}</span>
             </a>
           </li>
         </ul>

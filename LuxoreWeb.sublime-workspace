@@ -4,6 +4,174 @@
 		"selected_items":
 		[
 			[
+				"tra",
+				"translate"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"f3f",
+				"f3f2f3"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"faq",
+				"faqcategories"
+			],
+			[
+				"tabl",
+				"table_name"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"Cou",
+				"could"
+			],
+			[
+				"whats",
+				"whatsup"
+			],
+			[
+				"pa",
+				"params"
+			],
+			[
+				"msg",
+				"message"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"margi",
+				"margin"
+			],
+			[
+				"paddi",
+				"padding"
+			],
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"text",
+				"text-transform"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"st",
+				"style	Tag"
+			],
+			[
+				"news",
+				"newsletter"
+			],
+			[
+				"input",
+				"inputMessage"
+			],
+			[
+				"isn",
+				"is_null"
+			],
+			[
+				"mysqli_fe",
+				"mysqli_fetch"
+			],
+			[
+				"db",
+				"db_name"
+			],
+			[
+				"add",
+				"addToNewsletter"
+			],
+			[
+				"subs",
+				"subscribe"
+			],
+			[
+				"create",
+				"created_at"
+			],
+			[
+				"sub",
+				"subscribe"
+			],
+			[
+				"s",
+				"stmt"
+			],
+			[
+				"iss",
+				"isset"
+			],
+			[
+				"sta",
+				"startClock"
+			],
+			[
+				"kick",
+				"kickTimer"
+			],
+			[
+				"te",
+				"text-transform"
+			],
+			[
+				"lan",
+				"lang"
+			],
+			[
+				"user",
+				"userPrefs"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"na",
+				"navBarNormalHeight"
+			],
+			[
+				"trans",
+				"transform"
+			],
+			[
+				"gami",
+				"gamification"
+			],
+			[
+				"sendMa",
+				"sendMailSuccess"
+			],
+			[
+				"New",
+				"NewsletterData"
+			],
+			[
+				"margin",
+				"margin"
+			],
+			[
+				"index",
+				"normalIndex"
+			],
+			[
 				"ba",
 				"background-color"
 			],
@@ -12,16 +180,8 @@
 				"overNormalIndex"
 			],
 			[
-				"pa",
-				"padding-top"
-			],
-			[
 				"mar",
 				"margin-top"
-			],
-			[
-				"marg",
-				"margin"
 			],
 			[
 				"lis",
@@ -30,14 +190,6 @@
 			[
 				"im",
 				"important"
-			],
-			[
-				"font",
-				"font-weight--normal"
-			],
-			[
-				"trans",
-				"transition"
 			],
 			[
 				"inl",
@@ -72,14 +224,6 @@
 				"scaleValue"
 			],
 			[
-				"st",
-				"sticky"
-			],
-			[
-				"paddi",
-				"padding-top"
-			],
-			[
 				"bor",
 				"border-radius"
 			],
@@ -112,10 +256,6 @@
 				"background-repeat"
 			],
 			[
-				"back",
-				"background-position"
-			],
-			[
 				"8c",
 				"82778c"
 			],
@@ -136,10 +276,6 @@
 				"closeModal"
 			],
 			[
-				"margin",
-				"margin-top"
-			],
-			[
 				"bac",
 				"background-color"
 			],
@@ -150,10 +286,6 @@
 			[
 				"php",
 				"phpassHashObject"
-			],
-			[
-				"tex",
-				"text-decoration"
 			],
 			[
 				"paddin",
@@ -180,10 +312,6 @@
 				"justify"
 			],
 			[
-				"margi",
-				"margin-bottom"
-			],
-			[
 				"fon",
 				"font-family"
 			],
@@ -208,10 +336,6 @@
 				"background-color"
 			],
 			[
-				"padd",
-				"padding-top"
-			],
-			[
 				"i",
 				"list-item"
 			],
@@ -222,10 +346,6 @@
 			[
 				"NO",
 				"no-repeat"
-			],
-			[
-				"pad",
-				"padding"
 			],
 			[
 				"sin",
@@ -240,10 +360,6 @@
 				"cosFunc"
 			],
 			[
-				"text",
-				"text-align"
-			],
-			[
 				"c",
 				"changed"
 			],
@@ -254,10 +370,6 @@
 			[
 				"chan",
 				"changeLang"
-			],
-			[
-				"lan",
-				"languageService"
 			],
 			[
 				"min",
@@ -280,10 +392,6 @@
 				"text-transform"
 			],
 			[
-				"in",
-				"inline"
-			],
-			[
 				"sele",
 				"selectedImage"
 			],
@@ -298,10 +406,6 @@
 			[
 				"borde",
 				"border-top"
-			],
-			[
-				"gami",
-				"Gamification"
 			],
 			[
 				"hero",
@@ -338,10 +442,6 @@
 			[
 				"se",
 				"sessionStorage"
-			],
-			[
-				"user",
-				"userData"
 			],
 			[
 				"cure",
@@ -414,118 +514,17 @@
 			[
 				"Sess",
 				"SessionService"
-			],
-			[
-				"Se",
-				"SessionService"
-			],
-			[
-				"un",
-				"unauthorized-server"
-			],
-			[
-				"inter",
-				"interceptor"
-			],
-			[
-				"forgo",
-				"forgot-password"
-			],
-			[
-				"onLo",
-				"onLoginSuccess"
-			],
-			[
-				"tag",
-				"tagId"
-			],
-			[
-				"for",
-				"forParent"
-			],
-			[
-				"$route",
-				"$route	AngularJS"
-			],
-			[
-				"Look",
-				"LookModel"
-			],
-			[
-				"loo",
-				"lookModel"
-			],
-			[
-				"$sc",
-				"$scope	AngularJS"
-			],
-			[
-				"look",
-				"lookId"
-			],
-			[
-				"Tag",
-				"TagModel"
-			],
-			[
-				"Vitri",
-				"VitrinaModule"
-			],
-			[
-				"mongo",
-				"mongoRouter"
-			],
-			[
-				"sco",
-				"_scope"
-			],
-			[
-				"edi",
-				"editingFile"
-			],
-			[
-				"pic",
-				"picFile"
-			],
-			[
-				"app",
-				"apply"
-			],
-			[
-				"an",
-				"angular-route"
-			],
-			[
-				"or",
-				"originalContext"
-			],
-			[
-				"ori",
-				"originalContext"
-			],
-			[
-				"fuc",
-				"function"
-			],
-			[
-				"e",
-				"editingFile"
-			],
-			[
-				"read",
-				"readFile"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"contents": " Having a default set of objects (Contacts, Opportunities..)\n✓ Defining your own objects and fields\n✓ Controlling access to objects and fields at a granular level\n✓ Adding, searching, and deleting records of any type\n✓ Validating data in those fields\n✓ Basic reporting and exporting\n✓ Managing users, logins, and passwords\n\nBut many things are not actually required for an MVP:\n\n✗ Workflow and rule-based actions\n✗ Server-side code execution\n✗ Bulk import functionality\n✗ Layout customization\n✗ External integrations\n✗ Bulk data load application\n✗ Marketing and sales machines\n✗ ... and lots of other stuff.\n\n\n    Standardising decentralised processes that impede customer relationships – to replace old systems that risk quality, cost and customer experience.\n    Enhancing connections with customers via new technologies – to prioritise human-driven interaction with customers, and move away from dated mass automation.\n    Utilising new channels that offer a path to more personal customer communications – practicing communications across smart devices, video and social media to achieve a personal approach.”\n\n\n    Understand the issues and challenges that you currently face when interacting with your customer.  “For example, do your team have the information they need readily available to respond to customer queries? Can you provide a seamless experience for your customer regardless of the channel? Is time being spent with customers or on repetitive manual tasks? This will help you understand your internal challenges,” she explains.\n    Identify your customer journeys.  “A customer journey is how your customer interacts with your business, e.g. purchasing a product, reporting an issue. Then align your internal business processes with these journeys.  This will help you determine if you are easy or hard to do business with.”\n    Identify how you will measure success, what will your KPIs be. “Once you have identified them, measure your current state of play. That way you will have a comparison point.”\n    Identify critical business dates or milestones. “Do you have a new product launch coming? Do you have a busy period that requires a systems freeze, etc. This will he you determine critical timing.”\n\n\n    The cultural readiness of the organisation to adopt a customer-centric approach to business.\n    A clear vision of what good CRM looks like across the organisation.\n    Clearly documented customer journeys across the organisation.\n    A communication plan for sharing the actionable items within the strategy, progress charts that show what has been implemented and where.\n    An education program for the entire staff, including third-parties who may have involvement in the interactions with the organisation’s customers.\n    An implementation plan, including a feedback loop that allows everyone to highlight implementation or execution problems.\n    Clear leadership – ideally including the responsibilities of the most senior managers in terms of managing the operationalisation of the strategy.\n    Clear measures that show everyone the value of adopting and applying the strategic initiatives.\n    The selection of appropriate software to support the unique CRM strategy of the organisation.\n    Celebration of excellence when it is achieved – how do we know we are at a point of excellence?\n\n\n    Relationship objectives - What are the key objectives of the programme? What is the ultimate vision and mission for the brand’s relationship with customers and prospects?\n    Customer need states - Through customer/prospect research, determine the needs of customers throughout their purchase journey and after as a customer. Determine priorities and identify gaps that should be met.\n    User journeys - Map out example user journeys of customers interacting with the business to determine when, how, and what the CRM system would provide.\n    Data strategy plan -Data is the core of the platform. Consideration should be given on how to make sure all data is passed back to the CRM from any additional platforms and how the data flows out of the CRM to any relevant platforms.\n    CRM system plan - Determine the stages of relationship with prospects/customers, map out the moments for contact interaction, and identity the necessary workflows required by employees to make it happen.\n    Content strategy and process - Content is at the heart of CRM. A content strategy must be developed to determine the topical themes, forms, channels, tone and cadence of the relationships with contacts. Equally it’s important to identify a process for creating the content (internal/external), how it’s created (production, design, approvals), and when it will be published (editorial calendar).\n    Feature requirements - Interview end users of the system to determine the most important features and user cases so that the system is selected and built in a way that meets the most important requirements.\n    System selection - Research and demo different systems to determine the one that most thoroughly meets the CRM objectives, customer needs, feature requirements and budget model.\n    Training - Training is a key element to determine adoption. Investing in one-to-one or group training, as well as continued support, will help to establish adoption and unlock the value of the system amongst employees.\n\n",
+			"contents": "\nhttps://www.youtube.com/watch?v=j9JXtTj0mzE\nhttp://idav.ucdavis.edu/~okreylos/ResDev/Vrui/index.html\n\nTo summarise, you will need to obtain the 6D pose of the camera in every frame i.e. you need to figure out where the camera is in the real world (translation), and where it is pointing (rotation). This is usually done by first tracking salient features in the scene, estimating their 3D positions and then using the perceived motion of these features to figure out the camera pose in every frame. You will need to define an origin (you cannot use the camera as the origin for the problem you're trying to solve) in the real world and have at least 4 known/measured points as a reference to start with. In the video you've included in your question, Augment seem to use a printed pattern to get the initial camera pose. They then track features in the real world to continue tracking the pose.\n\nOnce you have the camera pose, you can position the 3D object in the real world using projections. The camera pose is encoded the essential/fundamental camera matrix, using which you can transform any 3D point in the world to a 2D position in the camera's frame. So to render a virtual 3D point in the real world, say at (x, y, z), you will project (x, y, z) to 2D point (u, v) using the camera matrix. Then render the point on the image obtained from the camera. Do this for every point of the object you want to render, and you're done :)\n\nIt's a classic problem. In the Movie Visual Effects (VFX) industry it's called matchmoving. It boils down to solving the Structure from Motion (SfM) problem for the given image sequence, and specifically estimating the camera intrinsic parameters and position/pose at every frame with respect to an arbitrary origin point (for example, the position/pose at the first frame of the sequence).\n\nRelevant search terms: \"sfm\", \"matchmoving\", \"bundle adjustment\", \"ceres solver\".\n\nThe Ceres bundle adjuster from Google's has been opensourced and includes an Android port (which powers the \"spherical\" camera mode in recent releases).\n\n",
 			"settings":
 			{
-				"buffer_size": 5340,
-				"line_ending": "Unix",
-				"name": "Having a default set of objects (Contacts, Opport"
+				"buffer_size": 2068,
+				"line_ending": "Windows"
 			}
 		},
 		{
@@ -537,15 +536,6 @@
 			}
 		},
 		{
-			"contents": "9133 2446\nEvelyn\nevytrend\nevelyn@evytrend.com",
-			"settings":
-			{
-				"buffer_size": 45,
-				"line_ending": "Unix",
-				"name": "9133 2446"
-			}
-		},
-		{
 			"file": "/C/Users/bruno_000/Documents/Oction/Luxore/docs/blog-posts.txt",
 			"settings":
 			{
@@ -554,10 +544,34 @@
 			}
 		},
 		{
+			"contents": "\n\"table\": \"user_profile\",\n\"tableFields\": [\n	{\n		\"name\": \"message\",\n		\"type\": \"String\",\n		\"length\": 320\n	},\n	{\n		\"name\": \"transactionId\",\n		\"type\": \"String\",\n		\"length\": 21,\n		\"not_null\": true\n	}\n]\n\nuserId\nfirstName\nlastName\nbirthday\ngender\naboutMe\npictureBigUrl\npictureSmallUrl\npictureUrl\ninterests\n\nfavoriteBooks\nfavoriteMovies\nfavoriteMusic\nfavoriteQuotes\nfavoriteTVShows\nwebAddFriendLink\nwebNotesByUserLink\nwebPicturesByUserLink\nwebPicturesOfUserLink\nwebPostOnUserWallLink\nwebProfileLink\nwebSendMessageLink\n\ncurrentLocation\n	city\n	state\n	country\nprofession\n\n\"table\": \"asset_looks\",\n\"table\": \"vitrine\",\n\"table\": \"spaces\",\n\"table\": \"asset_tips\",\n\"table\": \"asset_achievements\",\n\"table\": \"asset_tags\",\n\"table\": \"asset_lists\",\n\"table\": \"notifications\",\n\"table\": \"messenger\",\n\"table\": \"newspaper\",\n\nlike\nshare\nfollow\nwallet\n\n	{\n		\"table\": \"relationship\",\n		\"alias\": \"r\",\n		\"type\": \"table\",\n		\"tableFields\": [\n			{\n				\"name\": \"id\",\n				\"type\": \"String\",\n				\"length\": 21,\n				\"not_null\": true,\n				\"unique\": true,\n				\"primary_key\": true\n			}\n		]\n	},\n	{\n		\"table\": \"asset_messages\",\n		\"alias\": \"msg\",\n		\"type\": \"table\",\n		\"tableFields\": [\n			{\n				\"name\": \"message\",\n				\"type\": \"String\",\n				\"length\": 320\n			},\n			{\n				\"name\": \"transactionId\",\n				\"type\": \"String\",\n				\"length\": 21,\n				\"not_null\": true\n			}\n		],\n		\"foreignKeys\": [\n			{\n				\"field\": \"transactionId\",\n				\"table\": \"transactions\",\n				\"table_field\": \"id\",\n				\"on_delete\": \"cascade\"\n			}\n		]\n	},\n	{\n		\"table\": \"asset_token\",\n		\"alias\": \"tkn\",\n		\"type\": \"table\",\n		\"tableFields\": [\n			{\n				\"name\": \"name\",\n				\"type\": \"String\",\n				\"length\": 16,\n				\"not_null\": true\n			},\n			{\n				\"name\": \"description\",\n				\"type\": \"Text\",\n				\"not_null\": true\n			},\n			{\n				\"name\": \"fund\",\n				\"type\": \"BigInt\",\n				\"not_null\": true\n			},\n			{\n				\"name\": \"transactionId\",\n				\"type\": \"String\",\n				\"length\": 21,\n				\"not_null\": true\n			}\n		],\n		\"foreignKeys\": [\n			{\n				\"field\": \"transactionId\",\n				\"table\": \"transactions\",\n				\"table_field\": \"id\",\n				\"on_delete\": \"cascade\"\n			}\n		]\n	},\n	{\n		\"table\": \"asset_terms\",\n		\"alias\": \"term\",\n		\"type\": \"table\",\n		\"tableFields\": [\n			{\n				\"name\": \"id\",\n				\"type\": \"BigInt\",\n				\"autoincrement\": true\n\n			},\n			{\n				\"name\": \"termCategoryId\",\n				\"type\": \"BigInt\",\n				\"autoincrement\": true\n\n			},\n			{\n				\"name\": \"transactionId\",\n				\"type\": \"String\",\n				\"length\": 21,\n				\"not_null\": true\n			}\n		],\n		\"foreignKeys\": [\n			{\n				\"field\": \"transactionId\",\n				\"table\": \"transactions\",\n				\"table_field\": \"id\",\n				\"on_delete\": \"cascade\"\n			}\n		]\n	}",
+			"settings":
+			{
+				"buffer_size": 2551,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "var look = angular.module('app.Look', [\n  'ActiveRecord',\n  'LookTimeline',\n  'tw.services.fileReader',\n  'Dropzone'\n]);\n\n(function (BaseController) {\n  var vm = null;\n  var _scope = {};\n  var _twFileReader = null;\n  var _payload = {};\n  var _service = null;\n\n  var maxWidth = 500,\n      maxHeight = 500,\n      imgWidth  = 500,\n      imgHeight = 500,\n      originalCanvas = null;\n\n  function LookController($scope, payload, action, $location, $http, LookService, twFileReader) {\n    BaseController.call(this, $scope);\n    vm = this;\n    vm._scope = $scope;\n    vm._twFileReader = twFileReader;\n    vm._payload = payload;\n    vm._service = LookService;\n\n    $scope.editingFile = false;\n\n    // only necessary when creating...\n    $scope.dropzoneConfig = {\n      'options': {\n        // passed into the Dropzone constructor\n        'url': 'upload.php',\n        'uploadMultiple': false,\n        'autoProcessQueue': false,\n        'acceptedFiles' : 'image/*',\n        init: function() {\n          this.on(\"addedfile\", function(file) {\n            $scope.editingFile = true;\n            vm.readFile(file);\n          });\n\n          $scope.dropzoneObj = this;\n          $scope.clearFiles = function() {\n            // Using \"_this\" here, because \"this\" doesn't point to the dropzone anymore\n            $scope.dropzoneObj.removeAllFiles();\n            $scope.editingFile = false;\n            // If you want to cancel uploads as well, you\n            // could also call _this.removeAllFiles(true);\n          };\n        }\n      },\n      'eventHandlers': {\n        \n      }\n    };\n\n    switch(action) {\n      // create new post\n      case 'new':\n        $scope.init = vm.initCreate.bind($scope);\n        break;\n      // edit the post\n      case 'edit':\n        $scope.init = vm.initUpdate.bind($scope);\n        break;\n      // view - details\n      case 'view':\n        $scope.init = vm.initView.bind($scope);\n        // menus, links and breadcrumbs\n        break;\n      // defaults to list\n      default:\n        $scope.init = vm.initList.bind($scope);\n    }\n\n    $scope.init();\n\n    /*var onLogoutSuccess = function(response) {\n      $location.path('/login');\n    };\n\n    $scope.logout = function() {\n      AuthenticationService.logout().success(onLogoutSuccess);\n    };*/\n  }\n\n  LookController.prototype.parseJson = function(set) {\n    return JSON.parse(set);\n  };\n\n  LookController.prototype.initCreate = function() {\n    //the item being created in the form\n    vm._scope.look = { id: null, caption: 'Untitled', pic: '', tags: [] };\n\n    // possibly aditional filters to buy and aquired or made by users \n    vm._scope.photoFilters = vm._service.DefaultFilters();\n    vm._scope.rawpicture = { url: '', width: 0, height: 0 };\n    vm._scope.picFile = {};\n    vm._scope.model = vm._scope.filteredData = vm._payload;\n  };\n\n  LookController.prototype.initUpdate = function() {\n    vm._scope.model = vm._scope.filteredData = vm._payload;\n  };\n\n  LookController.prototype.initView = function() {\n    vm._scope.model = vm._scope.filteredData = vm._payload;\n  };\n\n  LookController.prototype.initList = function() {\n    vm._scope.model = vm._scope.filteredData = vm._payload;\n  };\n\n  LookController.prototype.tagAdded = function(tag) {\n    vm._scope.look.tags.push(tag.text);\n    vm._scope.model.tags += ((vm._scope.model.tags !== '') ? ',' : '') + tag.text;\n  };\n\n  LookController.prototype.applyFilter = function(effect) {\n    if(!vm._scope.editingFile) {\n      alert('Toast here: Upload a picture first!');\n      return;\n    }\n    // Clone the canvas\n    var clone = vm.originalCanvas.cloneNode(true);\n    \n    // Clone the image stored in the canvas as well\n    clone.getContext('2d').drawImage(vm.originalCanvas,0,0);\n    document.getElementById(\"dropzone\").innerHTML = null;\n    document.getElementById(\"dropzone\").appendChild(clone); \n\n    new Caman(clone, function () {\n      // If such an effect exists, use it:\n      if( effect in this ) {\n      this[effect]();\n      this.render(function () {\n        var image = this.toBase64();\n        //saveImgBase64(image);\n        vm._scope.look.picFile = image;\n        vm._scope.$apply();\n      });\n      }\n    });\n  };\n\n  LookController.prototype.readFile = function(file) {\n    vm._twFileReader.readAsDataURL(file).then(function(dataURL) {\n      var img = new Image();\n      img.onload = function() {\n        var imgWidth  = img.width;\n        var imgHeight = img.height;\n        var newWidth, newHeight, ratio;\n\n        // Calculate the new image dimensions, so they fit\n        // inside the maxWidth x maxHeight bounding box\n        if (imgWidth >= maxWidth || imgHeight >= maxHeight) {\n          // The image is too large,\n          // resize it to fit a 500x500 square!\n          if (imgWidth > imgHeight) {\n            // Wide\n            ratio = imgWidth / maxWidth;\n            newWidth = maxWidth;\n            newHeight = imgHeight / ratio;\n          } else {\n            // Tall or square\n            ratio = imgHeight / maxHeight;\n            newHeight = maxHeight;\n            newWidth = imgWidth / ratio;\n          }\n        } else {\n          newHeight = imgHeight;\n          newWidth = imgWidth;\n        }\n\n        vm.originalCanvas=document.getElementById(\"look-canvas\");\n        var originalContext = vm.originalCanvas.getContext(\"2d\");\n\n        // Set the attributes for centering the canvas\n        vm.originalCanvas.setAttribute(\"width\", newWidth);\n        vm.originalCanvas.setAttribute(\"height\", newHeight);\n\n        // Draw the dropped image to the canvas\n        // with the new dimensions\n        originalContext.drawImage(this, 0, 0, newWidth, newHeight);\n\n        vm._scope.picFile = img;\n        vm._scope.rawpicture = img.src;\n        vm._scope.$apply();\n\n        /*var c = Caman(vm.originalCanvas); \n        if (c.isLoaded) {\n          c.render(function () {\n            var image = this.toBase64();\n            vm._scope.look.picFile = image;\n            vm._scope.$apply();\n          });\n        }*/\n\n        // We don't need this any more\n        img.remove();\n      };\n\n      img.src = dataURL;\n    });\n  };\n\n  LookController.prototype = Object.create(BaseController);\n\n  LookController.prototype.onDispose = function () {\n    console.log(\"LookController.dtor\");\n    BaseController.prototype.onDispose.call(this);\n  };\n\n  look.controller(\"LookController\", ['$scope', 'payload', 'action', '$location', '$http', 'LookService', 'twFileReader', LookController]);\n})(BaseController);\n\n/*angular.module('app.Look').factory('LookModel', ['mongolabResource', function ($mongolabResource) {\n\n  var Looks = $mongolabResource('look');\n\n  Looks.forPhoto = function(lookId, successcb, errorcb) {\n  //TODO: get projects for this user only (!)\n  return Looks.query({}, successcb, errorcb);\n  };\n\n  Looks.prototype.getTags = function (lookId) {\n  var allTags = [];\n  \n  var tags = this.tags.split(',');\n  for(var t in tags) {\n    allTags.push(tags[t]);\n  }\n  \n  return allTags;\n  };\n\n  return Looks;\n}]);*/\n\nangular.module('app.Look').factory('TagModel', ['mongolabResource', function ($mongolabResource) {\n\n  var Tags = $mongolabResource('tag');\n\n  /*Tags.forPhoto = function(lookId, successcb, errorcb) {\n  //TODO: get projects for this user only (!)\n  return Looks.query({}, successcb, errorcb);\n  };*/\n\n  /*Tags.prototype.getParent = function (tagId) {\n  var p = this.parent;\n  \n  for(var t in tags) {\n    allTags.push(tags[t]);\n  }\n  \n  return allTags;\n  };*/\n\n  return Tags;\n}]);\n\nangular.module('app.Look').factory('DateModel', ['mongolabResource', function ($mongolabResource) {\n\n  var DateDim = $mongolabResource('date');\n\n  /*Tags.forPhoto = function(lookId, successcb, errorcb) {\n  //TODO: get projects for this user only (!)\n  return Looks.query({}, successcb, errorcb);\n  };*/\n\n  /*Tags.prototype.getParent = function (tagId) {\n  var p = this.parent;\n  \n  for(var t in tags) {\n    allTags.push(tags[t]);\n  }\n  \n  return allTags;\n  };\n\n  $http.get('/tags.json').success(function(data) {\n    for(var t in data) {\n    console.log(data[t].name);\n     var tag = new DateModel();\n      tag.dateId = data[t].dateId;\n      tag.year = data[t].year;\n      tag.month = data[t].month;\n      tag.monthName = data[t].monthName;\n      tag.day = data[t].day;\n      tag.dayName = data[t].dayName;\n      tag.date = data[t].date;\n      tag.dateName = data[t].dateName;\n      tag.dayInYear = data[t].dayInYear;\n     tag.$saveOrUpdate(changeSuccess, changeSuccess, changeError, changeError);\n    }\n  });\n\n  */\n\n  return DateDim;\n}]);",
+			"settings":
+			{
+				"buffer_size": 8481,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "$stateProvider\n    //set up the app parent state, and its child-states\n    .state('app', {\n      abstract: true,\n      sticky: true,\n      views: {\n        'master': { templateUrl: 'main.html' }\n      }\n    })\n\n    .state('app.home', {\n      url: '/',\n      views: {\n        'mainContent@app': {\n          templateUrl: 'views/site/home.html',\n          controller: 'AppController'\n        },\n        'fabContent@app': {},\n      }\n    })\n    .state('app.features', {\n      url: '/features',\n      views: {\n        'mainContent@app': {\n          templateUrl: 'views/site/features.html',\n          controller: 'AppController'\n        },\n        'fabContent@app': {\n          /*template: '<button id=\"fab-friends\" class=\"button button-fab button-fab-top-left expanded button-energized spin\"><i class=\"icon ion-chatbubbles\"></i></button>',\n          controller: function ($timeout) {\n            $timeout(function () {\n              document.getElementById('fab-friends').classList.toggle('on');\n            }, 900);\n          }*/\n        }\n      }\n    })\n\n    .state('app.faq', {\n      url: '/faq',\n      views: {\n        'mainContent@app': {\n          templateUrl:'views/site/faq.html'\n        }\n      }\n      //controller:'FaqController',\n    })\n\n    .state('app.terms', {\n      url: '/terms-of-use',\n      views: {\n        'mainContent@app': {\n          templateUrl:'views/site/terms.html'\n        }\n      }\n    })\n    .state('app.ethics', {\n      url: '/ethical-guidelines',\n      views: {\n        'mainContent@app': {\n          templateUrl:'views/site/ethics.html'\n        }\n      }\n    })\n\n    //set up the modal parent state, and its child-states\n    .state(\"Modal\", {\n      abstract: true,\n      sticky: true,\n      views: {\n        'modal': { templateUrl: 'modal.html' }\n      },\n\n      onEnter: [\"$state\", function($state) {\n        $(document).on(\"keyup\", function(e) {\n          if(e.keyCode === 27) {\n            $(document).off(\"keyup\");\n            //$state.go(\"Modal.Default\");\n            //$scope.closeModal();\n          }\n        });\n\n        /*$(document).on(\"click\", \".Modal-backdrop, .Modal-holder\", function() {\n          $state.go(\"Modal.Default\");\n        });\n\n        $(document).on(\"click\", \".Modal-box, .Modal-box *\", function(e) {\n          e.stopPropagation();\n        });*/\n      }],\n    })\n    .state(\"Modal.Default\", {})\n    .state(\"Modal.bitcoinDonate\", {\n      templateUrl: \"modals/bitcoin.html\"\n    })\n    .state(\"Modal.watchVideo\", {\n      templateUrl: \"modals/video.html\"\n    });\n\n    /*.state('splash', {\n      url: '/splash',\n      templateUrl: 'templates/luxore.html',\n      controller: 'SplashCtrl'\n    })*/\n\n    // if none of the above states are matched, use this as the fallback\n    $urlRouterProvider.otherwise('/');\n\n",
+			"settings":
+			{
+				"buffer_size": 2760,
+				"line_ending": "Unix"
+			}
+		},
+		{
 			"file": "app/pages/index.us",
 			"settings":
 			{
-				"buffer_size": 5460,
+				"buffer_size": 5829,
 				"line_ending": "Windows"
 			}
 		},
@@ -565,7 +579,47 @@
 			"file": "app/js/app.js",
 			"settings":
 			{
-				"buffer_size": 8017,
+				"buffer_size": 11615,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/templates/views/site/faq.html",
+			"settings":
+			{
+				"buffer_size": 22874,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/templates/views/site/ethics.html",
+			"settings":
+			{
+				"buffer_size": 6187,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/templates/views/site/terms.html",
+			"settings":
+			{
+				"buffer_size": 10447,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "\nbadges... laborious hands, artisan especialist, royal artisan\n",
+			"settings":
+			{
+				"buffer_size": 63,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/css/faq.css",
+			"settings":
+			{
+				"buffer_size": 8529,
 				"line_ending": "Windows"
 			}
 		},
@@ -573,39 +627,103 @@
 			"file": "app/templates/views/site/home.html",
 			"settings":
 			{
-				"buffer_size": 9717,
+				"buffer_size": 25346,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "app/templates/main.html",
+			"file": "app/templates/views/site/team.html",
 			"settings":
 			{
-				"buffer_size": 3570,
+				"buffer_size": 5209,
 				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "\nLuxore for me is a big project with bigger intentions! As a developer, this is the greatest project I ever been involved. It's amazing to be part of such a revolutionary idea. As libertarian, I always wanted to do something to the liberty cause and I can't imagine myself writing on ethics or economics, but I can understand it, so Luxore is a bunch of good ideas and concepts blended into a decentralized social network with a digital coin. That represents what freedom is to me: no masters, no rulers!\n\nA Luxore para mim é um grande projeto com intenções enormes! Como desenvolvedor, este é o maior projeto em que já estive envolvido. É incrível fazer parte de uma ideia tão revolucionária. Como libertário, sempre quis fazer algo pela causa da liberdade e não me imagino escrevendo sobre ética ou economia, mas entendo, então a Luxore é um apanhado de boas ideias e conceitos misturados em uma rede social descentralizada com uma moeda digital. Isso representa o que a liberdade é pra mim: sem mestres, sem reguladores!",
+			"settings":
+			{
+				"buffer_size": 1023,
+				"line_ending": "Unix"
 			}
 		},
 		{
 			"file": "app/templates/views/site/features.html",
 			"settings":
 			{
-				"buffer_size": 10429,
+				"buffer_size": 11252,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "app/js/modules/docs/docs.js",
+			"file": "app/templates/views/site/contact.html",
 			"settings":
 			{
-				"buffer_size": 2358,
+				"buffer_size": 3885,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "app/templates/views/docs/main.html",
+			"file": "app/templates/main.html",
 			"settings":
 			{
-				"buffer_size": 3626,
+				"buffer_size": 4890,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/css/style.css",
+			"settings":
+			{
+				"buffer_size": 17544,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "\nEu posso vender um serviço que não seja na moeda da rede?\nPoderei vender com cartões de crédito, débito, boletos na rede?\nÉ seguro apostar na compra dessa moeda?\nA moeda sofre alteração de valor com a inflação do mercado?\nEu pago taxas igual a um banco normal?",
+			"settings":
+			{
+				"buffer_size": 261,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/templates/footer.html",
+			"settings":
+			{
+				"buffer_size": 2779,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/templates/views/docs/footer.html",
+			"settings":
+			{
+				"buffer_size": 1962,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/static/send_email.php",
+			"settings":
+			{
+				"buffer_size": 8449,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/static/unsubscribe.php",
+			"settings":
+			{
+				"buffer_size": 635,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/static/objects/news.php",
+			"settings":
+			{
+				"buffer_size": 3200,
 				"line_ending": "Windows"
 			}
 		},
@@ -613,55 +731,7 @@
 			"file": "app/templates/views/docs/index.html",
 			"settings":
 			{
-				"buffer_size": 1277,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/templates/views/docs/about.html",
-			"settings":
-			{
-				"buffer_size": 1223,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/templates/views/docs/features/looks.html",
-			"settings":
-			{
-				"buffer_size": 7198,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/templates/views/docs/features/studios.html",
-			"settings":
-			{
-				"buffer_size": 1782,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/templates/views/docs/features/news.html",
-			"settings":
-			{
-				"buffer_size": 1961,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/templates/views/docs/features/gamification.html",
-			"settings":
-			{
-				"buffer_size": 1869,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/css/style.css",
-			"settings":
-			{
-				"buffer_size": 33874,
+				"buffer_size": 2299,
 				"line_ending": "Windows"
 			}
 		},
@@ -669,18 +739,7 @@
 			"file": "app/css/style.less",
 			"settings":
 			{
-				"buffer_size": 10261,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"contents": "/*********************\n     FAQ Section\n**********************/\n.faq {\n  width: 90%;\n  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);\n}\n.faq:after {\n  content: \"\";\n  display: table;\n  clear: both;\n}\n@media only screen and (min-width: 768px) {\n  .faq {\n    position: relative;\n    box-shadow: none;\n  }\n}\n\n.table-of-contents a.active {\n  border-left: 2px solid #4b0a70;\n}\n\n.collapsible-body p {\n  color: black;\n  font-size: 1.3rem;\n}\n\n.faq-categories a {\n  position: relative;\n  display: block;\n  overflow: hidden;\n  height: 50px;\n  line-height: 50px;\n  padding: 0 28px 0 16px;\n  background-color: #4e5359;\n  -webkit-font-smoothing: antialiased;\n  -moz-osx-font-smoothing: grayscale;\n  color: #ffffff;\n  white-space: nowrap;\n  border-bottom: 1px solid #555b61;\n  text-overflow: ellipsis;\n}\n.faq-categories a::before, .faq-categories a::after {\n  /* plus icon on the right */\n  position: absolute;\n  top: 50%;\n  right: 16px;\n  display: inline-block;\n  height: 1px;\n  width: 10px;\n  background-color: #7f868e;\n}\n.faq-categories a::after {\n  -webkit-transform: rotate(90deg);\n  -moz-transform: rotate(90deg);\n  -ms-transform: rotate(90deg);\n  -o-transform: rotate(90deg);\n  transform: rotate(90deg);\n}\n.faq-categories li:last-child a {\n  border-bottom: none;\n}\n@media only screen and (min-width: 768px) {\n  .faq-categories {\n    width: 20%;\n    float: left;\n    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.08);\n  }\n  .faq-categories a {\n    font-size: 13px;\n    font-size: 0.8125rem;\n    font-weight: 600;\n    padding-left: 24px;\n    padding: 0 24px;\n    -webkit-transition: background 0.2s, padding 0.2s;\n    -moz-transition: background 0.2s, padding 0.2s;\n    transition: background 0.2s, padding 0.2s;\n  }\n  .faq-categories a::before, .faq-categories a::after {\n    display: none;\n  }\n  .no-touch .faq-categories a:hover {\n    background: #555b61;\n  }\n  .no-js .faq-categories {\n    width: 100%;\n    margin-bottom: 2em;\n  }\n}\n@media only screen and (min-width: 1024px) {\n  .faq-categories {\n    position: absolute;\n    top: 0;\n    left: 0;\n    width: 200px;\n    z-index: 2;\n  }\n  .faq-categories a::before {\n    /* decorative rectangle on the left visible for the selected item */\n    display: block;\n    top: 0;\n    right: auto;\n    left: 0;\n    height: 100%;\n    width: 3px;\n    background-color: #a9c056;\n    opacity: 0;\n    -webkit-transition: opacity 0.2s;\n    -moz-transition: opacity 0.2s;\n    transition: opacity 0.2s;\n  }\n  .faq-categories .selected {\n    background: #42464b !important;\n  }\n  .faq-categories .selected::before {\n    opacity: 1;\n  }\n  .faq-categories.is-fixed {\n    /* top and left value assigned in jQuery */\n    position: fixed;\n  }\n  .no-js .faq-categories {\n    position: relative;\n  }\n}\n\n.faq-items {\n  position: fixed;\n  height: 100%;\n  width: 90%;\n  top: 0;\n  right: 0;\n  background: #ffffff;\n  padding: 0 5% 1em;\n  overflow: auto;\n  -webkit-overflow-scrolling: touch;\n  z-index: 1;\n  -webkit-backface-visibility: hidden;\n  backface-visibility: hidden;\n  -webkit-transform: translateZ(0) translateX(100%);\n  -moz-transform: translateZ(0) translateX(100%);\n  -ms-transform: translateZ(0) translateX(100%);\n  -o-transform: translateZ(0) translateX(100%);\n  transform: translateZ(0) translateX(100%);\n  -webkit-transition: -webkit-transform .3s;\n  -moz-transition: -moz-transform .3s;\n  transition: transform .3s;\n}\n.faq-items.slide-in {\n  -webkit-transform: translateZ(0) translateX(0%);\n  -moz-transform: translateZ(0) translateX(0%);\n  -ms-transform: translateZ(0) translateX(0%);\n  -o-transform: translateZ(0) translateX(0%);\n  transform: translateZ(0) translateX(0%);\n}\n.no-js .faq-items {\n  position: static;\n  height: auto;\n  width: 100%;\n  -webkit-transform: translateX(0);\n  -moz-transform: translateX(0);\n  -ms-transform: translateX(0);\n  -o-transform: translateX(0);\n  transform: translateX(0);\n}\n@media only screen and (min-width: 768px) {\n  .faq-items {\n    position: static;\n    height: auto;\n    width: 78%;\n    float: right;\n    overflow: visible;\n    -webkit-transform: translateZ(0) translateX(0);\n    -moz-transform: translateZ(0) translateX(0);\n    -ms-transform: translateZ(0) translateX(0);\n    -o-transform: translateZ(0) translateX(0);\n    transform: translateZ(0) translateX(0);\n    padding: 0;\n    background: transparent;\n  }\n}\n@media only screen and (min-width: 1024px) {\n  .faq-items {\n    float: none;\n    width: 100%;\n    padding-left: 220px;\n  }\n  .no-js .faq-items {\n    padding-left: 0;\n  }\n}\n\n.close-panel {\n  position: fixed;\n  top: 5px;\n  right: -100%;\n  display: block;\n  height: 40px;\n  width: 40px;\n  overflow: hidden;\n  text-indent: 100%;\n  white-space: nowrap;\n  z-index: 2;\n  /* Force Hardware Acceleration in WebKit */\n  -webkit-transform: translateZ(0);\n  -moz-transform: translateZ(0);\n  -ms-transform: translateZ(0);\n  -o-transform: translateZ(0);\n  transform: translateZ(0);\n  -webkit-backface-visibility: hidden;\n  backface-visibility: hidden;\n  -webkit-transition: right 0.4s;\n  -moz-transition: right 0.4s;\n  transition: right 0.4s;\n}\n.close-panel::before, .close-panel::after {\n  /* close icon in CSS */\n  position: absolute;\n  top: 16px;\n  left: 12px;\n  display: inline-block;\n  height: 3px;\n  width: 18px;\n  background: #6c7d8e;\n}\n.close-panel::before {\n  -webkit-transform: rotate(45deg);\n  -moz-transform: rotate(45deg);\n  -ms-transform: rotate(45deg);\n  -o-transform: rotate(45deg);\n  transform: rotate(45deg);\n}\n.close-panel::after {\n  -webkit-transform: rotate(-45deg);\n  -moz-transform: rotate(-45deg);\n  -ms-transform: rotate(-45deg);\n  -o-transform: rotate(-45deg);\n  transform: rotate(-45deg);\n}\n.close-panel.move-left {\n  right: 2%;\n}\n@media only screen and (min-width: 768px) {\n  .close-panel {\n    display: none;\n  }\n}\n\n.no-touch .faq-title:hover {\n  box-shadow: none;\n}\n.faq-title h2 {\n  text-transform: uppercase;\n  font-size: 1.2rem;\n  font-weight: 700;\n  color: #bbbbc7;\n}\n\n.faq-trigger {\n  position: relative;\n  display: block;\n  margin: 1.6em 0 .4em;\n  line-height: 1.2;\n}\n@media only screen and (min-width: 768px) {\n  .faq-trigger {\n    font-size: 24px;\n    font-size: 1.5rem;\n    font-weight: 300;\n    margin: 0;\n    padding: 24px 72px 24px 24px;\n  }\n  .faq-trigger::before, .faq-trigger::after {\n    /* arrow icon on the right */\n    position: absolute;\n    right: 24px;\n    top: 50%;\n    height: 2px;\n    width: 13px;\n    background: #cfdca0;\n    -webkit-backface-visibility: hidden;\n    backface-visibility: hidden;\n    -webkit-transition-property: -webkit-transform;\n    -moz-transition-property: -moz-transform;\n    transition-property: transform;\n    -webkit-transition-duration: 0.2s;\n    -moz-transition-duration: 0.2s;\n    transition-duration: 0.2s;\n  }\n  .faq-trigger::before {\n    -webkit-transform: rotate(45deg);\n    -moz-transform: rotate(45deg);\n    -ms-transform: rotate(45deg);\n    -o-transform: rotate(45deg);\n    transform: rotate(45deg);\n    right: 32px;\n  }\n  .faq-trigger::after {\n    -webkit-transform: rotate(-45deg);\n    -moz-transform: rotate(-45deg);\n    -ms-transform: rotate(-45deg);\n    -o-transform: rotate(-45deg);\n    transform: rotate(-45deg);\n  }\n  .content-visible .faq-trigger::before {\n    -webkit-transform: rotate(-45deg);\n    -moz-transform: rotate(-45deg);\n    -ms-transform: rotate(-45deg);\n    -o-transform: rotate(-45deg);\n    transform: rotate(-45deg);\n  }\n  .content-visible .faq-trigger::after {\n    -webkit-transform: rotate(45deg);\n    -moz-transform: rotate(45deg);\n    -ms-transform: rotate(45deg);\n    -o-transform: rotate(45deg);\n    transform: rotate(45deg);\n  }\n}\n\n.faq-content p {\n  font-size: 14px;\n  font-size: 0.875rem;\n  line-height: 1.4;\n  color: #6c7d8e;\n}\n@media only screen and (min-width: 768px) {\n  .faq-content {\n    display: none;\n    padding: 0 24px 30px;\n  }\n  .faq-content p {\n    line-height: 1.6;\n  }\n  .no-js .faq-content {\n    display: block;\n  }\n}",
-			"file": "app/css/faq.css",
-			"file_size": 8087,
-			"file_write_time": 131094595993215434,
-			"settings":
-			{
-				"buffer_size": 7816,
+				"buffer_size": 24165,
 				"line_ending": "Windows"
 			}
 		},
@@ -689,15 +748,15 @@
 			"settings":
 			{
 				"buffer_size": 5321,
-				"line_ending": "Unix"
+				"line_ending": "Windows"
 			}
 		},
 		{
 			"file": "app/css/helpers/typography.less",
 			"settings":
 			{
-				"buffer_size": 1665,
-				"line_ending": "Unix"
+				"buffer_size": 1942,
+				"line_ending": "Windows"
 			}
 		},
 		{
@@ -712,15 +771,7 @@
 			"file": "/C/Users/bruno_000/Documents/Oction/Luxore/liveblog/style.css",
 			"settings":
 			{
-				"buffer_size": 61388,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/C/Users/bruno_000/Documents/Oction/Luxore/liveblog/content.php",
-			"settings":
-			{
-				"buffer_size": 2913,
+				"buffer_size": 62678,
 				"line_ending": "Windows"
 			}
 		},
@@ -733,10 +784,7 @@
 			}
 		},
 		{
-			"contents": "/*\nTheme Name: Materialize\nTheme URI: http://mythem.es/item/materialize-free-wordpress-theme/\nDescription: Materialize is an white, clean, elegant, modern, creative and beautiful freemium WordPress theme built with HTML5 and CSS3. The clean, white, elegant, modern and creative design can be used for any type of website: business, corporate, portfolio, products, creative, arts, design, construction, transport, manufacturing, ecology, cosmetics, beauty, hygiene, sports, culture, presentations, food business, restaurants, drink, bar, pub, club, radio, tv, television, music, movies, live style, garden, cuisine, chemical, pharmaceutical, medicine, travel, sample blog, agriculture, science, politics and more others. The theme is builded base on white, clean and responsive Material Design Concept. This theme is suitable for all type of devices: desktop, notebook, tablete, iPhone and others. Responsive design and Materialia Design Concept are based on Materialize framework. Theme is developed by myThem.es. We carefully handcrafted this theme with a strong focus on typography, usability and overall user-experience. It’s very quick to setup and easy to customize. It also comes with free support. Please read the FAQ: Admin Dashboard > Appearances > Materialize FAQ.\nVersion: 0.0.8  \nTags:  black, silver, light, white, red, green, three-columns, two-columns, one-column, right-sidebar, left-sidebar, fluid-layout, responsive-layout, flexible-header, featured-images, sticky-post, theme-options, translation-ready, custom-colors, custom-menu, featured-image-header, threaded-comments, custom-background, custom-header\nText Domain: materialize\nAuthor: myThem.es\nAuthor URI: http://mythem.es/\nLicense: GNU General Public License v2.0\nLicense URI: http://www.gnu.org/licenses/gpl-2.0.html\n\n\n\n\n    Materialize, Copyright 2015 myThem.es\n    Materialize is distributed under the terms of the GNU GPL\n\n\n                     ________________\n                    |_____    _______|\n     ___ ___ ___   __ __  |  |  __       ____   ___ ___ ___       ____   ____ \n    |           | |_ |  | |  | |  |___  |  __| |           |     |  __| |  __|\n    |   |   |   |  | |  | |  | |  __  | |  __| |   |   |   |  _  |  __| |__  |\n    |___|___|___|   |  |  |__| |_ ||_ | |____| |___|___|___| |_| |____| |____|   \n                    |_|\n\n\n                         myThem.es Marketplace provides WordPress themes with\n                                    the best quality and the smallest prices.\n\n\n\n\n*/\n/* ALIGN TEXT */\n.align-none{\n    text-align: none;\n}\n.align-left{\n    text-align: left;\n}\n.align-center{\n    text-align: center;\n}\n.align-justify{\n    text-align: justify;\n}\n.align-right{\n    text-align: right;\n}\n\n/* WORDPRESS */\n.alignleft,\n.alignright{\n    margin-top: 10px;\n    margin-bottom: 10px;\n}\n.alignnone,\n.aligncenter{\n    margin-top: 25px;\n    margin-bottom: 25px;\n}\n\ndiv.mythemes-page > .aligncenter:first-child,\ndiv.mythemes-page > .alignnone:first-child{\n    margin-top: 0px;\n}\ndiv.mythemes-page > .aligncenter:last-child,\ndiv.mythemes-page > .alignnone:last-child{\n    margin-bottom: 0px;\n}\n.alignleft{\n    float:left;\n    margin-right: 15px;\n}\n.alignright{\n    float:right;\n    margin-left: 15px;\n}\n.aligncenter{\n    clear:both;\n    display: block;\n    margin-left:auto;\n    margin-right:auto;\n    text-align: center;\n}\n\n.sticky,\n.gallery-caption,\n.screen-reader-text,\n.bypostauthor{}\n\n.wp-caption{\n    background-color: #ffffff;\n\n    -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);\n       -moz-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);\n            box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);\n}\n.wp-caption,\n.wp-caption p,\n.wp-caption a{\n    font-style: italic;\n}\n.wp-caption,\n.wp-caption p{\n    color: #454545;\n}\nsection .wp-caption p,\nsection .wp-caption p.wp-caption-text{\n    background: #ffffff;\n    color: #454545;\n    padding: 15px 25px;\n    margin: 0px;\n    line-height: 24px;\n}\nsection .post-thumbnail .valign-bottom-cell-wrapper{\n    height: auto;\n}\n.single-portfolio .thumbnail-content footer,\nsection .post-thumbnail footer{\n    background: rgba( 0,0,0, 0.4 );\n    color: #ffffff;\n    font-style: italic;\n    padding: 10px;\n}\n.wp-caption img{\n    display: block;\n    \n    width: -webkit-calc( 100% + 10px );\n    width: calc( 100% + 10px );\n\n}\n\n.mythemes-round-corners{\n    -webkit-border-radius: 5px;\n       -moz-border-radius: 5px;\n            border-radius: 5px;\n}\n\ncode {\n    background: #e9e9e9;\n    font-size: 12px;\n    padding: 8px 15px;\n  \n    -webkit-border-radius: 2px;\n       -moz-border-radius: 2px;\n            border-radius: 2px;\n}\ncode {\n    font-family: Consolas, \"Liberation Mono\", Courier, monospace;\n    font-weight: 400;\n    color: #333;\n}\n\naside.mythemes-sidebar div.widget {\n    background-color: #f5f5f5;\n    margin-bottom: 20px;\n    -webkit-box-shadow: 0 2px 5px 0 rgba(130, 119, 140, 0.66), 0 2px 10px 0 rgba(130, 119, 140, 0.42);\n    -moz-box-shadow: 0 2px 5px 0 rgba(130, 119, 140, 0.66), 0 2px 10px 0 rgba(130, 119, 140, 0.42);\n    box-shadow: 0 2px 5px 0 rgba(130, 119, 140, 0.66), 0 2px 10px 0 rgba(130, 119, 140, 0.42);\n}\n\ndiv.widget h4.widget-title {\n    background-color: #fff;\n    color: #4b0a70;\n    font-family: 'Poiret One', sans-serif, Arial, serif;\n    font-size: 16px;\n    font-style: normal;\n    font-variant: normal;\n    font-weight: 400;\n    line-height: 20px;\n    margin: 0px;\n    padding: 5px 20px;\n    letter-spacing: 1px;\n    text-transform: uppercase;\n    border-bottom: 1px solid #ddd;\n}\n\nbody.single section article, .mythemes-classic > article {\n    background: #f5f5f5;\n    padding: 30px 30px 50px 30px;\n    margin-top: 20px;\n}\n\ndiv.nav-wrapper div.not-collapsed-wrapper {\n    display: inline-block;\n    padding: 0;\n}\n\n.btn-luxore {\n  display: inline-block;\n  color: #f3f2f3;\n  position: relative;\n  z-index: 1;\n  width: 37px;\n  height: 37px;\n  line-height: 37px;\n  padding: 0;\n  background-color: #82778c;\n  border-radius: 100%;\n  transition: .3s;\n  cursor: pointer;\n  vertical-align: middle;\n  text-align: center;\n  padding-right: 3px;\n  padding-top: 3px;\n}\n\n.btn-luxore:hover {\n  background-color: #82778c;\n}\n\n.btn-luxore:after {\n  content: '';\n  background-color: transparent;\n  width: 37px;\n  height: 37px;\n  border: 2px solid #60526d;\n  border-radius: 100%;\n  position: absolute; /* could also be absolute */ \n  z-index: 10;\n  right: 2px;\n  top: 3px;\n}\n\n.btn-luxore.btn-large {\n  width: 55px;\n  height: 55px;\n  line-height: 54px;\n  font-size: 1.2rem;\n}\n\n.btn-luxore.btn-large:after {\n  width: 55px;\n  height: 55px;\n  border: 3px solid #60526d;\n  right: 2px;\n  top: 3px;\n}\n\nh1.title {\n    font-size: 37px;\n    line-height: 34px;\n    font-weight: 900;\n    font-style: normal;\n    font-family: \"Poiret One\", cursive;\n    /*color: #3B3B3B;*/\n    letter-spacing: 2.5px;\n    margin-left: auto;\n    margin-right: auto;\n    position: relative;\n    text-align: center;\n    text-transform: uppercase;\n}\n\n.lux-header ul.brand,\n.lux-header ul.brand li,\n.lux-header nav a {\n  -webkit-transition: all 0.3s;\n  -moz-transition: all 0.3s;\n  transition: all 0.3s;\n}\n.lux-header ul.brand li.brand-logo img, \n.lux-header {\n  -webkit-transition: all 0.5s;\n  -moz-transition: all 0.5s;\n  transition: all 0.5s;\n}\n.lux-header {\n  position: fixed;\n  width: 100%;\n  height: 200px;\n  z-index: 998;\n  background: transparent;\n  overflow: hidden;\n}\n\n.lux-header .nav-wrapper {}\n\n.lux-header ul.brand {\n  list-style: none outside none;\n  height: 200px;\n  line-height: 200px;\n}\n\n.lux-header ul.brand li {\n  display: inline-block;\n  float: left;\n  padding-left: 20px;\n}\n\n.lux-header ul.brand li.brand-logo {\n\n}\n\n.lux-header ul.brand li.brand-logo img {\n  width: 150px;\n  vertical-align: middle;\n}\n\n.lux-header .brand-title {\n  margin: 0;\n  cursor: pointer;\n  font-family: 'Poiret One', cursive;\n  color: #fff;\n  font-weight: 400;\n  font-size: 3.4rem;\n  text-transform: uppercase;\n}\n\n.lux-header nav {\n  float: right;\n  background-color: transparent;\n  box-shadow: unset;\n  margin-top: -150px;\n}\n\n.lux-header nav li {\n  line-height: 75px;\n}\n\n.lux-header nav a {\n  color: #f3f2f3;\n  font-weight: 700;\n  margin: 0 0 0 20px;\n  font-size: 1.4em;\n}\n\n.lux-header nav a:hover {\n  color: #333;\n}\n\n.lux-header nav a.translation-button {\n  padding-right: 25px;\n}\n\n.lux-header nav a.translation-button img {\n  vertical-align: middle;\n}\n\n.dropdown-content li > a, .dropdown-content li > span {\n    display: block;\n    padding: 14px 0;\n}\n\n.lux-header.shrink {\n  height: 75px;\n  /*box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);*/\n  /*background-color: #82778c;*/\n  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);\n  background: -webkit-linear-gradient(-45deg, #43285f, #82778c);\n  background: -o-linear-gradient(-45deg, #43285f, #82778c);\n  background: -moz-linear-gradient(-45deg, #43285f, #82778c);\n  background: linear-gradient(-45deg, #43285f, #82778c);\n}\n\n.lux-header.shrink nav {\n  width: 70%;\n  height: 75px;\n  margin-top: -75px;\n}\n\n.lux-header.shrink ul.brand {\n  height: 75px;\n  line-height: 75px;\n  margin: 0;\n  margin-bottom: 0;\n}\n\n.lux-header.shrink ul.brand li {\n  display: inline-block;\n  height: 75px;\n  padding-left: 20px;\n  vertical-align: middle;\n  text-align: center;\n}\n\n.lux-header ul.brand li,\n.lux-header.shrink nav a {\n  \n}\n\n.lux-header.shrink ul.brand li.brand-logo {\n  padding-top: 7px;\n}\n\n.lux-header.shrink ul.brand li.brand-logo img {\n  width: 60px;\n  vertical-align: unset;\n}\n\n.lux-header.shrink .brand-title {\n  font-size: 2.6rem;\n}\n\n.lux-header .brand-title:hover {\n  color: #6d2a87\n}\n\n@-webkit-keyframes fadeIn {\n    from { opacity: 0; }\n      to { opacity: 1; }\n}\n\n@keyframes fadeIn {\n    from { opacity: 0; }\n      to { opacity: 1; }\n}\n\n@-webkit-keyframes fadeOut {\n    from { opacity: 1; }\n      to { opacity: 0; }\n}\n\n@keyframes fadeOut {\n    from { opacity: 1; }\n      to { opacity: 0; }\n}\n\n@keyframes grow {\n  0% {\n    display: none;\n    opacity: 0;\n  }\n  10% {\n    display: block;\n    opacity: 0;\n    transform: scale(1);\n  }\n  100% {\n    opacity: 1;\n    transform: scale(1);\n  }\n}\n\n/* Example Media Queries */\n@media screen and (max-width: 55em) {\n  \n  .lux-header .lux-inner {\n    width: 100%;\n  }\n\n  .lux-header h1,\n  .lux-header nav {\n    display: block;\n    margin: 0 auto;\n    text-align: center;\n    float: none;\n  }\n\n  .lux-header h1,\n  .lux-header nav a {\n    line-height: 115px;\n  }\n\n  .lux-header nav a {\n    margin: 0 10px;\n  }\n\n  .lux-header.shrink h1,\n  .lux-header.shrink nav a {\n    line-height: 45px;\n  }\n\n  .lux-header.shrink h1 {\n    font-size: 2em;\n  }\n\n  .lux-header.shrink nav a {\n    font-size: 1em;\n  }\n}\n\n@media screen and (max-width: 32.25em) {\n  .lux-header nav a {\n    font-size: 1em;\n  }\n}\n\n@media screen and (max-width: 24em) {\n  .lux-header nav a,\n  .lux-header.shrink nav a {\n    line-height: 1;\n  }\n}\n\n.content {\n  padding-top: 120px;\n  padding-bottom: 80px;\n}\n\ndiv.mythemes-page-header {\n    display: none;\n}\n\n/* POSTS */\n\nbody.single section article, .mythemes-classic > article, div.comments-list div.mythemes-comments {\n    -webkit-box-shadow: 0 2px 5px 0 rgba(130, 119, 140, 0.66), 0 2px 10px 0 rgba(130, 119, 140, 0.42);\n    -moz-box-shadow: 0 2px 5px 0 rgba(130, 119, 140, 0.66), 0 2px 10px 0 rgba(130, 119, 140, 0.42);\n    box-shadow: 0 2px 5px 0 rgba(130, 119, 140, 0.66), 0 2px 10px 0 rgba(130, 119, 140, 0.42);\n}\n\nbody.single section article, .mythemes-classic > article {\n    background: #ffffff;\n    padding: 30px 30px 50px 30px;\n    margin-top: 20px;\n}\n\ndiv.comments-list div.mythemes-comments {\n    background-color: #ffffff;\n    margin: 20px 0px;\n    padding: 20px 30px;\n}\n\nbody.single section div.post-meta-terms {\n  background-color: transparent;\n  margin: unset;\n  padding: 20px 30px;\n  -webkit-box-shadow: none;\n  -moz-box-shadow: none;\n  box-shadow: none;\n}\n\n/* POST h1 & title */\n.mythemes-classic article h2.post-title {\n    margin-top: 0px;\n    margin-bottom: 10px;\n}\n\n.hentry h1.post-title, article h1.post-title, .hentry h2.post-title, article h2.post-title, .hentry h1, article h1 {\n    font-size: 34px;\n    line-height: 42px;\n    font-family: \"Poiret One\", cursive;\n    color: #82778c;\n    font-weight: bold;\n}\n\narticle h2.post-title a {\n    color: #6d2a87;\n    font-size: 42px;\n    line-height: 50px;\n    font-family: \"Poiret One\", cursive;\n    font-weight: bold;\n}\n\narticle h2.post-title a:hover {\n    color: #6d2a87;\n    text-decoration: none;\n}\n\ndiv.widget_post_tags div.tagcloud a, div.widget_tag_cloud div.tagcloud a {\n    position: relative;\n    background-color: #f3f2f3;\n    border: 2px solid #6d2a87;\n    color: #6d2a87;\n    display: inline-block;\n    font-size: 12px !important;\n    line-height: 24px;\n    padding: 2px 14px;\n    margin: 5px 0px 0px 5px;\n    text-transform: uppercase;\n    -webkit-box-sizing: border-box;\n    -moz-box-sizing: border-box;\n    box-sizing: border-box;\n    -webkit-transition: all 0.2s linear;\n    -moz-transition: all 0.2s linear;\n    -ms-transition: all 0.2s linear;\n    -o-transition: all 0.2s linear;\n    transition: all 0.2s linear;\n    border-radius: 30px;\n}\n\ndiv.widget_post_tags div.tagcloud a:hover, div.widget_tag_cloud div.tagcloud a:hover {\n    background-color: #6d2a87;\n    color: #f3f2f3;\n}\n\nbody.single section div.post-meta-tags a {\n    background-color: #6d2a87;\n    -webkit-user-select: none;\n    -moz-user-select: none;\n    -ms-user-select: none;\n    user-select: none;\n    -webkit-tap-highlight-color: transparent;\n    vertical-align: middle;\n    z-index: 1;\n    will-change: opacity, transform;\n    -webkit-transition: all .3s ease-out;\n    -moz-transition: all .3s ease-out;\n    -o-transition: all .3s ease-out;\n    -ms-transition: all .3s ease-out;\n    transition: all .3s ease-out;\n    border-radius: 30px;\n}\n\nbody.single section div.post-meta-tags a:hover {\n    color: #6d2a87;\n    background-color: #f3f2f3;\n    border: 1px solid #6d2a87;\n}\n\n/* categories */\narticle div.meta ul.post-categories li a {\n    background-color: #6d2a87;\n    color: #ffffff;\n    padding: 5px 12px;\n    margin: 0px;\n    -webkit-user-select: none;\n    -moz-user-select: none;\n    -ms-user-select: none;\n    user-select: none;\n    -webkit-tap-highlight-color: transparent;\n    vertical-align: middle;\n    z-index: 1;\n    will-change: opacity, transform;\n    -webkit-transition: all .3s ease-out;\n    -moz-transition: all .3s ease-out;\n    -o-transition: all .3s ease-out;\n    -ms-transition: all .3s ease-out;\n    transition: all .3s ease-out;\n}\n\narticle div.meta ul.post-categories li a:hover, div.comment-respond form.comment-form button.submit-comment:hover {\n    color: #6d2a87;\n    background-color: #f3f2f3;\n    border: 1px solid #6d2a87;\n}\n\narticle div.post-content {\n    padding-top: 20px;\n}\n\narticle div.post-content h1 {\n    color: #6d2a87;\n    font-family: \"Poiret One\", cursive;\n    font-weight: 600;\n}\n\nsection div.mythemes-page blockquote, section article blockquote {\n    border-left: 5px solid #6d2a87;\n    background-color: #f5f5f5;\n    margin: 20px 0;\n    padding: 10px 15px 10px 55px;\n    font-size: 14px;\n    font-style: italic;\n    color: #000000;\n}\n\nblockquote {\n    \n}\n\nblockquote::before, blockquote::before {\n    content: '\\ec91';\n    color: #6d2a87;\n    font-family: \"fontello\";\n    font-style: normal;\n    font-weight: normal;\n    font-size: 22px;\n    speak: none;\n    float: left;\n    margin: 0px 0px 0px -40px;\n    display: inline-block;\n    text-decoration: inherit;\n    text-align: center;\n    font-variant: normal;\n    text-transform: none;\n}\n\nbody.single section div.post-meta-tags span {\n    background-color: transparent !important;\n    color: #6d2a87;\n    box-shadow: unset;\n}\n\ndiv.comment-respond form.comment-form button.submit-comment {\n    background-color: #6d2a87;\n    color: rgba( 255, 255, 255, 0.8 );\n    float: right;\n    font-family: Raleway, sans-serif, Arial, serif;\n    font-weight: normal;\n    font-variant: normal;\n    font-style: normal;\n    margin: -45px 0px 40px 0px;\n    text-transform: uppercase;\n    -webkit-transition: all 0.3s linear;\n    -moz-transition: all 0.3s linear;\n    -ms-transition: all 0.3s linear;\n    -o-transition: all 0.3s linear;\n    transition: all 0.3s linear;\n    -webkit-border-radius: 0px;\n    -moz-border-radius: 0px;\n    -ms-border-radius: 0px;\n    -o-border-radius: 0px;\n    border-radius: 0px;\n}\n\n/*  */\n\n#join {\n  background-image: url(\"https://d2ypq1gviimup.cloudfront.net/img/events/2015_fashion_show_bg6.jpg\");\n  background-color: #f3f2f3;\n  background-position: center center;\n  background-size: cover;\n  padding-bottom: 70px;\n  padding-top: 70px;\n  text-align: center;\n}\n\n#join p {\n  text-align: center;\n  font-size: 1.3rem;\n}\n\n.terms, .ethics {\n}\n\n.terms .row p, .ethics .row p {\n  font-size: 1.2rem;\n  text-align: justify !important;\n  color: #000;\n}\n\n.terms h2, .ethics h2 {\n  font-size: 2.3rem;\n}\n\n.terms h3, .ethics h3 {\n  text-align: left;\n  font-size: 1.6rem;\n}\n\n#social-contacts {\n  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12) inset;\n  padding-top: 20px;\n}\n\n#social-contacts .social {\n  display: table;\n  margin: 0 auto;\n}\n\n#social-contacts .social ul {\n  margin-right:auto;\n  margin-left:auto;\n  text-align:center;\n}\n\n#social-contacts .social ul li {\n  display: inline;\n}\n\n#social-contacts .social ul li a {\n  display: inline-block;\n  width: 50px;\n  height: 50px;\n  margin: 5px;\n  text-align: center;\n}\n\nfooter {\n  font-weight: 500;\n  font-style: normal;\n  box-shadow: inset 0px -1px 0 0 #D1D1D1;\n}\n\nfooter.page-footer {\n  padding-top: 76px;\n  margin-top: -20px;\n  background: -webkit-linear-gradient(-45deg, #43285f, #82778c);\n  background: -o-linear-gradient(-45deg, #43285f, #82778c);\n  background: -moz-linear-gradient(-45deg, #43285f, #82778c);\n  background: linear-gradient(-45deg, #43285f, #82778c);\n}\n\nfooter .brand-logo img {\n  width: 200px;\n}\n\nfooter, footer p.lux-text {\n  font-family: \"Poiret One\", cursive;\n  font-weight: 500;\n  color: #fff;\n  text-transform: uppercase;\n  font-size: 2rem;\n}\n\nfooter ul {\n  font-family: Helvetica;\n  text-transform: lowercase;\n  font-size: 1.1rem;\n  margin-left: 40%;\n}\n\nfooter ul li {\n  padding-top: 10px;\n}\n\nfooter ul li a {\n  color: #b1b1b1;\n  transition: all 0.3s linear;\n}\n\nfooter ul li a:hover {\n  color: #fff;\n}\n\nfooter.footer-copyright {\n  background-color: #D1D1D1;\n}\n\n.scrollup {\n  position:fixed;\n  bottom: 50px; \n  right: 35px;\n}\n",
 			"file": "/C/Users/bruno_000/Documents/Oction/Luxore/blog/style.css",
-			"file_size": 19212,
-			"file_write_time": 131091902683601554,
 			"settings":
 			{
 				"buffer_size": 18312,
@@ -823,10 +871,14 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 392.0,
-		"last_filter": "",
+		"height": 196.0,
+		"last_filter": "lore",
 		"selected_items":
 		[
+			[
+				"lore",
+				"Snippet: Lorem ipsum"
+			],
 			[
 				"",
 				"Snippet: Lorem ipsum"
@@ -864,44 +916,87 @@
 	],
 	"file_history":
 	[
+		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/static/sitemap.xml",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/website/generated/robots.txt",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/static/.htaccess",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/website/generated/.htaccess",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/templates/modal.html",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/templates/views/site/newsletter.html",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/js/modules/docs/docs.js",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/templates/views/docs/main.html",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/website/config/application.js",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/js/modules/modal.js",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/templates/modals/bitcoin.html",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/templates/modals/video.html",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/docs/mailSignature/signature_bruno.html",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/docs/blog_hello.html",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/js/common/directives/modal.js",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/templates/main.html",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/js/common/services/faqServices.js",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/static/config/database.php",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/templates/views/docs/features/gamification.html",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/templates/views/docs/features/news.html",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/templates/views/docs/features/studios.html",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/templates/views/docs/features/social.html",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/templates/views/docs/features/looks.html",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/templates/views/docs/about.html",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/templates/views/site/contact.html",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/website/generated/objects/news.php",
+		"/C/wamp/www/OctionWeb/protected/controllers/SiteController.php",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/website/generated/send_email.html",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/website/.git/COMMIT_EDITMSG",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/website/vendor/js/angular-timer.min.js",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/js/lib/common.js",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/templates/views/site/features.html",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/js/common/services/languageService.js",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/docs/blog-posts.txt",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/docs/blog_studios.html",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/docs/blog_studios_en.html",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/docs/blog_fashion.html",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/docs/blog_fashion_en.html",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/js/lib/timeline-nav.js",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/resolutions.json",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/website/generated/css/app.less.css",
+		"/C/Users/bruno_000/Documents/Bruno/Work/Unity Projects/HotBusinessSebrae/HotBusiness/Builds/BurgerBusinessNC/StreamingAssets/gameData.xml",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/docs/blog_coins_en.txt",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/docs/blog_coins.txt",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/liveblog/content.php",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/static/googlede94927e10af50ac.html",
+		"/C/Users/bruno_000/AppData/Local/Temp/7zO8312EA88/readme.md",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/docs/signature_bruno.html",
+		"/C/Users/bruno_000/Documents/Oction/signature_bruno.html",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/templates/views/docs/features/coin.html",
 		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/templates/views/docs/features/tags.html",
 		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/templates/views/docs/features/search.html",
-		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/templates/views/docs/features/coin.html",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/templates/views/site/faq.html",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/js/lib/cd-slider.js",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/js/lib/bitcoindonate.js",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/templates/views/site/ethics.html",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/templates/views/site/terms.html",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/static/objects/news.php",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/pages/send_email.php",
+		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/css/style.less",
+		"/C/Users/bruno_000/Documents/Oction/GalaxyCRM/project/app/js/app.js",
+		"/C/Users/bruno_000/Documents/Oction/GalaxyCRM/php/create_person.php",
+		"/C/Users/bruno_000/Documents/Oction/GalaxyCRM/project/app/js/modules/people/people.js",
+		"/C/wamp/www/OctionWeb/protected/views/site/_contact.php",
 		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/templates/views/docs/footer.html",
 		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/css/faq.css",
-		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/js/lib/common.js",
-		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/templates/modals/video.html",
-		"/C/Users/bruno_000/Documents/Oction/Luxore/website/generated/css/app.less.css",
 		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/css/main.less",
 		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/css/helpers/mixins.less",
-		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/templates/views/docs/features/gamification.html",
 		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/templates/views/docs/features/lists.html",
 		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/templates/views/docs/features/messenger.html",
-		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/templates/views/docs/features/news.html",
 		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/templates/views/docs/features/profile.html",
 		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/templates/views/docs/features/notifications.html",
-		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/templates/views/docs/features/social.html",
 		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/templates/views/docs/features/tips.html",
-		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/templates/views/docs/features/studios.html",
-		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/templates/modals/bitcoin.html",
-		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/templates/views/site/faq.html",
 		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/templates/footer.html",
-		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/templates/main.html",
-		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/templates/views/site/terms.html",
-		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/js/common/directives/modal.js",
 		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/js/lib/cd-modal.js",
 		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/js/modules/terms/terms.js",
 		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/js/modules/faq/faq.js",
-		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/templates/views/site/ethics.html",
 		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/templates/views/site/home.html",
-		"/C/Users/bruno_000/Documents/Oction/Luxore/website/config/application.js",
 		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/templates/header.html",
-		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/js/lib/timeline-nav.js",
 		"/C/Users/bruno_000/Documents/Oction/Luxore/website/vendor/js/ngClipboard.js",
-		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/js/lib/bitcoindonate.js",
 		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/css/bitcoin.css",
-		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/templates/modal.html",
-		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/js/modules/modal.js",
 		"/C/Users/bruno_000/Documents/Oction/Luxore/liveblog/footer.php",
 		"/C/Users/bruno_000/Documents/Oction/Luxore/liveblog/template-parts/post-meta.php",
 		"/C/Users/bruno_000/Documents/Oction/Luxore/liveblog/searchform.php",
@@ -909,7 +1004,6 @@
 		"/C/Users/bruno_000/Desktop/Luxore/Luxore_comp_vs03_zh.srt",
 		"/C/Users/bruno_000/Documents/Oction/Luxore/bkp/horizontal-timeline/css/style.css",
 		"/C/wamp/www/OctionGalaxyProject/ng-yii/src/scripts/app.js",
-		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/js/lib/cd-slider.js",
 		"/C/Users/bruno_000/Documents/Oction/Luxore/bkp/morphing-modal-window/index.html",
 		"/C/Users/bruno_000/Documents/Oction/Luxore/bkp/morphing-modal-window/css/style.css",
 		"/C/Users/bruno_000/Documents/Oction/Luxore/bkp/morphing-modal-window/js/main.js",
@@ -949,49 +1043,7 @@
 		"/C/Users/bruno_000/Documents/Oction/Luxore/Settings.txt",
 		"/C/Users/bruno_000/Documents/Oction/angular-app-master/client/src/common/resources/projects.js",
 		"/C/Users/bruno_000/Documents/Oction/angular-app-master/client/src/common/security/authorization.js",
-		"/C/Users/bruno_000/Documents/Oction/angular-app-master/client/src/app/projects/projects.js",
-		"/C/Users/bruno_000/Documents/Oction/Luxore/project/app/js/common/security/security.js",
-		"/C/Users/bruno_000/Documents/Oction/Luxore/project/app/js/modules/friends/friends.js",
-		"/C/Users/bruno_000/Documents/Oction/Luxore/project/app/templates/home.html",
-		"/C/Users/bruno_000/Documents/Oction/Luxore/project/app/js/lib/common.js",
-		"/C/Users/bruno_000/Documents/Oction/Luxore/project/app/js/common/services/languageService.js",
-		"/C/Users/bruno_000/Documents/Oction/Luxore/project/app/js/common/services/navbar.js.js",
-		"/C/Users/bruno_000/Documents/Oction/Luxore/project/app/pages/index.us",
-		"/C/Users/bruno_000/Documents/Oction/GalaxyCRM/project/galaxy.sublime-project",
-		"/C/Users/bruno_000/Documents/Oction/angular-app-master/client/src/common/services/crud.js",
-		"/C/Users/bruno_000/Documents/Oction/angular-app-master/client/src/common/services/crudRouteProvider.js",
-		"/C/Users/bruno_000/Documents/Oction/Luxore/docs/lottery.txt",
-		"/C/Users/bruno_000/Documents/Oction/GalaxyCRM/docs/democracy.sol",
-		"/C/Users/bruno_000/Documents/Oction/GalaxyCRM/docs/Crowdfunding.sol",
-		"/C/wamp/www/humhub/protected/modules_core/wall/StreamAction.php",
-		"/C/wamp/www/humhub/protected/modules_core/wall/models/WallEntry.php",
-		"/C/wamp/www/humhub/protected/modules_core/wall/models/Wall.php",
-		"/C/Users/bruno_000/Documents/Oction/Luxore/docs/lhs.txt",
-		"/C/Users/bruno_000/Documents/Oction/Vitrina/Bkp/Docs/Whitepaper_sketch.txt",
-		"/C/Users/bruno_000/Documents/Oction/Vitrina/Assets/_StrangeVitrina/Game/Model/GameModel.cs",
-		"/C/Users/bruno_000/Documents/Oction/Seguranca/ideas",
-		"/C/wamp/www/bfgminer/wallet/wallet.dat",
-		"/C/Users/bruno_000/Documents/Bruno/BitCoin/Lib/Calculator-master/snapshot.php",
-		"/C/Users/bruno_000/Documents/Bruno/BitCoin/Lib/Calculator-master/calculate.php",
-		"/C/Users/bruno_000/AppData/Roaming/Bitcoin/bitcoin.conf",
-		"/C/Users/bruno_000/Documents/Oction/Institutional/vitrinaWallet.dat",
-		"/C/Users/bruno_000/Documents/Oction/Institutional/Bitcoin_presentation.txt",
-		"/C/Users/bruno_000/Documents/Oction/Institutional/Bitcoin.txt",
-		"/C/Users/bruno_000/Documents/Oction/GalaxyCRM/project/README.md",
-		"/C/Users/bruno_000/Documents/Oction/Luxore/docs/blog_coins.txt",
-		"/C/Users/bruno_000/Documents/Oction/Luxore/docs/blog_coins.html",
-		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/css/style.css",
-		"/C/Users/bruno_000/Documents/Oction/Luxore/ionic/Luxore/www/lib/ionic-material/src/scss/index.scss",
-		"/C/Users/bruno_000/Documents/Oction/Luxore/ionic/Luxore/www/lib/ionic-material/src/scss/elements/button-fab.scss",
-		"/C/Users/bruno_000/Documents/Oction/Luxore/website/vendor/css/materialize.css",
-		"/C/Users/bruno_000/Documents/Oction/Luxore/ionic/Luxore/www/lib/ionic-material/src/scss/helpers/ionic-variables.scss",
-		"/C/Users/bruno_000/Documents/Oction/Luxore/ionic/Luxore/www/lib/ionic-material/src/scss/helpers/utilities.scss",
-		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/templates/main/terms.html",
-		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/templates/main/ethics.html",
-		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/templates/main/home.html",
-		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/templates/docs/header.html",
-		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/templates/docs/index.html",
-		"/C/Users/bruno_000/Documents/Oction/Luxore/website/app/templates/features.html"
+		"/C/Users/bruno_000/Documents/Oction/angular-app-master/client/src/app/projects/projects.js"
 	],
 	"find":
 	{
@@ -1009,6 +1061,60 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"translate",
+			"text",
+			"spread",
+			"quote",
+			"slider",
+			"modal",
+			"btn",
+			"video",
+			"modal",
+			"social",
+			"<li><a href=\"#privacy\" translate>Privacy & Security</a></li>",
+			"feature",
+			"Thanks",
+			"40px",
+			"title",
+			"addToNewsletter",
+			"Please",
+			"footer",
+			"whatshot",
+			"slider",
+			"@small",
+			"small",
+			"@medium",
+			"smartphones",
+			"feature-icon",
+			"scrol",
+			"look",
+			"tag",
+			"<a href",
+			"linx",
+			"lin",
+			"linx",
+			"h3",
+			"bold",
+			"verdana",
+			"arial",
+			"luxore.me",
+			"footer",
+			"”",
+			"“",
+			".brand-title",
+			"ul.side-nav",
+			"li.logo",
+			"controller",
+			"url",
+			"controller",
+			"url",
+			";\n",
+			"jpg",
+			"join",
+			"rem",
+			"”",
+			"“",
+			"keyframes",
 			"waves-teal",
 			"tags",
 			"tablets",
@@ -1082,61 +1188,7 @@
 			"nav",
 			"content",
 			"300",
-			".cd-horizontal-timeline",
-			"cd-timeline-navigation",
-			".cd-horizontal-timeline",
-			"dropdown",
-			"translation",
-			"translate",
-			"translation",
-			"brand-logo",
-			"shrink",
-			"header",
-			"Por",
-			"Por quê LUX vale mais que dinheiro?! | Why LUX worth more than money?!\nLUX é a moeda usada para transações dentro da Luxore. É uma moeda digital baseada nos mesmos princípios\ndo Bitcoin... E ela vale mais que dinheiro! Silvio Santos, um apresentador brasileiro, dizia que ouro valia\nmais que dinheiro. Por quê ele faria tal afirmação? Primeiro é necessário entender como nosso dinheiro \nfunciona: o governo tem o controle e o poder de \"criar\" eese bem, e ele é só um pedaço de papel.\nAntigamente, dinheiro era vinculado a algum tipo de bem valioso; o ouro era um deles. Isso significava\nque ninguém podia usar mais dinheiro do que podia, garantidamente, pagar. Acontece que hoje, nosso dinheiro\nnão tem contrapartida real; não existem limites, nem é palpável. O ouro ou moedas padrão-ouro impõe um limite\nde disponibilidade: só existe um número finito e limitado que é disponível para a população... \n\nO que é Bitcoin?\nHouve diversas tentativas de moedas digitais para solucionar os problemas relacionados à transferência\nde valores internacionais, de pequenos montantes devido a taxas, de discrição, de facilidade\nde transporte, etc.. Algumas dessas tentativas têm êxito até hoje, como os programas de milhagem e\npontuações de clientela de cachorros quentes a starbucks. Mas com isso surgem outros problemas: \nsegurança de informação, roubo de senhas, malwares, etc..\nA criptografia e avanços no hardware dos computadores permitiram que isso fosse minimizado, até 2009\nquando Satochi Nakamoto revolucionou o mundo com o Bitcoin!\nO Bitcoin foi construído para solucionar problemas! Mas o grande responsável por isso é a tecnologia por\ntrás do dele: o blockchain. Mesmo que o bitcoin caia em desuso e nunca substitua o dinheiro atual,\noutras moedas poderão, mas o blockchain, com certeza, estará em todas elas. Moedas criptográficas são apenas\numa das diversas aplicações dessa revolucionária tecnologia. \"O blockchain é uma máquina de confiança\ne transparência\". Imagine o seguinte: uma empresa registra todos os fornecedores, suas entregas, devoluções,\nvendas, compras, etc. Além de ter que pagar pelo espaço utilizado, com o tempo ela ficará obsoleta e,\ndependendo do formato das tabelas, um caos! O usuário nunca sabe de onde vieram as matérias-primas, se\na empresa realmente tem um controle de qualidade, se o produto é realmente original, e até mesmo se a\nempresa não usa trabalho escravo... Com a utilização do blockchain como base dos dados, isso se torna\npúblico e de fácil acesso, possibilitando aos consumidores maior transparência no processo, e a certeza\nde originalidade! Quando toda a cadeia de fabricação é pública, não existe um meio de enganar quaisquer\nagentes no processo. Além de tudo, o armazenamento dessas informações é distribuído entre os usuários,\ne fica guardado para sempre!!!\n\nComo assim público?\nTodas as transações podem ser verificadas matematicamente, mas isso não significa que as informações\nserão divulgadas para todos. Significa que, matematicamente, todos os usuários \"sabem\" ao mesmo tempo,\no tempo todo, quais transações são válidas... o que é \"verdade\"... mas não necessariamente, o conteúdo\ntrocado! Isso elimina custos entre empresas, por exemplo. Se uma empresa de sapatos, precisa armazenar \ntodas as suas interações com o fornecedor de camurça, e o forncedor precisa armazenar também todas as\nmesmas informações, com o blockchain, em um único local e sem custos, os dois automaticamente \"sabem\"\nexatamente a mesma coisa em qualquer momento. Portanto podem agora \"confiar\" nas entregas.\n\nSmart contracts\nOutra aplicabilidade são os contratos inteligentes. São pedaços de programas (bem matrix) enviados\ncomo transações em um blockchain. Ou seja, envia-se um pedaço de código, que pode ser verificado\npor qualquer um e fica armazenado para sempre, além de não poder ser alterado! Toda vez que uma \ntransação atige esse código, ele é executado - faz o que devia fazer! Então podemos, por exemplo,\narmazenar um programa que \"segura\" o pagamento de um blazer, até sua entrega. Caso tudo esteja normal,\no pagamento é transferido ao fabricante... Se algum problema ocorrer, pode ser julgado por uma terceira\nparte não envolvida no processo, ou deveolvido ao consumidor!!!!\n\nMas se o blockchain é tão poderoso, por quê ainda temos tantos problemas? Por quê não vemos mais empresas\ne governos usando essa ferramenta?\nBem... Essa é complicada. Pode parecer conspiração, mas uma ferramenta que expõe falhas, não é exatamente\na coisa mais desejada do mundo... No nosso momento atual, como seres humanos, estamos vivendo um período\nde extrema velocidade de tecnologias, ao mesmo tempo em que a corrupção nunca esteve tão evidente!!!\nImagine que você tem uma empresa... Você conhece um cara que conhece um cara... De repente você consegue\num empréstimo que pode alavancar suas vendas - graças a um amigo de um amigo do cara conhecido do \ncara que você conhece! (fácil de seguir?!). Um dia você descobre que sua empresa foi usada em um esquema\nde lavagem de dinheiro, ou de desvio de verbas públicas, ou qualquer outro método desses... Ou então,\naquele cara poderoso que conseguiu liberar a grana que chegou até você, é investigado por essas falcatruas!\nTudo isso foi feito por baixo dos panos. Quem vai querer que isso venha à tona?\nAh, Bruno, você está sendo muito dramático! Pode parecer que isso acontece pouco, mas vamos um pouco além?!\nO BNDES empresta dinheiro para empresários... As contas dele não são exatamente auditáveis... Eike Batista\npegou 10bi, faliu e não pagou!! Quem paga isso tudo? Quem confere?\nOs governos contraem dívidas todos os dias... Sabe qual é o jeito mais fácil que eles usam pra pagar?\n\"Imprimem\" mais dinheiro!! Dinheiro também é um produto em uma sociedade e é regido pelas mesmas regras:\noferta e demanda! Mais dinheiro numa economia, menos valem os dinheiros. O nome do resultado dessa\nprática é inflação: quando o dinheiro vale menos, os preços sobem, inflam - inflação! Agora, sabe que moeda\nnão sofre com inflação? Aquelas que são transparentes quanto à sua criação (impressão) e que são confiáveis.\nMoedas digitais - as sérias - têm limite de moedas em circulação e esse limite é imutável, justamente para\nnão sofrer inflação. Se alguém cria uma moeda para um fim ou uma determinada comunidade, não existe motivos\nque não sejam criminosos, para se querer controlar aquele bem!!\n\nÉ justamente por isso que as moedas digitais são úteis: são transparentes no funcionamento, não dependem de\nconfiança, não desvalorizam por caprichos de um grupo de pessoas, e servem ao consumidor!!! O nosso dinheiro,\nhoje, não vale tudo isso!",
-			"$",
-			"material",
-			"content",
-			"navicon",
-			"shrinking",
-			"luxore-loader",
-			"border-radius",
-			"carrinho",
-			"less",
-			"loader",
-			"purple",
-			"jquery",
-			"verypoop",
-			"comunicação",
-			"<",
-			"h1",
-			"h2",
-			"hide-on-med",
-			"languageService",
-			"nav",
-			"transition",
-			"box-shadow",
-			"first-child",
-			"prototype",
-			"app",
-			"benefits",
-			"footer",
-			"translation-dropdown",
-			"2016-01-12",
-			"lisk.io",
-			"whether",
-			"Poiret",
-			"footer",
-			"footer-c",
-			"container",
-			"items",
-			"container",
-			"cd-items",
-			"qv-items",
-			"empty-box",
-			"velocity",
-			"velocity-animating",
-			"animateQuickView"
+			".cd-horizontal-timeline"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1144,6 +1196,15 @@
 		"regex": false,
 		"replace_history":
 		[
+			"<a class=\"linx\" href",
+			"h2",
+			"400",
+			"impact",
+			"verdana",
+			"oction.com.br",
+			"\"",
+			"em",
+			"\"",
 			"waves-purple",
 			"@navBarNormalHeight",
 			"@luxore-text-medium",
@@ -1262,16 +1323,7 @@
 			"photo",
 			"Photo",
 			"`",
-			"`Date`",
-			"badge",
-			"\"",
-			"vitrina",
-			"../images/",
-			"topbar-section",
-			"VitrinaApp",
-			"",
-			"\\n",
-			""
+			"`Date`"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -1282,7 +1334,7 @@
 	"groups":
 	[
 		{
-			"selected": 18,
+			"selected": 27,
 			"sheets":
 			[
 				{
@@ -1290,27 +1342,27 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5340,
+						"buffer_size": 2068,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								5340,
-								5340
+								101,
+								101
 							]
 						],
 						"settings":
 						{
-							"auto_name": "Having a default set of objects (Contacts, Opport",
+							"auto_name": "",
 							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 462.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 27,
+					"stack_index": 31,
 					"type": "text"
 				},
 				{
@@ -1343,187 +1395,11 @@
 				},
 				{
 					"buffer": 2,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 45,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								45,
-								45
-							]
-						],
-						"settings":
-						{
-							"auto_name": "9133 2446",
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 28,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
 					"file": "/C/Users/bruno_000/Documents/Oction/Luxore/docs/blog-posts.txt",
 					"semi_transient": false,
 					"settings":
 					{
 						"buffer_size": 193,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								193,
-								193
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 35,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "app/pages/index.us",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 5460,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								4156,
-								4156
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true,
-							"word_wrap": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 1271.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 7,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "app/js/app.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 8017,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1477,
-								1378
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 792.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 17,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "app/templates/views/site/home.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 9717,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								5609,
-								5611
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 3842.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 18,
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "app/templates/main.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3570,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3570,
-								3327
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1656.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"file": "app/templates/views/site/features.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 10429,
 						"regions":
 						{
 						},
@@ -1536,31 +1412,87 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 2520.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 16,
+					"stack_index": 27,
 					"type": "text"
 				},
 				{
-					"buffer": 9,
-					"file": "app/js/modules/docs/docs.js",
+					"buffer": 3,
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2358,
+						"buffer_size": 2551,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1631,
-								1635
+								299,
+								299
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 28,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8481,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								8481,
+								8481
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 30,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2760,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2760,
+								2760
 							]
 						],
 						"settings":
@@ -1570,57 +1502,88 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 658.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 15,
+					"stack_index": 10,
 					"type": "text"
 				},
 				{
-					"buffer": 10,
-					"file": "app/templates/views/docs/main.html",
+					"buffer": 6,
+					"file": "app/pages/index.us",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3626,
+						"buffer_size": 5829,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2173,
-								2173
+								90,
+								90
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/HTML/HTML.sublime-syntax",
 							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"translate_tabs_to_spaces": true,
+							"word_wrap": false
 						},
-						"translation.x": -0.0,
-						"translation.y": 216.0,
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
-					"buffer": 11,
-					"file": "app/templates/views/docs/index.html",
+					"buffer": 7,
+					"file": "app/js/app.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1277,
+						"buffer_size": 11615,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								763,
-								763
+								305,
+								305
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 72.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "app/templates/views/site/faq.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 22874,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								136,
+								136
 							]
 						],
 						"settings":
@@ -1628,35 +1591,237 @@
 							"syntax": "Packages/HTML/HTML.sublime-syntax",
 							"translate_tabs_to_spaces": false
 						},
-						"translation.x": -0.0,
-						"translation.y": 216.0,
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 9,
+					"stack_index": 16,
 					"type": "text"
 				},
 				{
-					"buffer": 12,
-					"file": "app/templates/views/docs/about.html",
+					"buffer": 9,
+					"file": "app/templates/views/site/ethics.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1223,
+						"buffer_size": 6187,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								403,
-								403
+								6187,
+								5941
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1754.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "app/templates/views/site/terms.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 10447,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4937,
+								4937
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2024.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 63,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 26,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "app/css/faq.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8529,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								443,
+								443
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 396.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "app/templates/views/site/home.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 25346,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6685,
+								6685
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1032.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": "app/templates/views/site/team.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5209,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3065,
+								3065
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1296.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 15,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1023,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1,
+								1
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 23,
+					"type": "text"
+				},
+				{
+					"buffer": 16,
+					"file": "app/templates/views/site/features.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 11252,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								10600,
+								10600
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1666,213 +1831,330 @@
 					"type": "text"
 				},
 				{
-					"buffer": 13,
-					"file": "app/templates/views/docs/features/looks.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 7198,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								6576,
-								6445
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 2736.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 10,
-					"type": "text"
-				},
-				{
-					"buffer": 14,
-					"file": "app/templates/views/docs/features/studios.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1782,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1230,
-								1099
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 648.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 13,
-					"type": "text"
-				},
-				{
-					"buffer": 15,
-					"file": "app/templates/views/docs/features/news.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1961,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								358,
-								358
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": -0.0,
-						"translation.y": 144.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 11,
-					"type": "text"
-				},
-				{
-					"buffer": 16,
-					"file": "app/templates/views/docs/features/gamification.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1869,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								375,
-								375
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 72.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 12,
-					"type": "text"
-				},
-				{
 					"buffer": 17,
-					"file": "app/css/style.css",
+					"file": "app/templates/views/site/contact.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 33874,
+						"buffer_size": 3885,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								32474,
-								32474
+								1234,
+								1234
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/CSS/CSS.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
 						},
-						"translation.x": 0.0,
-						"translation.y": 27368.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 18,
-					"file": "app/css/style.less",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 10261,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								9156,
-								9156
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 8362.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 19,
-					"file": "app/css/faq.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 7816,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								39,
-								39
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1152.0,
+						"translation.x": 224.0,
+						"translation.y": 216.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 3,
 					"type": "text"
 				},
 				{
+					"buffer": 18,
+					"file": "app/templates/main.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4890,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3428,
+								3428
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1368.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 19,
+					"file": "app/css/style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 17544,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								15149,
+								15149
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 12672.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 17,
+					"type": "text"
+				},
+				{
 					"buffer": 20,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 261,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1,
+								1
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 18,
+					"type": "text"
+				},
+				{
+					"buffer": 21,
+					"file": "app/templates/footer.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2779,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								105,
+								95
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 20.0,
+						"translation.y": 648.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 19,
+					"type": "text"
+				},
+				{
+					"buffer": 22,
+					"file": "app/templates/views/docs/footer.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1962,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								374,
+								1932
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 360.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 20,
+					"type": "text"
+				},
+				{
+					"buffer": 23,
+					"file": "app/static/send_email.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8449,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3726,
+								3726
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 866.0,
+						"translation.y": 648.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 25,
+					"type": "text"
+				},
+				{
+					"buffer": 24,
+					"file": "app/static/unsubscribe.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 635,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								139,
+								139
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 56.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 21,
+					"type": "text"
+				},
+				{
+					"buffer": 25,
+					"file": "app/static/objects/news.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3200,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								238,
+								252
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 792.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 24,
+					"type": "text"
+				},
+				{
+					"buffer": 26,
+					"file": "app/templates/views/docs/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2299,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1595,
+								1595
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 144.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 22,
+					"type": "text"
+				},
+				{
+					"buffer": 27,
+					"file": "app/css/style.less",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 24165,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								15666,
+								15666
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 14238.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 28,
 					"file": "app/css/helpers/mixins.less",
 					"semi_transient": false,
 					"settings":
@@ -1884,8 +2166,8 @@
 						"selection":
 						[
 							[
-								55,
-								0
+								3542,
+								3542
 							]
 						],
 						"settings":
@@ -1894,27 +2176,27 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1272.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 14,
 					"type": "text"
 				},
 				{
-					"buffer": 21,
+					"buffer": 29,
 					"file": "app/css/helpers/typography.less",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1665,
+						"buffer_size": 1942,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								377,
-								383
+								1390,
+								1390
 							]
 						],
 						"settings":
@@ -1924,14 +2206,14 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1080.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 12,
 					"type": "text"
 				},
 				{
-					"buffer": 22,
+					"buffer": 30,
 					"file": "app/css/helpers/colors.less",
 					"semi_transient": false,
 					"settings":
@@ -1952,27 +2234,27 @@
 							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 72.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 13,
 					"type": "text"
 				},
 				{
-					"buffer": 23,
+					"buffer": 31,
 					"file": "/C/Users/bruno_000/Documents/Oction/Luxore/liveblog/style.css",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 61388,
+						"buffer_size": 62678,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								12707,
-								12824
+								62678,
+								62517
 							]
 						],
 						"settings":
@@ -1980,44 +2262,14 @@
 							"syntax": "Packages/CSS/CSS.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 9404.0,
+						"translation.y": 53270.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 19,
+					"stack_index": 15,
 					"type": "text"
 				},
 				{
-					"buffer": 24,
-					"file": "/C/Users/bruno_000/Documents/Oction/Luxore/liveblog/content.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2913,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								490,
-								453
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 123.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 22,
-					"type": "text"
-				},
-				{
-					"buffer": 25,
+					"buffer": 32,
 					"semi_transient": false,
 					"settings":
 					{
@@ -2042,11 +2294,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 23,
+					"stack_index": 41,
 					"type": "text"
 				},
 				{
-					"buffer": 26,
+					"buffer": 33,
 					"file": "/C/Users/bruno_000/Documents/Oction/Luxore/blog/style.css",
 					"semi_transient": false,
 					"settings":
@@ -2069,14 +2321,14 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 9528.0,
+						"translation.y": 9816.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 20,
+					"stack_index": 32,
 					"type": "text"
 				},
 				{
-					"buffer": 27,
+					"buffer": 34,
 					"file": "/C/wamp/www/OctionGalaxyProject/index.php",
 					"semi_transient": false,
 					"settings":
@@ -2097,14 +2349,14 @@
 							"syntax": "Packages/PHP/PHP.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 138.0,
+						"translation.y": 100.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 26,
+					"stack_index": 33,
 					"type": "text"
 				},
 				{
-					"buffer": 28,
+					"buffer": 35,
 					"file": "/C/wamp/www/OctionGalaxyProject/protected/config/main.php",
 					"semi_transient": false,
 					"settings":
@@ -2127,14 +2379,14 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 2982.0,
+						"translation.y": 2960.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 25,
+					"stack_index": 39,
 					"type": "text"
 				},
 				{
-					"buffer": 29,
+					"buffer": 36,
 					"file": "/C/wamp/www/zurmo/app/protected/modules/users/models/User.php",
 					"semi_transient": false,
 					"settings":
@@ -2160,11 +2412,11 @@
 						"translation.y": 2201.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 24,
+					"stack_index": 42,
 					"type": "text"
 				},
 				{
-					"buffer": 30,
+					"buffer": 37,
 					"file": "/C/wamp/www/zurmo/app/protected/modules/api/ApiModule.php",
 					"semi_transient": false,
 					"settings":
@@ -2187,14 +2439,14 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1008.0,
+						"translation.y": 820.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 31,
+					"stack_index": 37,
 					"type": "text"
 				},
 				{
-					"buffer": 31,
+					"buffer": 38,
 					"file": "/C/wamp/www/zurmo/app/protected/modules/api/components/ApiRestHelper.php",
 					"semi_transient": false,
 					"settings":
@@ -2220,11 +2472,11 @@
 						"translation.y": 648.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 30,
+					"stack_index": 38,
 					"type": "text"
 				},
 				{
-					"buffer": 32,
+					"buffer": 39,
 					"file": "/C/wamp/www/OctionGalaxyProject/protected/models/LoginForm.php",
 					"semi_transient": false,
 					"settings":
@@ -2249,11 +2501,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 32,
+					"stack_index": 34,
 					"type": "text"
 				},
 				{
-					"buffer": 33,
+					"buffer": 40,
 					"file": "/C/wamp/www/OctionGalaxyProject/protected/models/User.php",
 					"semi_transient": false,
 					"settings":
@@ -2275,15 +2527,15 @@
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
-						"translation.x": -0.0,
+						"translation.x": 0.0,
 						"translation.y": 1368.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 33,
+					"stack_index": 35,
 					"type": "text"
 				},
 				{
-					"buffer": 34,
+					"buffer": 41,
 					"file": "/C/Users/bruno_000/Documents/Oction/Luxore/bkp/pointy-slider/js/main.js",
 					"semi_transient": false,
 					"settings":
@@ -2295,8 +2547,8 @@
 						"selection":
 						[
 							[
-								0,
-								2405
+								84,
+								84
 							]
 						],
 						"settings":
@@ -2305,14 +2557,14 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 864.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 34,
+					"stack_index": 36,
 					"type": "text"
 				},
 				{
-					"buffer": 35,
+					"buffer": 42,
 					"semi_transient": false,
 					"settings":
 					{
@@ -2332,11 +2584,11 @@
 							"syntax": "Packages/HTML/HTML.sublime-syntax",
 							"translate_tabs_to_spaces": false
 						},
-						"translation.x": 76.0,
+						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 21,
+					"stack_index": 40,
 					"type": "text"
 				}
 			]

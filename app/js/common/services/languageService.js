@@ -1,4 +1,8 @@
-angular.module('app').factory('userStorage', function ($rootScope, $window) {
+var appL = angular.module('app.languages', [
+  'gettext'
+]);
+
+appL.factory('userStorage', function ($rootScope, $window) {
   var service = {
     model: {
         lang: ''
@@ -19,16 +23,16 @@ angular.module('app').factory('userStorage', function ($rootScope, $window) {
   return service;
 });
 
-angular.module('app').service('languageService', function ($rootScope, $window, gettextCatalog, userStorage) {
+appL.service('languageService', function ($rootScope, $window, gettextCatalog, userStorage) {
     var self = this;
 
     var userPrefs = userStorage;
 
     $rootScope.languages = [
         { id: 'en', name: 'English', country: 'us' },
-        { id: 'es', name: 'Español', country: 'es' },
-        { id: 'fr', name: 'Français', country: 'fr' },
-        { id: 'pt', name: 'Português', country: 'br' }
+        { id: 'pt_BR', name: 'Português', country: 'br' }
+        /*{ id: 'es', name: 'Español', country: 'es' },
+        { id: 'fr', name: 'Français', country: 'fr' },*/
     ];
 
     /*

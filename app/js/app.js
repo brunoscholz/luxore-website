@@ -4,7 +4,7 @@ var app = angular.module('app', [
   'ct.ui.router.extras.sticky',
   'timer',
   'ngAnimate',
-  'gettext',
+  'app.languages',
   'ngClipboard',
   'docs'
 ]);

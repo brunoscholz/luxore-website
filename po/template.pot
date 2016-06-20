@@ -4,11 +4,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Project-Id-Version: \n"
 
-#: app/templates/views/site/terms.html:66
-msgid "... is a nonsense"
-msgstr ""
-
-#: app/templates/views/site/features.html:154
+#: app/templates/views/site/features.html:150
 msgid "\"Every day you encounter people or causes that inspire you to help, to applaud, to support.\" <a href=\"https://www.changetip.com\">ChangeTip</a> started this brilliant project, and we are going to do the same, in LUX inside Luxore. Creative individuals inspire everyone around them and they usually can use some support. With the tips feature you can show your appreciation and support in a way beyond likes and sharing! Directly to who inspires you..."
 msgstr ""
 
@@ -37,7 +33,7 @@ msgid "<b>FLAG MISCONDUCT.</b> If you see anyone that’s ignoring these communi
 msgstr ""
 
 #: app/templates/views/site/ethics.html:62
-msgid "<b>GIVE US FEEDBACK.</b> Bumped into a bug? Something doesn’t look right? Seen something that shouldn’t be here? Have an idea for a feature? Tell us. We love hearing from you. No jokes here! Just saying cause we copied lots of these guidelines from other places, and some things here are really serious."
+msgid "<b>GIVE US FEEDBACK.</b> Bumped into a bug? Something doesn’t look right? Seen something that shouldn’t be here? Have an idea for a feature? <a class=\"linx\" ui-sref=\"app.contact\">Tell us</a>. We love hearing from you. No jokes here! Just saying cause we copied lots of these guidelines from other places, and some things here are really serious."
 msgstr ""
 
 #: app/templates/views/site/ethics.html:59
@@ -60,11 +56,16 @@ msgstr ""
 msgid "<b>TAG YOUR PHOTOS.</b> That is it!"
 msgstr ""
 
+#: app/templates/views/site/terms.html:40
+msgid "<b>Who:</b> Luxore project is maintained by Luxore Foundation (\"LF\"). At times LF may also be referred to as \"we\", \"us\", or \"Luxore.me\". The person who is viewing or interacting with this project we will refer to as \"you\", \"hey you\", or where appropriate \"jerkface\" (only if you're being bad - or childish). \"Our\" will be used to both parties, 'cause the network is decentralized and distributed.<br><br><b>Why:</b> This Terms of Service Agreement (\"Agreement\") is our contract (not a <a class=\"linx\" href=\"https://en.wikipedia.org/wiki/Smart_contract\" target=\"_blank\">smart one,</a> though!) with you, and tells you what you can and can't do and what we can and can't do with you.<br><br><b>What:</b> Luxore is a bad ass capitalist-inspired project aimed at making people feel good about themselves (really oppressive, huh?) and to connect people with the same interests in different areas of fashion anywhere in the world. Luxore is build with <a class=\"linx\" href=\"https://en.wikipedia.org/wiki/Block_chain_%28database%29\" target=\"_blank\">blockchain</a> technology and have it's own \"money\", coin, or digital currency: <a class=\"linx\" href=\"http://www.luxore.me/blog/\">LUX</a>.<br><br>Luxore has a few rules: (1) all transactions are made only with LUX. (2) Companies will advertise their intentions of advertise! (3) You can choose whether or not to accept ads.<br>We can change these Terms at any time. You should check this page regularly, to make sure that it is still funny!"
+msgstr ""
+
 #: app/templates/views/site/ethics.html:5
-msgid "<span class=\"brand\">Luxore</span> care about individuals, but some of them does not go along..."
+msgid "<span class=\"brand\">Luxore</span> care about individuals, but some of them doesn't get along..."
 msgstr ""
 
 #: app/templates/views/site/home.html:6
+#: app/templates/views/site/terms.html:5
 msgid "<span class=\"brand\">Luxore</span> is a new kind of social network where you make your looks, share them, become a reference and inspire your followers."
 msgstr ""
 
@@ -73,7 +74,7 @@ msgid "<span class=\"brand\">Luxore</span> is about have things your way! Our wa
 msgstr ""
 
 #: app/templates/views/site/faq.html:5
-msgid "<span class=\"brand\">Luxore</span> is about transparency! Everything you want to know will be answered. If your question isn't here, don't mind to contact us!"
+msgid "<span class=\"brand\">Luxore</span> is about transparency! Everything you want to know will be answered. If your question isn't here, don't mind to <a class=\"linx\" ui-sref=\"app.contact\">contact us</a>!"
 msgstr ""
 
 #: app/templates/views/site/features.html:5
@@ -88,71 +89,71 @@ msgstr ""
 msgid "<span class=\"btn-luxore\">G</span>amification"
 msgstr ""
 
-#: app/templates/views/site/terms.html:5
-msgid "<span>Luxore</span> is a new kind of social network where you make your looks, share them, become a reference and inspire your followers."
-msgstr ""
-
-#: app/templates/views/site/home.html:141
-msgid "01 Dec"
-msgstr ""
-
 #: app/templates/views/site/terms.html:39
 msgid "1.  WHO, WHY, WHAT"
 msgstr ""
 
-#: app/templates/views/site/terms.html:119
+#: app/templates/views/site/terms.html:102
 msgid "10. MISC THINGS"
 msgstr ""
 
-#: app/templates/views/site/home.html:138
-msgid "17 Feb"
+#: app/templates/views/site/faq.html:414
+msgid "100 points"
 msgstr ""
 
-#: app/templates/views/site/terms.html:54
-msgid "2.  PROPERTY RIGHTS"
+#: app/templates/views/site/terms.html:46
+msgid "2.  WHAT IS YOURS, IS YOURS TO KEEP"
 msgstr ""
 
-#: app/templates/views/site/home.html:140
-msgid "20 Jun"
+#: app/templates/views/site/faq.html:421
+msgid "200 points"
 msgstr ""
 
-#: app/templates/views/site/home.html:137
-msgid "23 Nov"
-msgstr ""
-
-#: app/templates/views/site/home.html:139
-msgid "28 May"
-msgstr ""
-
-#: app/templates/views/site/terms.html:63
+#: app/templates/views/site/terms.html:53
 msgid "3.  INTELLECTUAL PROPERTY"
 msgstr ""
 
-#: app/templates/views/site/terms.html:72
+#: app/templates/views/site/faq.html:430
+msgid "300 points"
+msgstr ""
+
+#: app/templates/views/site/terms.html:60
 msgid "4.  VERY BAD THINGS THAT YOU CANNOT DO"
 msgstr ""
 
-#: app/templates/views/site/terms.html:79
+#: app/templates/views/site/terms.html:67
 msgid "5.  RESPONSIBILITIES"
 msgstr ""
 
-#: app/templates/views/site/terms.html:89
+#: app/templates/views/site/faq.html:407
+msgid "50 points"
+msgstr ""
+
+#: app/templates/views/site/faq.html:437
+msgid "500 points"
+msgstr ""
+
+#: app/templates/views/site/terms.html:74
 msgid "6.  U MAD? GONNA LAWYER UP BRO?"
 msgstr ""
 
-#: app/templates/views/site/terms.html:97
+#: app/templates/views/site/terms.html:81
 msgid "7.  SURVIVAL OF THE DEAD… AGREEMENT"
 msgstr ""
 
-#: app/templates/views/site/terms.html:104
+#: app/templates/views/site/faq.html:444
+msgid "750 points"
+msgstr ""
+
+#: app/templates/views/site/terms.html:88
 msgid "8.  THIRD PARTY SHARING"
 msgstr ""
 
-#: app/templates/views/site/terms.html:111
+#: app/templates/views/site/terms.html:95
 msgid "9.  LOUD NOISES"
 msgstr ""
 
-#: app/templates/views/site/features.html:122
+#: app/templates/views/site/features.html:118
 msgid "A feature borrowed from games are achievements systems. They stimulate and engage people. Thophies and badges are virtual rewards that are given to users by their performance and they will be tied to professional paths: if you like make-up, you can post about it and become a reference by going deeper into the subject, gaining visibility, having others loving your work, and for each accomplishment you will have a badge, a title, or a trophy to show as proof of your dedication! They can be used as a guide showing the way and the possibilities inside the network, leading to more earnings. In games, characters with a higher level are more likely to beat the challenges of the stages, users with higher achievements beat easily the barriers of visualization... But all in a funny way!"
 msgstr ""
 
@@ -161,98 +162,78 @@ msgstr ""
 msgid "About Us"
 msgstr ""
 
-#: app/templates/views/site/faq.html:243
+#: app/templates/views/site/faq.html:234
 #: app/templates/views/site/faq.html:34
 msgid "ADs"
 msgstr ""
 
-#: app/templates/views/site/home.html:171
-msgid ""
-"After the project got body, we started to consider platforms to use, and did some definitions... \r\n"
-"\t\t\t\t\tSo now we are implementing... We have..."
+#: app/templates/views/site/home.html:168
+msgid "After the project got body, we started to consider platforms to use, and did some definitions... We are already implementing and building a community... We use agile methods for programming which allows for bigger transparency."
 msgstr ""
 
-#: app/templates/views/site/home.html:190
-msgid ""
-"Although we are already building Luxore, we don't have all the resources we want... That's why \r\n"
-"\t\t\t\t\twe are launching the project on kickstarter - a platform for crowdfunding. In 30 days, we expect \r\n"
-"\t\t\t\t\tto raise the money so we can keep our schedule!"
+#: app/templates/views/site/home.html:184
+msgid "Although we are already building Luxore, we don't have all the resources we want... That's why we are launching the project on kickstarter - a platform for crowdfunding. In 30 days, we expect to raise the money so we can keep our schedule!"
 msgstr ""
 
-#: app/templates/views/site/terms.html:67
-msgid "and"
-msgstr ""
-
-#: app/templates/views/site/faq.html:250
+#: app/templates/views/site/faq.html:241
 msgid "Any kind. We strongly believe in people's choice so, given the fashion public, fashion related products and promotions will be more common. Many brands like to link their products with fashion and they thinks it helps to sell more... In the end, you decide which kind of ads you'll have in your posts!"
 msgstr ""
 
-#: app/templates/views/site/faq.html:260
+#: app/templates/views/site/faq.html:251
 msgid "Anyone who pays the owner in LUX."
 msgstr ""
 
-#: app/templates/views/site/faq.html:337
-msgid ""
-"Anything! Digital co-workings are supposed to connect you with other professionals.\r\n"
-"\t\t\t\t\tYou can have a photo studio and hire models and photographers. You can hire a consultant.\r\n"
-"\t\t\t\t\tYou can teach others how to look better... Any kind of services professionals can offer... \r\n"
-"\t\t\t\t\tAnd since the audience is about fashion, any non-related business will not thrive!"
+#: app/templates/views/site/faq.html:327
+msgid "Anything! Digital co-workings are supposed to connect you with other professionals. You can have a photo studio and hire models and photographers. You can hire a consultant. You can teach others how to look better... Any kind of services professionals can offer... And since the audience is about fashion, any non-related business will not thrive!"
 msgstr ""
 
 #: app/templates/views/site/contact.html:5
 msgid "At <span class=\"brand\">Luxore</span>, we'd love to hear about you and what you think about all this..."
 msgstr ""
 
-#: app/templates/views/site/home.html:180
-msgid ""
-"At the same time as the development, we need to create a community around Luxore, so people can \r\n"
-"\t\t\t\t\twait for the complete project, but more important, give us feedback of the ideas, what can be better, \r\n"
-"\t\t\t\t\tand what we shouldn't be doing!! We are building Luxore to people. It's only fair they can be part of it since the begining."
-msgstr ""
-
-#: app/templates/views/site/faq.html:378
-msgid "Badges are 'evolution' indicators. They are professional paths and will serve as a way to rate businesses and users as successful creators."
+#: app/templates/views/site/home.html:176
+msgid "At the same time as the development, we need to create a community around Luxore, so people can wait for the complete project, but more important, give us feedback of the ideas, what can be better, and what we shouldn't be doing!! We are building Luxore to people. It's only fair they can be part of it since the begining."
 msgstr ""
 
 #: app/templates/views/site/faq.html:32
 msgid "Basics"
 msgstr ""
 
-#: app/templates/views/site/features.html:135
+#: app/templates/views/site/features.html:131
 msgid "Being social is the whole point so don't be mean - read about our <a ui-sref=\"app.ethics\" class=\"linx\">ethical guidelines</a>. When you like a look, you should show your apreciation as well as when you dislike it. To any look, you have 2 buttons: cheer and boo! This is the more common way you can interact with others and participate in the network... You can also share the look with your followers or put it inside a list... Of course, you can leave a comment too. The comments can be deleted by the Look owner or they can be flaged as inappropriated: a snake (or something) will be placed in it so other people know that it is a mean comment... Users can block other users for whatever reason they see fit!"
-msgstr ""
-
-#: app/templates/views/site/terms.html:45
-msgid "blockchain"
 msgstr ""
 
 #: app/templates/header.html:14
 #: app/templates/header.html:68
 #: app/templates/main.html:14
-#: app/templates/main.html:54
+#: app/templates/main.html:60
 msgid "Blog"
 msgstr ""
 
-#: app/templates/views/site/faq.html:299
+#: app/templates/views/site/faq.html:384
+msgid "Bronze Scissors"
+msgstr ""
+
+#: app/templates/views/site/faq.html:413
+msgid "Bronze Trophy"
+msgstr ""
+
+#: app/templates/views/site/faq.html:290
 #: app/templates/views/site/faq.html:35
 msgid "Business"
 msgstr ""
 
 #: app/templates/views/site/faq.html:69
-msgid "By having original content and making your audience earn with you. You can make series of posts by themes, lists like \"the best of\" something..."
+msgid "By having original content and making your audience grow with you. You can make series of posts by themes, lists like \"the best of\" something...<br>Another thing are the rewards: You can define how much to distribute of your Looks revenue. 10% are Luxore's, but the other 90% you can keep all, can give all to your followers, or find a number you are confortable with! The more you please your followers, the more you earn!"
 msgstr ""
 
-#: app/templates/views/site/faq.html:303
+#: app/templates/views/site/faq.html:294
 msgid "Can I use Luxore as my own business?"
 msgstr ""
 
 #: app/templates/footer.html:59
 #: app/templates/views/docs/footer.html:32
 msgid "Contact Us"
-msgstr ""
-
-#: app/templates/views/site/terms.html:74
-msgid "control systems"
 msgstr ""
 
 #: app/templates/modals/bitcoin.html:8
@@ -269,11 +250,19 @@ msgstr ""
 msgid "Cryptocurrencies are safe by its decentralization and encryption. The transactions and data will be public, but encrypted and everywhere! Everyone can verify the data, but no one can \"see\" it!"
 msgstr ""
 
+#: app/templates/views/site/faq.html:406
+msgid "Cup"
+msgstr ""
+
 #: app/templates/views/site/home.html:44
 msgid "Custom looks made by the power of putting people together. Just search and start dressing."
 msgstr ""
 
-#: app/templates/views/site/home.html:199
+#: app/templates/views/site/home.html:141
+msgid "Dec"
+msgstr ""
+
+#: app/templates/views/site/home.html:191
 msgid "December 1st, 2016"
 msgstr ""
 
@@ -281,30 +270,34 @@ msgstr ""
 msgid "Decentralized"
 msgstr ""
 
-#: app/templates/views/site/features.html:200
+#: app/templates/views/site/faq.html:436
+msgid "Diamond Trophy"
+msgstr ""
+
+#: app/templates/views/site/features.html:196
 msgid "Direct channel of instant communication between users! Through this feature you can keep contact with friends and clients quickly and privately! Like the rest of the network, all messages will be encrypted so you can be sure this is a secure line of communication!"
 msgstr ""
 
-#: app/templates/views/site/faq.html:137
+#: app/templates/views/site/faq.html:136
 msgid "Do I have any control over the revenue?"
 msgstr ""
 
-#: app/templates/views/site/faq.html:197
+#: app/templates/views/site/faq.html:192
 msgid "Do I have to declare LUX when I do taxes?"
 msgstr ""
 
-#: app/templates/views/site/faq.html:324
+#: app/templates/views/site/faq.html:314
 msgid "Do I need a registered company to use it?"
 msgstr ""
 
-#: app/templates/views/site/faq.html:314
+#: app/templates/views/site/faq.html:304
 msgid "Do I need to pay for a business page?"
 msgstr ""
 
 #: app/templates/header.html:31
 #: app/templates/header.html:98
 #: app/templates/main.html:16
-#: app/templates/main.html:84
+#: app/templates/main.html:78
 msgid "Docs"
 msgstr ""
 
@@ -335,22 +328,24 @@ msgstr ""
 msgid "DOs"
 msgstr ""
 
+#: app/templates/views/site/faq.html:389
+msgid "Each badge represents 5 levels out of 15 possible. For each accomplishment like having a Look with 1000 cheers, or making 2 Looks with at least 100 views a day for a week, you earn a level. That shows you proved your value for your community!"
+msgstr ""
+
 #: app/templates/footer.html:42
 #: app/templates/views/docs/footer.html:15
 msgid "Ethical Guidelines"
 msgstr ""
 
-#: app/templates/views/site/faq.html:212
-msgid ""
-"Every cryptocurrency can be negotiated directly. It is like any other currency: you can exchange dollars for euros, as you can exchange bitcoin for dollars or LUX and vice-versa. The value is defined buy who is selling and who is buying like a normal currency exchange flow.\r\n"
-"\t\t\t\t\tWe will register the LUX Coin in the main brokers, but you can sell it the way you want!"
+#: app/templates/views/site/faq.html:205
+msgid "Every cryptocurrency can be negotiated directly. It is like any other currency: you can exchange dollars for euros, as you can exchange bitcoin for dollars or LUX and vice-versa. The value is defined buy who is selling and who is buying like a normal currency exchange flow. We will register the LUX Coin in the main brokers, but you can sell it the way you want!"
 msgstr ""
 
-#: app/templates/views/site/features.html:168
+#: app/templates/views/site/features.html:164
 msgid "Everyone likes lists! They are a handy way of organizing content and they are full of meaning. You can make a list of the best looks of the last decade, for example. It will enable looks to live more. Funny and expressive they can be shared and also boost your visibility or your business. You can have a wishlist, for example, so people can know what to give you in your birthday!!"
 msgstr ""
 
-#: app/templates/views/site/home.html:198
+#: app/templates/views/site/home.html:190
 msgid "Experiments"
 msgstr ""
 
@@ -365,21 +360,22 @@ msgstr ""
 #: app/templates/header.html:12
 #: app/templates/header.html:56
 #: app/templates/main.html:13
-#: app/templates/main.html:42
+#: app/templates/main.html:48
 #: app/templates/views/docs/footer.html:14
 #: app/templates/views/site/home.html:37
 msgid "Features"
 msgstr ""
 
+#: app/templates/views/site/home.html:138
 #: app/templates/views/site/home.html:142
 msgid "Feb"
 msgstr ""
 
-#: app/templates/views/site/home.html:170
+#: app/templates/views/site/home.html:167
 msgid "February 17th, 2016"
 msgstr ""
 
-#: app/templates/views/site/home.html:208
+#: app/templates/views/site/home.html:199
 msgid "February, 2017"
 msgstr ""
 
@@ -391,37 +387,29 @@ msgstr ""
 msgid "First and Foremost"
 msgstr ""
 
-#: app/templates/views/site/faq.html:223
-msgid ""
-"First, because they are controlled. Second, it is a way to give people more freedom to interact, create and make business directly with each other and that is no one else's business!\r\n"
-"\t\t\t\t\tThird, because a common currency is insecure which means, there are a high cost to make it work smoothly, and we would depend on banks and courts... That would really be expensive. That is why Luxore is possible: we don't have to worry about those impractical costs..."
+#: app/templates/views/site/faq.html:215
+msgid "First, because they are controlled. Second, it is a way to give people more freedom to interact, create and make business directly with each other and that is no one else's business! Third, because a common currency is insecure which means, there are a high cost to make it work smoothly, and we would depend on banks and courts... That would really be expensive. That is why Luxore is possible: we don't have to worry about those impractical costs..."
 msgstr ""
 
-#: app/templates/views/site/home.html:200
-msgid ""
-"From now on, we need a few early adopters to help us test everything... Find bugs, criticize \r\n"
-"\t\t\t\t\tthe layouts, button positioning, colors, anything that could be a threat to usability or bad in the eye!"
+#: app/templates/views/site/home.html:192
+msgid "From now on, we need a few early adopters to help us test everything... Find bugs, criticize the layouts, button positioning, colors, anything that could be a threat to usability or bad in the eye!"
 msgstr ""
 
-#: app/templates/views/site/faq.html:389
-msgid ""
-"Funder trophies are achievements distributed for every pledge on <a class=\"linx\">kickstarter campaign</a>.\r\n"
-"\t\t\t\t\tThey give advantages to its bearer within the 2 years period of LUX coin disbursement.\r\n"
-"\t\t\t\t\tEach week, according to <a class=\"linx\">this table</a> the coins will be distributed to every points owner through proof of Value and proof of Participation. The Funder Trophies give more points througout this period...\r\n"
-"\t\t\t\t\tIf 10000 coins are distributed, and we have 100 users with points, a smart contract sums up the points and divide proportionally the coins... Having a head start with more points, means you earn more coins!"
+#: app/templates/views/site/faq.html:399
+msgid "Funder trophies are achievements distributed for every pledge on <a class=\"linx\">kickstarter campaign</a>. They give advantages to its bearer within the 2 years period of LUX coin disbursement. Each week, according to <a class=\"linx\">this table</a> the coins will be distributed to every points owner through proof of Value and proof of Participation. The Funder Trophies give more points througout this period... If 10000 coins are distributed, and we have 100 users with points, a smart contract sums up the points and divide proportionally the coins... Having a head start with more points, means you earn more coins!"
 msgstr ""
 
 #: app/templates/views/site/home.html:51
 msgid "Games are fun and keep us motivated! Besides that, it helps to keep the network healthy."
 msgstr ""
 
-#: app/templates/views/site/faq.html:349
+#: app/templates/views/site/faq.html:336
 #: app/templates/views/site/faq.html:36
-#: app/templates/views/site/features.html:121
+#: app/templates/views/site/features.html:117
 msgid "Gamification"
 msgstr ""
 
-#: app/templates/views/site/faq.html:356
+#: app/templates/views/site/faq.html:343
 msgid "Gamification is the process of using game-like incentives in a non-game environment."
 msgstr ""
 
@@ -438,33 +426,31 @@ msgstr ""
 msgid "Get Started"
 msgstr ""
 
-#: app/templates/views/site/ethics.html:95
-msgid ""
-"Got a complain about anything covered here? \r\n"
-"\t\t\t\t\tContact us:<br>\r\n"
-"\t\t\t\t\t<a class=\"linx\" href=\"mailto:dearjerksofluxorefoundation@luxore.me\">dearjerksofluxorefoundation@luxore.me</a>"
+#: app/templates/views/site/faq.html:429
+msgid "Gold Trophy"
+msgstr ""
+
+#: app/templates/views/site/faq.html:370
+msgid "Golden Scissors"
+msgstr ""
+
+#: app/templates/views/site/ethics.html:94
+msgid "Got a complain about anything covered here? Contact us:<br><a class=\"linx\" href=\"mailto:dearjerksofluxorefoundation@luxore.me\">dearjerksofluxorefoundation@luxore.me</a>"
 msgstr ""
 
 #: app/templates/views/site/ethics.html:91
-msgid ""
-"Got a question about something not covered here? Just ask. \r\n"
-"\t\t\t\t\tContact us:<br> <a class=\"linx\" href=\"mailto:whatsup@luxore.me\">whatsup@luxore.me</a>"
+msgid "Got a question about something not covered here? Just ask. Contact us:<br> <a class=\"linx\" href=\"mailto:whatsup@luxore.me\">whatsup@luxore.me</a>"
 msgstr ""
 
 #: app/templates/views/site/contact.html:53
 msgid "Have a complain about something?"
 msgstr ""
 
-#: app/templates/views/site/terms.html:56
-#: app/templates/views/site/terms.html:67
-msgid "here"
-msgstr ""
-
-#: app/templates/views/site/features.html:90
+#: app/templates/views/site/features.html:86
 msgid "Here you can make business following your wishes, talents and inspirations. You can sell fashion consulting, create studios with other professionals, tell about your day, make a tutorial, or even sell your products. You can generate revenue in any way you want and other people voluntarily agree. These virtual co-working put people in contact, linking together customer and supplier, teacher and apprentice, buyer and seller. Studios have a vitrine too, like any other user, and you can post looks, lists and products."
 msgstr ""
 
-#: app/templates/views/site/faq.html:231
+#: app/templates/views/site/faq.html:222
 msgid "How can I exchange my LUX for money?"
 msgstr ""
 
@@ -472,23 +458,23 @@ msgstr ""
 msgid "How do I earn money?"
 msgstr ""
 
-#: app/templates/views/site/faq.html:163
+#: app/templates/views/site/faq.html:162
 msgid "How LUX Coin has value?"
 msgstr ""
 
-#: app/templates/views/site/faq.html:267
+#: app/templates/views/site/faq.html:258
 msgid "How many ads there will be in a Look?"
 msgstr ""
 
-#: app/templates/views/site/faq.html:277
+#: app/templates/views/site/faq.html:268
 msgid "How much is a nice value for an ad space?"
 msgstr ""
 
-#: app/templates/views/site/faq.html:97
+#: app/templates/views/site/faq.html:96
 msgid "How my look will be linked to a store item?"
 msgstr ""
 
-#: app/templates/views/site/faq.html:107
+#: app/templates/views/site/faq.html:106
 msgid "How the store contracts work?"
 msgstr ""
 
@@ -500,22 +486,12 @@ msgstr ""
 msgid "How your friends call you?"
 msgstr ""
 
-#: app/templates/views/site/home.html:209
-msgid ""
-"If everything goes well, after almost a year, we are announcing the start of a new network \r\n"
-"\t\t\t\t\tthat, by the responses we have so far, can really revolutionize the fashion world!!\r\n"
-"\t\t\t\t\tSo if you can, help us anyway you can: donating, commenting, downloading...\r\n"
-"\t\t\t\t\tThank you!"
+#: app/templates/views/site/home.html:200
+msgid "If everything goes well, after almost a year, we are announcing the start of a new network that, by the responses we have so far, can really revolutionize the fashion world!! So if you can, help us anyway you can: donating, commenting, downloading... <br>Thank you!"
 msgstr ""
 
-#: app/templates/views/site/terms.html:120
-msgid ""
-"IF YOU'RE FROM A FOREIGN COUNTRY, WELCOME.. GUTENTAG, NEI HO, BONJOUR, JAMBO, HOLA… (that doesn't make any sense.. foreign from where?). Well, we don't have your information, so we're not going to be transferring your information to any country...\r\n"
-"\t\t\t\t    Unless you're from Brazil, then… well… let us know and we'll figure out what to do with you... Ha ha, just kidding! Headings to these sections are meant to be for entertainment purposes only and have no binding effect. We can transfer our rights and obligations in this agreement whenever we want. Just because we don't put someone in a burlap sack and beat them with a sock full of quarters for violating any section of this Agreement doesn't mean we're waiving our right to enforce our Agreement (?), it just means we're cutting someone some slack. It doesn't mean we'll do the same for you or anyone else. Follow the \"law\" and don't be a jerkface."
-msgstr ""
-
-#: app/templates/views/site/terms.html:58
-msgid "Important: WE DO NOT OWN THE NETWORK OR THE APP. Personal information is end-to-end encrypted, the storage is distributed and the connections decentralized."
+#: app/templates/views/site/terms.html:103
+msgid "IF YOU'RE FROM A FOREIGN COUNTRY, WELCOME.. GUTENTAG, NEI HO, BONJOUR, JAMBO, HOLA… (that doesn't make any sense.. foreign from where?). Well, we don't have your information, so we're not going to be transferring your information to any country... Unless you're from Brazil, then… well… let us know and we'll figure out what to do with you... Ha ha, just kidding! Headings to these sections are meant to be for entertainment purposes only and have no binding effect. We can transfer our rights and obligations in this agreement whenever we want. Just because we don't put someone in a burlap sack and beat them with a sock full of quarters for violating any section of this Agreement doesn't mean we're waiving our right to enforce our Agreement (?), it just means we're cutting someone some slack. It doesn't mean we'll do the same for you or anyone else. Follow the \"law\" and don't be a jerkface."
 msgstr ""
 
 #: app/templates/header.html:115
@@ -523,48 +499,38 @@ msgid "in"
 msgstr ""
 
 #: app/templates/views/site/home.html:160
-msgid ""
-"In a day of bad mood, <a class=\"linx\" ui-sref=\"app.team\">Loris</a> put some thought in how to make people's lives better... \r\n"
-"\t\t\t\t\tFashion is all around us and can lift our moods, our self-estim... When she came with the idea, \r\n"
-"\t\t\t\t\twe started working on a solution: A social network with freedom, that could join people with the same \r\n"
-"\t\t\t\t\tinterests - Luxore was born!! Since then, we are working hard to assemble it."
+msgid "In a day of bad mood, <a class=\"linx\" ui-sref=\"app.team({'#': 'loris'})\">Loris</a> put some thought in how to make people's lives better... Fashion is all around us and can lift our moods, our self-estim... When she came with the idea, we started working on a solution: A social network with freedom, that could join people with the same interests - Luxore was born!! Since then, we are working hard to assemble it."
 msgstr ""
 
-#: app/templates/views/site/faq.html:166
-msgid ""
-"Initially it does not have any! Every kind of money has value based on its uses, on people who think that it is a good mean of exchange.\r\n"
-"\t\t\t\t\tWith time, more people will be using the network and, as the only way of making ads is with LUX, it will have its own market; like a stock!\r\n"
-"\t\t\t\t\tIt can be thoght as a mileage program, but no one can create those points, and they can be traded as an asset."
+#: app/templates/views/site/faq.html:165
+msgid "Initially it does not have any! Every kind of money has value based on its uses, on people who think that it is a good mean of exchange. With time, more people will be using the network and, as the only way of making ads is with LUX, it will have its own market; like a stock! It can be thoght as a mileage program, but no one can create those points, and they can be traded as an asset."
 msgstr ""
 
-#: app/templates/views/site/terms.html:21
-msgid "Intellectual Property"
-msgstr ""
-
-#: app/templates/views/site/faq.html:185
+#: app/templates/views/site/faq.html:182
 msgid "Is LUX Coin legal?"
 msgstr ""
 
-#: app/templates/views/site/features.html:103
+#: app/templates/views/site/features.html:99
 msgid "It is a place to put together internal and external content. It will work like the rss readers where you subscribe to a blog to receive its posts. Besides that, it will have a yellow pages section where you can announce brands, products and services... Through the Luxore blog you'll always count with interviews and curiosities about the network and the world of fashion around us!"
 msgstr ""
 
-#: app/templates/views/site/faq.html:188
-msgid ""
-"It is not ilegal! Some countries are trying to forbid cryptocurrencies, but, unless they shut down the internet, it is not possible. Although they can tax and apply fees to people with these coins, \r\n"
-"\t\t\t\t\tit is not possible to link the money: it has good annonimity!\r\n"
-"\t\t\t\t\tAnyway, it is not ilegal in most places to have cryptocurrencies, but you always have to be careful with the greed of polititians!"
+#: app/templates/views/site/faq.html:185
+msgid "It is not ilegal! Some countries are trying to forbid cryptocurrencies, but, unless they shut down the internet, it is not possible. Although they can tax and apply fees to people with these coins, it is not possible to link the money: it has good annonimity! Anyway, it is not ilegal in most places to have cryptocurrencies, but you always have to be careful with the greed of polititians!"
 msgstr ""
 
-#: app/templates/views/site/home.html:223
+#: app/templates/views/site/home.html:211
 msgid "Join our newsletter"
 msgstr ""
 
-#: app/templates/views/site/home.html:189
+#: app/templates/views/site/home.html:183
 msgid "July 4th, 2016"
 msgstr ""
 
-#: app/templates/views/site/home.html:224
+#: app/templates/views/site/home.html:140
+msgid "Jun"
+msgstr ""
+
+#: app/templates/views/site/home.html:212
 msgid "Keep informed of the steps taken into making this great."
 msgstr ""
 
@@ -573,19 +539,20 @@ msgid "Kickstarter will begin soon"
 msgstr ""
 
 #: app/templates/header.html:104
-#: app/templates/main.html:90
+#: app/templates/main.html:84
 msgid "Language"
 msgstr ""
 
-#: app/templates/views/site/terms.html:67
-msgid "Learn more"
+#: app/templates/views/site/faq.html:371
+#: app/templates/views/site/faq.html:378
+msgid "Level 2"
 msgstr ""
 
-#: app/templates/views/site/terms.html:84
-msgid "LF's only job is software maintenance for which we claim 10% of the total income with the ads for making this wonderful system for you. (Low cost rent)."
+#: app/templates/views/site/faq.html:385
+msgid "Level 3"
 msgstr ""
 
-#: app/templates/views/site/features.html:167
+#: app/templates/views/site/features.html:163
 msgid "Lists"
 msgstr ""
 
@@ -593,33 +560,21 @@ msgstr ""
 msgid "Loud Noises"
 msgstr ""
 
-#: app/templates/views/site/terms.html:45
-msgid "LUX"
-msgstr ""
-
 #: app/templates/header.html:86
-#: app/templates/main.html:72
 msgid "Lux Coin"
 msgstr ""
 
 #: app/templates/header.html:43
+#: app/templates/main.html:54
 msgid "LUX Coin"
 msgstr ""
 
-#: app/templates/views/site/faq.html:156
+#: app/templates/views/site/faq.html:155
 msgid "LUX Coin is a cryptocurrency much like Bitcoin. It is a form of digital money and will be used for every transaction inside Luxore."
 msgstr ""
 
 #: app/templates/views/site/team.html:22
 msgid "Luxore for me is a big project with bigger intentions! As a developer, this is the greatest project I ever been involved. It's amazing to be part of such a revolutionary idea. As libertarian, I always wanted to do something to the liberty cause and I can't imagine myself writing on ethics or economics, but I can understand it, so Luxore is a bunch of good ideas and concepts blended into a decentralized social network with a digital coin. That represents what freedom is to me: no masters, no rulers!"
-msgstr ""
-
-#: app/templates/views/site/terms.html:47
-msgid "Luxore has a few rules: (1) all transactions are made only with LUX. (2) Companies will advertise their intentions of advertise! (3) You can choose whether or not to accept ads."
-msgstr ""
-
-#: app/templates/views/site/terms.html:45
-msgid "Luxore is a bad ass capitalist-inspired project aimed at making people feel good about themselves (really oppressive, huh?) and to connect people with the same interests in different areas of fashion anywhere in the world. Luxore is build with"
 msgstr ""
 
 #: app/templates/views/site/faq.html:51
@@ -628,10 +583,6 @@ msgstr ""
 
 #: app/templates/views/site/faq.html:18
 msgid "Luxore is free! You don't have to pay anything to use it and you don't have to use all features... If you don't want to \"collect\" from your Looks, you don't have to!"
-msgstr ""
-
-#: app/templates/views/site/terms.html:41
-msgid "Luxore project is maintained by Luxore Foundation (\"LF\"). At times LF may also be referred to as \"we\", \"us\", or \"Luxore.me\". The person who is viewing or interacting with this project we will refer to as \"you\", \"hey you\", or where appropriate \"jerkface\" (only if you're being bad - or childish). \"Our\" will be used to both parties, 'cause the network is decentralized and distributed."
 msgstr ""
 
 #: app/templates/views/site/terms.html:34
@@ -644,27 +595,35 @@ msgstr ""
 msgid "Luxore to me is..."
 msgstr ""
 
+#: app/templates/views/site/faq.html:443
+msgid "Luxore Trophy"
+msgstr ""
+
 #: app/templates/views/site/home.html:82
 msgid "Luxore will be running on top of <a class=\"linx\" href=\"http://lisk.io\">Lisk</a>, a platform for decentralized apps with its own sidechain. The network and the data will be spread in all users' devices."
 msgstr ""
 
-#: app/templates/views/site/home.html:169
+#: app/templates/views/site/home.html:166
 msgid "Making it Happen"
 msgstr ""
 
-#: app/templates/views/site/home.html:179
+#: app/templates/views/site/home.html:139
+msgid "May"
+msgstr ""
+
+#: app/templates/views/site/home.html:175
 msgid "May 28th, 2016"
 msgstr ""
 
 #: app/templates/footer.html:51
 #: app/templates/header.html:42
 #: app/templates/header.html:92
-#: app/templates/main.html:78
+#: app/templates/main.html:72
 #: app/templates/views/docs/footer.html:24
 msgid "Media Kit"
 msgstr ""
 
-#: app/templates/views/site/features.html:199
+#: app/templates/views/site/features.html:195
 msgid "Messenger"
 msgstr ""
 
@@ -676,7 +635,7 @@ msgstr ""
 msgid "More Features"
 msgstr ""
 
-#: app/templates/views/site/features.html:102
+#: app/templates/views/site/features.html:98
 msgid "News"
 msgstr ""
 
@@ -684,38 +643,39 @@ msgstr ""
 msgid "No Masters"
 msgstr ""
 
-#: app/templates/views/site/faq.html:178
+#: app/templates/views/site/faq.html:175
 msgid "No one! The whole point of it is to have no central control! They are created through smart contracts and they have a limit: 1 billion LUX, in this case."
 msgstr ""
 
-#: app/templates/views/site/faq.html:317
+#: app/templates/views/site/faq.html:307
 msgid "No. A Studio works as any other 'user', with the same rules. If you want to sell products, than you must pay the transactions fees like a normal credit card payment system, but way cheaper. Those fees are paid for other users to run the Luxore's storage nodes."
 msgstr ""
 
-#: app/templates/views/site/faq.html:200
-msgid ""
-"No. Depending on the country you are, but normally no. Some places have defined Bitcoin as an asset, others as money, others don't care... The thing is they don't have control over digital coins, and you own nothing to them.\r\n"
-"\t\t\t\t\tNow, if you really want to, you should check your country's laws about this. Sometimes you can declare coins as an investment...\r\n"
-"\t\t\t\t\tIn the end it is really up to you! No one can know how much do you have, so you can declare it or you can avoid!"
+#: app/templates/views/site/faq.html:195
+msgid "No. Depending on the country you are, but normally no. Some places have defined Bitcoin as an asset, others as money, others don't care... The thing is they don't have control over digital coins, and you own nothing to them. Now, if you really want to, you should check your country's laws about this. Sometimes you can declare coins as an investment... In the end it is really up to you! No one can know how much do you have, so you can declare it or you can avoid!"
 msgstr ""
 
-#: app/templates/views/site/faq.html:327
+#: app/templates/views/site/faq.html:317
 msgid "Nope! That is not a demand. We believe quality and good services don't come from a registered piece of paper. You will be evaluated by other users: if they like your services, fine!"
 msgstr ""
 
-#: app/templates/views/site/features.html:186
+#: app/templates/views/site/features.html:182
 msgid "Notifications"
 msgstr ""
 
-#: app/templates/views/site/features.html:187
+#: app/templates/views/site/features.html:183
 msgid "Notifications keep you informed of what is going on with your posts, your businesses, and your friends! It's a way that we can communicate and show you possibilities like advertisers willing to pay you by your services. This can be used as a way to discover the world beyond who you are following... You can receive notifications from studios, from people related to your interests, or even from tags!"
+msgstr ""
+
+#: app/templates/views/site/home.html:137
+msgid "Nov"
 msgstr ""
 
 #: app/templates/views/site/home.html:159
 msgid "November 23th, 2015"
 msgstr ""
 
-#: app/templates/views/site/faq.html:234
+#: app/templates/views/site/faq.html:225
 msgid "One way, as said above, is to use a broker, but you can sell them for a deposit in your bank account... You can make a transaction for cash! You can trade it for another cryptocurrency... Really up to you!"
 msgstr ""
 
@@ -735,12 +695,12 @@ msgstr ""
 msgid "Our own coin, used to negotiate and reduce bureaucracy..."
 msgstr ""
 
-#: app/templates/views/site/terms.html:105
+#: app/templates/views/site/terms.html:89
 msgid "Our site/app may have links to third party websites that we have no control over, such as YouTube, Facebook, and MySpace (seriously.. who uses myspace anymore?). We have no responsibility over this content (although if those companies want to give us free shares in their company we're cool with that) and therefore you have to take up any problems you have with those sites with their owners. Leave us out of it."
 msgstr ""
 
-#: app/templates/views/site/terms.html:74
-msgid "People have freedom of association (or not to associate) and we respect that! All we ask is: Don't be a jerkface. A jerkface is someone who discriminates, defrauds, hates, or acts like an idiot. Don't do any of that. Although we cannot forbid you, other people may not like when you act like that and we gave 'em the weapons to fight when you behave like a jerkface"
+#: app/templates/views/site/terms.html:61
+msgid "People have freedom of association (or not to associate) and we respect that! All we ask is: Don't be a jerkface. A jerkface is someone who discriminates, defrauds, hates, or acts like an idiot. Don't do any of that. Although we cannot forbid you, other people may not like when you act like that and we gave 'em the weapons to fight when you behave like a jerkface (<a class=\"linx\">blog post soon!</a>)."
 msgstr ""
 
 #: app/templates/views/site/ethics.html:28
@@ -751,20 +711,16 @@ msgstr ""
 msgid "Please! Let us know what is it about..."
 msgstr ""
 
-#: app/templates/views/site/features.html:56
+#: app/templates/views/site/features.html:53
 msgid "Profile"
 msgstr ""
 
 #: app/templates/views/site/ethics.html:33
-msgid "Project Luxore, the Luxore website and the Luxore app (\"Luxore\", the \"Site\", the \"App\", \"we\" or \"us\") use cutting edge digital technologies to create a space with freedom for people to share and be creative! The software is free and open-source, the network is decentralized and distributed. We see Luxore as a tool for fashion workers and enthusiasts - but we are not in the business of fashion. Luxore exists to showcase and facilitate the connections and monetization of people otherwise not known in industry."
+msgid "Project Luxore, the Luxore website and the Luxore app (\"Luxore\", the \"Site\", the \"App\", \"we\" or \"us\") use cutting edge digital technologies to create a space with freedom for people to share and be creative! The software is free and open-source, the network is decentralized and distributed. We see Luxore as a tool for fashion workers and enthusiasts - but we are not in the business of fashion. Luxore exists to showcase and facilitate the connections and monetization of people otherwise not known in this industry."
 msgstr ""
 
 #: app/templates/views/site/home.html:158
 msgid "Project was Born"
-msgstr ""
-
-#: app/templates/views/site/terms.html:20
-msgid "Property Rights"
 msgstr ""
 
 #: app/templates/footer.html:47
@@ -792,23 +748,27 @@ msgstr ""
 msgid "Sign Up With GitHub"
 msgstr ""
 
-#: app/templates/views/site/terms.html:43
-msgid "smart one"
+#: app/templates/views/site/faq.html:377
+msgid "Silver Scissors"
 msgstr ""
 
-#: app/templates/views/site/features.html:134
+#: app/templates/views/site/faq.html:420
+msgid "Silver Trophy"
+msgstr ""
+
+#: app/templates/views/site/features.html:130
 msgid "Social"
 msgstr ""
 
-#: app/templates/views/site/terms.html:98
+#: app/templates/views/site/terms.html:82
 msgid "Sometimes, people mutually agree to stuff that courts just won't uphold. That is their problem and that shouldn't affect the intent of our contract, though, so you agree that if a judge declares a portion of these Terms of Service of no effect, it really doesn't matter... terms here are very generic. The Terms of Service will stay in effect - our property our rules, right?! That is because WE DON'T OWN the network. The goal of the project is to be decentralized, and the goal of LF is to give maintenance and improvements. So there are no one to be held responsible for it."
 msgstr ""
 
-#: app/templates/views/site/home.html:178
+#: app/templates/views/site/home.html:174
 msgid "Spreading the Word"
 msgstr ""
 
-#: app/templates/views/site/home.html:237
+#: app/templates/views/site/home.html:225
 msgid "Subscribe"
 msgstr ""
 
@@ -824,12 +784,8 @@ msgstr ""
 msgid "Survival Of The Dead… Agreement"
 msgstr ""
 
-#: app/templates/views/site/features.html:37
+#: app/templates/views/site/features.html:34
 msgid "Tags and Search"
-msgstr ""
-
-#: app/templates/views/site/terms.html:45
-msgid "technology and have it's own \"money\", coin, or digital currency:"
 msgstr ""
 
 #: app/templates/header.html:121
@@ -847,70 +803,63 @@ msgstr ""
 
 #: app/templates/header.html:13
 #: app/templates/header.html:62
-#: app/templates/main.html:48
 msgid "The App"
 msgstr ""
 
-#: app/templates/views/site/faq.html:87
+#: app/templates/views/site/faq.html:86
 msgid "The earnings will be only in LUX Coin?"
 msgstr ""
 
-#: app/templates/views/site/faq.html:366
+#: app/templates/views/site/faq.html:353
 msgid "The purpose of gamification is to create an environment of fun and to make people confortable. The badges, for example, are a way of showing people what is possible inside the network without the boring part of reading a plain document."
 msgstr ""
 
-#: app/templates/views/site/faq.html:456
+#: app/templates/views/site/faq.html:462
 msgid "The rankings will be regional or international?"
 msgstr ""
 
-#: app/templates/views/site/faq.html:459
+#: app/templates/views/site/faq.html:465
 msgid "There are no central rankings with points, but you can filter and find people by badges, trophies, cities, etc.."
 msgstr ""
 
-#: app/templates/views/site/faq.html:270
+#: app/templates/views/site/faq.html:261
 msgid "There are up to 4 spaces for ads."
 msgstr ""
 
-#: app/templates/views/site/faq.html:448
-msgid ""
-"There will be 'jobs'. If you want to participate more, you can subscribe to rate looks, to translate and validate tags, to store the network's data, to be third party judge in conflicts, etc.. Lots of little things that help to maintain the network healthy.\r\n"
-"\t\t\t\t\tThe coin itself is an incentive and those jobs will be like tasks and look like a game!"
+#: app/templates/views/site/faq.html:455
+msgid "There will be 'jobs'. If you want to participate more, you can subscribe to rate looks, to translate and validate tags, to store the network's data, to be third party judge in conflicts, etc.. Lots of little things that help to maintain the network healthy. The coin itself is an incentive and those jobs will be like tasks and look like a game!"
 msgstr ""
 
 #: app/templates/views/site/home.html:108
 msgid "There will be only 1 billion LUX ever! No one can rule over the creation or the transactions of the coin. This means no one can interfere in it's value or it's form. The coin is free from rulers, so it can be used by free people!"
 msgstr ""
 
-#: app/templates/views/site/faq.html:290
+#: app/templates/views/site/faq.html:281
 msgid "There will be standard contracts and custom ones. The expiration will depend on the contract. You will always have the chance to analise the terms and accept or reject any contract at any time. Smart contracts can be partial: A store would like to pay for 5 of your Looks with their ad... If you post only 3, you'll receive for those 3 and the rest is returned to the store..."
 msgstr ""
 
-#: app/templates/views/site/faq.html:110
-msgid "They will make a public offer with their intentions or search for a specific audience. They choose the type of contract and the intructions, the audience will be notified and can choose to accept it or not!"
+#: app/templates/views/site/faq.html:109
+msgid "They will make a public offer with their intentions or search for a specific audience. They choose the type of contract and the intructions, the audience will be notified and can choose to accept it or not! They are smart contracts which means they are self-executing contractual states. They receive instructions and respond appropriately."
 msgstr ""
 
 #: app/templates/views/site/terms.html:26
 msgid "Third Party Sharing"
 msgstr ""
 
-#: app/templates/views/site/terms.html:43
-msgid "This Terms of Service Agreement (\"Agreement\") is our contract (not a"
-msgstr ""
-
-#: app/templates/views/site/faq.html:100
+#: app/templates/views/site/faq.html:99
 msgid "Through tags! You tag your look and, depending on the ad type, those tags will be used to search similar products."
 msgstr ""
 
-#: app/templates/views/site/features.html:153
+#: app/templates/views/site/features.html:149
 msgid "Tips"
 msgstr ""
 
-#: app/templates/views/site/features.html:38
+#: app/templates/views/site/features.html:35
 msgid "To describe your looks you can tag it, like \"party formal dinner long-dress\", plus situations such as wedding, new years eve, or walking the dog on the beach, and body types like pear, plus-size, skinny, etc. When you apply tags to your looks, people can find you and cheer your work. Tags make it easy to find everything about fashion by filtering the search results and showing only what matters to you!"
 msgstr ""
 
-#: app/templates/views/site/faq.html:377
-msgid "Trophies are given to those that really stand out! They are a way to show everybody else, the owner has created great value to others."
+#: app/templates/views/site/faq.html:363
+msgid "Trophies are given to those that really stand out! They are a way to show everybody else, the owner has created great value to others.<br> Badges are 'evolution' indicators. They are professional paths and will serve as a way to rate businesses and users as successful creators. For example, a path for dressmakers could be like this:"
 msgstr ""
 
 #: app/templates/views/site/terms.html:24
@@ -929,7 +878,7 @@ msgstr ""
 msgid "Very Bad Things That You Cannot Do"
 msgstr ""
 
-#: app/templates/views/site/faq.html:149
+#: app/templates/views/site/faq.html:148
 msgid "Wallet & Coin"
 msgstr ""
 
@@ -941,11 +890,7 @@ msgstr ""
 msgid "watch the video"
 msgstr ""
 
-#: app/templates/views/site/terms.html:49
-msgid "We can change these Terms at any time. You should check this page regularly, to make sure that it is still funny!"
-msgstr ""
-
-#: app/templates/views/site/faq.html:280
+#: app/templates/views/site/faq.html:271
 msgid "We can't know that! That is a barter for stores and users... People will tend to base their decisions about price with other ad services, but some folks will be highly valuable... I've heard famous people are charging companies for twitter comments... How much does it costs? It all depends on a negotiation, but closer to the release we will have an analisys on that and maybe could estimate a initial price."
 msgstr ""
 
@@ -957,19 +902,15 @@ msgstr ""
 msgid "We had our share of concern about theming a social network and how to make sure Luxore doesn't become an evil robot (not robot, just evil). Well, besides the use of decetralization, we made lots of types of rewards and incentives so it can be always focused on fashion. As we cannot ban, remove, or spank anyone, we gave you the powerful and efficient Physical Removal service, a.k.a block. You can also delete all the comments you don't like - but wait, there is more: When other people are beeing lower than a snake's belly or a real Retard McTardypants you have 3 options: (1) Start a dance fight/contest - not recommended, though. (2) LALALALALALA CAN’T HEAR. And (3), our favoritte, flag the comment as poisonous, toxic waste. Next comments of the flagged individuals will stink until they make amends."
 msgstr ""
 
-#: app/templates/views/site/terms.html:90
-msgid ""
-"We have lawyers. A whole team of them that are ready to knife fight on a whim... NOT!! But if you have problem with someone first go talk to that person. If you still have a problem, remove that person physically, so to speak (block). We don't have anything to do with the content posted or your fights. If you have a problem with us, make sure it is our problem. We may talk about this for awhile, and if neither side is happy with the result then we can duke it out in Court. \r\n"
-"\t\t\t\t\tThe Court must be private, and will be decided based on contracts rules. Oh, and the winner of any dispute or lawsuit is entitled to have their attorneys' fees and costs paid for by the loser."
+#: app/templates/views/site/terms.html:75
+msgid "We have lawyers. A whole team of them that are ready to knife fight on a whim... NOT!! But if you have problem with someone first go talk to that person. If you still have a problem, remove that person physically, so to speak (block). We don't have anything to do with the content posted or your fights. If you have a problem with us, make sure it is our problem. We may talk about this for awhile, and if neither side is happy with the result then we can duke it out in Court. The Court must be private, and will be decided based on contracts rules. Oh, and the winner of any dispute or lawsuit is entitled to have their attorneys' fees and costs paid for by the loser."
 msgstr ""
 
-#: app/templates/views/site/terms.html:112
-msgid ""
-"WE HAVE TO USE CAPS LOCK FOR THIS SECTION BECAUSE SOME DEAD GUY 100 YEARS AGO PROBABLY SAID IF WE DON'T THEN IT DOESN'T COUNT. SO WE CAN'T GUARANTEE THAT OUR SITE/APP WON'T BREAK YOUR COMPUTER/PHONE OR THAT YOU'LL FIND IT AMUSING OR THAT IT WILL HELP YOU MAKE MONEY. WE TRY OUR BEST, BUT THAT'S ALL YOU GET JUST LIKE WHEN YOU BUY SOMETHING AT A RANDOM GARAGE SALE… YOU'RE BUYING IT \"AS IS\" EVEN IF IT BLOWS UP OR FRIES YOUR BRAIN. SO EVEN IF SOMETHING TERRIBLE AND CATASTROPHIC HAPPENS BECAUSE YOU VIEWED OUR SITE/APP, YOU CAN'T SUE US, OR ANYONE THAT IS CONNECTED WITH US. \r\n"
-"\t\t\t\t    SINCE WE'RE EVERYWHERE (DISTRIBUTED AND DECENTRALIZED, REMEMBER?), SO WE WANT TO COPY THAT FANCY LAW SOMEWHERE THAT SAYS IF YOU GIVE UP YOUR \"GENERAL\" RIGHTS TO CLAIMS YOU DON'T HAVE TO GIVE UP YOUR RIGHTS TO CLAIMS THAT YOU COULDN'T HAVE KNOWN ABOUT (MAKES SENSE RIGHT?) WE'LL GUESS WHAT YOU ARE GIVING THOSE RIGHTS UP BECAUSE THIS IS A CONTRACT AND WE JUST TOLD YOU. SORRY! SO WE'RE DISCLAIMING ALL WARRANTIES AND LIABILITY FOR ANYTHING AND EVERYTHING, WHETHER OR NOT WE KNEW OR SHOULD HAVE BEEN PSYCHIC AND KNEW."
+#: app/templates/views/site/terms.html:96
+msgid "WE HAVE TO USE CAPS LOCK FOR THIS SECTION BECAUSE SOME DEAD GUY 100 YEARS AGO PROBABLY SAID IF WE DON'T THEN IT DOESN'T COUNT. SO WE CAN'T GUARANTEE THAT OUR SITE/APP WON'T BREAK YOUR COMPUTER/PHONE OR THAT YOU'LL FIND IT AMUSING OR THAT IT WILL HELP YOU MAKE MONEY. WE TRY OUR BEST, BUT THAT'S ALL YOU GET JUST LIKE WHEN YOU BUY SOMETHING AT A RANDOM GARAGE SALE… YOU'RE BUYING IT \"AS IS\" EVEN IF IT BLOWS UP OR FRIES YOUR BRAIN. SO EVEN IF SOMETHING TERRIBLE AND CATASTROPHIC HAPPENS BECAUSE YOU VIEWED OUR SITE/APP, YOU CAN'T SUE US, OR ANYONE THAT IS CONNECTED WITH US. SINCE WE'RE EVERYWHERE (DISTRIBUTED AND DECENTRALIZED, REMEMBER?), SO WE WANT TO COPY THAT FANCY LAW SOMEWHERE THAT SAYS IF YOU GIVE UP YOUR \"GENERAL\" RIGHTS TO CLAIMS YOU DON'T HAVE TO GIVE UP YOUR RIGHTS TO CLAIMS THAT YOU COULDN'T HAVE KNOWN ABOUT (MAKES SENSE RIGHT?) WE'LL GUESS WHAT YOU ARE GIVING THOSE RIGHTS UP BECAUSE THIS IS A CONTRACT AND WE JUST TOLD YOU. SORRY! SO WE'RE DISCLAIMING ALL WARRANTIES AND LIABILITY FOR ANYTHING AND EVERYTHING, WHETHER OR NOT WE KNEW OR SHOULD HAVE BEEN PSYCHIC AND KNEW."
 msgstr ""
 
-#: app/templates/views/site/home.html:207
+#: app/templates/views/site/home.html:198
 msgid "We made it!"
 msgstr ""
 
@@ -985,47 +926,47 @@ msgstr ""
 msgid "We store"
 msgstr ""
 
-#: app/templates/views/site/faq.html:120
+#: app/templates/views/site/faq.html:119
 msgid "Well, that's really diffcult. Maybe you are creating something entirely new... Then you can create a tag for it, and contact someone to produce it... You can have your own digital co-working and hire people to help you..."
 msgstr ""
 
-#: app/templates/views/site/faq.html:469
+#: app/templates/views/site/faq.html:475
 msgid "Well, they engage people. They will help to maintain the network by making jobs to look like a game. They are a fun way to make things happen and will always work with LUX Coins, so they double the incentives."
 msgstr ""
 
-#: app/templates/views/site/terms.html:65
-msgid "Well... that..."
+#: app/templates/views/site/terms.html:54
+msgid "Well... that...<br>...is a nonsense.<br>Learn more <a class=\"linx\" href=\"https://mises.org/library/against-intellectual-property-0\" target=\"_blank\">here</a> and <a class=\"linx\" href=\"http://everythingisaremix.info/\" target=\"_blank\">here</a>."
 msgstr ""
 
-#: app/templates/views/site/faq.html:386
+#: app/templates/views/site/faq.html:396
 msgid "What are the Funder Trophies?"
 msgstr ""
 
-#: app/templates/views/site/faq.html:373
+#: app/templates/views/site/faq.html:360
 msgid "What are trophies and badges?"
 msgstr ""
 
-#: app/templates/views/site/faq.html:445
+#: app/templates/views/site/faq.html:452
 msgid "What else is gamified?"
 msgstr ""
 
-#: app/templates/views/site/faq.html:127
+#: app/templates/views/site/faq.html:126
 msgid "What if I run a fashion blog, can I use the same pictures here?"
 msgstr ""
 
-#: app/templates/views/site/faq.html:117
+#: app/templates/views/site/faq.html:116
 msgid "What if my look does not have any similar items?"
 msgstr ""
 
-#: app/templates/views/site/faq.html:353
+#: app/templates/views/site/faq.html:340
 msgid "What is Gamification?"
 msgstr ""
 
-#: app/templates/views/site/faq.html:153
+#: app/templates/views/site/faq.html:152
 msgid "What is LUX Coin?"
 msgstr ""
 
-#: app/templates/views/site/faq.html:209
+#: app/templates/views/site/faq.html:202
 msgid "What is LUX relation to other currencies?"
 msgstr ""
 
@@ -1033,45 +974,47 @@ msgstr ""
 msgid "What is Luxore?"
 msgstr ""
 
+#: app/templates/views/site/terms.html:21
+msgid "What is not yours..."
+msgstr ""
+
 #: app/templates/views/site/contact.html:38
 msgid "What is on your mind?"
 msgstr ""
 
-#: app/templates/views/site/faq.html:363
+#: app/templates/views/site/faq.html:350
 msgid "What is the purpose?"
+msgstr ""
+
+#: app/templates/views/site/terms.html:20
+msgid "What is yours..."
 msgstr ""
 
 #: app/templates/views/site/contact.html:33
 msgid "What you want to talk about?"
 msgstr ""
 
-#: app/templates/views/site/terms.html:45
-msgid "What:"
-msgstr ""
-
-#: app/templates/views/site/faq.html:287
+#: app/templates/views/site/faq.html:278
 msgid "When ads expire? How to control it?"
 msgstr ""
 
 #: app/templates/views/site/faq.html:79
-msgid ""
-"When you post a Look, you can choose ads for it. You can also set a default. The post will be shared and applauded by your followers increasing the range of the ad and making your profile more valuable.\r\n"
-"\t\t\t\t\tThe contracts can be with any duration and any conditions."
+msgid "When you post a Look, you can choose ads for it. You can also set a default. The post will be shared and applauded by your followers increasing the range of the ad and making your profile more valuable. The contracts can be with any duration and any conditions."
 msgstr ""
 
 #: app/templates/views/site/contact.html:28
 msgid "Where can we email you back?"
 msgstr ""
 
-#: app/templates/views/site/faq.html:466
+#: app/templates/views/site/faq.html:472
 msgid "Which are the advantages of this gamification thing?"
 msgstr ""
 
-#: app/templates/views/site/faq.html:247
+#: app/templates/views/site/faq.html:238
 msgid "Which kind of ads will be available?"
 msgstr ""
 
-#: app/templates/views/site/faq.html:334
+#: app/templates/views/site/faq.html:324
 msgid "Which kind of business can I have inside Luxore?"
 msgstr ""
 
@@ -1079,11 +1022,11 @@ msgstr ""
 msgid "Whitepaper"
 msgstr ""
 
-#: app/templates/views/site/faq.html:257
+#: app/templates/views/site/faq.html:248
 msgid "Who can post ads?"
 msgstr ""
 
-#: app/templates/views/site/faq.html:175
+#: app/templates/views/site/faq.html:172
 msgid "Who control this currency?"
 msgstr ""
 
@@ -1091,43 +1034,27 @@ msgstr ""
 msgid "Who, Why, What"
 msgstr ""
 
-#: app/templates/views/site/terms.html:41
-msgid "Who:"
-msgstr ""
-
-#: app/templates/views/site/faq.html:220
+#: app/templates/views/site/faq.html:212
 msgid "Why not to use a common currency?"
 msgstr ""
 
-#: app/templates/views/site/terms.html:43
-msgid "Why:"
+#: app/templates/views/site/features.html:67
+msgid "Yeah, we have a coin! LUX is a token, a cryptocurrency, built with the same premises of Bitcoin using Lisk: a platform for building blockchains and decentralized apps!<br>The idea is to cut off the bureaucracy and, like other cryptocurrencies, be safe. All the financial transactions inside Luxore network will be made with LUX. That guarantees the valuation of the whole system. There will be created 1 billion LUX Coins in two years, and it will not be possible to create more or less than this! Every user will have an address that works like your bank account number and you can send and receive money with it, protected by a passphrase that only you know."
 msgstr ""
 
-#: app/templates/views/site/terms.html:43
-msgid "with you, and tells you what you can and can't do and what we can and can't do with you."
-msgstr ""
-
-#: app/templates/views/site/features.html:70
-msgid ""
-"Yeah, we have a coin! LUX is a token, a cryptocurrency, built with the same premises of Bitcoin using Lisk: a platform for building blockchains and decentralized apps!<br>\r\n"
-"\t\t\t\t\t\tThe idea is to cut off the bureaucracy and, like other cryptocurrencies, be safe. All the financial transactions inside Luxore network will be made with LUX. That guarantees the valuation of the whole system. There will be created 1 billion LUX Coins in two years, and it will not be possible to create more or less than this! Every user will have an address that works like your bank account number and you can send and receive money with it, protected by a passphrase that only you know."
-msgstr ""
-
-#: app/templates/views/site/faq.html:140
+#: app/templates/views/site/faq.html:139
 msgid "Yes. Every cryptocurrency comes with a digital wallet that looks like a bank! You will see there, all your transactions and filter by Look, for example. You can also change the distribution on your looks."
 msgstr ""
 
-#: app/templates/views/site/faq.html:306
-msgid ""
-"Yes. The goal is to create parallel markets inside the fashion market. Connect people to voluntary trade between them. You can set up a Studio, a digital co-working, and make a living out of it!\r\n"
-"\t\t\t\t\tThe more the LUX Coin is valuable, the more easy will be to grow a business here!"
+#: app/templates/views/site/faq.html:297
+msgid "Yes. The goal is to create parallel markets inside the fashion market. Connect people to voluntary trade between them. You can set up a Studio, a digital co-working, and make a living out of it! The more the LUX Coin is valuable, the more easy will be to grow a business here!"
 msgstr ""
 
-#: app/templates/views/site/faq.html:90
+#: app/templates/views/site/faq.html:89
 msgid "Yes. The LUX Coin is the basis of the network itself."
 msgstr ""
 
-#: app/templates/views/site/faq.html:130
+#: app/templates/views/site/faq.html:129
 msgid "Yes. We are not competitors. We want to help with visibility and monetization."
 msgstr ""
 
@@ -1135,21 +1062,19 @@ msgstr ""
 msgid "You can change and distribute the way you want except for the 10% maintenance."
 msgstr ""
 
-#: app/templates/views/site/terms.html:81
-msgid ""
-"You can post content - it's a social network.. You agree to remain responsible for anything that you post. Your property! That's a lot of power, but remember: \"with great powers comes great responsibilities\".\r\n"
-"\t\t\t\t\tYou can do business in your terms, in you space as long as it is voluntary."
+#: app/templates/views/site/terms.html:68
+msgid "You can post content - it's a social network.. You agree to remain responsible for anything that you post. Your property! That's a lot of power, but remember: \"with great powers comes great responsibilities\". You can do business in your terms, in your space, as long as it is voluntary.<br>LF's only job is software maintenance for which we claim 10% of the total income with the ads for making this wonderful system for you. (Low cost rent)."
 msgstr ""
 
 #: app/templates/header.html:119
 msgid "You reserve all the rights to your code."
 msgstr ""
 
-#: app/templates/views/site/home.html:233
+#: app/templates/views/site/home.html:221
 msgid "Your email address"
 msgstr ""
 
-#: app/templates/views/site/home.html:233
+#: app/templates/views/site/home.html:221
 msgid "Your email seems wrong.."
 msgstr ""
 
@@ -1158,18 +1083,14 @@ msgid "your Github account"
 msgstr ""
 
 #: app/templates/views/site/features.html:22
-msgid ""
-"Your photos, or as we call - The Looks - will live in your Vitrine which is just a fancy french name for the \"feed\". \r\n"
-"\t\t\t\t\t\tYour followers will see there, everything you post! They will be following a style, a trend, or your creativity... \r\n"
-"\t\t\t\t\t\tYou can explore your looks, your body type, events, make-up, hair-style, shoes, underwear, socks, \r\n"
-"\t\t\t\t\t\tbracelets, necklaces... Anything you want. The idea is to be found and be on command of your own style!"
+msgid "Your photos, or as we call - The Looks - will live in your Vitrine which is just a fancy french name for the \"feed\". Your followers will see there, everything you post! They will be following a style, a trend, or your creativity... You can explore your looks, your body type, events, make-up, hair-style, shoes, underwear, socks, bracelets, necklaces... Anything you want. The idea is to be found and be on command of your own style!"
 msgstr ""
 
-#: app/templates/views/site/terms.html:56
-msgid "Your photos, your property, your rules. Luxore gives you a way to make money by posting photos. In every photo, you'll have up to 4 (four) ad spaces to fill the way you want... You can always leave your photos without ads, although we DO NOT recommend that (see"
+#: app/templates/views/site/terms.html:47
+msgid "Your photos, your property, your rules. Luxore gives you a way to make money by posting photos. In every photo, you'll have up to 4 (four) ad spaces to fill the way you want... You can always leave your photos without ads, although we DO NOT recommend that (see <a class=\"linx\" href=\"http://www.luxore.me/blog/\">here</a>).<br>Important: WE DO NOT OWN THE NETWORK OR THE APP. Personal information is end-to-end encrypted, the storage is distributed and the connections decentralized."
 msgstr ""
 
-#: app/templates/views/site/features.html:57
+#: app/templates/views/site/features.html:54
 msgid "Your profile is your virtual identity! It shows your info in an organized way with tools for customization and security settings... Here you can choose your interests which will filter your Vitrine showing always what is relevant to you. All info about you will live here and you can control it the way you want - your badges, your data, your friends, rankings, lists, galleries, stats, etc.."
 msgstr ""
 

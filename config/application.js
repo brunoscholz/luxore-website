@@ -54,7 +54,7 @@ module.exports = function(lineman) {
     nggettext_compile: {
         all: {
             options: {
-                module: 'app'
+                module: 'app.languages'
             },
             files: {
                 'app/js/translations.js': ['po/*.po']

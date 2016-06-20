@@ -774,11 +774,31 @@ ul.side-nav {
         vertical-align: middle;
         float: left;
         padding-top: 0.5em;
+        margin: 0;
       }
       & span {
         vertical-align: middle;
         float: left;
         margin-left: 1.4em;
+      }
+      &.collapsible-header {
+        & i {
+          width: unset;
+        }
+        & span {
+          line-height: 75px;
+        }
+      }
+    }
+    & .dropdown-languages {
+      & a {
+        & img {
+          vertical-align: middle;
+          float: none;
+        }
+        & span {
+          float: none;
+        }
       }
     }
     &.logo {
@@ -797,12 +817,23 @@ ul.side-nav {
   }
 }
 
+ul.side-nav li a.collapsible-body {
+  margin: 0 !important;
+}
+ul.side-nav li a.collapsible-body span {
+  line-height: 75px;
+}
+
+ul.side-nav li a.collapsible-body i {
+  margin: 0;
+}
+
 .side-nav .collapsible-body li a {
   margin: 0;
   padding: 0 1em 0 2em;
 }
 .side-nav .collapsible-header {
-  margin: 0;
+  margin: 0
 }
 
 /*********************
