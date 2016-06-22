@@ -45,7 +45,7 @@ msgid "<b>KEEP IT ORIGINAL.</b> Luxore is to empower real-life people (not holly
 msgstr ""
 
 #: app/templates/views/site/ethics.html:47
-msgid "<b>RESPECT IP RIGHTS.</b> Ha ha, just kidding... There is no such a thing.. See why <a class=\"linx\" href=\"https://mises.org/library/against-intellectual-property-0\" target=\"_blank\">here</a> and <a class=\"linx\" href=\"http://everythingisaremix.info/\" target=\"_blank\">here</a>."
+msgid "<b>RESPECT INTELLECTUAL PROPERTY RIGHTS.</b> Ha ha, just kidding... There is no such a thing.. See why <a class=\"linx\" href=\"https://mises.org/library/against-intellectual-property-0\" target=\"_blank\">here</a> and <a class=\"linx\" href=\"http://everythingisaremix.info/\" target=\"_blank\">here</a>."
 msgstr ""
 
 #: app/templates/views/site/ethics.html:56
@@ -172,7 +172,7 @@ msgid "After the project got body, we started to consider platforms to use, and 
 msgstr ""
 
 #: app/templates/views/site/home.html:184
-msgid "Although we are already building Luxore, we don't have all the resources we want... That's why we are launching the project on kickstarter - a platform for crowdfunding. In 30 days, we expect to raise the money so we can keep our schedule!"
+msgid "Although we are already building Luxore, we don't have all the resources we want... That's why we have a <a class=\"linx\" href=\"#!\">crowdfunding campaign</a> on Kickstarter. In 30 days, we expect to raise the money so we can keep our schedule!"
 msgstr ""
 
 #: app/templates/views/site/faq.html:241
@@ -391,6 +391,11 @@ msgstr ""
 msgid "First, because they are controlled. Second, it is a way to give people more freedom to interact, create and make business directly with each other and that is no one else's business! Third, because a common currency is insecure which means, there are a high cost to make it work smoothly, and we would depend on banks and courts... That would really be expensive. That is why Luxore is possible: we don't have to worry about those impractical costs..."
 msgstr ""
 
+#: app/templates/footer.html:38
+#: app/templates/views/docs/footer.html:11
+msgid "Foundation"
+msgstr ""
+
 #: app/templates/views/site/home.html:192
 msgid "From now on, we need a few early adopters to help us test everything... Find bugs, criticize the layouts, button positioning, colors, anything that could be a threat to usability or bad in the eye!"
 msgstr ""
@@ -420,6 +425,11 @@ msgstr ""
 
 #: app/templates/footer.html:3
 msgid "Get in Touch"
+msgstr ""
+
+#: app/templates/footer.html:57
+#: app/templates/views/docs/footer.html:30
+msgid "Get Involved"
 msgstr ""
 
 #: app/templates/header.html:113
@@ -589,10 +599,12 @@ msgstr ""
 msgid "Luxore Terms of Use"
 msgstr ""
 
-#: app/templates/views/site/team.html:124
 #: app/templates/views/site/team.html:54
+msgid "Luxore to me is a big challenge! A project full of difficulties to overcome, to develop a new way of understand fashion. A project to provide users the possibility to show to the world and to the market their talents and products, in a secure way without all the bureaucracy. Create a warm and inspiring environment for users to achieve and realize their dreams."
+msgstr ""
+
 #: app/templates/views/site/team.html:92
-msgid "Luxore to me is..."
+msgid "Luxore to me is a convergence place to all people interested in fashion. This basically represents two things to them: express fashion and learn about it. It's a mix of the right of expressing talents with the possibility to learn. These two things are interrelated within Luxore, generating an effect that influences and popularizes fashion. It's an uneven moment that will make a big difference in how and who will dictate fashion."
 msgstr ""
 
 #: app/templates/views/site/faq.html:443
@@ -1064,6 +1076,10 @@ msgstr ""
 
 #: app/templates/views/site/terms.html:68
 msgid "You can post content - it's a social network.. You agree to remain responsible for anything that you post. Your property! That's a lot of power, but remember: \"with great powers comes great responsibilities\". You can do business in your terms, in your space, as long as it is voluntary.<br>LF's only job is software maintenance for which we claim 10% of the total income with the ads for making this wonderful system for you. (Low cost rent)."
+msgstr ""
+
+#: app/templates/views/site/team.html:124
+msgid "You know when we fall in love for the first time? We feel a contagious joy, everything is a reason to laugh and we have that urge to shout to the whole world we are happy with someone else? That's how I feel about Luxore! It came in a special way with the purpose to delight people. It represents a watershed between standards and concepts adopted so far to a new moment of total freedom and opportunity for everyone to discover their potential beauty and influence through fashion."
 msgstr ""
 
 #: app/templates/header.html:119
