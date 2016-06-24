@@ -353,15 +353,15 @@ app.controller('ContactController', function ($scope, languageService, Newslette
 
   $scope.sendContact = function (usr) {
     NewsletterData.SendContact({
-        contact: 'true',
-        name: $scope.user.name,
-        email: $scope.user.email,
-        subject: $scope.user.subject,
-        message: $scope.user.message,
-        subscribe: $scope.user.subscribe
-      })
-      .success(sendMailSuccess)
-      .error(sendMailError);
+      contact: 'true',
+      name: $scope.user.name,
+      email: $scope.user.email,
+      subject: $scope.user.subject,
+      message: $scope.user.message,
+      subscribe: $scope.user.subscribe
+    })
+    .success(sendMailSuccess)
+    .error(sendMailError);
   };
 });
 
@@ -388,7 +388,7 @@ app.controller('HeaderController', function ($scope, $rootScope, languageService
   // KICKSTARTER Start Date Sat Jun 20 2016 09:00:00 GMT-0400
   // miliseconds: 1466427600000
   // {{'support us on kickstarter'|translate}}
-  $scope.kickTimer = 1466413200000;
+  $scope.kickTimer = 1467622800000;
   $scope.timerRunning = false;
   var timeStarted = false;
 

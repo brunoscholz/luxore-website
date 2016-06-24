@@ -497,7 +497,12 @@ Slider
 .cd-slider .content {
   padding: 30px;
   color: #ffffff;
-  background-color: #5f4d70;
+  /*background-color: #5f4d70;*/
+  background: -webkit-linear-gradient(-45deg, #49bfeb, #c44dd6);
+  background: -moz-linear-gradient(-45deg, #49bfeb, #c44dd6);
+  background: -ms-linear-gradient(-45deg, #49bfeb, #c44dd6);
+  background: -o-linear-gradient(-45deg, #49bfeb, #c44dd6);
+
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -521,12 +526,24 @@ Slider
 }
 .cd-slider li:nth-of-type(2) .content {
   background-color: #5f4d70;
+  background: -webkit-linear-gradient(-45deg, #c44dd6, #5f4d70);
+  background: -moz-linear-gradient(-45deg, #c44dd6, #5f4d70);
+  background: -ms-linear-gradient(-45deg, #c44dd6, #5f4d70);
+  background: -o-linear-gradient(-45deg, #c44dd6, #5f4d70);
 }
 .cd-slider li:nth-of-type(3) .content {
   background-color: #5f4d70;
+  background: -webkit-linear-gradient(-45deg, #5f4d70, #d357e0);
+  background: -moz-linear-gradient(-45deg, #5f4d70, #d357e0);
+  background: -ms-linear-gradient(-45deg, #5f4d70, #d357e0);
+  background: -o-linear-gradient(-45deg, #5f4d70, #d357e0);
 }
 .cd-slider li:nth-of-type(4) .content {
   background-color: #5f4d70;
+  background: -webkit-linear-gradient(-45deg, #d357e0, #49bfeb);
+  background: -moz-linear-gradient(-45deg, #d357e0, #49bfeb);
+  background: -ms-linear-gradient(-45deg, #d357e0, #49bfeb);
+  background: -o-linear-gradient(-45deg, #d357e0, #49bfeb);
 }
 .cd-slider h2 {
   font-size: 2.2rem;
