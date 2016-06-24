@@ -71,7 +71,6 @@
     <div ng-cloak> <!-- Cloak start -->
 
       <main ui-view="master" class="page-transition hero-transition">
-        Error loading AngularJS view..
       </main>
 
     </div> <!-- Cloak end -->
@@ -92,7 +91,7 @@
         <p>A bunch of text</p>
       </div>
       <div class="modal-footer">
-        <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">{{'Close'|translate}}</a>
+        <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
       </div>
     </div>
 

@@ -844,12 +844,139 @@ ul.side-nav li a.collapsible-body i {
 /*********************
    Slider Section
 **********************/
+.cd-slider-wrapper {
+  position: relative;
+  height: 600px;
+  @media @small, @medium {
+    height: 350px;
+  }
+}
 
-/* -------------------------------- 
+.cd-slider {
+  position: relative;
+  z-index: 1;
+  height: 100%;
+  overflow: hidden;
+  & li {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    .transform(translateX(100%));
+    .transition(~"transform 0.6s");
+    background-size: 100%;
+    background-position: 0 0;
+    &.is-visible {
+      .transform(translateX(0));
+    }
+    &:first-of-type {
+      & .image {
+        background: #e5e5e5 url(../img/features/coin-02.png);
+      }
+      & .content {
+        .angle-gradient (-45deg, #49bfeb, #c44dd6);
+      }
+    }
+    &:nth-of-type(2) {
+      & .image {
+        background: #e5e5e5 url(../img/features/coin-04.png);
+      }
+      & .content {
+        .angle-gradient (-45deg, #c44dd6, #5f4d70);
+      }
+    }
+    &:nth-of-type(3) {
+      & .image {
+        background: #e5e5e5 url(../img/features/coin-01.png);
+      }
+      & .content {
+        .angle-gradient (-45deg, #5f4d70, #d357e0);
+      }
+    }
+    &:nth-of-type(4) {
+      & .image {
+        background: #e5e5e5 url(../img/features/coin-03.png);
+      }
+      & .content {
+        .angle-gradient (-45deg, #d357e0, #49bfeb);
+      }
+    }
+  }
+  & .cd-half-block {
+    height: 50%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    &.image {
+      display: block;
+      @media @small, @medium {
+        display: none;
+      }
+    }
+    @media @small, @medium {
+      height: 100%;
+    }
+  }
+  & .content {
+    padding: 30px;
+    color: #ffffff;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    @media @small, @medium {
+      padding: 15px;
+      font-size: @font-size--thin;
+    }
+  }
+  & .light-bg {
+    color: rgba(0, 0, 0, 0.6);
+  }
+  & .btn {
+    display: inline-block;
+    background: rgba(0, 0, 0, 0.2);
+    padding: 1em 1.6em;
+    margin-top: 1em;
+    font-size: 1.3rem;
+    color: #ffffff;
+    border-radius: 50em;
+    -webkit-transition: background 0.3s;
+    -moz-transition: background 0.3s;
+    transition: background 0.3s;
+  }
+  & h2 {
+    font-size: 2.2rem;
+    margin-bottom: .4em;
+  }
+  & p {
+    font-size: 1.4rem;
+  }
 
-Slider Navigation
+  & a:hover {
+    color: #f3f2f3;
+  }
 
--------------------------------- */
+  & a:before {
+    background-color: #6d2a87;
+  }
+
+  & h2, p {
+    line-height: 1.4;
+  }
+}
+    
+
+
+
+#coin {
+  & h4 {
+    margin-bottom: 140px;
+    @media @small, @medium {
+      margin-bottom: 0px;
+    }
+  }
+  @media @small, @medium {
+    margin-bottom: 60px;
+  }
+}
 
 .cd-slider-navigation {
   /* you won't see this element in the html but it will be created using jQuery */
@@ -864,6 +991,7 @@ Slider Navigation
     width: 100%;*/
     left: 45%;
     display: inline-flex;
+    top: unset;
   }
 }
 

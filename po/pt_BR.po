@@ -196,6 +196,16 @@ msgstr ""
 "qualquer tempo. Você deveria verificar a página regularmente para garantir "
 "que continua divertida!"
 
+#: app/templates/views/site/faq.html:54
+msgid ""
+"<li>65% for the post creator</li><li>25% for all participants that help rise "
+"the post value</li><li>10% for the network maintenance by Luxore Foundation</"
+"li>"
+msgstr ""
+"<li>65% para o criador do post</li><li>25% para todos os que participarem "
+"aumentando o valor do Look</li><li>10% para manutenção da rede pela Luxore "
+"Foundation</li>"
+
 #: app/templates/views/site/ethics.html:5
 msgid ""
 "<span class=\"brand\">Luxore</span> care about individuals, but some of them "
@@ -255,7 +265,7 @@ msgstr "1. QUEM, POR QUE, O QUE"
 msgid "10. MISC THINGS"
 msgstr "10. MISCELÂNIA"
 
-#: app/templates/views/site/faq.html:414
+#: app/templates/views/site/faq.html:412
 msgid "100 points"
 msgstr "100 pontos"
 
@@ -263,7 +273,7 @@ msgstr "100 pontos"
 msgid "2.  WHAT IS YOURS, IS YOURS TO KEEP"
 msgstr "2. O QUE É SEU, É SÓ SEU"
 
-#: app/templates/views/site/faq.html:421
+#: app/templates/views/site/faq.html:419
 msgid "200 points"
 msgstr "200 pontos"
 
@@ -271,7 +281,7 @@ msgstr "200 pontos"
 msgid "3.  INTELLECTUAL PROPERTY"
 msgstr "3. PROPRIEDADE INTELECTUAL"
 
-#: app/templates/views/site/faq.html:430
+#: app/templates/views/site/faq.html:428
 msgid "300 points"
 msgstr "300 pontos"
 
@@ -283,11 +293,11 @@ msgstr "4. COISAS MUITO FEIAS QUE VOCÊ NÃO DEVE FAZER"
 msgid "5.  RESPONSIBILITIES"
 msgstr "5. RESPONSABILIDADES"
 
-#: app/templates/views/site/faq.html:407
+#: app/templates/views/site/faq.html:405
 msgid "50 points"
 msgstr "50 pontos"
 
-#: app/templates/views/site/faq.html:437
+#: app/templates/views/site/faq.html:435
 msgid "500 points"
 msgstr "500 pontos"
 
@@ -299,7 +309,7 @@ msgstr "6. VOCÊ ESTÁ BRAVO? QUER NOS PROCESSAR?"
 msgid "7.  SURVIVAL OF THE DEAD… AGREEMENT"
 msgstr "7. ACORDO ZUMBI..."
 
-#: app/templates/views/site/faq.html:444
+#: app/templates/views/site/faq.html:442
 msgid "750 points"
 msgstr "750 pontos"
 
@@ -343,7 +353,7 @@ msgstr ""
 msgid "About Us"
 msgstr "Sobre Nós"
 
-#: app/templates/views/site/faq.html:234 app/templates/views/site/faq.html:34
+#: app/templates/views/site/faq.html:232 app/templates/views/site/faq.html:34
 msgid "ADs"
 msgstr "Propaganda"
 
@@ -362,15 +372,15 @@ msgstr ""
 msgid ""
 "Although we are already building Luxore, we don't have all the resources we "
 "want... That's why we have a <a class=\"linx\" href=\"#!\">crowdfunding "
-"campaign</a> on Kickstarter. In 30 days, we expect to raise the money so we "
+"campaign</a> on Indiegogo. In 30 days, we expect to raise the money so we "
 "can keep our schedule!"
 msgstr ""
 "Embora já estejamos construindo a Luxore, não temos todos os recursos que "
-"gostaríamos... Por isso temos uma <a class=\"linx\" href=\"#!\">campanha de "
-"financiamento coletivo</a> no Kickstarter. Em 30 dias, esperamos levantar a "
-"grana para manter nosso cronograma!"
+"precisamos... É por isso que criamos uma <a class=\"linx\" href=\"#!"
+"\">campanha de financiamento</a> no Indiegogo. Em 30 dias esperamos ter o "
+"dinheiro para manter nosso cronograma!"
 
-#: app/templates/views/site/faq.html:241
+#: app/templates/views/site/faq.html:239
 msgid ""
 "Any kind. We strongly believe in people's choice so, given the fashion "
 "public, fashion related products and promotions will be more common. Many "
@@ -384,11 +394,11 @@ msgstr ""
 "vender mais... No final, você é quem decide que tipo de anúncios você vai "
 "ter em seus posts!"
 
-#: app/templates/views/site/faq.html:251
+#: app/templates/views/site/faq.html:249
 msgid "Anyone who pays the owner in LUX."
 msgstr "Qualquer um que pague o proprietário em LUX."
 
-#: app/templates/views/site/faq.html:327
+#: app/templates/views/site/faq.html:325
 msgid ""
 "Anything! Digital co-workings are supposed to connect you with other "
 "professionals. You can have a photo studio and hire models and "
@@ -458,19 +468,19 @@ msgstr ""
 msgid "Blog"
 msgstr "Blog"
 
-#: app/templates/views/site/faq.html:384
+#: app/templates/views/site/faq.html:382
 msgid "Bronze Scissors"
 msgstr "Tesoura de Bronze"
 
-#: app/templates/views/site/faq.html:413
+#: app/templates/views/site/faq.html:411
 msgid "Bronze Trophy"
 msgstr "Troféu de Bronze"
 
-#: app/templates/views/site/faq.html:290 app/templates/views/site/faq.html:35
+#: app/templates/views/site/faq.html:288 app/templates/views/site/faq.html:35
 msgid "Business"
 msgstr "Negócios"
 
-#: app/templates/views/site/faq.html:69
+#: app/templates/views/site/faq.html:67
 msgid ""
 "By having original content and making your audience grow with you. You can "
 "make series of posts by themes, lists like \"the best of\" something..."
@@ -487,7 +497,7 @@ msgstr ""
 "encontrar um número que você ache confortável! Quanto mais você agradar seus "
 "seguidores, mais você ganha!"
 
-#: app/templates/views/site/faq.html:294
+#: app/templates/views/site/faq.html:292
 msgid "Can I use Luxore as my own business?"
 msgstr "Posso usar a Luxore como meu próprio negócio?"
 
@@ -515,7 +525,7 @@ msgstr ""
 "transações e os dados serão públicos, mas criptografados e estarão em todo "
 "lugar! Qualquer um pode verificar os dados, mas ninguém pode \"ver\" isso!"
 
-#: app/templates/views/site/faq.html:406
+#: app/templates/views/site/faq.html:404
 msgid "Cup"
 msgstr "Taça"
 
@@ -539,7 +549,7 @@ msgstr "1º de Dezembro, 2016"
 msgid "Decentralized"
 msgstr "Descentralizado"
 
-#: app/templates/views/site/faq.html:436
+#: app/templates/views/site/faq.html:434
 msgid "Diamond Trophy"
 msgstr "Troféu de Diamante"
 
@@ -555,19 +565,19 @@ msgstr ""
 "o resto da rede, todas as mensagens serão criptografadas para que você possa "
 "ter certeza que está em uma linha segura de comunicação!"
 
-#: app/templates/views/site/faq.html:136
+#: app/templates/views/site/faq.html:134
 msgid "Do I have any control over the revenue?"
 msgstr "Não tenho nenhum controle sobre a receita?"
 
-#: app/templates/views/site/faq.html:192
+#: app/templates/views/site/faq.html:190
 msgid "Do I have to declare LUX when I do taxes?"
 msgstr "Tenho que declarar LUX quando eu declaro impostos?"
 
-#: app/templates/views/site/faq.html:314
+#: app/templates/views/site/faq.html:312
 msgid "Do I need a registered company to use it?"
 msgstr "Preciso ter uma empresa para usá-la?"
 
-#: app/templates/views/site/faq.html:304
+#: app/templates/views/site/faq.html:302
 msgid "Do I need to pay for a business page?"
 msgstr "Preciso pagar por uma página de negócios?"
 
@@ -603,7 +613,7 @@ msgstr "Doe para"
 msgid "DOs"
 msgstr "PERMITIDOS"
 
-#: app/templates/views/site/faq.html:389
+#: app/templates/views/site/faq.html:387
 msgid ""
 "Each badge represents 5 levels out of 15 possible. For each accomplishment "
 "like having a Look with 1000 cheers, or making 2 Looks with at least 100 "
@@ -619,7 +629,7 @@ msgstr ""
 msgid "Ethical Guidelines"
 msgstr "Orientações Éticas"
 
-#: app/templates/views/site/faq.html:205
+#: app/templates/views/site/faq.html:203
 msgid ""
 "Every cryptocurrency can be negotiated directly. It is like any other "
 "currency: you can exchange dollars for euros, as you can exchange bitcoin "
@@ -692,7 +702,7 @@ msgstr ""
 msgid "First and Foremost"
 msgstr "Em primeiro lugar"
 
-#: app/templates/views/site/faq.html:215
+#: app/templates/views/site/faq.html:213
 msgid ""
 "First, because they are controlled. Second, it is a way to give people more "
 "freedom to interact, create and make business directly with each other and "
@@ -723,7 +733,7 @@ msgstr ""
 "testar... Achar erros, criticar visual, posicionamento de botões, cores, "
 "qualquer coisa que possa ser uma ameaça a usabilidade ou feio!"
 
-#: app/templates/views/site/faq.html:399
+#: app/templates/views/site/faq.html:397
 msgid ""
 "Funder trophies are achievements distributed for every pledge on <a class="
 "\"linx\">kickstarter campaign</a>. They give advantages to its bearer within "
@@ -754,12 +764,12 @@ msgstr ""
 "Os jogos são divertidos e nos mantém motivados! Além disso, ajudam a manter "
 "a rede saudável."
 
-#: app/templates/views/site/faq.html:336 app/templates/views/site/faq.html:36
+#: app/templates/views/site/faq.html:334 app/templates/views/site/faq.html:36
 #: app/templates/views/site/features.html:117
 msgid "Gamification"
 msgstr "Gamificação"
 
-#: app/templates/views/site/faq.html:343
+#: app/templates/views/site/faq.html:341
 msgid ""
 "Gamification is the process of using game-like incentives in a non-game "
 "environment."
@@ -778,17 +788,17 @@ msgstr "Entre em contato"
 
 #: app/templates/footer.html:57 app/templates/views/docs/footer.html:30
 msgid "Get Involved"
-msgstr "Se Involva"
+msgstr "Se Envolva"
 
 #: app/templates/header.html:113
 msgid "Get Started"
 msgstr "Comece"
 
-#: app/templates/views/site/faq.html:429
+#: app/templates/views/site/faq.html:427
 msgid "Gold Trophy"
 msgstr "Troféu de Ouro"
 
-#: app/templates/views/site/faq.html:370
+#: app/templates/views/site/faq.html:368
 msgid "Golden Scissors"
 msgstr "Tesoura de Ouro"
 
@@ -835,35 +845,35 @@ msgstr ""
 "estúdios também têm uma vitrine, e como qualquer outro usuário, você pode "
 "postar looks, listas e produtos."
 
-#: app/templates/views/site/faq.html:222
+#: app/templates/views/site/faq.html:220
 msgid "How can I exchange my LUX for money?"
 msgstr "Como posso trocar LUX por dinheiro?"
 
-#: app/templates/views/site/faq.html:76
+#: app/templates/views/site/faq.html:74
 msgid "How do I earn money?"
 msgstr "Como eu posso ganhar dinheiro?"
 
-#: app/templates/views/site/faq.html:162
+#: app/templates/views/site/faq.html:160
 msgid "How LUX Coin has value?"
 msgstr "Como a LUX tem valor?"
 
-#: app/templates/views/site/faq.html:258
+#: app/templates/views/site/faq.html:256
 msgid "How many ads there will be in a Look?"
 msgstr "Quantos anúncios haverá em um look?"
 
-#: app/templates/views/site/faq.html:268
+#: app/templates/views/site/faq.html:266
 msgid "How much is a nice value for an ad space?"
 msgstr "Quanto é um bom valor para um espaço de anúncio?"
 
-#: app/templates/views/site/faq.html:96
+#: app/templates/views/site/faq.html:94
 msgid "How my look will be linked to a store item?"
 msgstr "Como meu look vai ser ligado a um item da loja?"
 
-#: app/templates/views/site/faq.html:106
+#: app/templates/views/site/faq.html:104
 msgid "How the store contracts work?"
 msgstr "Como funcionam os contratos com as lojas?"
 
-#: app/templates/views/site/faq.html:66
+#: app/templates/views/site/faq.html:64
 msgid "How to be different inside Luxore?"
 msgstr "Como ser diferente dentro da Luxore?"
 
@@ -933,7 +943,11 @@ msgstr ""
 "interesses - A Luxore havia nascido!! Desde então estamos trabalhando muito "
 "para montá-la."
 
-#: app/templates/views/site/faq.html:165
+#: app/templates/views/site/home.html:15
+msgid "Indiegogo will begin soon"
+msgstr "Indiegogo começará em breve"
+
+#: app/templates/views/site/faq.html:163
 msgid ""
 "Initially it does not have any! Every kind of money has value based on its "
 "uses, on people who think that it is a good mean of exchange. With time, "
@@ -949,7 +963,7 @@ msgstr ""
 "como um programa de milhagens, mas ninguém pode criar os pontos e pode ser "
 "negociada como um ativo ou dinheiro."
 
-#: app/templates/views/site/faq.html:182
+#: app/templates/views/site/faq.html:180
 msgid "Is LUX Coin legal?"
 msgstr "LUX é legal?"
 
@@ -969,7 +983,7 @@ msgstr ""
 "sempre vai contar com entrevistas e curiosidades sobre a rede e o mundo da "
 "moda ao nosso redor!"
 
-#: app/templates/views/site/faq.html:185
+#: app/templates/views/site/faq.html:183
 msgid ""
 "It is not ilegal! Some countries are trying to forbid cryptocurrencies, but, "
 "unless they shut down the internet, it is not possible. Although they can "
@@ -989,31 +1003,27 @@ msgstr ""
 msgid "Join our newsletter"
 msgstr "Assine nossa newsletter"
 
+#: app/templates/views/site/home.html:140
+msgid "Jul"
+msgstr "Jul"
+
 #: app/templates/views/site/home.html:183
 msgid "July 4th, 2016"
 msgstr "4 de Julho,2016"
-
-#: app/templates/views/site/home.html:140
-msgid "Jun"
-msgstr "Jun"
 
 #: app/templates/views/site/home.html:212
 msgid "Keep informed of the steps taken into making this great."
 msgstr "Mantenha-se informado dos passos para fazer a rede."
 
-#: app/templates/views/site/home.html:15
-msgid "Kickstarter will begin soon"
-msgstr "Kickstarter vai começar em breve"
-
 #: app/templates/header.html:104 app/templates/main.html:84
 msgid "Language"
 msgstr "Idioma"
 
-#: app/templates/views/site/faq.html:371 app/templates/views/site/faq.html:378
+#: app/templates/views/site/faq.html:369 app/templates/views/site/faq.html:376
 msgid "Level 2"
 msgstr "Nível 2"
 
-#: app/templates/views/site/faq.html:385
+#: app/templates/views/site/faq.html:383
 msgid "Level 3"
 msgstr "Nível 3"
 
@@ -1033,7 +1043,7 @@ msgstr "Lux Coin"
 msgid "LUX Coin"
 msgstr "LUX Coin"
 
-#: app/templates/views/site/faq.html:155
+#: app/templates/views/site/faq.html:153
 msgid ""
 "LUX Coin is a cryptocurrency much like Bitcoin. It is a form of digital "
 "money and will be used for every transaction inside Luxore."
@@ -1077,8 +1087,8 @@ msgid ""
 "don't have to!"
 msgstr ""
 "A Luxore é grátis! Você não tem que pagar nada para usá-la e você não "
-"precisa que usar todos os seus recursos... Se você não quiser \"coletar\" "
-"com seus Looks, você não precisa!"
+"precisa usar todos os seus recursos... Se você não quiser \"coletar\" com "
+"seus Looks, você não precisa!"
 
 #: app/templates/views/site/terms.html:34
 msgid "Luxore Terms of Use"
@@ -1116,7 +1126,7 @@ msgstr ""
 "populariza a moda. É um momento impar que fará grande diferença do como e "
 "quem ditará a moda."
 
-#: app/templates/views/site/faq.html:443
+#: app/templates/views/site/faq.html:441
 msgid "Luxore Trophy"
 msgstr "Troféu Luxore"
 
@@ -1169,7 +1179,7 @@ msgstr "Notícias"
 msgid "No Masters"
 msgstr "Sem Mestres"
 
-#: app/templates/views/site/faq.html:175
+#: app/templates/views/site/faq.html:173
 msgid ""
 "No one! The whole point of it is to have no central control! They are "
 "created through smart contracts and they have a limit: 1 billion LUX, in "
@@ -1179,39 +1189,43 @@ msgstr ""
 "criadas através de contratos inteligentes e tem um limite: 1 bilhão de LUX, "
 "neste caso."
 
-#: app/templates/views/site/faq.html:307
+#: app/templates/views/site/faq.html:305
 msgid ""
 "No. A Studio works as any other 'user', with the same rules. If you want to "
 "sell products, than you must pay the transactions fees like a normal credit "
 "card payment system, but way cheaper. Those fees are paid for other users to "
 "run the Luxore's storage nodes."
 msgstr ""
-"Não Um estúdio funciona como qualquer outro \"usuário\", e tem as mesmas "
+"Não. Um estúdio funciona como qualquer outro \"usuário\", e tem as mesmas "
 "regras. Se você quer vender produtos, você deve pagar as taxas de transações "
 "como um sistema de pagamento com cartão de crédito normal, mas muito mais "
 "barato. Essas taxas são pagas para outros usuários que rodam os nós de "
 "armazenamento da Luxore."
 
-#: app/templates/views/site/faq.html:195
+#: app/templates/views/site/faq.html:193
 msgid ""
-"No. Depending on the country you are, but normally no. Some places have "
-"defined Bitcoin as an asset, others as money, others don't care... The thing "
-"is they don't have control over digital coins, and you own nothing to them. "
-"Now, if you really want to, you should check your country's laws about this. "
-"Sometimes you can declare coins as an investment... In the end it is really "
-"up to you! No one can know how much do you have, so you can declare it or "
-"you can avoid!"
+"No. Depending on the country you are, but normally no. Some governments, "
+"such as Switzerland, consider <em>Bitcoin</em> to be a currency; others, "
+"like Australia, claim it is an intangible asset. Regardless of the various "
+"legal views of <em>Bitcoin</em>, it is not a fiat currency, i.e. forced "
+"money. The thing is they don't have control over digital coins, and you own "
+"nothing to them. Now, if you really want to, you should check your country's "
+"laws about this. Sometimes you can declare coins as an investment... In the "
+"end it is really up to you! No one can know how much do you have, so you can "
+"declare it or you can avoid!"
 msgstr ""
-"Não. Dependendo do país que você está, mas normalmente não. Alguns lugares "
-"definiram o Bitcoin como um ativo, outros como dinheiro, outros não se "
-"importam... O negócio é que eles não tem controle sobre as moedas digitais, "
-"e você não deve nada para ninguém. Agora, se você realmente quiser, você "
-"deve verificar as leis do seu país sobre este assunto. Às vezes você pode "
-"declarar suas moedas como um investimento... No final, é realmente com você! "
-"Ninguém tem como saber o quanto você tem, então você pode declará-lo ou você "
-"pode evitar!"
+"Não. Dependendo do país em que você se encontra, mas não necessariamente. "
+"Alguns governos, como a Suíça, consideram o <em>Bitcoin</em> uma moeda; "
+"outros, como a Austrália, o consideram um ativo intangível. Independente das "
+"diversas visões legais sobre o <em>Bitcoin</em>, ele não é uma moeda de "
+"cunho forçado, ou seja, forçado por lei. O negócio é que governos não têm "
+"controle sobre moedas digitais, e você não deve nada a ninguém. Porém, se "
+"você realmente quiser, deve procurar as leis de seu país sobre o assunto. Às "
+"vezes pode-se declarar moedas como investimentos... No fim, é realmente você "
+"quem decide! Ninguém sabe quantas moedas você tem, então você pode declará-"
+"las ou pode evitar!"
 
-#: app/templates/views/site/faq.html:317
+#: app/templates/views/site/faq.html:315
 msgid ""
 "Nope! That is not a demand. We believe quality and good services don't come "
 "from a registered piece of paper. You will be evaluated by other users: if "
@@ -1249,7 +1263,7 @@ msgstr "Nov"
 msgid "November 23th, 2015"
 msgstr "23 de Novembro, 2015"
 
-#: app/templates/views/site/faq.html:225
+#: app/templates/views/site/faq.html:223
 msgid ""
 "One way, as said above, is to use a broker, but you can sell them for a "
 "deposit in your bank account... You can make a transaction for cash! You can "
@@ -1368,11 +1382,11 @@ msgstr "Enviar meus Pensamentos!!"
 msgid "Sign Up With GitHub"
 msgstr "Inscreva-se com o GitHub"
 
-#: app/templates/views/site/faq.html:377
+#: app/templates/views/site/faq.html:375
 msgid "Silver Scissors"
 msgstr "Tesoura de Prata"
 
-#: app/templates/views/site/faq.html:420
+#: app/templates/views/site/faq.html:418
 msgid "Silver Trophy"
 msgstr "Troféu de Prata"
 
@@ -1414,8 +1428,8 @@ msgid "Subscribe to newsletter?"
 msgstr "Assinar a nossa newsletter?"
 
 #: app/templates/views/site/home.html:22
-msgid "support us on kickstarter"
-msgstr "nos ajude no kickstarter"
+msgid "support us on Indiegogo"
+msgstr "contribua no indiegogo"
 
 #: app/templates/views/site/terms.html:25
 msgid "Survival Of The Dead… Agreement"
@@ -1441,11 +1455,11 @@ msgstr "Dito isto, nós também sugerimos algumas coisas..."
 msgid "The App"
 msgstr "O Aplicativo"
 
-#: app/templates/views/site/faq.html:86
+#: app/templates/views/site/faq.html:84
 msgid "The earnings will be only in LUX Coin?"
 msgstr "Os ganhos serão apenas em LUX?"
 
-#: app/templates/views/site/faq.html:353
+#: app/templates/views/site/faq.html:351
 msgid ""
 "The purpose of gamification is to create an environment of fun and to make "
 "people confortable. The badges, for example, are a way of showing people "
@@ -1457,11 +1471,11 @@ msgstr ""
 "possível dentro da rede sem a parte chata da leitura de um documento só de "
 "texto."
 
-#: app/templates/views/site/faq.html:462
+#: app/templates/views/site/faq.html:460
 msgid "The rankings will be regional or international?"
 msgstr "Os rankings serão regionais ou internacionais?"
 
-#: app/templates/views/site/faq.html:465
+#: app/templates/views/site/faq.html:463
 msgid ""
 "There are no central rankings with points, but you can filter and find "
 "people by badges, trophies, cities, etc.."
@@ -1469,11 +1483,11 @@ msgstr ""
 "Não há rankings centrais com pontos, mas você pode filtrar e encontrar "
 "pessoas por distintivos, troféus, cidades, etc.."
 
-#: app/templates/views/site/faq.html:261
+#: app/templates/views/site/faq.html:259
 msgid "There are up to 4 spaces for ads."
 msgstr "Há até 4 espaços para anúncios."
 
-#: app/templates/views/site/faq.html:455
+#: app/templates/views/site/faq.html:453
 msgid ""
 "There will be 'jobs'. If you want to participate more, you can subscribe to "
 "rate looks, to translate and validate tags, to store the network's data, to "
@@ -1498,7 +1512,7 @@ msgstr ""
 "valor ou na sua forma. A moeda é livre de reguladores, para que ela possa "
 "ser usada por pessoas livres!"
 
-#: app/templates/views/site/faq.html:281
+#: app/templates/views/site/faq.html:279
 msgid ""
 "There will be standard contracts and custom ones. The expiration will depend "
 "on the contract. You will always have the chance to analise the terms and "
@@ -1513,7 +1527,7 @@ msgstr ""
 "postar apenas 3, você receberá pelos 3 e o resto será devolvido para a "
 "loja..."
 
-#: app/templates/views/site/faq.html:109
+#: app/templates/views/site/faq.html:107
 msgid ""
 "They will make a public offer with their intentions or search for a specific "
 "audience. They choose the type of contract and the intructions, the audience "
@@ -1531,7 +1545,7 @@ msgstr ""
 msgid "Third Party Sharing"
 msgstr "Conteúdo de Terceiros"
 
-#: app/templates/views/site/faq.html:99
+#: app/templates/views/site/faq.html:97
 msgid ""
 "Through tags! You tag your look and, depending on the ad type, those tags "
 "will be used to search similar products."
@@ -1560,7 +1574,7 @@ msgstr ""
 "filtrando os resultados da pesquisa e mostrando apenas o que importa para "
 "você!"
 
-#: app/templates/views/site/faq.html:363
+#: app/templates/views/site/faq.html:361
 msgid ""
 "Trophies are given to those that really stand out! They are a way to show "
 "everybody else, the owner has created great value to others.<br> Badges are "
@@ -1602,7 +1616,7 @@ msgstr ""
 msgid "Very Bad Things That You Cannot Do"
 msgstr "Coisas Muito Feias Que Você Não Deve Fazer"
 
-#: app/templates/views/site/faq.html:148
+#: app/templates/views/site/faq.html:146
 msgid "Wallet & Coin"
 msgstr "Carteira & Moeda"
 
@@ -1614,7 +1628,7 @@ msgstr "Quer entrar em contato por email?"
 msgid "watch the video"
 msgstr "assista o video"
 
-#: app/templates/views/site/faq.html:271
+#: app/templates/views/site/faq.html:269
 msgid ""
 "We can't know that! That is a barter for stores and users... People will "
 "tend to base their decisions about price with other ad services, but some "
@@ -1743,7 +1757,7 @@ msgstr ""
 msgid "We store"
 msgstr "Armazenamos"
 
-#: app/templates/views/site/faq.html:119
+#: app/templates/views/site/faq.html:117
 msgid ""
 "Well, that's really diffcult. Maybe you are creating something entirely "
 "new... Then you can create a tag for it, and contact someone to produce "
@@ -1754,7 +1768,7 @@ msgstr ""
 "com alguém para produzi... Você pode ter o seu próprio espaço de trabalho "
 "virtual e contratar pessoas para te ajudar..."
 
-#: app/templates/views/site/faq.html:475
+#: app/templates/views/site/faq.html:473
 msgid ""
 "Well, they engage people. They will help to maintain the network by making "
 "jobs to look like a game. They are a fun way to make things happen and will "
@@ -1776,35 +1790,35 @@ msgstr ""
 "target=\"_blank\">aqui</a> e <a class=\"linx\" href=\"http://"
 "everythingisaremix.info/\" target=\"_blank\">aqui</a>."
 
-#: app/templates/views/site/faq.html:396
+#: app/templates/views/site/faq.html:394
 msgid "What are the Funder Trophies?"
 msgstr "O que são os Troféus de Financiador?"
 
-#: app/templates/views/site/faq.html:360
+#: app/templates/views/site/faq.html:358
 msgid "What are trophies and badges?"
 msgstr "O que são troféus e distintivos?"
 
-#: app/templates/views/site/faq.html:452
+#: app/templates/views/site/faq.html:450
 msgid "What else is gamified?"
 msgstr "O que mais é gamificado?"
 
-#: app/templates/views/site/faq.html:126
+#: app/templates/views/site/faq.html:124
 msgid "What if I run a fashion blog, can I use the same pictures here?"
 msgstr "E se eu tiver um blog de moda, eu posso usar as mesmas imagens aqui?"
 
-#: app/templates/views/site/faq.html:116
+#: app/templates/views/site/faq.html:114
 msgid "What if my look does not have any similar items?"
 msgstr "E se o meu look não tiver produtos similares?"
 
-#: app/templates/views/site/faq.html:340
+#: app/templates/views/site/faq.html:338
 msgid "What is Gamification?"
 msgstr "O que é gamificação?"
 
-#: app/templates/views/site/faq.html:152
+#: app/templates/views/site/faq.html:150
 msgid "What is LUX Coin?"
 msgstr "O que é LUX Coin?"
 
-#: app/templates/views/site/faq.html:202
+#: app/templates/views/site/faq.html:200
 msgid "What is LUX relation to other currencies?"
 msgstr "Qual é a relação da LUX com outras moedas?"
 
@@ -1820,7 +1834,7 @@ msgstr "O que não é seu..."
 msgid "What is on your mind?"
 msgstr "No que você está pensando?"
 
-#: app/templates/views/site/faq.html:350
+#: app/templates/views/site/faq.html:348
 msgid "What is the purpose?"
 msgstr "Qual é o propósito?"
 
@@ -1832,11 +1846,11 @@ msgstr "O que é seu..."
 msgid "What you want to talk about?"
 msgstr "Sobre o que você quer falar?"
 
-#: app/templates/views/site/faq.html:278
+#: app/templates/views/site/faq.html:276
 msgid "When ads expire? How to control it?"
 msgstr "Quando os anúncios expiram? Como eu controlo isso?"
 
-#: app/templates/views/site/faq.html:79
+#: app/templates/views/site/faq.html:77
 msgid ""
 "When you post a Look, you can choose ads for it. You can also set a default. "
 "The post will be shared and applauded by your followers increasing the range "
@@ -1852,15 +1866,15 @@ msgstr ""
 msgid "Where can we email you back?"
 msgstr "Onde podemos enviar de volta o email?"
 
-#: app/templates/views/site/faq.html:472
+#: app/templates/views/site/faq.html:470
 msgid "Which are the advantages of this gamification thing?"
 msgstr "Quais são as vantagens dessa coisa de gamificação?"
 
-#: app/templates/views/site/faq.html:238
+#: app/templates/views/site/faq.html:236
 msgid "Which kind of ads will be available?"
 msgstr "Que tipos de anúncios estarão disponíveis?"
 
-#: app/templates/views/site/faq.html:324
+#: app/templates/views/site/faq.html:322
 msgid "Which kind of business can I have inside Luxore?"
 msgstr "Que tipos de negócios eu posso ter dentro da Luxore?"
 
@@ -1868,11 +1882,11 @@ msgstr "Que tipos de negócios eu posso ter dentro da Luxore?"
 msgid "Whitepaper"
 msgstr "Whitepaper"
 
-#: app/templates/views/site/faq.html:248
+#: app/templates/views/site/faq.html:246
 msgid "Who can post ads?"
 msgstr "Quem pode postar anúncios?"
 
-#: app/templates/views/site/faq.html:172
+#: app/templates/views/site/faq.html:170
 msgid "Who control this currency?"
 msgstr "Quem controla essa moeda?"
 
@@ -1880,7 +1894,7 @@ msgstr "Quem controla essa moeda?"
 msgid "Who, Why, What"
 msgstr "Quem, Por que, O que"
 
-#: app/templates/views/site/faq.html:212
+#: app/templates/views/site/faq.html:210
 msgid "Why not to use a common currency?"
 msgstr "Por que não usar uma moeda comum?"
 
@@ -1906,7 +1920,7 @@ msgstr ""
 "funciona como seu número de conta bancária e você pode enviar e receber "
 "dinheiro com ele, protegido por uma senha que só você sabe."
 
-#: app/templates/views/site/faq.html:139
+#: app/templates/views/site/faq.html:137
 msgid ""
 "Yes. Every cryptocurrency comes with a digital wallet that looks like a "
 "bank! You will see there, all your transactions and filter by Look, for "
@@ -1916,7 +1930,7 @@ msgstr ""
 "banco! Você verá lá, todas as suas transações e poderá filtrar por Looks, "
 "por exemplo. Você também pode alterar a distribuição nos seus looks."
 
-#: app/templates/views/site/faq.html:297
+#: app/templates/views/site/faq.html:295
 msgid ""
 "Yes. The goal is to create parallel markets inside the fashion market. "
 "Connect people to voluntary trade between them. You can set up a Studio, a "
@@ -1929,11 +1943,11 @@ msgstr ""
 "isso! Quanto mais a LUX for valiosa, mais fácil será para um negócio crescer "
 "aqui!"
 
-#: app/templates/views/site/faq.html:89
+#: app/templates/views/site/faq.html:87
 msgid "Yes. The LUX Coin is the basis of the network itself."
 msgstr "Sim. A LUX é a base da própria rede."
 
-#: app/templates/views/site/faq.html:129
+#: app/templates/views/site/faq.html:127
 msgid ""
 "Yes. We are not competitors. We want to help with visibility and "
 "monetization."
@@ -1941,7 +1955,7 @@ msgstr ""
 "Sim. Nós não somos concorrentes. Queremos ajudar com visibilidade e "
 "monetização."
 
-#: app/templates/views/site/faq.html:59
+#: app/templates/views/site/faq.html:57
 msgid ""
 "You can change and distribute the way you want except for the 10% "
 "maintenance."
@@ -2053,6 +2067,44 @@ msgstr ""
 #: app/templates/header.html:114
 msgid "your website code"
 msgstr "código do seu site"
+
+#~ msgid ""
+#~ "Although we are already building Luxore, we don't have all the resources "
+#~ "we want... That's why we have a <a class=\"linx\" href=\"#!"
+#~ "\">crowdfunding campaign</a> on Kickstarter. In 30 days, we expect to "
+#~ "raise the money so we can keep our schedule!"
+#~ msgstr ""
+#~ "Embora já estejamos construindo a Luxore, não temos todos os recursos que "
+#~ "gostaríamos... Por isso temos uma <a class=\"linx\" href=\"#!\">campanha "
+#~ "de financiamento coletivo</a> no Kickstarter. Em 30 dias, esperamos "
+#~ "levantar a grana para manter nosso cronograma!"
+
+#~ msgid "Jun"
+#~ msgstr "Jun"
+
+#~ msgid "Kickstarter will begin soon"
+#~ msgstr "Kickstarter vai começar em breve"
+
+#~ msgid ""
+#~ "No. Depending on the country you are, but normally no. Some places have "
+#~ "defined Bitcoin as an asset, others as money, others don't care... The "
+#~ "thing is they don't have control over digital coins, and you own nothing "
+#~ "to them. Now, if you really want to, you should check your country's laws "
+#~ "about this. Sometimes you can declare coins as an investment... In the "
+#~ "end it is really up to you! No one can know how much do you have, so you "
+#~ "can declare it or you can avoid!"
+#~ msgstr ""
+#~ "Não. Dependendo do país que você está, mas normalmente não. Alguns "
+#~ "lugares definiram o Bitcoin como um ativo, outros como dinheiro, outros "
+#~ "não se importam... O negócio é que eles não tem controle sobre as moedas "
+#~ "digitais, e você não deve nada para ninguém. Agora, se você realmente "
+#~ "quiser, você deve verificar as leis do seu país sobre este assunto. Às "
+#~ "vezes você pode declarar suas moedas como um investimento... No final, é "
+#~ "realmente com você! Ninguém tem como saber o quanto você tem, então você "
+#~ "pode declará-lo ou você pode evitar!"
+
+#~ msgid "support us on kickstarter"
+#~ msgstr "nos ajude no kickstarter"
 
 #~ msgid "Luxore to me is..."
 #~ msgstr "Luxore pra mim é..."

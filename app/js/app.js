@@ -233,7 +233,7 @@ app.controller('AppController', function ($scope, $state, ngClipboard) {
   };
 
   $scope.closeModal = function() {
-    $state.go('Modal.Default');
+    $state.go('app.home');
     //modal.close();
     $('#modal1').closeModal();
   };
